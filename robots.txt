@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://oswald.foundation/sitemap.xml
