@@ -3,7 +3,6 @@ body {
   font-family: "proxima_novalight";
   font-weight: 300;
   color: #6b7c93;
-  overflow-x: hidden;
   font-size: 105%; }
 
 .text-body {
@@ -22,9 +21,27 @@ a.text-body:hover {
       padding: 0 25px; }
       #masthead .navbar a:hover {
         opacity: 0.65; }
-    #masthead .navbar .dropdown-menu a {
-      color: #32325d;
-      padding: 0.5rem 1rem; }
+    #masthead .navbar .dropdown-menu {
+      top: 150%;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05); }
+      #masthead .navbar .dropdown-menu:before {
+        content: "";
+        position: absolute;
+        left: 45px;
+        top: -7px;
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #fff; }
+      #masthead .navbar .dropdown-menu a {
+        color: #32325d;
+        padding: 0.75rem 1.5rem; }
+      #masthead .navbar .dropdown-menu svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px; }
   #masthead .navbar-nav:last-child a {
     color: rgba(255, 255, 255, 0.9); }
   #masthead:after {
@@ -37,7 +54,7 @@ a.text-body:hover {
   float: left;
   vertical-align: middle;
   margin-right: 10px;
-  transform: translateY(1px); }
+  transform: translateY(2px); }
 
 #masthead nav, #colophon nav {
   font-size: 95%; }
@@ -50,13 +67,12 @@ a.text-body:hover {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  transform: skewY(-12deg);
   z-index: -1;
   transform-origin: 0;
   background: linear-gradient(150deg, #53f 15%, #05d5ff 80%, #a6ffcb 94%); }
 
 .hero {
-  margin: 8rem 0 17.5rem 0;
+  margin: 5rem 0;
   color: #fff; }
   .hero h1 {
     font-weight: 300; }
@@ -65,20 +81,22 @@ a.text-body:hover {
     color: #d9fcff;
     margin-top: 1.5rem; }
 
-.app-illustrations {
-  width: 1000px;
-  left: 50%;
+.right-drawings {
+  position: absolute;
   top: 0;
-  transform: rotate(-12deg);
+  left: 50%;
+  right: 0;
+  overflow: hidden;
+  padding-bottom: 20px; }
+
+.app-illustrations {
   transform-origin: 100% 0;
   pointer-events: none;
-  position: absolute;
   display: -ms-flexbox;
   display: flex;
   width: 1287px;
-  left: 50%;
   margin-left: -644px;
-  transform: scale(0.5) rotate(-12deg) translateX(50px);
+  transform: scale(0.5) translateX(50px);
   transform-origin: 50% 20%; }
   .app-illustrations div {
     display: -ms-flexbox;
@@ -111,13 +129,15 @@ a.text-body:hover {
   margin-top: 115px; }
 
 @media (min-width: 670px) {
+  .right-drawings {
+    top: 215px; }
+
   .app-illustrations {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 512px;
     margin-left: -50px;
-    top: 215px;
-    transform: rotate(-12deg);
+    transform: translateX(150px);
     transform-origin: 100% 0; }
 
   .app-illustrations [class^=tablet] {
@@ -135,10 +155,11 @@ a.text-body:hover {
   .app-illustrations .tablet-portrait {
     display: none; } }
 @media (min-width: 880px) {
+  .right-drawings {
+    top: 300px; }
+
   .app-illustrations {
-    width: 829px;
-    margin-left: -10px;
-    top: 20px; }
+    width: 829px; }
 
   .app-illustrations .tablet-landscape {
     -ms-flex-item-align: end;
@@ -358,6 +379,6 @@ img {
 
 .avatar-small {
   height: 40px;
-  margin-left: 20px;
+  margin-right: 20px;
   transform: translateY(1px);
   vertical-align: middle; }
