@@ -8,6 +8,10 @@ body {
 	font-size: 105%;
 }
 
+a {
+	cursor: pointer;
+}
+
 .text-body {
 	color: #6b7c93;
 }
@@ -17,6 +21,7 @@ a.text-body:hover {
 }
 
 #masthead {
+	background: linear-gradient(150deg, #53f 15%, #05d5ff 80%, #a6ffcb 94%);
 	position: relative;
 	.navbar {
 		margin: 0 -25px;
@@ -79,16 +84,6 @@ a.text-body:hover {
 
 .container {
 	max-width: 1080px;
-}
-
-.header-background {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	z-index: -1;
-	transform-origin: 0;
-	background: linear-gradient(150deg, #53f 15%, #05d5ff 80%, #a6ffcb 94%);
 }
 
 .hero {
@@ -407,7 +402,6 @@ img {
 
 #colophon {
 	font-size: 90%;
-	color: #8898aa;
 	padding: 5rem 0;
 	h4 {
 		font-size: 95%;

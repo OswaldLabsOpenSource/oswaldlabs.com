@@ -427,6 +427,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/cover_home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/cover_home.png",
+		"outputAbbreviatedPath": "\/assets\/images\/cover_home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/sass\/design.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
