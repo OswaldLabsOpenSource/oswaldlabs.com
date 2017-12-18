@@ -9,7 +9,8 @@ a {
   cursor: pointer; }
 
 .text-body {
-  color: #6b7c93; }
+  color: #6b7c93;
+  font-size: 105%; }
 
 a.text-body:hover {
   text-decoration: none;
@@ -216,6 +217,9 @@ hr {
 .gray {
   background: #f6f9fc; }
 
+.darkgray {
+  background: #e9edf1; }
+
 section {
   padding: 5rem 0;
   position: relative; }
@@ -311,7 +315,7 @@ img {
     transition: 0.3s;
     filter: grayscale(1);
     opacity: 0.55; }
-  .press-item:hover img {
+  .press-item:hover img, .press-item:active img, .press-item:focus img {
     filter: grayscale(0);
     opacity: 1; }
   .press-item:first-child {
@@ -347,11 +351,18 @@ img {
     margin-bottom: 0.5rem; }
   #colophon a {
     color: inherit; }
-    #colophon a:hover {
+    #colophon a:hover, #colophon a:active, #colophon a:focus {
       color: #32325d;
+      font-family: "proxima_nova_rgregular";
       text-decoration: none; }
   #colophon .dropdown-toggle:after {
     display: none; }
+  #colophon .btn svg {
+    margin-top: -5px; }
+  #colophon .flag-span {
+    display: inline-block;
+    transform: translateY(2px);
+    margin-right: 15px; }
 
 .bg-none {
   background: none; }
@@ -361,10 +372,11 @@ img {
   .social-icons a {
     display: inline-block;
     margin-right: 0.5rem;
-    opacity: 0.4;
+    font-size: 125%;
+    opacity: 0.65;
     transition: 0.3s; }
     .social-icons a:hover {
-      opacity: 0.55; }
+      opacity: 0.75; }
     .social-icons a:last-child {
       margin-right: 0; }
   .social-icons svg, .social-icons img {
@@ -376,3 +388,6 @@ img {
   margin-right: 20px;
   transform: translateY(1px);
   vertical-align: middle; }
+
+.mb-5r {
+  margin-bottom: 5rem; }
