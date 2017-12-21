@@ -19,7 +19,7 @@
 		<meta name="twitter:site" content="@OswaldLabs">
 		<meta name="twitter:creator" content="@AnandChowdhary">
 		<link rel="publisher" href="https://plus.google.com/109050675253975445822">
-		<meta property="og:publiher" content="https://www.facebook.com/OswaldLabs">
+		<meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
 
 		<meta property="og:image" content="/assets/images/cover_home.png">
 		<meta name="twitter:image" content="/assets/images/cover_home.png">
@@ -49,7 +49,7 @@
 
 	</head>
 
-	<body>
+	<body class="dark">
 
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKT24WB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
@@ -160,7 +160,7 @@
 									</div>
 								</a>
 							</div>
-							<a class="btn btn-left" href="#">Read the announcement &rarr;</a>
+							<a class="btn btn-left" href="/blog">Read the announcement &rarr;</a>
 						</div>
 					</div>
 				</div>
@@ -250,13 +250,13 @@
 								<span>Oswald Labs</span>
 							</a>
 							<div class="social-icons mt-3">
-								<a href="https://www.facebook.com/OswaldLabs/" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+								<a target="_blank" href="https://www.facebook.com/OswaldLabs/" data-toggle="tooltip" data-placement="bottom" title="Facebook">
 									<i class="fab fa-facebook"></i>
 								</a>
-								<a href="https://twitter.com/OswaldLabs" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+								<a target="_blank" href="https://twitter.com/OswaldLabs" data-toggle="tooltip" data-placement="bottom" title="Twitter">
 									<i class="fab fa-twitter"></i>
 								</a>
-								<a href="https://github.com/OswaldFoundation/" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+								<a target="_blank" href="https://github.com/OswaldFoundation/" data-toggle="tooltip" data-placement="bottom" title="GitHub">
 									<i class="fab fa-github"></i>
 								</a>
 							</div>
@@ -279,9 +279,9 @@
 								<ul>
 									<li><a href="/projects">Projects</a></li>
 									<li><a href="/founders">Founders</a></li>
+									<li><a href="/benefits">Benefits</a></li>
 									<li><a href="/apply">Apply</a></li>
-									<li><a href="https://bharathacks.github.io" target="_blank">Hackathon</a></li>
-									<li><a href="/community">Community</a></li>
+									<li><a href="https://bharathacks.github.io" target="_blank">BharatHacks</a></li>
 								</ul>
 							</div>
 							<div class="col-6 col-md">
@@ -298,7 +298,7 @@
 								<ul>
 									<li><a href="/about">About us</a></li>
 									<li><a href="/values">Our values</a></li>
-									<li><a href="/leadership">Leadership</a></li>
+									<li><a href="/team">Leadership</a></li>
 									<li><a href="/jobs">Work with us</a></li>
 									<li><a href="/blog">Blog</a></li>
 									<a href="/contact">Contact</a></li>
@@ -307,8 +307,8 @@
 							<div class="col-6 col-md">
 								<h4>Resources</h4>
 								<ul>
-									<li><a href="#">Client login</a></li>
-									<li><a href="#">Support</a></li>
+									<li><a href="https://a11y.co/dashboard">Client login</a></li>
+									<li><a href="/contact">Support</a></li>
 									<li><a href="/partners">Partnerships</a></li>
 									<li><a href="/press">Press</a></li><li></li>
 									<li><a href="/terms">Privacy &amp; terms</a></li>
@@ -326,31 +326,31 @@
 					<nav class="nav">
 						<button class="btn bg-none border-0 btn-light nav-link btn-left text-dark" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language mr-2"></i>English<span class="sr-only"> (Change language)</span></button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('en')">
 									<span class="flag-span" aria-hidden="true">🇺🇸</span>
 									<span>English</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('nl')">
 									<span class="flag-span" aria-hidden="true">🇳🇱</span>
 									<span>Nederlands</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('de')">
 									<span class="flag-span" aria-hidden="true">🇩🇪</span>
 									<span>Deutsch</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('es')">
 									<span class="flag-span" aria-hidden="true">🇪🇸</span>
 									<span>Espa&ntilde;ol</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('fr')">
 									<span class="flag-span" aria-hidden="true">🇫🇷</span>
 									<span>Fran&ccedil;ais</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('it')">
 									<span class="flag-span" aria-hidden="true">🇮🇹</span>
 									<span>Italiano</span>
 								</button>
-								<button class="dropdown-item">
+								<button class="dropdown-item" onclick="agastya.translate('hi')">
 									<span class="flag-span" aria-hidden="true">🇮🇳</span>
 									<span>हिन्दी</span>
 								</button>
@@ -358,9 +358,9 @@
 									<span>More Languages</span>
 								</button>
 							</div>
-						<button class="btn bg-none border-0 btn-light nav-link text-dark" href="#"><i class="fas fa-universal-access mr-2"></i>Accessibility</button>
-						<button class="btn bg-none border-0 btn-light nav-link text-dark" href="#"><i class="fas fa-sun mr-2"></i>Contrast</button>
-						<button class="btn bg-none border-0 btn-light nav-link text-dark" href="#"><i class="fas fa-volume-up mr-2"></i>Read aloud</button>
+						<button onclick="agastya.open()" class="btn bg-none border-0 btn-light nav-link text-dark"><i class="fas fa-universal-access mr-2"></i>Accessibility</button>
+						<button onclick="agastya.mode('night')" class="btn bg-none border-0 btn-light nav-link text-dark"><i class="fas fa-sun mr-2"></i>Contrast</button>
+						<button onclick="agastya.speak()" class="btn bg-none border-0 btn-light nav-link text-dark"><i class="fas fa-volume-up mr-2"></i>Read aloud</button>
 					</nav>
 				</div>
 			</div>
