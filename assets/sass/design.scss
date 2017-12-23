@@ -1,5 +1,7 @@
 @import "fonts.css";
 
+$color: #007bff;
+
 body {
 	font-family: "proxima_novalight";
 	font-weight: 300;
@@ -32,6 +34,21 @@ a.text-body:hover {
 			&:hover {
 				opacity: 0.65;
 			}
+			&.navbar-brand {
+				margin-right: 0;
+			}
+		}
+		.navbar-toggler {
+			border: none;
+			padding: 0;
+			svg {
+				width: 30px;
+				height: 30px;
+				fill: #fff;
+			}
+		}
+		.active {
+			font-family: "proxima_nova_rgregular";
 		}
 		.dropdown-menu {
 			&:before {
@@ -67,6 +84,19 @@ a.text-body:hover {
 		opacity: 0;
 	}
 }
+@media (max-width: 640px) {
+	#masthead {
+		.navbar {
+			margin: 0;
+			a {
+				padding: 10px 0;
+				&.navbar-brand {
+					padding: 0;
+				}
+			}
+		}
+	}
+}
 
 .navbar-brand svg {
 	width: 25px;
@@ -94,10 +124,16 @@ a.text-body:hover {
 		font-weight: 300;
 	}
 	p {
-		max-width: 50%;
+		max-width: 500px;
 		color: #d9fcff;
 		margin-top: 1.5rem;
-		&.lead {
+	}
+}
+@media (max-width: 640px) {
+	.hero {
+		margin: 2.5rem 0;
+		p {
+			max-width: 100%;
 		}
 	}
 }
@@ -217,7 +253,7 @@ b, strong {
 }
 
 .subheading {
-	color: #007bff;
+	color: $color;
 	font-size: 140%;
 	letter-spacing: 2px;
 	margin-bottom: 2rem;
@@ -280,6 +316,14 @@ section {
 		}
 	}
 }
+@media (max-width: 670px) {
+	section {
+		padding: 2.5rem 0;
+		&.gray-slanted {
+			padding-top: 5rem;
+		}
+	}
+}
 
 .big-card-shadow {
 	position: relative;
@@ -326,7 +370,7 @@ img {
 	-ms-flex-pack: center;
 	justify-content: center;
 	overflow: hidden;
-	padding: 30px 30px 30px 110px;
+	padding: 30px;
 	background-color: #fff;
 	border-radius: 4px;
 	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
@@ -349,21 +393,24 @@ img {
 		width: 130px;
 		height: 130px;
 		left: -35px;
-		top: calc(50% - 65px)
+		top: calc(50% - 65px);
+		display: none;
 	}
 }
 @media (min-width: 670px) {
-	a.globalFooterCard,
-	div.globalFooterCard {
+	.globalFooterCard {
 		-ms-flex-preferred-size: 1%;
 		flex-basis: 1%;
-		padding-left: 100px
+		padding-left: 100px;
+		.icon-image {
+			display: flex;
+		}
 	}
 }
 @media (min-width: 880px) {
 	a.globalFooterCard,
 	div.globalFooterCard {
-		padding-left: 120px
+		padding-left: 120px;
 	}
 }
 
@@ -387,6 +434,15 @@ img {
 		margin-right: 0;
 	}
 }
+@media (max-width: 670px) {
+	.press-section {
+		overflow-y: auto;
+	}
+	.press-section > div {
+		width: 300%;
+		padding: 0 2.5rem;
+	}
+}
 
 .links-FC3C53 {
 	a, h2 {
@@ -406,6 +462,12 @@ img {
 	margin-bottom: 1.5rem;
 }
 
+.mb-5r {
+	margin-bottom: 5rem;
+}
+.mt-5r {
+	margin-top: 5rem;
+}
 #colophon {
 	font-size: 90%;
 	padding: 5rem 0;
@@ -446,6 +508,17 @@ img {
 		margin-right: 15px;
 	}
 }
+@media (max-width: 670px) {
+	#colophon {
+		padding: 2.5rem 0;
+	}
+	.mb-5r {
+		margin-bottom: 2.5rem;
+	}
+	.mt-5r {
+		margin-top: 2.5rem;
+	}
+}
 
 .bg-none {
 	background: none;
@@ -479,13 +552,20 @@ img {
 	vertical-align: middle;
 }
 
-.mb-5r {
-	margin-bottom: 5rem;
+p:last-child {
+	margin-bottom: 0;
+}
+
+.card {
+	box-shadow: 0 15px 35px rgba(50,50,93,0.1), 0 5px 15px rgba(0,0,0,0.07);
 }
 
 .dark {
 	background: #151d21;
 	color: #ccc;
+	p a {
+		color: $color !important;
+	}
 	.bg-white, .breaker:before, .card, .globalFooterCard, .darkgray {
 		background: #151d21 !important;
 	}
@@ -528,7 +608,10 @@ img {
 		box-shadow: 0 5px 35px rgba(0, 0, 0, 0.25);
 	}
 	.subheading, .btn {
-		color: #3498db;
+		color: $color;
+		&.btn-primary {
+			color: #fff;
+		}
 	}
 	.app-illustrations {
 		div {
