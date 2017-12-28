@@ -14,6 +14,13 @@ a {
 	cursor: pointer;
 }
 
+.sr-only-focusable:active, .sr-only-focusable:focus {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	z-index: 5;
+}
+
 .text-body {
 	color: #6b7c93;
 	font-size: 105%;
@@ -48,7 +55,7 @@ a.text-body:hover {
 			}
 		}
 		.active {
-			font-family: "proxima_nova_rgregular";
+			font-family: "proxima_novasemibold";
 		}
 		.dropdown-menu {
 			&:before {
@@ -136,6 +143,29 @@ a.text-body:hover {
 			max-width: 100%;
 		}
 	}
+}
+#masthead.light {
+	background: #f6f9fc;
+	.hero, .navbar a, .navbar-nav:last-child a {
+		color: #32325d;
+	}
+	.hero {
+		p {
+			color: inherit;
+		}
+	}
+	.navbar .navbar-toggler svg, .navbar-brand svg g {
+		fill: #32325d;
+	}
+}
+
+.dark-1 {
+	background: #32325d;
+	color: #9cdbff;
+}
+.dark-2 {
+	background: #3b3c74;
+	color: #9cdbff;
 }
 
 .right-drawings {
@@ -507,6 +537,11 @@ img {
 		transform: translateY(2px);
 		margin-right: 15px;
 	}
+	.darkgray .btn-light {
+		&:focus, &:active {
+			box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+		}
+	}
 }
 @media (max-width: 670px) {
 	#colophon {
@@ -596,7 +631,7 @@ p:last-child {
 			border-color: yellow;
 			color: yellow;
 		}
-		.btn-outline-light {
+		.-light {
 			background: none;
 			color: inherit;
 		}
@@ -620,4 +655,8 @@ p:last-child {
 			0 2px 6px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
 		}
 	}
+}
+
+svg, img {
+	max-width: 100%;
 }
