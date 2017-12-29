@@ -293,7 +293,16 @@ a.text-body:hover {
 }
 
 b, strong {
-	font-family: "proxima_nova_rgregular";
+	font-family: "proxima_novasemibold";
+}
+
+.agastya-demo-card {
+	.col-6:nth-child(2n-1) {
+		padding-right: 7.5px;
+	}
+	.col-6:nth-child(2n) {
+		padding-left: 7.5px;
+	}
 }
 
 .subheading {
@@ -661,7 +670,7 @@ p:last-child {
 	.globalFooterCard {
 		box-shadow: 0 5px 35px rgba(0, 0, 0, 0.25);
 	}
-	.subheading, .btn {
+	.subheading, a.btn {
 		color: $color;
 		&.btn-primary {
 			color: #fff;
