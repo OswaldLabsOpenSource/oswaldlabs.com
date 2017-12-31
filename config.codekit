@@ -478,6 +478,149 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/team\/abhinav.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49544,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/abhinav.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/abhinav.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/anand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51216,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/anand.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/anand.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/arnav.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7913,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/arnav.jpeg",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/arnav.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/erik.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102436,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/erik.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/erik.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/gagan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54085,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/gagan.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/gagan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/mahendra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38332,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/mahendra.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/mahendra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/michael.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63759,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/michael.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/michael.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/nishant.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38569,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/nishant.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/nishant.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/pankaj.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45813,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/pankaj.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/pankaj.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/pradeep.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75502,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/pradeep.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/pradeep.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/sid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15907,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/sid.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/sid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/tarek.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55020,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/tarek.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/tarek.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/team\/tobias.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58459,
+		"inputAbbreviatedPath": "\/assets\/images\/team\/tobias.png",
+		"outputAbbreviatedPath": "\/assets\/images\/team\/tobias.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/sass\/design.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -522,6 +665,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/team.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/team.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
