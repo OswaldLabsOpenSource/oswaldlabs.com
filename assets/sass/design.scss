@@ -38,7 +38,7 @@ a.text-body:hover {
 #masthead {
 	background: linear-gradient(150deg, #53f 15%, #05d5ff 80%, #a6ffcb 94%);
 	position: relative;
-	&.contact-bg {
+	&.bg {
 		overflow: hidden;
 		&::before {
 			content: "";
@@ -49,7 +49,19 @@ a.text-body:hover {
 			filter: blur(2px);
 			background-size: cover;
 			background-position: center;
-			background-image: url("https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU&center=52.22908676688673,6.875988755871614&zoom=14&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0x1d2c4d&style=element:labels%7Cvisibility:off&style=element:labels.text.fill%7Ccolor:0x8ec3b9&style=element:labels.text.stroke%7Ccolor:0x1a3646&style=feature:administrative.country%7Celement:geometry.stroke%7Ccolor:0x4b6878&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0x64779e&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:administrative.province%7Celement:geometry.stroke%7Ccolor:0x4b6878&style=feature:landscape.man_made%7Celement:geometry.stroke%7Ccolor:0x334e87&style=feature:landscape.natural%7Celement:geometry%7Ccolor:0x023e58&style=feature:poi%7Celement:geometry%7Ccolor:0x283d6a&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x6f9ba5&style=feature:poi%7Celement:labels.text.stroke%7Ccolor:0x1d2c4d&style=feature:poi.business%7Cvisibility:off&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0x023e58&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x3C7680&style=feature:road%7Celement:geometry%7Ccolor:0x304a7d&style=feature:road%7Celement:geometry.fill%7Ccolor:0x29375c&style=feature:road%7Celement:labels.icon%7Cvisibility:off&style=feature:road%7Celement:labels.text.fill%7Ccolor:0x98a5be&style=feature:road%7Celement:labels.text.stroke%7Ccolor:0x1d2c4d&style=feature:road.highway%7Celement:geometry%7Ccolor:0x2c6675&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0x255763&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0xb0d5ce&style=feature:road.highway%7Celement:labels.text.stroke%7Ccolor:0x023e58&style=feature:transit%7Cvisibility:off&style=feature:transit%7Celement:labels.text.fill%7Ccolor:0x98a5be&style=feature:transit%7Celement:labels.text.stroke%7Ccolor:0x1d2c4d&style=feature:transit.line%7Celement:geometry.fill%7Ccolor:0x283d6a&style=feature:transit.station%7Celement:geometry%7Ccolor:0x3a4762&style=feature:water%7Celement:geometry%7Ccolor:0x0e1626&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x4e6d70&size=640x500");
+		}
+	}
+	&.contact-bg::before {
+		background-image: url("/assets/images/contact-bg.png");
+	}
+	&.about-bg {
+		background: #000;
+		&::before {
+			opacity: 0.65;
+			background-image: url("/assets/images/about-bg.png");
+		}
+		.hero p {
+			color: #fdf2d5;
 		}
 	}
 	.navbar {
@@ -87,6 +99,9 @@ a.text-body:hover {
 				border-left: 7px solid transparent;
 				border-right: 7px solid transparent;
 				border-bottom: 7px solid #fff;
+			}
+			.dropdown-item.active, .dropdown-item:active {
+				background: #f8f9fa;
 			}
 			top: 150%;
 			border: none;
@@ -153,6 +168,10 @@ a.text-body:hover {
 		max-width: 500px;
 		color: #d9fcff;
 		margin-top: 1.5rem;
+	}
+	a {
+		color: #fff;
+		font-family: "proxima_novasemibold";
 	}
 }
 @media (max-width: 640px) {
@@ -297,7 +316,7 @@ a.text-body:hover {
 	}
 }
 
-b, strong {
+b, strong, .font-weight-bold {
 	font-family: "proxima_novasemibold";
 }
 
@@ -626,15 +645,15 @@ p:last-child {
 .dark {
 	background: #151d21;
 	color: #ccc;
-	.form-control {
-		background: #000;
+	.form-control, .card {
+		background: #0c1215;
 		color: #fff;
-		border-color: rgba(255, 255, 255, 0.3);
+		border-color: rgba(255, 255, 255, 0.1);
 	}
 	p a {
 		color: $color !important;
 	}
-	.bg-white, .breaker:before, .card, .globalFooterCard, .darkgray {
+	.bg-white, .breaker:before, .globalFooterCard, .darkgray {
 		background: #151d21 !important;
 	}
 	.gray, .gray-slanted:before {
@@ -692,4 +711,16 @@ p:last-child {
 
 svg, img {
 	max-width: 100%;
+}
+
+.timeline-circle {
+	width: 50px;
+	height: 50px;
+	line-height: 55px;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	border-radius: 100%;
+	top: 45%;
+	top: calc(50% - 10px);
 }
