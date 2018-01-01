@@ -184,7 +184,7 @@ a.text-body:hover {
 }
 #masthead.light {
 	background: #f6f9fc;
-	.hero, .navbar a, .navbar-nav:last-child a {
+	.hero, .nav-link, .navbar-brand, .navbar-nav:last-child a {
 		color: #32325d;
 	}
 	.hero {
@@ -645,6 +645,20 @@ p:last-child {
 .dark {
 	background: #151d21;
 	color: #ccc;
+	#masthead.light {
+		background: #0c1215;
+		.hero, .nav-link, .navbar-brand, .navbar-nav:last-child a {
+			color: #fff;
+		}
+		.hero {
+			p {
+				color: inherit;
+			}
+		}
+		.navbar .navbar-toggler svg, .navbar-brand svg g {
+			fill: #fff;
+		}
+	}
 	.form-control, .card {
 		background: #0c1215;
 		color: #fff;
