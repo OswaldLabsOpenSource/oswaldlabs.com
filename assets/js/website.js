@@ -2,5 +2,7 @@ $("[data-toggle='tooltip']").tooltip();
 
 // For testing only
 $("a").each(function() {
-	$(this).attr("href", $(this).attr("href") + ".html");
+	if (!$(this).attr("href").includes("http")) {
+		$(this).attr("href", $(this).attr("href") + ".html");
+	}
 });

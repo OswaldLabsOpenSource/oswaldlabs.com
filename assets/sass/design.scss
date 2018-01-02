@@ -132,6 +132,11 @@ a.text-body:hover {
 					padding: 0;
 				}
 			}
+			.dropdown-menu {
+				&:before {
+					display: none;
+				}
+			}
 		}
 	}
 }
@@ -173,6 +178,12 @@ a.text-body:hover {
 }
 .light .hero p a {
 	color: #0c1215;
+	&.btn-outline-primary {
+		color: $color;
+		&:hover {
+			color: #fff;
+		}
+	}
 }
 @media (max-width: 640px) {
 	.hero {
