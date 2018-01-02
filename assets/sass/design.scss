@@ -69,9 +69,6 @@ a.text-body:hover {
 		a {
 			color: #fff;
 			padding: 0 25px;
-			&:hover {
-				opacity: 0.65;
-			}
 			&.navbar-brand {
 				margin-right: 0;
 			}
@@ -120,7 +117,7 @@ a.text-body:hover {
 	.navbar-nav:last-child a {
 		color: rgba(255, 255, 255, 0.9)
 	}
-	&:after {
+	&:not(.light):after {
 		content: ".";
 		opacity: 0;
 	}
@@ -542,6 +539,16 @@ img {
 	margin-bottom: 1.5rem;
 }
 
+nav a {
+	color: inherit;
+	&:hover, &:active, &:focus {
+		opacity: 0.65;
+	}
+	&.active {
+		font-family: "proxima_novasemibold";
+	}
+}
+
 .mb-5r {
 	margin-bottom: 5rem;
 }
@@ -753,4 +760,8 @@ svg, img {
 	height: 25px;
 	transform: translateY(2px);
 	vertical-align: middle;
+	&.bigger {
+		height: 30px;
+		width: auto;
+	}
 }
