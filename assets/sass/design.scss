@@ -669,7 +669,7 @@ p:last-child {
 			fill: #fff;
 		}
 	}
-	.form-control, .card {
+	.form-control, .card, .list-group-item {
 		background: #0c1215;
 		color: #fff;
 		border-color: rgba(255, 255, 255, 0.1);
@@ -767,18 +767,9 @@ svg, img {
 }
 
 .color-box {
-	height: 100px;
+	height: 50px;
 	position: relative;
 	background: #aaa;
 	text-align: center;
 	line-height: 50px;
-	&::after {
-		content: "";
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 50px;
-		background: rgba(0, 0, 0, 0.2);
-	}
 }
