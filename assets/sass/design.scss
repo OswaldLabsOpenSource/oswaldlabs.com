@@ -168,10 +168,10 @@ a.text-body:hover {
 		max-width: 500px;
 		color: #d9fcff;
 		margin-top: 1.5rem;
-	}
-	a {
-		color: #fff;
-		font-family: "proxima_novasemibold";
+		a {
+			color: #fff;
+			font-family: "proxima_novasemibold";
+		}
 	}
 }
 @media (max-width: 640px) {
@@ -728,8 +728,8 @@ svg, img {
 }
 
 .timeline-circle {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	line-height: 55px;
 	font-size: 24px;
 	text-align: center;
@@ -737,4 +737,17 @@ svg, img {
 	border-radius: 100%;
 	top: 45%;
 	top: calc(50% - 10px);
+	border: 5px solid #fff;
+}
+
+.timeline-line {
+	background: #aaa;
+	width: 2px;
+}
+
+.domain-icon {
+	width: 35px;
+	height: 35px;
+	transform: translateY(2px);
+	vertical-align: middle;
 }
