@@ -36,7 +36,7 @@ a.text-body:hover {
 }
 
 #masthead {
-	background: linear-gradient(150deg, #53f 15%, #05d5ff 80%, #a6ffcb 94%);
+	background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	position: relative;
 	&.bg {
 		overflow: hidden;
@@ -666,6 +666,11 @@ p:last-child {
 .dark {
 	background: #151d21;
 	color: #ccc;
+	.table {
+		td, th {
+			border-color: #333;
+		}
+	}
 	#masthead.light {
 		background: #0c1215;
 		.hero, .nav-link, .navbar-brand, .navbar-nav:last-child a {
@@ -691,11 +696,17 @@ p:last-child {
 	.bg-white, .breaker:before, .globalFooterCard, .darkgray {
 		background: #151d21 !important;
 	}
+	#masthead .darkgray {
+		background: #263238 !important;
+	}
 	.gray, .gray-slanted:before {
 		background: #263238;
 	}
 	.press-section img, img[alt="BW Disrupt"] {
 		filter: invert(1);
+	}
+	section.gray:first-child {
+		background: #0c1215 !important;
 	}
 	#colophon {
 		a {
@@ -718,12 +729,17 @@ p:last-child {
 			border-color: yellow;
 			color: yellow;
 		}
-		.-light {
+		.btn-light {
 			background: none;
 			color: inherit;
 		}
 		.hero, p {
 			color: inherit;
+		}
+		.darkgray {
+			h2 {
+				color: #909cab;
+			}
 		}
 	}
 	.globalFooterCard {
@@ -733,6 +749,10 @@ p:last-child {
 		color: $color;
 		&.btn-primary {
 			color: #fff;
+		}
+		&.btn-secondary {
+			background: #000;
+			border-color: #222;
 		}
 	}
 	.app-illustrations {
@@ -783,4 +803,11 @@ svg, img {
 	background: #aaa;
 	text-align: center;
 	line-height: 50px;
+}
+
+.icon-image {
+	height: 30px;
+	vertical-align: middle;
+	margin-top: -3px;
+	margin-right: 5px;
 }
