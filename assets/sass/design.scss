@@ -810,4 +810,11 @@ svg, img {
 	vertical-align: middle;
 	margin-top: -3px;
 	margin-right: 5px;
+	&.bigger {
+		height: 50px;
+	}
+}
+
+.color-tomato {
+	color: tomato;
 }

@@ -4,7 +4,11 @@ $("[data-toggle='tooltip']").tooltip();
 $("a").each(function() {
 	if (!$(this).attr("href").includes("http")) {
 		if (!$(this).attr("href").includes("?")) {
-			$(this).attr("href", $(this).attr("href") + ".html");
+			if ($(this).attr("href").includes("#")) {
+				$(this).attr("href", $(this).attr("href").split("#")[0] + ".html" + "#" + $(this).attr("href").split("#")[1]);
+			} else {
+				$(this).attr("href", $(this).attr("href") + ".html");
+			}
 		} else {
 			$(this).attr("href", $(this).attr("href").split("?")[0] + ".html" + "?" + $(this).attr("href").split("?")[1]);
 		}
