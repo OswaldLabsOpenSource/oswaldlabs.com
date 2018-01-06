@@ -3,7 +3,7 @@
 $color: #007bff;
 
 body {
-	font-family: "proxima_novalight";
+	font-family: "proxima_nova_rgregular";
 	font-weight: 300;
 	color: #4b5f79;
 	// overflow-x: hidden;
@@ -160,12 +160,13 @@ a.text-body:hover {
 	max-width: 1080px;
 }
 
+h1 {
+	font-weight: 300;
+	font-family: "proxima_novalight";
+}
 .hero {
 	margin: 5rem 0;
 	color: #fff;
-	h1 {
-		font-weight: 300;
-	}
 	p {
 		max-width: 500px;
 		color: #d9fcff;
@@ -374,7 +375,7 @@ hr {
 	}
 	svg {
 		height: 25px;
-		transform: translateY(1px);
+		transform: translateY(3px);
 		margin-left: -2px;
 		vertical-align: middle;
 	}
@@ -569,6 +570,9 @@ nav a {
 #colophon {
 	font-size: 90%;
 	padding: 5rem 0;
+	.fa-external-link-alt {
+		transform: scale(0.9) translateX(-2px);
+	}
 	h4 {
 		font-size: 95%;
 		letter-spacing: 1px;
