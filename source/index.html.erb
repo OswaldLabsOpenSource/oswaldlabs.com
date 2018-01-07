@@ -1,0 +1,238 @@
+---
+title: Oswald Labs
+template: homepage
+---
+
+<main id="content" data-read-aloud>
+	<section class="text">
+		<div class="container">
+			<div class="row mt-5 mb-5">
+				<div class="col-md-6">
+					<h2 class="subheading">
+						<span class="small text-body">Introducing the new</span>
+						<span class="mt-2 d-block">Oswald Labs</span>
+					</h2>
+					<p><i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>After building a web reading tool for people with dyslexia at a hackathon, Nishant and I started Oswald Foundation with a mission to empower the differently abled in August 2016. Today, we're rebranding to Oswald Labs with a focus on research and inclusive development, and launching two platforms &mdash; a web accessibility platform, and a startup accelerator platform.</p>
+					<div class="mt-4 mb-3">
+						<a href="/team/anand" class="text-body d-inline-flex align-items-center">
+							<img alt="Anand Chowdhary's picture" src="https://avatars2.githubusercontent.com/u/2841780" class="rounded-circle avatar-small">
+							<div>
+								<div>Anand Chowdhary</div>
+								<div class="small">Co-founder &amp; CEO</div>
+							</div>
+						</a>
+					</div>
+					<a target="_blank" class="btn btn-left" href="http://bwdisrupt.businessworld.in/article/Oswald-Foundation-Rebrands-to-Oswald-Labs-and-Launches-A11Y-co-Web-Accessibility-Platform/11-12-2017-134288/">Read the announcement &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="gray-slanted">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div class="d-flex align-items-center justify-content-center mb-4">
+					<img class="icon-image bigger mr-4" alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
+						<h2 class="subheading mb-0 color-tomato">
+							<span>Agastya</span>
+							<span class="mt-2 small text-body d-block">Web accessibility made simple</span>
+						</h2>
+					</div>
+					<p class="text-center">a11y.co lets web developers and business owners incorporate accessibility features to their websites. By adding just one line of JavaScript code, you can make your website disabled-friendly and accessible to a much wider audience.</p>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-5 d-none d-md-flex">
+				<div class="col-md-4 d-flex pr-4 align-items-center text-right">
+					<dl>
+						<dt><strong>Translation</strong></dt>
+						<dd>Make your content available to everyone with built-in neural machine translation in over a hundred languages.</dd>
+						<dt class="mt-4"><strong>Blue Light Filter</strong></dt>
+						<dd>Simulate an adjustment to the color temperature of the display to reduce eye strain and disruption of sleep patterns.</dd>
+						<dt class="mt-4"><strong>Analytics</strong></dt>
+						<dd>Get access to raw data and computed analytics about your users's disabilities, pageviews, and usage.</dd>
+					</dl>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 agastya-demo-card">
+						<div class="row">
+							<div class="col-6 mb-3">
+								<button class="btn btn-light btn-block pt-3 pb-3" onclick="if ($('body').css('zoom') == '1') { $('body').css('zoom', '1.2') } else { $('body').css('zoom', '1') }">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-font fa-3x"></i></span>
+									<span>Large Font</span>
+								</button>
+							</div>
+							<div class="col-6 mb-3">
+								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #feee05" onclick="agastya.mode('dyslexia');">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-book fa-3x"></i></span>
+									<span>Dyslexia</span>
+								</button>
+							</div>
+							<div class="col-6 mb-3">
+								<button class="btn btn-dark btn-block pt-3 pb-3" onclick="$('body').toggleClass('dark')">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-moon fa-3x"></i></span>
+									<span>Night</span>
+								</button>
+							</div>
+							<div class="col-6 mb-3">
+								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #fec" onclick="agastya.mode('sepia');">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-sun fa-3x"></i></span>
+									<span>Blue Filter</span>
+								</button>
+							</div>
+							<div class="col-6">
+								<button class="btn btn-light btn-block pt-3 pb-3" id="translateOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-language fa-3x"></i></span>
+									English<span class="sr-only"> (Change language)</span>
+								</button>
+								<div class="dropdown-menu" aria-labelledby="translateOptions">
+									<button class="dropdown-item" onclick="agastya.translate('en')">
+											<span class="flag-span" aria-hidden="true">🇺🇸</span>
+											<span>English</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('nl')">
+											<span class="flag-span" aria-hidden="true">🇳🇱</span>
+											<span>Nederlands</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('de')">
+											<span class="flag-span" aria-hidden="true">🇩🇪</span>
+											<span>Deutsch</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('es')">
+											<span class="flag-span" aria-hidden="true">🇪🇸</span>
+											<span>Espa&ntilde;ol</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('fr')">
+											<span class="flag-span" aria-hidden="true">🇫🇷</span>
+											<span>Fran&ccedil;ais</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('it')">
+											<span class="flag-span" aria-hidden="true">🇮🇹</span>
+											<span>Italiano</span>
+									</button>
+									<button class="dropdown-item" onclick="agastya.translate('hi')">
+											<span class="flag-span" aria-hidden="true">🇮🇳</span>
+											<span>हिन्दी</span>
+									</button>
+									<button class="dropdown-item">
+											<span>More Languages</span>
+									</button>
+								</div>
+							</div>
+							<!-- <div class="col-6 mb-3">
+								<button class="btn btn-light btn-block pt-3 pb-3">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-mouse-pointer fa-3x"></i></span>
+									<span>Big Cursor</span>
+								</button>
+							</div> -->
+							<div class="col-6">
+								<button class="btn btn-light btn-block pt-3 pb-3" onclick="agastya.speak();">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-volume-up fa-3x"></i></span>
+									<span>Read Aloud</span>
+								</button>
+							</div>
+							<!-- <div class="col-6 mb-3">
+								<button class="btn btn-light btn-block pt-3 pb-3">
+									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-file-alt fa-3x"></i></span>
+									<span aria-hidden="true">A11Y</span><span class="sr-only">Accessibility</span> Policy
+								</button>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex pl-4 align-items-center">
+					<dl>
+						<dt><strong>Dyslexia-friendly Mode</strong></dt>
+						<dd>Uses the research verified by the British Dyslexia Association and the W3C for up to 65% faster reading.</dd>
+						<dt class="mt-4"><strong>Visual Impairment</strong></dt>
+						<dd>Built-in content extraction finds the main content of your webpage and reads it out for the partially or completely blind.</dd>
+						<dt class="mt-4"><strong>Accessibility Platform</strong></dt>
+						<dd>Developers can build modes for Agastya on a11y.co, and publishers can add and remove options from the store.</dd>
+					</dl>
+				</div>
+			</div>
+			<p class="mt-4 text-center"><a class="btn" href="/agastya">Get started &rarr;</a></p>
+		</div>
+	</section>
+	<div class="d-flex justify-content-center breaker pb-3">
+		<div class="common-Link globalFooterCard col-md-6 card-sigma">
+			<svg class="icon-image" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#ED9E9E" cx="160" cy="160" r="160"/><path d="M57 83h32.142c7.047 0 13.05 1.08 18.013 3.236 4.96 2.157 9.024 5.033 12.188 8.63 3.164 3.594 5.43 7.73 6.795 12.402 1.366 4.674 2.05 9.528 2.05 14.562v5.608c0 4.17-.324 7.694-.97 10.57-.648 2.877-1.62 5.394-2.913 7.55-1.295 2.158-2.877 4.063-4.746 5.717-1.87 1.654-4.028 3.2-6.473 4.638 5.177 2.445 8.988 6.076 11.433 10.894 2.445 4.818 3.668 11.254 3.668 19.307v8.63c0 13.517-3.272 23.872-9.816 31.063-6.543 7.19-17.006 10.786-31.387 10.786H57V83zm22.003 131.59h9.492c4.458 0 7.946-.648 10.463-1.942 2.516-1.295 4.422-3.092 5.716-5.393 1.294-2.3 2.085-5.034 2.373-8.198.288-3.164.43-6.615.43-10.354 0-3.883-.214-7.263-.646-10.14-.43-2.875-1.33-5.284-2.695-7.226-1.366-1.94-3.272-3.415-5.717-4.422-2.445-1.007-5.68-1.51-9.707-1.51h-9.707v49.184zm0-68.6h9.924c7.334 0 12.26-1.833 14.776-5.5 2.517-3.668 3.775-9.025 3.775-16.072 0-6.903-1.402-12.08-4.206-15.532-2.804-3.45-7.874-5.177-15.208-5.177h-9.06v42.28zm161.143 90.603h-20.71l-16.825-99.663h-.43l-16.61 99.663h-20.71L141.994 83h23.297l11.003 97.505h.432L193.982 83h16.826l17.905 99.878h.43L239.716 83h23.297l-22.866 153.593z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+			<blockquote class="blockquote mb-0">
+				<p class="mb-0">&ldquo;Oswald Labs continues to be a leader in the research and development of disabled-friendly technology&rdquo;</p>
+				<footer class="blockquote-footer justify-content-end">
+					<cite title="BW Disrupt" class="align-self-end">
+						<img alt="BW Disrupt" src="/assets/images/logos/bwdisrupt.svg">
+					</cite>
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+	<section class="bg-white products">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 pr-md-5 links-FC3C53">
+					<svg viewBox="0 0 346 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<defs>
+							<linearGradient x1="16.9131039%" y1="12.8462903%" x2="59.2264187%" y2="98.2266104%" id="shravanGradient">
+								<stop stop-color="#FF792D" offset="0%"></stop>
+								<stop stop-color="#F80077" offset="100%"></stop>
+							</linearGradient>
+						</defs>
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<circle fill="url(#shravanGradient)" cx="173" cy="173" r="173"></circle>
+							<path d="M209.576,209.216 L208.424,209.216 L135.56,255.584 L118.28,239.744 L185.672,202.88 L185.672,201.728 C163.208,195.392 145.352,187.616 132.104,178.976 C117.416,185.6 100.136,190.784 81.128,195.392 L66.152,177.248 C76.808,175.232 95.816,171.488 113.672,165.152 C98.408,151.616 93.224,137.216 93.224,123.68 C93.224,102.368 110.504,83.936 136.712,83.936 C160.328,83.936 179.048,99.776 179.048,124.256 C179.048,142.976 168.392,157.376 150.824,168.32 C169.544,178.688 193.16,186.176 209.576,189.92 L209.576,87.104 L266.024,87.104 L266.024,105.536 L231.176,105.536 L231.176,272 L209.576,272 L209.576,209.216 Z M114.248,124.256 C114.248,136.928 120.872,147.296 132.392,156.8 C147.368,149.024 157.736,138.944 157.736,124.256 C157.736,110.72 148.808,102.368 136.712,102.368 C123.752,102.368 114.248,110.72 114.248,124.256 Z" fill="#FFFFFF"></path>
+						</g> 
+					</svg>
+					<h2 class="subheading">
+						<span>Shravan</span>
+						<span class="mt-2 small text-body d-block">Smartphone for the rest of us</span>
+					</h2>
+					<p>Shravan is the world's first end-to-end accessible smartphone OS. With our patent-pending speech and vibration interface, Shravan can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting Android smartphone.</p>
+					<a class="btn btn-left" href="/shravan">Preregister for Shravan &rarr;</a>
+				</div>
+				<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
+					<svg viewBox="0 0 346 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<defs>
+							<linearGradient x1="16.9131039%" y1="12.8462903%" x2="59.2264187%" y2="98.2266104%" id="valmikiGradient">
+								<stop stop-color="#B3B424" stop-opacity="0.985054348" offset="0%"></stop>
+								<stop stop-color="#0F7030" offset="100%"></stop>
+							</linearGradient>
+						</defs>
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<circle fill="url(#valmikiGradient)" cx="173" cy="173" r="173"></circle>
+							<path d="M221.648,105.432 L256.496,105.432 L256.496,87 L86,87 L86,105.432 L200.048,105.432 L200.048,177.432 C200.048,200.76 185.36,219.192 162.032,219.192 C141.584,219.192 128.336,204.792 128.336,185.784 C128.336,160.152 151.952,148.344 176.144,154.68 L174.128,134.232 C141.872,128.472 105.296,145.176 105.296,186.072 C105.296,218.04 130.064,238.776 158.288,238.776 C179.6,238.776 192.848,228.984 198.896,221.496 L200.048,221.496 L200.048,271.896 L221.648,271.896 L221.648,105.432 Z" id="व" fill="#FFFFFF"></path>
+						</g>
+					</svg>
+					<h2 class="subheading">
+						<span>Valmiki</span>
+						<span class="mt-2 small text-body d-block">Accessibility extension</span>
+					</h2>
+					<p>Valmiki (Oswald for Chrome) is a browser extension that changes the look and feel of the entire web based on your design customizations and preferences. It's especially helpful for people with dyslexia, because it comes built-in with an option that adjusts the color-contrast ratio and typography.</p>
+					<a class="btn btn-left" href="/valmiki">Download on the Chrome Web Store &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="press-section pt-4 pb-4">
+		<h2 class="sr-only">Press</h2>
+		<div class="container d-flex align-items-center justify-content-between">
+			<a href="/press#HuffPost" class="press-item" title="HuffPost">
+				<img alt="HuffPost logo" src="/assets/images/logos/huffpost.svg" style="height: 20px">
+			</a>
+			<a href="/press#HetFinancieeleDagblad" class="press-item" title="Het Financieele Dagblad">
+				<img alt="Het Financieele Dagblad logo" src="/assets/images/logos/hetfinancieeledagblad.svg" style="height: 40px">
+			</a>
+			<a href="/press#HindustanTimes" class="press-item" title="Hindustan Times">
+				<img alt="Hindustan Times logo" src="/assets/images/logos/hindustantimes.svg" style="height: 22px">
+			</a>
+			<a href="/press#YourStory" class="press-item" title="YourStory">
+				<img alt="YourStory logo" src="/assets/images/logos/yourstory.svg" style="height: 45px">
+			</a>
+			<a href="/press#AngelHack" class="press-item" title="AngelHack">
+				<img alt="AngelHack logo" src="/assets/images/logos/angelhack.svg" style="height: 30px">
+			</a>
+			<a href="/press#ScoopWhoop" class="press-item" title="ScoopWhoop">
+				<img alt="ScoopWhoop logo" src="/assets/images/logos/scoopwhoop.svg" style="height: 55px">
+			</a>
+		</div>
+	</section>
+</main>
