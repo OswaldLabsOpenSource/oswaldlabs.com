@@ -125,10 +125,10 @@ a.text-body:hover {
 	}
 }
 
-.contact #masthead {
+.page--contact #masthead {
 	background-image: url("../images/contact-bg.png");
 }
-.about #masthead {
+.page--about #masthead {
 	background: #000;
 	overflow: hidden;
 	&::before {
@@ -139,7 +139,7 @@ a.text-body:hover {
 		color: #fdf2d5;
 	}
 }
-.about, .contact {
+.page--about, .page--contact {
 	#masthead::before {
 		content: "";
 		position: absolute;
@@ -837,4 +837,8 @@ svg, img {
 
 .color-tomato {
 	color: tomato;
+}
+
+[aria-current="page"] {
+	font-family: "proxima_nova_rgbold";
 }

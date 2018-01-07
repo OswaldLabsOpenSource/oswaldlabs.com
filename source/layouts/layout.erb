@@ -12,8 +12,8 @@
 		<meta name="apple-mobile-web-app-title" content="Oswald Labs">
 		<meta name="application-name" content="Oswald Labs">
 
-		<meta name="description" content="Oswald Labs partners with impact-driven, passionate companies to bring the best of technology in the hands of the next billion users.">
-		<meta property="og:description" content="Oswald Labs partners with impact-driven, passionate companies to bring the best of technology in the hands of the next billion users.">
+		<meta name="description" content="<%= current_page.data.desc || "Oswald Labs" %>">
+		<meta property="og:description" content="<%= current_page.data.desc || "Oswald Labs" %>">
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@OswaldLabs">
@@ -46,7 +46,7 @@
 
 	</head>
 
-	<body class="<%= page_classes %>">
+	<body class="page--<%= page_classes %>">
 
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKT24WB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
