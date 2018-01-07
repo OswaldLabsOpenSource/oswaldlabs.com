@@ -52,33 +52,6 @@
 
 		<a href="#content" class="sr-only sr-only-focusable btn btn-light">Skip to main content</a>
 
-		<header id="masthead" class="<%= current_page.data.template || "light" %>">
-			<div class="container pt-3 pb-3">
-				<%= partial "navbar" %>
-				<div class="hero">
-					<h1>Technology for the next billion users.</h1>
-					<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we've impacted thousands of lives throughout the globe.</p>
-					<div class="mt-5">
-						<a class="btn btn-light mr-3" href="/about">Learn More</a>
-						<a class="btn btn-outline-light" href="/contact">Get in Touch</a>
-					</div>
-				</div>
-				<div class="right-drawings d-none d-md-flex">
-					<div class="app-illustrations">
-						<div class="tablet-landscape">
-							<img alt="Agastya accessibility plugin" src="/assets/images/agastyascreen.svg">
-						</div>
-						<div class="phone-small">
-							<img alt="Shravan smartphone OS" src="/assets/images/shravanscreen.svg">
-						</div>
-						<div class="tablet-portrait">
-							<img alt="Agastya accessibility plugin" src="/assets/images/a11yscreen.svg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<%= yield %>
 
 		<%= partial "footer" %>
