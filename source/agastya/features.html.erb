@@ -1,0 +1,147 @@
+---
+title: Features &middot; Agastya by Oswald Labs
+desc: Agastya, the accessibility plugin for websites by Oswald Labs, features multiple disabled-friendly options including our exclusive dyslexia-friendly mode.
+---
+
+<header id="masthead" class="<%= current_page.data.template || "light" %>">
+	<div class="container pt-3 pb-3">
+		<%= partial "navbar" %>
+	</div>
+	<div class="darkgray">
+		<div class="container">
+			<div class="row pt-2 pb-2">
+				<div class="col-md-3 d-flex align-items-center">
+					<h2 class="mb-0 text-body font-weight-bold p-2 pl-3 p-md-0">
+						<img aria-hidden="true" alt="Agastya logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg" class="icon-image">
+						<span>Agastya</span>
+					</h2>
+				</div>
+				<div class="col-md d-flex justify-content-end pr-0">
+					<%= partial "agastya_nav" %>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main id="content">
+	<section>
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6">
+					<div>
+						<h1>Features</h1>
+						<p>Agastya is a solution for web developers to help incorporate accessibility features in their websites. It features an incredible array of disabled-friendly modes which you can add to your website.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-0">
+		<div class="gray">
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-6">
+						<img alt="" src="/images/dyslexia.png">
+					</div>
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1 class="mt-3 mt-md-0"><i class="fas fa-book"></i></h1>
+							<h3 class="h5 mb-3">Dyslexia</h3>
+							<p>Our exclusive dyslexia-friendly mode uses the research verified by the British Dyslexia Association and the W3C for up to 65% easier and faster reading for those with learning disorders.</p>
+							<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
+							<p><a tabindex="0" onclick="agastya.mode('dyslexia');">Try dyslexia-friendly mode &rarr;</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1><i class="fas fa-eye-slash"></i></h1>
+							<h3 class="h5 mb-3">Visual Impairment</h3>
+							<p>Built-in content extraction finds the main content of your webpage and reads it out for the partially or completely blind. It can also translate your content into the user&rsquo;s language over-the-air before reading aloud.</p>
+							<p>a11y.co also adds screen reader support to your webpage, right out of the box, plus keyboard shortcuts for navigation and read aloud features.</p>
+						</div>
+					</div>
+					<div class="col-md-6 push-md-1 mt-4 mt-md-0">
+						<img alt="" src="/images/visualimpairment.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gray">
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-6">
+						<img alt="" src="/images/bluelightfilter.png">
+					</div>
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1 class="mt-3 mt-md-0"><i class="fas fa-sun"></i></h1>
+							<h3 class="h5 mb-3">Blue Light Filter</h3>
+							<p>For reading after sunset, our Sepia mode filters out blue light and has a reddish-brown color combination for users.</p>
+							<p>It simulates an adjustment to the color temperature of a user&rsquo;s display to reduce eye strain and disruption of sleep patterns, much like the program f.lux.</p>
+							<p><a tabindex="0" onclick="agastya.mode('sepia');">Try blue light filter &rarr;</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1><i class="fas fa-image"></i></h1>
+							<h3 class="h5 mb-3">AutoALT&trade; <small>BETA</small></h3>
+							<p>Our patent-pending technology automaticaly generates alternate text (ALT tags) for images using advanced computer vision &amp; machine learning.</p>
+							<p>Content creators and developers will not have to manually specify the <code>alt</code> attribute for every image, it will be magically added to those that don&rsquo;t.</p>
+						</div>
+					</div>
+					<div class="col-md-6 push-md-1 mt-4 mt-md-0">
+						<img alt="" src="/images/autoalt.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gray">
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-6">
+						<img alt="" src="/images/agastya.png">
+					</div>
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1 class="mt-3 mt-md-0"><i class="fas fa-chart-line"></i></h1>
+							<h3 class="h5 mb-3">Advanced Analytics</h3>
+							<p>Get access to raw data and computed analytics about your users&rsquo;s disabilities. Find out what modes are being used by users, and which pages require your attention.</p>
+							<p>Easily integrates with Google Analytics or your third-party tool, and you remain the owner of your data.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="col-md-5 d-flex align-items-center">
+						<div>
+							<h1><i class="fas fa-globe"></i></h1>
+							<h3 class="h5 mb-3">Multilingual Support</h3>
+							<p>Make your content available to everyone with built-in translation. Using neural machine translation, users will be able to translate your website&rsquo;s content to over 100 languages.</p>
+							<p>You can choose what languages you want to make available or let users decide, using Google&rsquo;s engine across pages.</p>
+							<p><a tabindex="0" onclick="agastya.translate('nl');">Try translation to Dutch &rarr;</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 push-md-1 mt-4 mt-md-0">
+						<img alt="" src="/images/translate.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
