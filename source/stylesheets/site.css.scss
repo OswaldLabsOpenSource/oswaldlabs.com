@@ -125,12 +125,11 @@ a.text-body:hover {
 	}
 }
 
-.page--contact #masthead {
+.page--contact #masthead::before {
 	background-image: url("../images/contact-bg.png");
 }
 .page--about #masthead {
 	background: #000;
-	overflow: hidden;
 	&::before {
 		opacity: 0.65;
 		background-image: url("../images/about-bg.png");
@@ -140,20 +139,23 @@ a.text-body:hover {
 	}
 }
 .page--about, .page--contact {
-	#masthead::before {
-		content: "";
-		position: absolute;
-		opacity: 0.75;
-		top: -30px; left: -30px;
-		right: -30px; bottom: -30px;
-		z-index: -1;
-		filter: blur(2px);
-		background-size: cover;
-		background-position: center;
-	}
-	> *:not(.sr-only) {
-		position: relative;
-		z-index: 1;
+	#masthead {
+		overflow: hidden;
+		&::before {
+			content: "";
+			position: absolute;
+			opacity: 0.75;
+			top: -30px; left: -30px;
+			right: -30px; bottom: -30px;
+			z-index: 1;
+			filter: blur(2px);
+			background-size: cover;
+			background-position: center;
+		}
+		&> *:not(.sr-only) {
+			position: relative;
+			z-index: 2;
+		}
 	}
 }
 
@@ -711,7 +713,7 @@ p:last-child {
 		border-color: rgba(255, 255, 255, 0.1);
 	}
 	p a {
-		color: $color !important;
+		color: yellow !important;
 	}
 	.bg-white, .breaker:before, .globalFooterCard, .darkgray {
 		background: #151d21 !important;
@@ -828,7 +830,7 @@ svg, img {
 .icon-image {
 	height: 30px;
 	vertical-align: middle;
-	margin-top: -3px;
+	margin-top: -2px;
 	margin-right: 5px;
 	&.bigger {
 		height: 50px;
