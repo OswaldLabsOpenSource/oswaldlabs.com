@@ -5,7 +5,9 @@ activate :autoprefixer do |prefix|
 	prefix.browsers = "last 12 versions"
 end
 
+activate :asset_hash
 activate :minify_html
+activate :aria_current
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/

@@ -9,11 +9,11 @@
 	<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
 		<ul class="navbar-nav">
 			<li class="nav-item dropdown">
-				<a class="nav-link active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/">
+				<a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/">
 					Products
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item d-flex align-items-center active" href="/agastya">
+					<a class="dropdown-item d-flex align-items-center" href="/agastya">
 						<div class="dropdown-text">
 							<div><strong>Agastya</strong></div>
 							<div>Web accessibility plugin</div>
@@ -34,25 +34,25 @@
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/accelerator">Accelerator</a>
+				<%= current_link_to "Accelerator", "/accelerator", :class => "nav-link" %>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link" href="/about" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Company
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-					<a class="dropdown-item" href="/about">About</a>
-					<a class="dropdown-item" href="/team">Leadership</a>
-					<a class="dropdown-item" href="https://blog.oswald.foundation">Blog</a>
-					<a class="dropdown-item" href="/press">Press</a>
+					<%= current_link_to "About", "/about", :class => "dropdown-item" %>
+					<%= current_link_to "Leadership", "/team", :class => "dropdown-item" %>
+					<%= current_link_to "Blog", "https://blog.oswald.foundation", :class => "dropdown-item", :target => "_blank" %>
+					<%= current_link_to "Press", "/press", :class => "dropdown-item" %>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="/jobs">Work with us</a>
+					<%= current_link_to "Work with us", "/jobs", :class => "dropdown-item" %>
 				</div>
 			</li>
 		</ul>
 		<ul class="navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="/contact">Get in touch &rarr;</a>
+				<%= current_link_to "Get in touch &rarr;", "/contact", :class => "nav-link" %>
 			</li>
 		</ul>
 	</div>
