@@ -48,32 +48,6 @@ a.text-body:hover {
 #masthead {
 	background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	position: relative;
-	&.bg {
-		overflow: hidden;
-		&::before {
-			content: "";
-			position: absolute;
-			opacity: 0.9;
-			top: -30px; left: -30px;
-			right: -30px; bottom: -30px;
-			filter: blur(2px);
-			background-size: cover;
-			background-position: center;
-		}
-	}
-	&.contact-bg::before {
-		background-image: url("/assets/images/contact-bg.png");
-	}
-	&.about-bg {
-		background: #000;
-		&::before {
-			opacity: 0.65;
-			background-image: url("/assets/images/about-bg.png");
-		}
-		.hero p {
-			color: #fdf2d5;
-		}
-	}
 	.navbar {
 		margin: 0 -25px;
 		a {
@@ -148,6 +122,38 @@ a.text-body:hover {
 				}
 			}
 		}
+	}
+}
+
+.contact #masthead {
+	background-image: url("../images/contact-bg.png");
+}
+.about #masthead {
+	background: #000;
+	overflow: hidden;
+	&::before {
+		opacity: 0.65;
+		background-image: url("../images/about-bg.png");
+	}
+	.hero p {
+		color: #fdf2d5;
+	}
+}
+.about, .contact {
+	#masthead::before {
+		content: "";
+		position: absolute;
+		opacity: 0.75;
+		top: -30px; left: -30px;
+		right: -30px; bottom: -30px;
+		z-index: -1;
+		filter: blur(2px);
+		background-size: cover;
+		background-position: center;
+	}
+	> *:not(.sr-only) {
+		position: relative;
+		z-index: 1;
 	}
 }
 

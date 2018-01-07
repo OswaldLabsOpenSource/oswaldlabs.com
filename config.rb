@@ -8,6 +8,7 @@ end
 activate :asset_hash
 activate :minify_html
 activate :aria_current
+activate :livereload
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
