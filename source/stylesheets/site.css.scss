@@ -340,6 +340,15 @@ h1 {
 	.app-illustrations .tablet-portrait {
 		display: -ms-flexbox;
 		display: flex;
+		width: 450px;
+		height: 675px;
+		margin-top: 50px
+	}
+}
+@media (max-width: 1350px) {
+	.app-illustrations .tablet-portrait {
+		display: -ms-flexbox;
+		display: flex;
 		width: 250px;
 		height: 375px;
 		margin-top: 50px
