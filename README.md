@@ -11,4 +11,5 @@ middleman server
 **Production**
 ```
 middleman build
+middleman deploy
 ```
