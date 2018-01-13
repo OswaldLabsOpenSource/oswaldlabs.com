@@ -697,6 +697,9 @@ p:last-child {
 .dark {
 	background: #151d21;
 	color: #ccc;
+	.dark-invert {
+		filter: invert(1);
+	}
 	.table {
 		td, th {
 			border-color: #333;
@@ -852,4 +855,8 @@ svg, img {
 
 [aria-current="page"] {
 	font-family: "proxima_nova_rgbold";
+}
+
+.h-65 {
+	height: 65px;
 }
