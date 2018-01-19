@@ -11,6 +11,12 @@ activate :deploy do |deploy|
 	deploy.remote = "https://github.com/OswaldFoundation/oswaldlabs.com.git" # default: origin
 end
 
+activate :blog do |blog|
+	blog.layout = "blog"
+	blog.sources = "content/news/{year}-{month}-{day}-{title}.html"
+	blog.permalink = "news/{title}.html"
+end
+
 # Layouts
 page "/*.xml", layout: false
 page "/*.json", layout: false

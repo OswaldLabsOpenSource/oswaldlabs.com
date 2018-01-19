@@ -158,6 +158,9 @@ a.text-body:hover {
 		}
 	}
 }
+.page--news article p > img {
+	margin-top: 20px;
+}
 
 .navbar-brand svg {
 	width: 25px;
@@ -859,4 +862,10 @@ svg, img {
 
 .h-65 {
 	height: 65px;
+}
+
+blockquote {
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: 5px solid #e9edf1;
 }
