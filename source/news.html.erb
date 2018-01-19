@@ -23,11 +23,11 @@ title: News &middot; Oswald Labs
 						<% blog.articles[0...5].each do |article| %>
 							<article>
 								<h2 class="h4">
-									<a href="<%= article.url %>"><%= article.title %></a>
+									<a href="<%= article.url.chomp("index.html").chomp(".html") %>"><%= article.title %></a>
 								</h2>
 								<p class="text-secondary"><time><%= article.date.strftime('%B %e, %Y') %></time></p>
 								<%= article.summary %>
-								<a href="<%= article.url %>">Continue reading &rarr;</a>
+								<a href="<%= article.url.chomp("index.html").chomp(".html") %>">Continue reading &rarr;</a>
 							</article>
 						<% end %>
 					</div>
