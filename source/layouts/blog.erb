@@ -75,6 +75,15 @@
 								<p class="text-secondary">Posted on <time><%= current_article.date.strftime('%B %e, %Y') %></time></p>
 								<%= yield %>
 							</article>
+							<div class="share-buttons mt-5 d-flex flex-row-reverse">
+								<div class="d-flex align-items-center">
+									<span>Share</span>
+									<a data-toggle="tooltip" data-placement="bottom" title="Facebook" class="ml-3" href="https://www.facebook.com/sharer/sharer.php?u=https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" target="_blank"><i class="fab fa-facebook"></i></a>
+									<a data-toggle="tooltip" data-placement="bottom" title="Twitter" class="ml-3" href="http://twitter.com/home?status=<%=h current_article.title %>+https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>+<%=h "@OswaldLabs" %>" target="_blank"><i class="fab fa-twitter"></i></a>
+									<a data-toggle="tooltip" data-placement="bottom" title="LinkedIn" class="ml-3" href="https://www.linkedin.com/shareArticle?mini=true&url=https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>&title=<%=h current_article.title %>" target="_blank"><i class="fab fa-linkedin"></i></a>
+									<a data-toggle="tooltip" data-placement="bottom" title="Google+" class="ml-3" href="https://plus.google.com/share?url=https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" target="_blank"><i class="fab fa-google-plus"></i></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
