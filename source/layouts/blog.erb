@@ -19,10 +19,10 @@
 
 		<meta property="og:type" content="article">
 		<meta property="article:published_time" content="<%= current_article.date.to_s.split(" ")[0] %>">
-		<meta property="article:modified_time" content="<%= current_article.date.to_s.split(" ")[0] %>">
+		<meta property="article:modified_time" content="<%= Date.parse(current_article.data.modified) ? Date.parse(current_article.data.modified) : current_article.date.to_s.split(" ")[0] %>">
 		<meta property="article:section" content="news">
 
-		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" }, "headline": "<%= current_page.data.title %>", "image": "<%= current_article.data.image || "https://cdn.oswald.foundation/cover_home-2bd771f8.png" %>", "datePublished": "<%= current_article.date.to_s.split(" ")[0] %>", "dateModified": "<%= current_article.date.to_s.split(" ")[0] %>", "author": { "@type": "Person", "name": "Ara Isaacson" }, "publisher": { "@type": "Organization", "name": "Oswald Labs", "logo": { "@type": "ImageObject", "url": "https://cdn.oswald.foundation/oswald-labs-logo.svg" } }, "description": "<%= strip_tags(current_article.summary) %>" } </script>
+		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" }, "headline": "<%= current_page.data.title %>", "image": "<%= current_article.data.image || "https://cdn.oswald.foundation/cover_home-2bd771f8.png" %>", "datePublished": "<%= current_article.date.to_s.split(" ")[0] %>", "dateModified": "<%= Date.parse(current_article.data.modified) ? Date.parse(current_article.data.modified) : current_article.date.to_s.split(" ")[0] %>", "author": { "@type": "Person", "name": "Ara Isaacson" }, "publisher": { "@type": "Organization", "name": "Oswald Labs", "logo": { "@type": "ImageObject", "url": "https://cdn.oswald.foundation/oswald-labs-logo.svg" } }, "description": "<%= strip_tags(current_article.summary) %>" } </script>
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@OswaldLabs">
@@ -72,7 +72,11 @@
 						<div class="col-md-8">
 							<article>
 								<h1 class="h2"><%= current_article.title %></h1>
-								<p class="text-secondary">Posted on <time><%= current_article.date.strftime('%B %e, %Y') %></time></p>
+									<% if current_article.data.modified %>
+										<p class="text-secondary">Posted on <time><%= current_article.date.strftime('%B %e, %Y') %></time>; modified on <time><%= Date.parse(current_article.data.modified).strftime('%B %e, %Y') %></time></p>
+									<% else %>
+										<p class="text-secondary">Posted on <time><%= current_article.date.strftime('%B %e, %Y') %></time></p>
+									<% end if %>
 								<%= yield %>
 							</article>
 							<div class="share-buttons mt-5 d-flex flex-row-reverse">

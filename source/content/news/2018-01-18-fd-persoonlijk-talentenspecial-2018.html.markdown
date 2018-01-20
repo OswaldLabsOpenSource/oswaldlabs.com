@@ -1,7 +1,7 @@
 ---
 title: Oswald Labs CEO Anand Chowdhary Listed in FD Persoonlijk Talentenspecial 2018
 date: 2018-01-18 10:21 UTC
-category: press-releases
+modified: 2018-01-20 09:53 UTC
 image: https://cdn.oswald.foundation/anand-chowdhary-fd-persoonlijk.png
 ---
 
@@ -19,8 +19,10 @@ Previously, Oswald Labs became the first Indian company to be incubated in the L
 
 **Related press:**
 
-- [Deze vijftig talenten zetten de toon – Het Financieele Dagblad](https://fd.nl/fd-persoonlijk/1231259/talentenspecial-de-lijst)
+- [Het Financieele Dagblad 2018-01-18: Deze vijftig talenten zetten de toon (These fifty talents set the tone)](https://fd.nl/fd-persoonlijk/1231259/talentenspecial-de-lijst)
 
-- [CreaTe student Anand Chowdhary in the top 50 talents of Dutch Financial Times – University of Twente](https://www.utwente.nl/en/news/!/2018/1/121621/create-student-anand-chowdhary-in-the-top-50-talents-of-dutch-financial-times)
+- [University of Twente 2018-01-19: CreaTe student Anand Chowdhary in the top 50 talents of Dutch Financial Times](https://www.utwente.nl/en/news/!/2018/1/121621/create-student-anand-chowdhary-in-the-top-50-talents-of-dutch-financial-times)
+
+- [Het Financieele Dagblad 2018-01-18: Duurzaamheid hoort erbij voor jonge beloften (Sustainability is an important part for these young promises)](https://fd.nl/fd-persoonlijk/1231323/talentenspecial-essay)
 
 ![Picture of Anand Chowdhary](https://cdn.oswald.foundation/anand-chowdhary-fd-persoonlijk.png)
