@@ -25,6 +25,6 @@ Previously, Oswald Labs became the first Indian company to be incubated in the L
 
 - [Het Financieele Dagblad 2018-01-18: Duurzaamheid hoort erbij voor jonge beloften (Sustainability is an important part for these young promises)](https://fd.nl/fd-persoonlijk/1231323/talentenspecial-essay)
 
-- [UT student among the top 50 young entrepreneurs](https://www.utoday.nl/news/64984/ut-student-in-the-top-50-young-entrepreneurs) [(Dutch version)](https://www.utoday.nl/news/64978/nominatie-voor-ondernemende-student-anand-chowdhary)
+- [UToday 2018-01-24: UT student among the top 50 young entrepreneurs](https://www.utoday.nl/news/64984/ut-student-in-the-top-50-young-entrepreneurs) [(Dutch version)](https://www.utoday.nl/news/64978/nominatie-voor-ondernemende-student-anand-chowdhary)
 
 ![Picture of Anand Chowdhary](https://static.oswaldlabs.com/anand-chowdhary-fd-persoonlijk.png)
