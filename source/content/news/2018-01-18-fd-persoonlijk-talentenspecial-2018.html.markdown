@@ -2,7 +2,7 @@
 title: Oswald Labs CEO Anand Chowdhary Listed in FD Persoonlijk Talentenspecial 2018
 date: 2018-01-18 10:21 UTC
 modified: 2018-01-20 09:53 UTC
-image: https://cdn.oswald.foundation/anand-chowdhary-fd-persoonlijk.png
+image: https://static.oswaldlabs.com/anand-chowdhary-fd-persoonlijk.png
 ---
 
 Just five months after moving to Enschede, the Netherlands, and opening Oswald Labs' first office in Europe, on January 18, 2018, Anand Chowdhary, co-founder and Chief Executive Officer of Oswald Labs, was featured as one of the top 50 young entrepreneurs and professionals in the Netherlands by Het Financieele Dagblad (Dutch Financial Times) in the FD Persoonlijk Talentenspecial 2018.
@@ -27,4 +27,4 @@ Previously, Oswald Labs became the first Indian company to be incubated in the L
 
 - [UT student among the top 50 young entrepreneurs](https://www.utoday.nl/news/64984/ut-student-in-the-top-50-young-entrepreneurs) [(Dutch version)](https://www.utoday.nl/news/64978/nominatie-voor-ondernemende-student-anand-chowdhary)
 
-![Picture of Anand Chowdhary](https://cdn.oswald.foundation/anand-chowdhary-fd-persoonlijk.png)
+![Picture of Anand Chowdhary](https://static.oswaldlabs.com/anand-chowdhary-fd-persoonlijk.png)

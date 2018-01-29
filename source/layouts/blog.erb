@@ -22,7 +22,7 @@
 		<meta property="article:modified_time" content="<%= Date.parse(current_article.data.modified) ? Date.parse(current_article.data.modified) : current_article.date.to_s.split(" ")[0] %>">
 		<meta property="article:section" content="news">
 
-		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" }, "headline": "<%= current_page.data.title %>", "image": "<%= current_article.data.image || "https://cdn.oswald.foundation/cover_home-2bd771f8.png" %>", "datePublished": "<%= current_article.date.to_s.split(" ")[0] %>", "dateModified": "<%= Date.parse(current_article.data.modified) ? Date.parse(current_article.data.modified) : current_article.date.to_s.split(" ")[0] %>", "author": { "@type": "Person", "name": "Ara Isaacson" }, "publisher": { "@type": "Organization", "name": "Oswald Labs", "logo": { "@type": "ImageObject", "url": "https://cdn.oswald.foundation/oswald-labs-logo.svg" } }, "description": "<%= strip_tags(current_article.summary) %>" } </script>
+		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://oswaldlabs.com<%= current_page.url.chomp("index.html").chomp(".html").chomp("/") %>" }, "headline": "<%= current_page.data.title %>", "image": "<%= current_article.data.image || "https://static.oswaldlabs.com/cover_home-2bd771f8.png" %>", "datePublished": "<%= current_article.date.to_s.split(" ")[0] %>", "dateModified": "<%= Date.parse(current_article.data.modified) ? Date.parse(current_article.data.modified) : current_article.date.to_s.split(" ")[0] %>", "author": { "@type": "Person", "name": "Ara Isaacson" }, "publisher": { "@type": "Organization", "name": "Oswald Labs", "logo": { "@type": "ImageObject", "url": "https://static.oswaldlabs.com/oswald-labs-logo.svg" } }, "description": "<%= strip_tags(current_article.summary) %>" } </script>
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@OswaldLabs">
@@ -30,8 +30,8 @@
 		<link rel="publisher" href="https://plus.google.com/109050675253975445822">
 		<meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
 
-		<meta property="og:image" content="<%= current_article.data.image || "https://cdn.oswald.foundation/cover_home-2bd771f8.png" %>">
-		<meta name="twitter:image" content="<%= current_article.data.image || "https://cdn.oswald.foundation/cover_home-2bd771f8.png" %>">
+		<meta property="og:image" content="<%= current_article.data.image || "https://static.oswaldlabs.com/cover_home-2bd771f8.png" %>">
+		<meta name="twitter:image" content="<%= current_article.data.image || "https://static.oswaldlabs.com/cover_home-2bd771f8.png" %>">
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">

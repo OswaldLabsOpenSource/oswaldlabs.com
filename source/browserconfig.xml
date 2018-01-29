@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://cdn.oswald.foundation/icons/mstile-150x150.png"/>
+            <square150x150logo src="https://static.oswaldlabs.com/icons/mstile-150x150.png"/>
             <TileColor>#007bff</TileColor>
         </tile>
     </msapplication>
