@@ -80,31 +80,31 @@
 					<nav class="nav">
 						<button class="btn bg-none border-0 btn-light nav-link btn-left text-dark d-none d-md-flex" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language mr-2"></i>English<span class="sr-only"> (Change language)</span></button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<button class="dropdown-item" onclick="agastya.translate('en')">
+							<button class="dropdown-item" onclick="window.agastya.translate('en')">
 								<span class="flag-span" aria-hidden="true">🇺🇸</span>
 								<span>English</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('nl')">
+							<button class="dropdown-item" onclick="window.agastya.translate('nl')">
 								<span class="flag-span" aria-hidden="true">🇳🇱</span>
 								<span>Nederlands</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('de')">
+							<button class="dropdown-item" onclick="window.agastya.translate('de')">
 								<span class="flag-span" aria-hidden="true">🇩🇪</span>
 								<span>Deutsch</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('es')">
+							<button class="dropdown-item" onclick="window.agastya.translate('es')">
 								<span class="flag-span" aria-hidden="true">🇪🇸</span>
 								<span>Espa&ntilde;ol</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('fr')">
+							<button class="dropdown-item" onclick="window.agastya.translate('fr')">
 								<span class="flag-span" aria-hidden="true">🇫🇷</span>
 								<span>Fran&ccedil;ais</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('it')">
+							<button class="dropdown-item" onclick="window.agastya.translate('it')">
 								<span class="flag-span" aria-hidden="true">🇮🇹</span>
 								<span>Italiano</span>
 							</button>
-							<button class="dropdown-item" onclick="agastya.translate('hi')">
+							<button class="dropdown-item" onclick="window.agastya.translate('hi')">
 								<span class="flag-span" aria-hidden="true">🇮🇳</span>
 								<span>हिन्दी</span>
 							</button>
@@ -113,7 +113,7 @@
 							</button>
 						</div>
 						<button onclick="agastya.open()" class="btn bg-none border-0 btn-light nav-link text-dark"><i class="fas fa-universal-access mr-2"></i>Accessibility</button>
-						<button onclick="$('body').toggleClass('dark')" class="btn bg-none border-0 btn-light nav-link text-dark d-none d-md-flex"><i class="fas fa-sun mr-2"></i>Contrast</button>
+						<button onclick="window.agastya.mode('night')" class="btn bg-none border-0 btn-light nav-link text-dark d-none d-md-flex"><i class="fas fa-sun mr-2"></i>Contrast</button>
 						<button onclick="agastya.speak()" class="btn bg-none border-0 btn-light nav-link text-dark d-none d-md-flex"><i class="fas fa-volume-up mr-2"></i>Read aloud</button>
 					</nav>
 				</div>
