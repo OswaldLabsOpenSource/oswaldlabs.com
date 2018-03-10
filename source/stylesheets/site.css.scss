@@ -1,20 +1,7 @@
-@font-face{font-family:'proxima_nova_rgbold';src:url('../fonts/proximanova-bold-webfont.eot');src:url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-bold-webfont.woff') format('woff'),url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_novasemibold';src:url('../fonts/proximanova-semibold-webfont.eot');src:url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),url('../fonts/proximanova-semibold-webfont.woff') format('woff'),url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');font-weight:normal;font-style:normal;}
-@font-face{font-family:'proxima_novalight';src:url('../fonts/proximanova-light-webfont.eot');src:url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-light-webfont.woff') format('woff'),url('../fonts/proximanova-light-webfont.ttf') format('truetype'),url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_rgregular';src:url('../fonts/proximanova-regular-webfont.eot');src:url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-regular-webfont.woff') format('woff'),url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_novaregular_italic';src:url('../fonts/proximanova-regularitalic-webfont.eot');src:url('../fonts/proximanova-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-regularitalic-webfont.woff') format('woff'),url('../fonts/proximanova-regularitalic-webfont.ttf') format('truetype'),url('../fonts/proximanova-regularitalic-webfont.svg#proxima_novaregular_italic') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_thinthin'; src:url('../fonts/proximanovat-thin-webfont.eot'); src:url('../fonts/proximanovat-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovat-thin-webfont.woff2') format('woff2'), url('../fonts/proximanovat-thin-webfont.woff') format('woff'), url('../fonts/proximanovat-thin-webfont.ttf') format('truetype'), url('../fonts/proximanovat-thin-webfont.svg#proxima_nova_thinthin') format('svg'); font-weight:normal; font-style:normal;}
-@font-face{font-family:'proxima_nova_condensedlight';src:url('../fonts/proximanovacond-light-webfont.eot');src:url('../fonts/proximanovacond-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-light-webfont.woff') format('woff'),url('../fonts/proximanovacond-light-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-light-webfont.svg#proxima_nova_condensedlight') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_cn_rgregular';src:url('../fonts/proximanovacond-regular-webfont.eot');src:url('../fonts/proximanovacond-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-regular-webfont.woff') format('woff'),url('../fonts/proximanovacond-regular-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_condensedRgIt';src:url('../fonts/proximanovacond-regularit-webfont.eot');src:url('../fonts/proximanovacond-regularit-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-regularit-webfont.woff') format('woff'),url('../fonts/proximanovacond-regularit-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-regularit-webfont.svg#proxima_nova_condensedRgIt') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_condensedSBd';src:url('../fonts/proximanovacond-semibold-webfont.eot');src:url('../fonts/proximanovacond-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-semibold-webfont.woff') format('woff'),url('../fonts/proximanovacond-semibold-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-semibold-webfont.svg#proxima_nova_condensedSBd') format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'proxima_nova_cn_ththin'; src:url('../fonts/proximanovacond-thin-webfont.eot'); src:url('../fonts/proximanovacond-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovacond-thin-webfont.woff2') format('woff2'), url('../fonts/proximanovacond-thin-webfont.woff') format('woff'), url('../fonts/proximanovacond-thin-webfont.ttf') format('truetype'), url('../fonts/proximanovacond-thin-webfont.svg#proxima_nova_cn_ththin') format('svg'); font-weight:normal; font-style:normal;}
-
 $color: #007bff;
 
 body {
-	font-family: "proxima_nova_rgregular";
-	font-weight: 300;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	color: #4b5f79;
 	// overflow-x: hidden;
 	font-size: 105%;
@@ -67,7 +54,7 @@ a.text-body:hover {
 			}
 		}
 		.active {
-			font-family: "proxima_novasemibold";
+			font-weight: 500;
 		}
 		.dropdown-menu {
 			&:before {
@@ -183,7 +170,6 @@ a.text-body:hover {
 
 h1 {
 	font-weight: 300;
-	font-family: "proxima_novalight";
 }
 .hero {
 	margin: 5rem 0;
@@ -194,7 +180,7 @@ h1 {
 		margin-top: 1.5rem;
 		a {
 			color: #fff;
-			font-family: "proxima_novasemibold";
+			font-weight: 500;
 		}
 	}
 }
@@ -359,7 +345,7 @@ h1 {
 }
 
 b, strong, .font-weight-bold {
-	font-family: "proxima_novasemibold";
+	font-weight: 500;
 }
 
 .agastya-demo-card {
@@ -376,7 +362,7 @@ b, strong, .font-weight-bold {
 	font-size: 140%;
 	letter-spacing: 2px;
 	margin-bottom: 2rem;
-	font-family: "proxima_novasemibold";
+	font-weight: bold;
 	text-transform: uppercase;
 	.small {
 		font-size: 75%;
@@ -587,7 +573,7 @@ nav a {
 		opacity: 0.65;
 	}
 	&.active {
-		font-family: "proxima_novasemibold";
+		font-weight: 500;
 	}
 }
 
@@ -606,7 +592,7 @@ nav a {
 	h4 {
 		font-size: 95%;
 		letter-spacing: 1px;
-		font-family: "proxima_novasemibold";
+		font-weight: 500;
 		margin-bottom: 1.25rem;
 		text-transform: uppercase;
 	}
@@ -622,7 +608,6 @@ nav a {
 		color: inherit;
 		&:hover, &:active, &:focus {
 			color: #32325d;
-			font-family: "proxima_nova_rgregular";
 			text-decoration: none;
 		}
 	}
@@ -857,7 +842,7 @@ svg, img {
 }
 
 [aria-current="page"] {
-	font-family: "proxima_nova_rgbold";
+	font-weight: 500;
 }
 
 .h-65 {
