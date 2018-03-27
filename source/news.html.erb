@@ -21,7 +21,7 @@ title: News &middot; Oswald Labs
 				<div class="col-md-8">
 					<div>
 						<% blog.articles[0...5].each do |article| %>
-							<article>
+							<article class="mb-5">
 								<h2 class="h4">
 									<a href="<%= article.url.chomp("index.html").chomp(".html") %>"><%= article.title %></a>
 								</h2>
