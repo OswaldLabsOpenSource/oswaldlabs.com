@@ -634,6 +634,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/images\/logos\/awsactivate-94537af8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7834,
+		"inputAbbreviatedPath": "\/build\/images\/logos\/awsactivate-94537af8.png",
+		"outputAbbreviatedPath": "\/build\/images\/logos\/awsactivate-94537af8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/images\/logos\/hardstart-ae14187b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10787,
+		"inputAbbreviatedPath": "\/build\/images\/logos\/hardstart-ae14187b.png",
+		"outputAbbreviatedPath": "\/build\/images\/logos\/hardstart-ae14187b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/images\/logos\/idn-0df52fed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18969,
+		"inputAbbreviatedPath": "\/build\/images\/logos\/idn-0df52fed.png",
+		"outputAbbreviatedPath": "\/build\/images\/logos\/idn-0df52fed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/images\/logos\/mcdc-80e9792e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8152,
+		"inputAbbreviatedPath": "\/build\/images\/logos\/mcdc-80e9792e.png",
+		"outputAbbreviatedPath": "\/build\/images\/logos\/mcdc-80e9792e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/images\/shravan-1-f628c4f5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -987,6 +1031,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/news\/forbes-30-under-30-asia-2018.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/news\/forbes-30-under-30-asia-2018.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/partners.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1013,6 +1066,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/build\/schema.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/schema.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/build\/schema-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/build\/shravan.html": {
 		"fileType": 8192,
@@ -1041,11 +1105,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/stylesheets\/site-641461cb.css": {
+	"\/build\/stylesheets\/fonts-b9c9ba49.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/stylesheets\/site-641461cb.css",
+		"inputAbbreviatedPath": "\/build\/stylesheets\/fonts-b9c9ba49.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/stylesheets\/site-f7d8b9ea.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/stylesheets\/site-f7d8b9ea.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1341,11 +1414,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/source\/google69cabffad1b05b82.html.erb": {
+	"\/source\/google69cabffad1b05b82.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/google69cabffad1b05b82.html.erb",
+		"inputAbbreviatedPath": "\/source\/google69cabffad1b05b82.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1856,6 +1929,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/images\/logos\/awsactivate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7834,
+		"inputAbbreviatedPath": "\/source\/images\/logos\/awsactivate.png",
+		"outputAbbreviatedPath": "\/source\/images\/logos\/awsactivate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/images\/logos\/hardstart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10787,
+		"inputAbbreviatedPath": "\/source\/images\/logos\/hardstart.png",
+		"outputAbbreviatedPath": "\/source\/images\/logos\/hardstart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/images\/logos\/idn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18969,
+		"inputAbbreviatedPath": "\/source\/images\/logos\/idn.png",
+		"outputAbbreviatedPath": "\/source\/images\/logos\/idn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/images\/logos\/mcdc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8152,
+		"inputAbbreviatedPath": "\/source\/images\/logos\/mcdc.png",
+		"outputAbbreviatedPath": "\/source\/images\/logos\/mcdc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/images\/shravan-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2254,6 +2371,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/schema.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/schema.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/source\/schema-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/source\/shravan.html.erb": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2289,6 +2417,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/source\/stylesheets\/fonts.css.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/stylesheets\/fonts.css.scss",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/source\/stylesheets\/site.css.scss": {
 		"createSourceMap": 0,
