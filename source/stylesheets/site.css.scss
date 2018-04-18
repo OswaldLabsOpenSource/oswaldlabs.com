@@ -115,6 +115,13 @@ a.text-body:hover {
 .page--contact #masthead::before {
 	background-image: url("../images/contact-bg.png");
 }
+section.dark {
+	color: #fff;
+	background-color: #263238;
+	.text-muted {
+		color: rgba(255, 255, 255, 0.75) !important;
+	}
+}
 .page--about #masthead {
 	background: #000;
 	&::before {
