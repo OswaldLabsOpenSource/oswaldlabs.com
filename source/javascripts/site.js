@@ -44,7 +44,7 @@ var FadeTransition = Barba.BaseTransition.extend({
 		 * Do not forget to call .done() as soon your transition is finished!
 		 * .done() will automatically remove from the DOM the old Container
 		 */
-  
+		window.scrollTo(0, 0);
 		_this.done();
 	  });
 	}
