@@ -22,7 +22,7 @@ desc: Learn more about the pricing of Agastya, the accessibility plugin for webs
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md">
+				<div class="col-md-4">
 					<div class="card card-body p-4">
 						<h3 class="text-center">Lite</h3>
 						<table class="table mb-0 mt-3">
@@ -56,91 +56,102 @@ desc: Learn more about the pricing of Agastya, the accessibility plugin for webs
 						<a href="https://a11y.co" target="_blank" rel="noopener" class="btn btn-secondary mt-3">Get started for free &rarr;</a>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-md mt-4 mt-md-0">
 					<div class="card card-body p-4">
 						<h3 class="text-center">Pro</h3>
-						<table class="table mb-0 mt-3">
-							<tbody>
-								<tr>
-									<td colspan="2"><i class="fas fa-check-circle mr-2 text-success"></i>Everything in Lite</td>
-								</tr>
-								<tr>
-									<td>Themes</td>
-									<td>5 custom modes</td>
-								</tr>
-								<tr>
-									<td>Support</td>
-									<td>Priority tickets</td>
-								</tr>
-								<tr>
-									<td>Installation</td>
-									<td>Included for free</td>
-								</tr>
-								<tr>
-									<td>Uptime</td>
-									<td>100% uptime SLA</td>
-								</tr>
-								<tr>
-									<td style="vertical-align: middle">Pageviews</td>
-									<td>
-										<select class="form-control" onchange="$('.price').html($(this).val())">
-											<option value="99">100,000 per month</option>
-											<option value="249">250,000 per month</option>
-											<option value="499">500,000 per month</option>
-											<option value="999">1,000,000 per month</option>
-											<option value="2,999">5,000,000 per month</option>
-											<option value="4,999">10,000,000 per month</option>
-											<option value="9,999">25,000,000 per month</option>
-										</select>
-									</td>
-								</tr>
-								<tr>
-									<td>Price</td>
-									<td class="font-weight-bold">&euro;<span class="price">99</span> per month</td>
-								</tr>
-							</tbody>
-						</table>
+						<div class="row">
+							<div class="col-md">
+								<table class="table mb-0 mt-3">
+									<tbody>
+										<tr>
+											<td colspan="2"><i class="fas fa-check-circle mr-2 text-success"></i>Everything in Lite</td>
+										</tr>
+										<tr>
+											<td>Themes</td>
+											<td>∞ custom modes</td>
+										</tr>
+										<tr>
+											<td>Support</td>
+											<td>Priority tickets</td>
+										</tr>
+										<tr>
+											<td>Installation</td>
+											<td>Included for free</td>
+										</tr>
+										<tr>
+											<td>Uptime</td>
+											<td>100% uptime SLA</td>
+										</tr>
+										<tr>
+											<td style="vertical-align: middle">Pageviews</td>
+											<td>
+												<select class="form-control" onchange="$('.price').html($(this).val())">
+													<option value="99">100,000 per month</option>
+													<option value="249">250,000 per month</option>
+													<option value="499">500,000 per month</option>
+													<option value="999">1,000,000 per month</option>
+													<option value="2,999">5,000,000 per month</option>
+													<option value="4,999">10,000,000 per month</option>
+													<option value="9,999">25,000,000 per month</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>Price</td>
+											<td class="font-weight-bold">&euro;<span class="price">99</span> per month</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="col-md">
+								<table class="table mb-0 mt-3">
+									<tbody>
+										<tr>
+											<td>API access</td>
+											<td>Unlimited</td>
+										</tr>
+										<tr>
+											<td>Audits</td>
+											<td>A11Y audits included</td>
+										</tr>
+										<tr>
+											<td>Support</td>
+											<td>Phone support</td>
+										</tr>
+										<tr>
+											<td>AutoALT&trade;</td>
+											<td>10/day*</td>
+										</tr>
+										<tr>
+											<td>Tracking</td>
+											<td>Customizable</td>
+										</tr>
+										<tr>
+											<td style="vertical-align: middle">Addons</td>
+											<td>
+												<select class="form-control" onchange="$('.addonprice').html($(this).val())">
+													<option value="0">None</option>
+													<option value="99">High-quality TTS</option>
+													<option value="299">Unlimited AutoALT&trade;</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>+</td>
+											<td class="font-weight-bold">&euro;<span class="addonprice">0</span> per month</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 						<a href="https://a11y.co" target="_blank" rel="noopener" class="btn btn-primary mt-3">Get started &rarr;</a>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="card card-body p-4">
-						<h3 class="text-center">Self-hosted</h3>
-						<table class="table mb-0 mt-3">
-							<tbody>
-								<tr>
-									<td colspan="2"><i class="fas fa-check-circle mr-2 text-success"></i>Everything in Lite &amp; Pro</td>
-								</tr>
-								<tr>
-									<td>Themes</td>
-									<td>Unlimited custom</td>
-								</tr>
-								<tr>
-									<td>Security</td>
-									<td>Custom SSL</td>
-								</tr>
-								<tr>
-									<td>Domain</td>
-									<td>Custom domain</td>
-								</tr>
-								<tr>
-									<td>Support</td>
-									<td>Phone + email</td>
-								</tr>
-								<tr>
-									<td>Price</td>
-									<td class="font-weight-bold">&euro;6,999 one-time</td>
-								</tr>
-							</tbody>
-						</table>
-						<a href="/contact?department=sales" class="btn btn-secondary mt-3">Buy a license &rarr;</a>
 					</div>
 				</div>
 			</div>
 			<div class="row mt-5r">
 				<div class="col-md-4">
 					<p class="font-weight-bold mb-0">How do you measure pageviews?</p>
-					<p>When a user visits your website, every page they visit is counted as a pageview, i.e., every time the Agastya lightweight loader script is requested, a pageview is counted.</p>
+					<p>When a user visits your website (we verify that it's your domain), every page they visit is counted as a pageview, i.e., every time the Agastya lightweight loader script is requested, a pageview is counted.</p>
 				</div>
 				<div class="col-md-4">
 					<p class="font-weight-bold mb-0">Do you offer discounted pricing?</p>
