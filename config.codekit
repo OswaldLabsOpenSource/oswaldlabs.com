@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/agastya\/regulation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/agastya\/regulation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/agastya\/sla.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -973,12 +982,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/javascripts\/site-ba1046fd.js": {
+	"\/build\/javascripts\/site-2366370f.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/javascripts\/site-ba1046fd.js",
-		"outputAbbreviatedPath": "\/build\/javascripts\/min\/site-ba1046fd-min.js",
+		"inputAbbreviatedPath": "\/build\/javascripts\/site-2366370f.js",
+		"outputAbbreviatedPath": "\/build\/javascripts\/min\/site-2366370f-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1114,11 +1123,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/stylesheets\/site-f7d8b9ea.css": {
+	"\/build\/stylesheets\/site-dd8f536d.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/stylesheets\/site-f7d8b9ea.css",
+		"inputAbbreviatedPath": "\/build\/stylesheets\/site-dd8f536d.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1356,6 +1365,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/agastya\/pricing.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/source\/agastya\/regulation.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/agastya\/regulation.html.erb",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
