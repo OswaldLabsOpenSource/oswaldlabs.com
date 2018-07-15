@@ -24,13 +24,13 @@ desc: Oswald Labs (formerly Oswald Foundation) is a research-driven, award-winni
 		<div class="right-drawings d-none d-lg-flex">
 			<div class="app-illustrations">
 				<div class="tablet-landscape">
-					<img alt="Agastya accessibility plugin" src="/images/agastyascreen.svg">
+					<img alt="window.Agastya accessibility plugin" src="/images/agastyascreen.svg">
 				</div>
 				<div class="phone-small">
 					<img alt="Shravan smartphone OS" src="/images/shravanscreen.svg">
 				</div>
 				<div class="tablet-portrait">
-					<img alt="Agastya accessibility plugin" src="/images/a11yscreen.svg">
+					<img alt="window.Agastya accessibility plugin" src="/images/a11yscreen.svg">
 				</div>
 			</div>
 		</div>
@@ -96,19 +96,19 @@ desc: Oswald Labs (formerly Oswald Foundation) is a research-driven, award-winni
 								</button>
 							</div>
 							<div class="col-6 mb-3">
-								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #feed64" onclick="window.agastya.mode('dyslexia');">
+								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #feed64" onclick="window.agastya.api('cssClass', 'dyslexia');">
 									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-book fa-3x"></i></span>
 									<span>Dyslexia</span>
 								</button>
 							</div>
 							<div class="col-6 mb-3">
-								<button class="btn btn-dark btn-block pt-3 pb-3" onclick="window.agastya.mode('night')">
+								<button class="btn btn-dark btn-block pt-3 pb-3" onclick="window.agastya.api('cssClass', 'night')">
 									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-moon fa-3x"></i></span>
 									<span>Night</span>
 								</button>
 							</div>
 							<div class="col-6 mb-3">
-								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #fec" onclick="window.agastya.mode('sepia');">
+								<button class="btn btn-light btn-block pt-3 pb-3 border-0" style="background: #fec" onclick="window.agastya.api('cssClass', 'blueFilter');">
 									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-sun fa-3x"></i></span>
 									<span>Blue Filter</span>
 								</button>
@@ -119,35 +119,35 @@ desc: Oswald Labs (formerly Oswald Foundation) is a research-driven, award-winni
 									English<span class="sr-only"> (Change language)</span>
 								</button>
 								<div class="dropdown-menu" aria-labelledby="translateOptions">
-									<button class="dropdown-item" onclick="agastya.translate('en')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'en')">
 											<span class="flag-span" aria-hidden="true">🇺🇸</span>
 											<span>English</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('nl')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'nl')">
 											<span class="flag-span" aria-hidden="true">🇳🇱</span>
 											<span>Nederlands</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('de')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'de')">
 											<span class="flag-span" aria-hidden="true">🇩🇪</span>
 											<span>Deutsch</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('es')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'es')">
 											<span class="flag-span" aria-hidden="true">🇪🇸</span>
 											<span>Espa&ntilde;ol</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('fr')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'fr')">
 											<span class="flag-span" aria-hidden="true">🇫🇷</span>
 											<span>Fran&ccedil;ais</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('it')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'it')">
 											<span class="flag-span" aria-hidden="true">🇮🇹</span>
 											<span>Italiano</span>
 									</button>
-									<button class="dropdown-item" onclick="agastya.translate('hi')">
+									<button class="dropdown-item" onclick="window.agastya.api('translate', 'hi')">
 											<span class="flag-span" aria-hidden="true">🇮🇳</span>
 											<span>हिन्दी</span>
 									</button>
-									<button class="dropdown-item">
+									<button class="dropdown-item" onclick="window.agastya.api('frame', 'open')">
 											<span>More Languages</span>
 									</button>
 								</div>
@@ -159,7 +159,7 @@ desc: Oswald Labs (formerly Oswald Foundation) is a research-driven, award-winni
 								</button>
 							</div> -->
 							<div class="col-6">
-								<button class="btn btn-light btn-block pt-3 pb-3" onclick="agastya.speak();">
+								<button class="btn btn-light btn-block pt-3 pb-3" onclick="window.agastya.api('readAloud');">
 									<span class="d-block mt-1 mb-2 text-center"><i class="fas fa-volume-up fa-3x"></i></span>
 									<span>Read Aloud</span>
 								</button>
