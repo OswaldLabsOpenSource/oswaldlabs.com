@@ -1,0 +1,19 @@
+/*
+  You can use import statements to include partials:
+ */
+/*
+  Define your resets here or use something like Normalize.css if you like
+ */
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+/*
+  Or add your statements here:
+ */
+body{
+  font-family: sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
