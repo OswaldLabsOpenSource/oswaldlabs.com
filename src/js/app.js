@@ -1,4 +1,5 @@
 // JS Goes here - ES6 supported
-
-// Say hello
-console.log("🦊 Hello! Edit me in src/js/app.js");
+document.getElementById('toggle').addEventListener('click', function (e) {
+	document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+	document.getElementById('toggle').classList.toggle('x');
+});
