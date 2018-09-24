@@ -103,3 +103,4 @@ typings/
 # Production files
 dist
 build
+docs
