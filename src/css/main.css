@@ -1,0 +1,13 @@
+footer {
+	font-size: 90%;
+}
+footer h2.h5 {
+	font-size: 95%;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+footer nav a + a {
+	margin-top: 0.5rem;
+}
