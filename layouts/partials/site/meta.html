@@ -1,6 +1,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ if .Params.description }}
+<meta name="description" content="{{ .Params.description }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="twitter:description" content="{{ .Params.description }}">
+{{ end }}
+{{ if .Params.image }}
+<meta property="og:image" content="{{ .Params.image }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ .Params.image }}">
+{{ end }}
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="twitter:url" content="{{ .Permalink }}">
 {{ .Hugo.Generator }}

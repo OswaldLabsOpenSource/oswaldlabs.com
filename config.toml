@@ -1,6 +1,6 @@
 baseURL = "/"
-languageCode = "en-gb"
-title = "{TITLE}"
+languageCode = "en-us"
+title = "Oswald Labs"
 
 enableRobotsTXT = true
 disableAliases = true
