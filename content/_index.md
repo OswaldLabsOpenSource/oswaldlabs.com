@@ -1,7 +1,6 @@
 ---
-title: Oswald Labs
+title: Home
 description: Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.
-image: "anand"
 ---
 
 <section class="hero home">

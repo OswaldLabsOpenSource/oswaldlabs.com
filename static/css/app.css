@@ -134,6 +134,9 @@ header {
 
 footer {
   font-size: 90%; }
+  footer .fa-external-link-alt {
+    -webkit-transform: scale(0.9) translateX(-6px);
+            transform: scale(0.9) translateX(-6px); }
   footer a {
     color: inherit; }
     footer a + a {
