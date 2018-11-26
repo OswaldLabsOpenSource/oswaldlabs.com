@@ -155,6 +155,13 @@ footer {
 		+ a {
 			margin-top: 0.5rem;
 		}
+		&:hover {
+			color: #32325d;
+			text-decoration: none;
+		}
+	}
+	.text-muted {
+		opacity: 0.65;
 	}
 	h2.h5 {
 		font-size: 95%;
@@ -162,5 +169,12 @@ footer {
 		font-weight: bold;
 		margin-bottom: 1rem;
 		text-transform: uppercase;
+	}
+}
+
+.hero {
+	position: relative;
+	&.home {
+		background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	}
 }
