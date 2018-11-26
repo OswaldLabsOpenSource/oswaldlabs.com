@@ -3,7 +3,7 @@ title: Home
 description: Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.
 ---
 
-<section class="hero home">
+<section class="hero">
 	<div class="container">
 		<h1>Technology for the next billion users.</h1>
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>

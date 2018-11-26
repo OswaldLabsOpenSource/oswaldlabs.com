@@ -1,3 +1,27 @@
 {{ define "main" }}
+{{ if eq .Section "platform" }}
+<div class="subnav">
+	<div class="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex align-items-center">
+					<a class="d-flex align-items-center logo" href="/platform/shravan">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
+						<h1 class="m-0 font-weight-bold p-2 pl-3 p-md-0" style="color: #fc3c53">Shravan</h1>
+					</a>
+				</div>
+				<div class="col-md">
+					<nav class="nav justify-content-end">
+						<a class="nav-link" href="/platform/shravan/">Overview</a>
+						<a class="nav-link" href="/platform/shravan/apps">Shravan Apps</a>
+						<a class="nav-link" href="/platform/shravan/os">Shravan OS</a>
+						<a class="nav-link" href="/platform/shravan/phone">Shravan Phone</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}
 {{ .Content }}
 {{ end }}
