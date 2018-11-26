@@ -106,7 +106,7 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 				</dl>
 			</div>
 		</div>
-		<p class="mt-4 text-center"><a class="btn" href="/agastya">Get started →</a></p>
+		<p class="mt-4 text-center"><a class="btn color-tomato" href="/agastya">Add Agastya to your website →</a></p>
 	</div>
 </section>
 <div class="d-flex justify-content-center breaker pb-3">

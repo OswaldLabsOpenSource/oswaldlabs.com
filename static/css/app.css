@@ -106,7 +106,7 @@ main > section {
   position: relative; }
 
 .color-tomato {
-  color: tomato; }
+  color: tomato !important; }
 
 section.gray-slanted {
   padding-top: 10rem; }
@@ -135,14 +135,18 @@ img {
 .page-leave-to, .page-enter {
   opacity: 0; }
 
+header .navbar .nav-link, header .navbar .navbar-brand {
+  color: inherit; }
+  header .navbar .nav-link:hover, header .navbar .navbar-brand:hover {
+    opacity: 0.75; }
+
 .page-home header .navbar .nav-link, .page-home header .navbar .navbar-brand {
   color: #fff; }
   .page-home header .navbar .nav-link svg g, .page-home header .navbar .navbar-brand svg g {
     fill: #fff; }
-  .page-home header .navbar .nav-link:hover, .page-home header .navbar .navbar-brand:hover {
-    opacity: 0.75; }
 
 header {
+  z-index: 10;
   overflow: hidden;
   position: absolute;
   left: 0;
@@ -160,39 +164,45 @@ header {
     z-index: 1; }
     header .nav-link.active {
       font-weight: bold; }
-  header.smaller {
-    font-size: 95%;
-    padding: 0; }
-    header.smaller nav {
-      padding: 0; }
-    header.smaller .nav-link {
-      padding: 0.5rem 1rem !important; }
-    header.smaller .nav-link.active::before {
-      position: absolute;
-      left: 100%;
-      pointer-events: none;
-      top: 0;
-      content: "";
-      width: 100vw;
-      height: 100%;
-      background-color: #fff;
-      z-index: -1; }
-    header.smaller .nav-link.active::after {
-      position: absolute;
-      right: 100%;
-      pointer-events: none;
-      top: 0;
-      content: "";
-      width: 100vw;
-      height: 100%;
-      background-color: #fff;
-      z-index: -1; }
-    header.smaller .navbar-brand {
-      font-size: 1.05rem;
-      padding: 0; }
-      header.smaller .navbar-brand svg {
-        height: 20px;
-        width: 20px; }
+
+.page-shravan header, .page-shravan nav {
+  padding: 0; }
+
+.page-shravan .nav-link {
+  padding: 0.5rem 1rem !important; }
+
+.page-shravan .nav-link.subactive:hover {
+  opacity: 1;
+  color: #000; }
+
+.page-shravan .nav-link.subactive::before {
+  position: absolute;
+  left: 100%;
+  pointer-events: none;
+  top: 0;
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1; }
+
+.page-shravan .nav-link.subactive::after {
+  position: absolute;
+  right: 100%;
+  pointer-events: none;
+  top: 0;
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1; }
+
+.page-shravan .navbar-brand {
+  font-size: 1.05rem;
+  padding: 0; }
+  .page-shravan .navbar-brand svg {
+    height: 20px;
+    width: 20px; }
 
 footer {
   font-size: 90%; }
@@ -218,15 +228,19 @@ footer {
 .hero {
   padding-top: 10rem;
   padding-bottom: 7.5rem;
-  margin-bottom: 5rem;
-  color: #fff; }
+  margin-bottom: 5rem; }
   .hero p {
     max-width: 500px;
-    color: #d9fcff;
     margin-top: 1.5rem; }
     .hero p a {
-      color: #fff;
       font-weight: 500; }
+
+.page-home .hero {
+  color: #fff; }
+  .page-home .hero p {
+    color: #d9fcff; }
+    .page-home .hero p a {
+      color: #fff; }
 
 .light .hero p a {
   color: #0c1215; }
@@ -240,6 +254,8 @@ footer {
   .hero.home {
     background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
     margin-bottom: 0; }
+  .hero.shravan {
+    background-color: #ffe8ea; }
 
 .page-home .fa-quote-left {
   opacity: 0.5; }
@@ -559,3 +575,15 @@ blockquote {
 
 .btn.btn-left {
   margin-left: -1rem; }
+
+.press-item img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.55; }
+
+.press-item:hover img, .press-item:active img, .press-item:focus img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 1; }
