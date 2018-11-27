@@ -197,7 +197,7 @@ header {
 	}
 }
 
-.page-shravan, .page-shravan-os {
+.page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps {
 	header {
 		font-size: 95%;
 		padding: 0;
@@ -280,6 +280,16 @@ footer {
 	background-color: #f6f9fc;
 	padding-top: 10rem;
 	padding-bottom: 7.5rem;
+	&.triangle::after {
+		content: "";
+		position: absolute;
+		left: -10rem; right: -10rem;
+		bottom: -10rem;
+		background-color: #f6f9fc;
+		height: 20rem;
+		transform: rotate(-10deg);
+		z-index: -1;
+	}
 	p {
 		max-width: 500px;
 		margin-top: 1.5rem;
@@ -316,9 +326,10 @@ footer {
 	background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	margin-bottom: 0;
 }
-.page-shravan, .page-shravan-os {
+.page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps 
+{
 	color: rgb(86, 49, 53);
-	.hero, .navigation, .bg-light-1 {
+	.hero, .navigation, .bg-light-1, .triangle::after {
 		background-color: #fffafa;
 	}
 }
@@ -898,4 +909,10 @@ img, svg {
 			border: 1px solid #ddd;
 		}
 	}
+}
+
+.icon {
+	height: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
