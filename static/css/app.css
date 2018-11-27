@@ -704,3 +704,6 @@ a.card {
 img, svg {
   vertical-align: middle !important;
   max-width: 100% !important; }
+
+.big-image img {
+  margin-bottom: -15rem; }
