@@ -150,11 +150,11 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 <section class="press-section pt-4 pb-4">
 	<h2 class="sr-only">Press</h2>
 	<div class="container d-flex align-items-center justify-content-between">
-		<a href="/press#Forbes" class="press-item" title="Forbes"> <img alt="Forbes logo" src="https://oswaldlabs.com/images/logos/forbes-ed1f4c00.svg" style="height: 25px"> </a>
-		<a href="/press#HuffPost" class="press-item" title="HuffPost"> <img alt="HuffPost logo" src="https://oswaldlabs.com/images/logos/huffpost-b9726347.svg" style="height: 20px"> </a>
-		<a href="/press#HetFinancieeleDagblad" class="press-item" title="Het Financieele Dagblad"> <img alt="Het Financieele Dagblad logo" src="https://oswaldlabs.com/images/logos/hetfinancieeledagblad-f23359bb.svg" style="height: 40px"> </a>
-		<a href="/press#HindustanTimes" class="press-item" title="Hindustan Times"> <img alt="Hindustan Times logo" src="https://oswaldlabs.com/images/logos/hindustantimes-6b31c94e.svg" style="height: 22px"> </a>
-		<a href="/press#YourStory" class="press-item" title="YourStory"> <img alt="YourStory logo" src="https://oswaldlabs.com/images/logos/yourstory-ce2a7a42.svg" style="height: 45px"> </a>
-		<a href="/press#ScoopWhoop" class="press-item" title="ScoopWhoop"> <img alt="ScoopWhoop logo" src="https://oswaldlabs.com/images/logos/scoopwhoop-5861e522.svg" style="height: 55px"> </a>
+		<a href="/press/forbes" class="press-item" title="Forbes"> <img alt="Forbes logo" src="https://oswaldlabs.com/images/logos/forbes-ed1f4c00.svg" style="height: 25px"> </a>
+		<a href="/press/huffpost" class="press-item" title="HuffPost"> <img alt="HuffPost logo" src="https://oswaldlabs.com/images/logos/huffpost-b9726347.svg" style="height: 20px"> </a>
+		<a href="/press/het-financieele-dagblad" class="press-item" title="Het Financieele Dagblad"> <img alt="Het Financieele Dagblad logo" src="https://oswaldlabs.com/images/logos/hetfinancieeledagblad-f23359bb.svg" style="height: 40px"> </a>
+		<a href="/press/hindustan-times" class="press-item" title="Hindustan Times"> <img alt="Hindustan Times logo" src="https://oswaldlabs.com/images/logos/hindustantimes-6b31c94e.svg" style="height: 22px"> </a>
+		<a href="/press/yourstory" class="press-item" title="YourStory"> <img alt="YourStory logo" src="https://oswaldlabs.com/images/logos/yourstory-ce2a7a42.svg" style="height: 45px"> </a>
+		<a href="/press/scoopwhoop" class="press-item" title="ScoopWhoop"> <img alt="ScoopWhoop logo" src="https://oswaldlabs.com/images/logos/scoopwhoop-5861e522.svg" style="height: 55px"> </a>
 	</div>
 </section>
