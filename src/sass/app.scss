@@ -361,12 +361,16 @@ header .navbar .dropdown-menu:before {
 	border-right: 7px solid transparent;
 	border-bottom: 7px solid #fff;
 }
+header .navbar .dropdown-menu .dropdown-item,
+header .navbar .dropdown-menu a {
+	&.active,
+	&:active {
+		background-color: whitesmoke;
+	}
+}
 header .navbar .dropdown-menu a {
 	color: #32325d;
 	padding: 0.75rem 1.25rem;
-	&.active {
-		background-color: whitesmoke;
-	}
 }
 
 .dark-1 {
@@ -789,4 +793,21 @@ blockquote {
 
 .page-meta {
 	display: none !important;
+}
+
+a.card {
+	color: inherit;
+	transition: 0.2s;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		transform: scale(1.025);
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	}
+}
+
+img, svg {
+	vertical-align: middle !important;
+	max-width: 100% !important;
 }

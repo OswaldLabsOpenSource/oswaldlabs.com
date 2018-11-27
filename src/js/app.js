@@ -26,7 +26,7 @@ ready(() => {
 			link.classList.remove("subactive");
 			if (simplify(link.getAttribute("href")) === simplify(location.pathname)) {
 				link.classList.add("active");
-			} else if (simplify(link.getAttribute("href")) !== "/" && simplify(location.pathname).includes(simplify(link.getAttribute("href")))) {
+			} else if (link.getAttribute("href") !== "/" && simplify(location.pathname).includes(simplify(link.getAttribute("href")))) {
 				link.classList.add("subactive");
 			}
 		});
