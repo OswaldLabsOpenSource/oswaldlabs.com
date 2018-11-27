@@ -16,9 +16,9 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 		</div>
 	</div>
 </section>
-<section class="pt-4">
-	<div class="container">
-		<h2 class="subheading mb-4">For websites</h2>
+<section class="pt-md-4">
+	<div class="container pt-3 pt-md-0">
+		<h2 class="subheading mb-4">Modes for websites</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/solutions/dyslexia-friendly-mode" class="card card-body d-block">
@@ -39,6 +39,12 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
+				<a href="/solutions/increase-font-size" class="card card-body d-block">
+					<i class="fas fa-moon fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Dark theme</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
 				<a href="/solutions/high-contrast" class="card card-body d-block">
 					<i class="fas fa-adjust fa-fw fa-2x mr-2 text-muted"></i>
 					<span>High contrast</span>
@@ -50,6 +56,9 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 					<span>Increase font size</span>
 				</a>
 			</div>
+		</div>
+		<h2 class="subheading mb-4 mt-5">Tools for websites</h2>
+		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/solutions/privacy-web-analytics" class="card card-body d-block">
 					<i class="fas fa-chart-pie fa-fw fa-2x mr-2 text-muted"></i>
@@ -92,8 +101,14 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 					<span>Website internationalization</span>
 				</a>
 			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/solutions/blog-to-podcast" class="card card-body d-block">
+					<i class="fas fa-podcast fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Blog to audio podcast</span>
+				</a>
+			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">For smartphones</h2>
+		<h2 class="subheading mb-4 mt-5">Apps for smartphones</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/solutions/dyslexia-reading" class="card card-body d-block">
@@ -120,7 +135,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">For companies</h2>
+		<h2 class="subheading mb-4 mt-5">Services for companies</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/solutions/website-accessibility-audits" class="card card-body d-block">
@@ -153,7 +168,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">For developers</h2>
+		<h2 class="subheading mb-4 mt-5">APIs for developers</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/solutions/accessibility-widget-api" class="card card-body d-block">
@@ -165,6 +180,12 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				<a href="/solutions/lighthouse-auditing-api" class="card card-body d-block">
 					<i class="fas fa-code fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Lighthouse auditing API</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/solutions/knowledge-apis" class="card card-body d-block">
+					<i class="fas fa-search-location fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Knowledge APIs</span>
 				</a>
 			</div>
 		</div>
