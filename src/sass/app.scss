@@ -76,10 +76,12 @@ h2 {
 	vertical-align: middle;
 }
 
-.bg-light-1 {
+.bg-light-1,
+.bg-light-1-force {
 	background-color: #f6f9fc;
 }
-.bg-light-2 {
+.bg-light-2,
+.bg-light-2-force {
 	background-color: #e9edf1;
 }
 .navbar-brand svg {
@@ -278,7 +280,6 @@ footer {
 	background-color: #f6f9fc;
 	padding-top: 10rem;
 	padding-bottom: 7.5rem;
-	margin-bottom: 5rem;
 	p {
 		max-width: 500px;
 		margin-top: 1.5rem;
@@ -316,9 +317,9 @@ footer {
 	margin-bottom: 0;
 }
 .page-shravan {
-	.hero, .navigation {
+	color: rgb(86, 49, 53);
+	.hero, .navigation, .bg-light-1 {
 		background-color: #fffafa;
-		color: rgb(86, 49, 53);
 	}
 }
 
@@ -809,11 +810,33 @@ a.card {
 
 img, svg {
 	vertical-align: middle !important;
-	max-width: 100% !important;
+	max-width: 100%;
 }
 
 .big-image {
 	img {
 		margin-bottom: -15rem;
 	}
+}
+
+.hero-image {
+	max-width: 350px;
+	margin-left: 100px;
+	position: absolute;
+}
+
+.app-icon {
+	width: 2.5rem;
+	margin-top: -0.6rem;
+	border-radius: 100%;
+	margin-right: 1rem;
+	float: left;
+	+ h2 + p {
+		margin-top: 1.5rem;
+	}
+}
+
+.intro-para {
+	margin: 1.5rem 0;
+	max-width: 500px;
 }

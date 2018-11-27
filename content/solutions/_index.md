@@ -16,7 +16,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 		</div>
 	</div>
 </section>
-<section class="pt-md-4">
+<section>
 	<div class="container pt-3 pt-md-0">
 		<h2 class="subheading mb-4">Modes for websites</h2>
 		<div class="row">
