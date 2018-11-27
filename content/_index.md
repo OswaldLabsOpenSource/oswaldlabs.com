@@ -127,36 +127,20 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 pr-md-5 links-fc3c53">
-				<svg viewBox="0 0 346 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					<defs>
-						<linearGradient x1="16.9131039%" y1="12.8462903%" x2="59.2264187%" y2="98.2266104%" id="shravanGradient">
-							<stop stop-color="#FF792D" offset="0%"></stop>
-							<stop stop-color="#F80077" offset="100%"></stop>
-						</linearGradient>
-					</defs>
-					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<circle fill="url(#shravanGradient)" cx="173" cy="173" r="173"></circle>
-						<path d="M209.576,209.216 L208.424,209.216 L135.56,255.584 L118.28,239.744 L185.672,202.88 L185.672,201.728 C163.208,195.392 145.352,187.616 132.104,178.976 C117.416,185.6 100.136,190.784 81.128,195.392 L66.152,177.248 C76.808,175.232 95.816,171.488 113.672,165.152 C98.408,151.616 93.224,137.216 93.224,123.68 C93.224,102.368 110.504,83.936 136.712,83.936 C160.328,83.936 179.048,99.776 179.048,124.256 C179.048,142.976 168.392,157.376 150.824,168.32 C169.544,178.688 193.16,186.176 209.576,189.92 L209.576,87.104 L266.024,87.104 L266.024,105.536 L231.176,105.536 L231.176,272 L209.576,272 L209.576,209.216 Z M114.248,124.256 C114.248,136.928 120.872,147.296 132.392,156.8 C147.368,149.024 157.736,138.944 157.736,124.256 C157.736,110.72 148.808,102.368 136.712,102.368 C123.752,102.368 114.248,110.72 114.248,124.256 Z" fill="#FFFFFF"></path>
-					</g>
-				</svg>
-				<h2 class="subheading"> <span>Shravan</span> <span class="mt-2 small text-body d-block">Smartphone for the rest of us</span> </h2>
+				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
+				<h2 class="subheading">
+					<span>Shravan</span>
+					<span class="mt-2 small text-body d-block">Smartphone for the rest of us</span>
+				</h2>
 				<p>Shravan is the world’s first end-to-end accessible smartphone OS. With our patent-pending speech and vibration interface, Shravan can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting Android smartphone.</p>
 				<a class="btn btn-left" href="/shravan">Download for your smartphone →</a>
 			</div>
 			<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
-				<svg viewBox="0 0 346 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					<defs>
-						<linearGradient x1="16.9131039%" y1="12.8462903%" x2="59.2264187%" y2="98.2266104%" id="valmikiGradient">
-							<stop stop-color="#B3B424" stop-opacity="0.985054348" offset="0%"></stop>
-							<stop stop-color="#0F7030" offset="100%"></stop>
-						</linearGradient>
-					</defs>
-					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<circle fill="url(#valmikiGradient)" cx="173" cy="173" r="173"></circle>
-						<path d="M221.648,105.432 L256.496,105.432 L256.496,87 L86,87 L86,105.432 L200.048,105.432 L200.048,177.432 C200.048,200.76 185.36,219.192 162.032,219.192 C141.584,219.192 128.336,204.792 128.336,185.784 C128.336,160.152 151.952,148.344 176.144,154.68 L174.128,134.232 C141.872,128.472 105.296,145.176 105.296,186.072 C105.296,218.04 130.064,238.776 158.288,238.776 C179.6,238.776 192.848,228.984 198.896,221.496 L200.048,221.496 L200.048,271.896 L221.648,271.896 L221.648,105.432 Z" id="व" fill="#FFFFFF"></path>
-					</g>
-				</svg>
-				<h2 class="subheading"> <span>Valmiki</span> <span class="mt-2 small text-body d-block">Accessibility extension</span> </h2>
+				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
+				<h2 class="subheading">
+					<span>Valmiki</span>
+					<span class="mt-2 small text-body d-block">Accessibility extension</span>
+				</h2>
 				<p>Valmiki (Oswald for Chrome) is a browser extension that changes the look and feel of the entire web based on your design customizations and preferences. It’s especially helpful for people with dyslexia, because it comes built-in with an option that adjusts the color-contrast ratio and typography.</p>
 				<a class="btn btn-left" href="/valmiki">Download for your browser →</a>
 			</div>
