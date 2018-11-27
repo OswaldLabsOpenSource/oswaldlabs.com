@@ -166,6 +166,7 @@ header {
       font-weight: bold; }
 
 .page-shravan header {
+  font-size: 95%;
   padding: 0; }
   .page-shravan header nav {
     padding: 0; }
@@ -226,6 +227,7 @@ footer {
     text-transform: uppercase; }
 
 .hero {
+  background-color: #f6f9fc;
   padding-top: 10rem;
   padding-bottom: 7.5rem;
   margin-bottom: 5rem; }

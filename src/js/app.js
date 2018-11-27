@@ -16,13 +16,17 @@ ready(() => {
 		if (container && container.querySelector(".page-meta .page-slug")) {
 			document.body.className = "page-" + container.querySelector(".page-meta .page-slug").innerHTML;
 		}
+		function simplify(url) {
+			if (!url || typeof url.toLowerCase === "undefined") return;
+			return url.toLowerCase().replace(/\//g, "");
+		}
 		const links = document.querySelectorAll("a");
 		links.forEach(link => {
 			link.classList.remove("active");
 			link.classList.remove("subactive");
-			if (link.getAttribute("href") === location.pathname) {
+			if (simplify(link.getAttribute("href")) === simplify(location.pathname)) {
 				link.classList.add("active");
-			} else if (link.getAttribute("href") !== "/" && location.pathname.includes(link.getAttribute("href"))) {
+			} else if (simplify(link.getAttribute("href")) !== "/" && simplify(location.pathname).includes(simplify(link.getAttribute("href")))) {
 				link.classList.add("subactive");
 			}
 		});

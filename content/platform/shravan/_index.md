@@ -5,11 +5,7 @@ description: Smartphone for the rest of us
 
 <section class="hero">
 	<div class="container">
-		<h1>Technology for the next billion users.</h1>
-		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
-		<div class="mt-5">
-			<a class="btn btn-danger mr-3" href="/about">Download Shravan</a>
-			<a class="btn btn-outline-danger" href="/contact">Explore features</a>
-		</div>
+		<h1>Smartphone for the rest of us.</h1>
+		<p>With our speech and vibration technology, Shravan OS can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and our free and open-source Shravan apps empower users on Android and iOS.</p>
 	</div>
 </section>
