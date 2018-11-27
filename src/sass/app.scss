@@ -362,6 +362,9 @@ header .navbar .dropdown-menu:before {
 header .navbar .dropdown-menu a {
 	color: #32325d;
 	padding: 0.75rem 1.25rem;
+	&.active {
+		background-color: whitesmoke;
+	}
 }
 
 .dark-1 {
@@ -776,4 +779,12 @@ blockquote {
 	.logo:hover {
 		text-decoration: none;
 	}
+}
+
+.fade-in{animation:.3s fade-in ease forwards;animation:.3s fade-in ease forwards}
+.fade-out{opacity:.5}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
+
+.page-meta {
+	display: none !important;
 }
