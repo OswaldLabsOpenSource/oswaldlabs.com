@@ -167,20 +167,20 @@ header {
     header .nav-link.active {
       font-weight: bold; }
 
-.page-shravan header {
+.page-shravan header, .page-shravan-os header {
   font-size: 95%;
   padding: 0; }
-  .page-shravan header nav {
+  .page-shravan header nav, .page-shravan-os header nav {
     padding: 0; }
-  .page-shravan header .nav-link {
+  .page-shravan header .nav-link, .page-shravan-os header .nav-link {
     padding: 0.5rem 1rem !important; }
-  .page-shravan header .nav-item.dropdown .nav-link:focus {
+  .page-shravan header .nav-item.dropdown .nav-link:focus, .page-shravan-os header .nav-item.dropdown .nav-link:focus {
     -webkit-box-shadow: none;
             box-shadow: none; }
-  .page-shravan header .nav-link.subactive:hover {
+  .page-shravan header .nav-link.subactive:hover, .page-shravan-os header .nav-link.subactive:hover {
     opacity: 1;
     color: #000; }
-  .page-shravan header .nav-link.subactive::before {
+  .page-shravan header .nav-link.subactive::before, .page-shravan-os header .nav-link.subactive::before {
     position: absolute;
     left: 100%;
     pointer-events: none;
@@ -190,7 +190,7 @@ header {
     height: 100%;
     background-color: #fff;
     z-index: -1; }
-  .page-shravan header .nav-link.subactive::after {
+  .page-shravan header .nav-link.subactive::after, .page-shravan-os header .nav-link.subactive::after {
     position: absolute;
     right: 100%;
     pointer-events: none;
@@ -200,10 +200,10 @@ header {
     height: 100%;
     background-color: #fff;
     z-index: -1; }
-  .page-shravan header .navbar-brand {
+  .page-shravan header .navbar-brand, .page-shravan-os header .navbar-brand {
     font-size: 1.05rem;
     padding: 0; }
-    .page-shravan header .navbar-brand svg {
+    .page-shravan header .navbar-brand svg, .page-shravan-os header .navbar-brand svg {
       height: 20px;
       width: 20px; }
 
@@ -259,9 +259,9 @@ footer {
   background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
   margin-bottom: 0; }
 
-.page-shravan {
+.page-shravan, .page-shravan-os {
   color: #563135; }
-  .page-shravan .hero, .page-shravan .navigation, .page-shravan .bg-light-1 {
+  .page-shravan .hero, .page-shravan .navigation, .page-shravan .bg-light-1, .page-shravan-os .hero, .page-shravan-os .navigation, .page-shravan-os .bg-light-1 {
     background-color: #fffafa; }
 
 .page-home .fa-quote-left {
@@ -727,3 +727,58 @@ img, svg {
 .intro-para {
   margin: 1.5rem 0;
   max-width: 500px; }
+
+.fixedbox {
+  position: absolute;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 3rem;
+  height: 150%;
+  height: calc(100% + 8rem);
+  width: 50vw;
+  margin: -4rem 0; }
+
+.card-phone {
+  border-radius: 2rem;
+  text-align: center;
+  margin-top: -12rem;
+  padding-bottom: 1rem;
+  position: relative;
+  border: 1px solid #ddd; }
+  .card-phone::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 1.15rem;
+    border-radius: 100%;
+    margin-left: -3rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid #ddd; }
+  .card-phone::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 1.3rem;
+    border-radius: 3rem;
+    margin-left: -1rem;
+    right: 5rem;
+    height: 0.3rem;
+    border: 1px solid #ddd; }
+  .card-phone .screen {
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    margin: 3rem 0.5rem;
+    position: relative; }
+    .card-phone .screen::after {
+      content: "";
+      position: absolute;
+      bottom: -3rem;
+      left: 50%;
+      margin-left: -1.125rem;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 100%;
+      border: 1px solid #ddd; }

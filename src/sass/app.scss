@@ -197,7 +197,7 @@ header {
 	}
 }
 
-.page-shravan {
+.page-shravan, .page-shravan-os {
 	header {
 		font-size: 95%;
 		padding: 0;
@@ -316,7 +316,7 @@ footer {
 	background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	margin-bottom: 0;
 }
-.page-shravan {
+.page-shravan, .page-shravan-os {
 	color: rgb(86, 49, 53);
 	.hero, .navigation, .bg-light-1 {
 		background-color: #fffafa;
@@ -839,4 +839,63 @@ img, svg {
 .intro-para {
 	margin: 1.5rem 0;
 	max-width: 500px;
+}
+
+.fixedbox {
+	position: absolute;
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	left: 3rem;
+	height: 150%;
+	height: calc(100% + 8rem);
+	width: 50vw;
+	margin: -4rem 0;
+}
+
+.card-phone {
+	border-radius: 2rem;
+	text-align: center;
+	margin-top: -12rem;
+	padding-bottom: 1rem;
+	position: relative;
+	border: 1px solid #ddd;
+	&::before {
+		content: "";
+		position: absolute;
+		left: 50%; top: 1.15rem;
+		border-radius: 100%;
+		margin-left: -3rem;
+		width: 0.75rem;
+		height: 0.75rem;
+		border: 1px solid #ddd;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		left: 50%; top: 1.3rem;
+		border-radius: 3rem;
+		margin-left: -1rem;
+		right: 5rem;
+		height: 0.3rem;
+		border: 1px solid #ddd;
+	}
+	.screen {
+		background-color: whitesmoke;
+		border: 1px solid #ddd;
+		margin: 3rem 0.5rem;
+		position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -3rem;
+			left: 50%;
+			margin-left: -1.125rem;
+			width: 2.25rem;
+			height: 2.25rem;
+			border-radius: 100%;
+			border: 1px solid #ddd;
+		}
+	}
 }
