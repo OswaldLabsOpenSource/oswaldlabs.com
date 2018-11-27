@@ -167,20 +167,26 @@ header {
     header .nav-link.active {
       font-weight: bold; }
 
-.page-shravan header, .page-shravan-os header, .page-shravan-phone header, .page-shravan-apps header {
+.page-shravan header, .page-shravan-os header, .page-shravan-phone header, .page-shravan-apps header,
+.page-agastya header {
   font-size: 95%;
   padding: 0; }
-  .page-shravan header nav, .page-shravan-os header nav, .page-shravan-phone header nav, .page-shravan-apps header nav {
+  .page-shravan header nav, .page-shravan-os header nav, .page-shravan-phone header nav, .page-shravan-apps header nav,
+  .page-agastya header nav {
     padding: 0; }
-  .page-shravan header .nav-link, .page-shravan-os header .nav-link, .page-shravan-phone header .nav-link, .page-shravan-apps header .nav-link {
+  .page-shravan header .nav-link, .page-shravan-os header .nav-link, .page-shravan-phone header .nav-link, .page-shravan-apps header .nav-link,
+  .page-agastya header .nav-link {
     padding: 0.5rem 1rem !important; }
-  .page-shravan header .nav-item.dropdown .nav-link:focus, .page-shravan-os header .nav-item.dropdown .nav-link:focus, .page-shravan-phone header .nav-item.dropdown .nav-link:focus, .page-shravan-apps header .nav-item.dropdown .nav-link:focus {
+  .page-shravan header .nav-item.dropdown .nav-link:focus, .page-shravan-os header .nav-item.dropdown .nav-link:focus, .page-shravan-phone header .nav-item.dropdown .nav-link:focus, .page-shravan-apps header .nav-item.dropdown .nav-link:focus,
+  .page-agastya header .nav-item.dropdown .nav-link:focus {
     -webkit-box-shadow: none;
             box-shadow: none; }
-  .page-shravan header .nav-link.subactive:hover, .page-shravan-os header .nav-link.subactive:hover, .page-shravan-phone header .nav-link.subactive:hover, .page-shravan-apps header .nav-link.subactive:hover {
+  .page-shravan header .nav-link.subactive:hover, .page-shravan-os header .nav-link.subactive:hover, .page-shravan-phone header .nav-link.subactive:hover, .page-shravan-apps header .nav-link.subactive:hover,
+  .page-agastya header .nav-link.subactive:hover {
     opacity: 1;
     color: #000; }
-  .page-shravan header .nav-link.subactive::before, .page-shravan-os header .nav-link.subactive::before, .page-shravan-phone header .nav-link.subactive::before, .page-shravan-apps header .nav-link.subactive::before {
+  .page-shravan header .nav-link.subactive::before, .page-shravan-os header .nav-link.subactive::before, .page-shravan-phone header .nav-link.subactive::before, .page-shravan-apps header .nav-link.subactive::before,
+  .page-agastya header .nav-link.subactive::before {
     position: absolute;
     left: 100%;
     pointer-events: none;
@@ -190,7 +196,8 @@ header {
     height: 100%;
     background-color: #fff;
     z-index: -1; }
-  .page-shravan header .nav-link.subactive::after, .page-shravan-os header .nav-link.subactive::after, .page-shravan-phone header .nav-link.subactive::after, .page-shravan-apps header .nav-link.subactive::after {
+  .page-shravan header .nav-link.subactive::after, .page-shravan-os header .nav-link.subactive::after, .page-shravan-phone header .nav-link.subactive::after, .page-shravan-apps header .nav-link.subactive::after,
+  .page-agastya header .nav-link.subactive::after {
     position: absolute;
     right: 100%;
     pointer-events: none;
@@ -200,10 +207,12 @@ header {
     height: 100%;
     background-color: #fff;
     z-index: -1; }
-  .page-shravan header .navbar-brand, .page-shravan-os header .navbar-brand, .page-shravan-phone header .navbar-brand, .page-shravan-apps header .navbar-brand {
+  .page-shravan header .navbar-brand, .page-shravan-os header .navbar-brand, .page-shravan-phone header .navbar-brand, .page-shravan-apps header .navbar-brand,
+  .page-agastya header .navbar-brand {
     font-size: 1.05rem;
     padding: 0; }
-    .page-shravan header .navbar-brand svg, .page-shravan-os header .navbar-brand svg, .page-shravan-phone header .navbar-brand svg, .page-shravan-apps header .navbar-brand svg {
+    .page-shravan header .navbar-brand svg, .page-shravan-os header .navbar-brand svg, .page-shravan-phone header .navbar-brand svg, .page-shravan-apps header .navbar-brand svg,
+    .page-agastya header .navbar-brand svg {
       height: 20px;
       width: 20px; }
 
@@ -274,6 +283,11 @@ footer {
   color: #563135; }
   .page-shravan .hero, .page-shravan .navigation, .page-shravan .bg-light-1, .page-shravan .triangle::after, .page-shravan-os .hero, .page-shravan-os .navigation, .page-shravan-os .bg-light-1, .page-shravan-os .triangle::after, .page-shravan-phone .hero, .page-shravan-phone .navigation, .page-shravan-phone .bg-light-1, .page-shravan-phone .triangle::after, .page-shravan-apps .hero, .page-shravan-apps .navigation, .page-shravan-apps .bg-light-1, .page-shravan-apps .triangle::after {
     background-color: #fffafa; }
+
+.page-agastya {
+  color: #5d421e; }
+  .page-agastya .hero, .page-agastya .navigation, .page-agastya .bg-light-1, .page-agastya .triangle::after {
+    background-color: #fffeee; }
 
 .page-home .fa-quote-left {
   opacity: 0.5; }
