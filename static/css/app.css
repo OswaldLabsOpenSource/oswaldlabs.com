@@ -146,9 +146,9 @@ header .navbar .nav-link, header .navbar .navbar-brand {
   header .navbar .nav-link:hover, header .navbar .navbar-brand:hover {
     opacity: 0.75; }
 
-.page-home header .navbar .nav-link, .page-home header .navbar .navbar-brand {
+.page-home header .navbar .nav-link, .page-home header .navbar .navbar-brand, .page-about header .navbar .nav-link, .page-about header .navbar .navbar-brand {
   color: #fff; }
-  .page-home header .navbar .nav-link svg g, .page-home header .navbar .navbar-brand svg g {
+  .page-home header .navbar .nav-link svg g, .page-home header .navbar .navbar-brand svg g, .page-about header .navbar .nav-link svg g, .page-about header .navbar .navbar-brand svg g {
     fill: #fff; }
 
 header {
@@ -290,6 +290,26 @@ footer {
 .page-home .hero {
   background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
   margin-bottom: 0; }
+
+.page-about .hero {
+  color: #fdf2d5;
+  background: #888 url("https://oswaldlabs.com/images/about-bg-26b372b0.png") center;
+  background-size: cover; }
+  .page-about .hero a {
+    color: #fff;
+    font-weight: bold; }
+  .page-about .hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.6); }
+  .page-about .hero > * {
+    position: relative;
+    z-index: 1; }
 
 .page-shravan main, .page-shravan-os main, .page-shravan-phone main, .page-shravan-apps main {
   color: #563135; }
@@ -758,14 +778,14 @@ a.card {
   color: inherit;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); }
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1) !important;
+          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1) !important; }
   a.card:hover, a.card:focus {
     text-decoration: none;
     -webkit-transform: scale(1.025);
             transform: scale(1.025);
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); }
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important; }
 
 img, svg {
   vertical-align: middle !important;
@@ -812,6 +832,10 @@ img, svg {
   height: calc(100% + 8rem);
   width: 50vw;
   margin: -4rem 0; }
+
+.card.card-body {
+  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); }
 
 .card-phone {
   border-radius: 2rem;
@@ -872,3 +896,7 @@ img, svg {
 
 .o-6 {
   opacity: 0.5; }
+
+.timeline-line {
+  background: #aaa;
+  width: 2px; }

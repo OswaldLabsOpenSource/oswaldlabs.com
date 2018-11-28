@@ -168,7 +168,7 @@ header .navbar {
 		}
 	}
 }
-.page-home {
+.page-home, .page-about {
 	header .navbar {
 		.nav-link, .navbar-brand {
 			color: #fff;
@@ -330,6 +330,27 @@ footer {
 .page-home .hero {
 	background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
 	margin-bottom: 0;
+}
+.page-about .hero {
+	color: #fdf2d5;
+	a {
+		color: #fff;
+		font-weight: bold;
+	}
+	background: #888 url("https://oswaldlabs.com/images/about-bg-26b372b0.png") center;
+	background-size: cover;
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0; right: 0;
+		top: 0; bottom: 0;
+		z-index: 0;
+		background: rgba(0, 0, 0, 0.6);
+	}
+	> * {
+		position: relative;
+		z-index: 1;
+	}
 }
 .page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps {
 	main {
@@ -855,12 +876,12 @@ blockquote {
 a.card {
 	color: inherit;
 	transition: 0.2s;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1) !important;
 	&:hover,
 	&:focus {
 		text-decoration: none;
 		transform: scale(1.025);
-		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
 	}
 }
 
@@ -918,6 +939,10 @@ img, svg {
 	height: calc(100% + 8rem);
 	width: 50vw;
 	margin: -4rem 0;
+}
+
+.card.card-body {
+	box-shadow: 0 15px 35px rgba(50,50,93,0.1), 0 5px 15px rgba(0,0,0,0.07);
 }
 
 .card-phone {
@@ -985,4 +1010,9 @@ img, svg {
 
 .o-6 {
 	opacity: 0.5;
+}
+
+.timeline-line {
+	background: #aaa;
+	width: 2px;
 }
