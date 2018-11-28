@@ -201,7 +201,8 @@ header {
 }
 
 .page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps,
-.page-agastya {
+.page-agastya,
+.page-valmiki {
 	header {
 		font-size: 95%;
 		padding: 0;
@@ -331,15 +332,50 @@ footer {
 	margin-bottom: 0;
 }
 .page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps {
-	color: rgb(86, 49, 53);
-	.hero, .navigation, .bg-light-1, .triangle::after {
-		background-color: #fffafa;
+	main {
+		color: rgb(86, 49, 53);
+		.hero, .navigation, .bg-light-1, .triangle::after {
+			background-color: #fffafa;
+		}
+	}
+}
+.page-valmiki {
+	main {
+		color: #31563d;
+		.hero, .navigation, .bg-light-1, .triangle::after {
+			background-color: #f8fff3;
+		}
+	}
+	.bg {
+		color: #fff;
+		background: url("https://source.unsplash.com/UH-xs-FizTk/1600x900") center;
+		background-size: cover;
+		padding: 7.5rem 0;
+		position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			background-color: rgba(0, 0, 0, 0.6);
+			left: 0; right: 0;
+			top: 0; bottom: 0;
+		}
+		> * {
+			position: relative;
+			z-index: 2;
+			max-width: 500px;
+		}
 	}
 }
 .page-agastya {
-	color: #5d421e;
-	.hero, .navigation, .bg-light-1, .triangle::after {
-		background-color: #fffeee;
+	main {
+		color: #5d421e;
+		.text-muted {
+			color: #5d421e !important;
+			opacity: 0.75;
+		}
+		.hero, .navigation, .bg-light-1, .triangle::after {
+			background-color: #fffeee;
+		}
 	}
 }
 
@@ -843,6 +879,16 @@ img, svg {
 	max-width: 350px;
 	margin-left: 100px;
 	position: absolute;
+}
+.hero-image-alt {
+	max-width: 350px;
+	margin-bottom: -100%;
+}
+@media (max-width: 670px) {
+	.hero-image-alt {
+		margin-bottom: -20%;
+		margin-top: 5rem;
+	}
 }
 
 .app-icon {

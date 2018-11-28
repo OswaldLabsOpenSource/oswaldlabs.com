@@ -14,8 +14,8 @@ description: Smartphone for the rest of us
 					<a href="/platform/agastya/features" class="btn btn-warning">Get started for free &rarr;</a>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<img class="hero-image" style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" alt="" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1543411572/oswald-labs/agatsya/agastya-custom.png">
+			<div class="col-md-6 text-right">
+				<img class="hero-image-alt" style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" alt="" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1543411572/oswald-labs/agatsya/agastya-custom.png">
 			</div>
 		</div>
 	</div>
@@ -64,69 +64,92 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 		</div>
-		<div class="row mt-5">
+	</div>
+</section>
+<section class="bg-light-1">
+	<div class="container">
+		<h2 class="text-center mb-5">Features for everybody.</h2>
+		<div class="row">
 			<div class="col-md-6">
-				<div class="row text-center justify-content-center mt-5">
-					<div class="col-md">
-						<i class="fas fa-blind fa-2x text-muted mb-3"></i>
-						<div>Modes</div>
-					</div>
+				<div class="row text-center justify-content-center">
 					<div class="col-md">
 						<i class="fas fa-book-open fa-2x text-muted mb-3"></i>
+						<div>Reading</div>
+					</div>
+					<div class="col-md">
+						<i class="fas fa-language fa-2x text-muted mb-3"></i>
 						<div>Translation</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-hand-holding-heart fa-2x text-muted mb-3"></i>
+						<i class="fas fa-adjust fa-2x text-muted mb-3"></i>
 						<div>Contrast</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-atlas fa-2x text-muted mb-3"></i>
+						<i class="fas fa-text-height fa-2x text-muted mb-3"></i>
 						<div>Font size</div>
 					</div>
 				</div>
 				<div class="row text-center justify-content-center mt-5">
 					<div class="col-md">
-						<i class="fas fa-user-injured fa-2x text-muted mb-3"></i>
+						<i class="fas fa-cloud-moon fa-2x text-muted mb-3"></i>
 						<div>Blue filter</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-low-vision fa-2x text-muted mb-3"></i>
+						<i class="fas fa-volume-up fa-2x text-muted mb-3"></i>
 						<div>Read aloud</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-wheelchair fa-2x text-muted mb-3"></i>
+						<i class="fas fa-chart-pie fa-2x text-muted mb-3"></i>
 						<div>Analytics</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-users fa-2x text-muted mb-3"></i>
+						<i class="fas fa-comments fa-2x text-muted mb-3"></i>
 						<div>Live chat</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="row text-center justify-content-center mt-5">
+				<div class="row text-center justify-content-center">
 					<div class="col-md">
-						<i class="fas fa-blind fa-2x text-muted mb-3"></i>
+						<i class="fas fa-comment fa-2x text-muted mb-3"></i>
 						<div>Feedback</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-book-open fa-2x text-muted mb-3"></i>
+						<i class="fas fa-cookie-bite fa-2x text-muted mb-3"></i>
 						<div>Cookie law</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-hand-holding-heart fa-2x text-muted mb-3"></i>
+						<i class="fas fa-podcast fa-2x text-muted mb-3"></i>
 						<div>Text-to-speech</div>
 					</div>
 					<div class="col-md">
-						<i class="fas fa-atlas fa-2x text-muted mb-3"></i>
+						<i class="fas fa-chart-area fa-2x text-muted mb-3"></i>
 						<div>Audits</div>
+					</div>
+				</div>
+				<div class="row text-center justify-content-center mt-5">
+					<div class="col-md">
+						<i class="fas fa-moon fa-2x text-muted mb-3"></i>
+						<div>Night mode</div>
+					</div>
+					<div class="col-md">
+						<i class="fas fa-file-export fa-2x text-muted mb-3"></i>
+						<div>Data export</div>
+					</div>
+					<div class="col-md">
+						<i class="fas fa-universal-access fa-2x text-muted mb-3"></i>
+						<div>Statement</div>
+					</div>
+					<div class="col-md">
+						<i class="fas fa-hands-helping fa-2x text-muted mb-3"></i>
+						<div>Guide</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="bg-light-1">
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 pr-5">
@@ -148,7 +171,7 @@ description: Smartphone for the rest of us
 		</div>
 	</div>
 </section>
-<section class="">
+<section class="dark">
 	<div class="container">
 		<h2 class="text-center mb-5">Built for Europe.</h2>
 		<div class="row">
