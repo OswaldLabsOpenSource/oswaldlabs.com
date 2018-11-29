@@ -8,7 +8,9 @@
 {{ end }}
 {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 </head>
-{{ if .Params.title }}
+{{ if .Params.type }}
+<body class="page-{{ .Params.type }}">
+{{ else if .Params.title }}
 <body class="page-{{ .Params.title | urlize }}">
 {{ else }}
 <body>

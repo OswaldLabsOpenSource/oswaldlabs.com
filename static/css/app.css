@@ -171,30 +171,30 @@ header {
       font-weight: bold; }
 
 .page-shravan header, .page-shravan-os header, .page-shravan-phone header, .page-shravan-apps header,
-.page-agastya header, .page-agastya-features header,
+.page-agastya header, .page-agastya-features header, .page-agastya-pricing header,
 .page-valmiki header {
   font-size: 95%;
   padding: 0; }
   .page-shravan header nav, .page-shravan-os header nav, .page-shravan-phone header nav, .page-shravan-apps header nav,
-  .page-agastya header nav, .page-agastya-features header nav,
+  .page-agastya header nav, .page-agastya-features header nav, .page-agastya-pricing header nav,
   .page-valmiki header nav {
     padding: 0; }
   .page-shravan header .nav-link, .page-shravan-os header .nav-link, .page-shravan-phone header .nav-link, .page-shravan-apps header .nav-link,
-  .page-agastya header .nav-link, .page-agastya-features header .nav-link,
+  .page-agastya header .nav-link, .page-agastya-features header .nav-link, .page-agastya-pricing header .nav-link,
   .page-valmiki header .nav-link {
     padding: 0.5rem 1rem !important; }
   .page-shravan header .nav-item.dropdown .nav-link:focus, .page-shravan-os header .nav-item.dropdown .nav-link:focus, .page-shravan-phone header .nav-item.dropdown .nav-link:focus, .page-shravan-apps header .nav-item.dropdown .nav-link:focus,
-  .page-agastya header .nav-item.dropdown .nav-link:focus, .page-agastya-features header .nav-item.dropdown .nav-link:focus,
+  .page-agastya header .nav-item.dropdown .nav-link:focus, .page-agastya-features header .nav-item.dropdown .nav-link:focus, .page-agastya-pricing header .nav-item.dropdown .nav-link:focus,
   .page-valmiki header .nav-item.dropdown .nav-link:focus {
     -webkit-box-shadow: none;
             box-shadow: none; }
   .page-shravan header .nav-link.subactive:hover, .page-shravan-os header .nav-link.subactive:hover, .page-shravan-phone header .nav-link.subactive:hover, .page-shravan-apps header .nav-link.subactive:hover,
-  .page-agastya header .nav-link.subactive:hover, .page-agastya-features header .nav-link.subactive:hover,
+  .page-agastya header .nav-link.subactive:hover, .page-agastya-features header .nav-link.subactive:hover, .page-agastya-pricing header .nav-link.subactive:hover,
   .page-valmiki header .nav-link.subactive:hover {
     opacity: 1;
     color: #000; }
   .page-shravan header .nav-link.subactive::before, .page-shravan-os header .nav-link.subactive::before, .page-shravan-phone header .nav-link.subactive::before, .page-shravan-apps header .nav-link.subactive::before,
-  .page-agastya header .nav-link.subactive::before, .page-agastya-features header .nav-link.subactive::before,
+  .page-agastya header .nav-link.subactive::before, .page-agastya-features header .nav-link.subactive::before, .page-agastya-pricing header .nav-link.subactive::before,
   .page-valmiki header .nav-link.subactive::before {
     position: absolute;
     left: 100%;
@@ -206,7 +206,7 @@ header {
     background-color: #fff;
     z-index: -1; }
   .page-shravan header .nav-link.subactive::after, .page-shravan-os header .nav-link.subactive::after, .page-shravan-phone header .nav-link.subactive::after, .page-shravan-apps header .nav-link.subactive::after,
-  .page-agastya header .nav-link.subactive::after, .page-agastya-features header .nav-link.subactive::after,
+  .page-agastya header .nav-link.subactive::after, .page-agastya-features header .nav-link.subactive::after, .page-agastya-pricing header .nav-link.subactive::after,
   .page-valmiki header .nav-link.subactive::after {
     position: absolute;
     right: 100%;
@@ -218,12 +218,12 @@ header {
     background-color: #fff;
     z-index: -1; }
   .page-shravan header .navbar-brand, .page-shravan-os header .navbar-brand, .page-shravan-phone header .navbar-brand, .page-shravan-apps header .navbar-brand,
-  .page-agastya header .navbar-brand, .page-agastya-features header .navbar-brand,
+  .page-agastya header .navbar-brand, .page-agastya-features header .navbar-brand, .page-agastya-pricing header .navbar-brand,
   .page-valmiki header .navbar-brand {
     font-size: 1.05rem;
     padding: 0; }
     .page-shravan header .navbar-brand svg, .page-shravan-os header .navbar-brand svg, .page-shravan-phone header .navbar-brand svg, .page-shravan-apps header .navbar-brand svg,
-    .page-agastya header .navbar-brand svg, .page-agastya-features header .navbar-brand svg,
+    .page-agastya header .navbar-brand svg, .page-agastya-features header .navbar-brand svg, .page-agastya-pricing header .navbar-brand svg,
     .page-valmiki header .navbar-brand svg {
       height: 20px;
       width: 20px; }
@@ -343,21 +343,21 @@ footer {
     z-index: 2;
     max-width: 500px; }
 
-.page-agastya .btn-warning, .page-agastya-features .btn-warning {
+.page-agastya .btn-warning, .page-agastya-features .btn-warning, .page-agastya-pricing .btn-warning {
   background-color: #e96300 !important;
   border-color: #e96300 !important;
   color: #fff !important; }
-  .page-agastya .btn-warning:hover, .page-agastya .btn-warning:active, .page-agastya .btn-warning:focus, .page-agastya-features .btn-warning:hover, .page-agastya-features .btn-warning:active, .page-agastya-features .btn-warning:focus {
+  .page-agastya .btn-warning:hover, .page-agastya .btn-warning:active, .page-agastya .btn-warning:focus, .page-agastya-features .btn-warning:hover, .page-agastya-features .btn-warning:active, .page-agastya-features .btn-warning:focus, .page-agastya-pricing .btn-warning:hover, .page-agastya-pricing .btn-warning:active, .page-agastya-pricing .btn-warning:focus {
     color: #fff !important;
     background-color: #c95300 !important;
     border-color: #c95300 !important; }
 
-.page-agastya main, .page-agastya-features main {
+.page-agastya main, .page-agastya-features main, .page-agastya-pricing main {
   color: #5d421e; }
-  .page-agastya main .text-muted, .page-agastya-features main .text-muted {
+  .page-agastya main .text-muted, .page-agastya-features main .text-muted, .page-agastya-pricing main .text-muted {
     color: #5d421e !important;
     opacity: 0.75; }
-  .page-agastya main .hero, .page-agastya main .navigation, .page-agastya main .bg-light-1, .page-agastya main .triangle::after, .page-agastya-features main .hero, .page-agastya-features main .navigation, .page-agastya-features main .bg-light-1, .page-agastya-features main .triangle::after {
+  .page-agastya main .hero, .page-agastya main .navigation, .page-agastya main .bg-light-1, .page-agastya main .triangle::after, .page-agastya-features main .hero, .page-agastya-features main .navigation, .page-agastya-features main .bg-light-1, .page-agastya-features main .triangle::after, .page-agastya-pricing main .hero, .page-agastya-pricing main .navigation, .page-agastya-pricing main .bg-light-1, .page-agastya-pricing main .triangle::after {
     background-color: #fffeee;
     color: #5d421e; }
 
@@ -962,3 +962,9 @@ img, svg {
       margin-bottom: 1rem; }
   .team p {
     font-size: 85%; }
+
+.table td {
+  vertical-align: middle; }
+
+svg.align {
+  vertical-align: -.125em !important; }

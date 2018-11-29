@@ -201,7 +201,7 @@ header {
 }
 
 .page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps,
-.page-agastya, .page-agastya-features,
+.page-agastya, .page-agastya-features, .page-agastya-pricing,
 .page-valmiki {
 	header {
 		font-size: 95%;
@@ -390,7 +390,7 @@ footer {
 		}
 	}
 }
-.page-agastya, .page-agastya-features {
+.page-agastya, .page-agastya-features, .page-agastya-pricing {
 	.btn-warning {
 		background-color: #e96300 !important;
 		border-color: #e96300 !important;
@@ -1085,4 +1085,12 @@ img, svg {
 	p {
 		font-size: 85%;
 	}
+}
+
+.table td {
+	vertical-align: middle;
+}
+
+svg.align {
+	vertical-align: -.125em !important;
 }
