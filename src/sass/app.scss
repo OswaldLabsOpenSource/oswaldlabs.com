@@ -201,7 +201,7 @@ header {
 }
 
 .page-shravan, .page-shravan-os, .page-shravan-phone, .page-shravan-apps,
-.page-agastya,
+.page-agastya, .page-agastya-features,
 .page-valmiki {
 	header {
 		font-size: 95%;
@@ -390,7 +390,17 @@ footer {
 		}
 	}
 }
-.page-agastya {
+.page-agastya, .page-agastya-features {
+	.btn-warning {
+		background-color: #e96300 !important;
+		border-color: #e96300 !important;
+		color: #fff !important;
+		&:hover, &:active, &:focus {
+			color: #fff !important;
+			background-color: #c95300 !important;
+			border-color: #c95300 !important;
+		}
+	}
 	main {
 		color: #5d421e;
 		.text-muted {
@@ -999,17 +1009,6 @@ img, svg {
 	height: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
-}
-
-.btn-warning {
-	background-color: #e96300;
-	border-color: #e96300;
-	color: #fff;
-	&:hover, &:active, &:focus {
-		color: #fff !important;
-		background-color: #c95300 !important;
-		border-color: #c95300 !important;
-	}
 }
 
 .o-6 {
