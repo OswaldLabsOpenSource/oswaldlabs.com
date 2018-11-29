@@ -897,6 +897,50 @@ img, svg {
 .o-6 {
   opacity: 0.5; }
 
-.timeline-line {
-  background: #aaa;
-  width: 2px; }
+.timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative; }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    top: 5rem;
+    margin-left: -1px;
+    bottom: 2rem;
+    background-color: #ddd;
+    left: 50%; }
+  .timeline li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+    .timeline li > div {
+      max-width: 45%; }
+    .timeline li time {
+      margin-bottom: 0.75rem;
+      display: block; }
+    .timeline li::after {
+      content: "";
+      background-color: #aaa;
+      border: 1rem solid #fff;
+      width: 3rem;
+      border-radius: 100%;
+      height: 3rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -1.5rem;
+      margin-top: -0.5rem; }
+    .timeline li a {
+      padding: 1rem 1.5rem;
+      position: relative; }
+    .timeline li:nth-of-type(2n - 1) {
+      text-align: right; }
+    .timeline li:nth-of-type(2n) {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+    .timeline li:not(:last-of-type) {
+      margin-bottom: -2.5rem; }
