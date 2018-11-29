@@ -250,6 +250,7 @@ footer {
     text-transform: uppercase; }
 
 .hero {
+  color: #32325d;
   background-color: #f6f9fc;
   padding-top: 10rem;
   padding-bottom: 7.5rem; }
@@ -314,12 +315,14 @@ footer {
 .page-shravan main, .page-shravan-os main, .page-shravan-phone main, .page-shravan-apps main {
   color: #563135; }
   .page-shravan main .hero, .page-shravan main .navigation, .page-shravan main .bg-light-1, .page-shravan main .triangle::after, .page-shravan-os main .hero, .page-shravan-os main .navigation, .page-shravan-os main .bg-light-1, .page-shravan-os main .triangle::after, .page-shravan-phone main .hero, .page-shravan-phone main .navigation, .page-shravan-phone main .bg-light-1, .page-shravan-phone main .triangle::after, .page-shravan-apps main .hero, .page-shravan-apps main .navigation, .page-shravan-apps main .bg-light-1, .page-shravan-apps main .triangle::after {
-    background-color: #fffafa; }
+    background-color: #fffafa;
+    color: #563135; }
 
 .page-valmiki main {
   color: #31563d; }
   .page-valmiki main .hero, .page-valmiki main .navigation, .page-valmiki main .bg-light-1, .page-valmiki main .triangle::after {
-    background-color: #f8fff3; }
+    background-color: #f8fff3;
+    color: #31563d; }
 
 .page-valmiki .bg {
   color: #fff;
@@ -346,7 +349,8 @@ footer {
     color: #5d421e !important;
     opacity: 0.75; }
   .page-agastya main .hero, .page-agastya main .navigation, .page-agastya main .bg-light-1, .page-agastya main .triangle::after {
-    background-color: #fffeee; }
+    background-color: #fffeee;
+    color: #5d421e; }
 
 .page-home .fa-quote-left {
   opacity: 0.5; }
@@ -944,3 +948,17 @@ img, svg {
               justify-content: flex-end; }
     .timeline li:not(:last-of-type) {
       margin-bottom: -2.5rem; }
+
+.team {
+  text-align: center; }
+  .team img {
+    max-width: 120px; }
+  .team h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 125%; }
+    .team h3 + div {
+      opacity: 0.8;
+      margin-bottom: 1rem; }
+  .team p {
+    font-size: 85%; }

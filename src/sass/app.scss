@@ -282,6 +282,7 @@ footer {
 }
 
 .hero {
+	color: #32325d;
 	background-color: #f6f9fc;
 	padding-top: 10rem;
 	padding-bottom: 7.5rem;
@@ -357,6 +358,7 @@ footer {
 		color: rgb(86, 49, 53);
 		.hero, .navigation, .bg-light-1, .triangle::after {
 			background-color: #fffafa;
+			color: rgb(86, 49, 53);
 		}
 	}
 }
@@ -365,6 +367,7 @@ footer {
 		color: #31563d;
 		.hero, .navigation, .bg-light-1, .triangle::after {
 			background-color: #f8fff3;
+			color: #31563d;
 		}
 	}
 	.bg {
@@ -396,6 +399,7 @@ footer {
 		}
 		.hero, .navigation, .bg-light-1, .triangle::after {
 			background-color: #fffeee;
+			color: #5d421e;
 		}
 	}
 }
@@ -1062,5 +1066,24 @@ img, svg {
 		&:not(:last-of-type) {
 			margin-bottom: -2.5rem;
 		}
+	}
+}
+
+.team {
+	text-align: center;
+	img {
+		max-width: 120px;
+	}
+	h3 {
+		margin-top: 1.5rem;
+		margin-bottom: 0;
+		font-size: 125%;
+		+ div {
+			opacity: 0.8;
+			margin-bottom: 1rem;
+		}
+	}
+	p {
+		font-size: 85%;
 	}
 }
