@@ -6,6 +6,8 @@ import runSequence from "run-sequence";
 import gulpLoadPlugins from "gulp-load-plugins";
 import { spawn } from "child_process";
 import tildeImporter from "node-sass-tilde-importer";
+import postcss from "gulp-postcss";
+import uncss from "postcss-uncss";
 import fs from "fs";
 
 const $ = gulpLoadPlugins();
@@ -144,6 +146,18 @@ gulp.task("sass", () => {
 		.pipe($.size({ gzip: true, showFiles: true }))
 		.pipe(gulp.dest("static/css"))
 		.pipe(browserSync.stream());
+});
+
+gulp.task("uncss", () => {
+	const plugins = [
+		uncss({
+			html: ["public/**/*.html"]
+		})
+	];
+	return gulp
+		.src(["public/css/*.css"])
+		.pipe(postcss(plugins))
+		.pipe(gulp.dest("public"));
 });
 
 gulp.task("js-watch", ["js"], cb => {
