@@ -1,5 +1,5 @@
 ---
-title: Agastya Pricing
+title: Pricing · Agastya
 type: agastya
 ---
 
@@ -121,17 +121,29 @@ type: agastya
 	<div class="container">
 		<h2>FAQs</h2>
 		<div class="row mt-4">
-			<div class="col-md-4">
-				<h3 class="text-body font-weight-bold">How do you measure pageviews?</h3>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">How do you measure pageviews?</h3>
 				<p>When a user visits your website (we verify that it’s your domain), every page they visit is counted as a pageview, i.e., every time the Agastya lightweight loader script is requested, a pageview is counted.</p>
 			</div>
-			<div class="col-md-4">
-				<h3 class="text-body font-weight-bold">Do you offer discounted pricing?</h3>
-				<p>Yes! We offer discounted or free Pro plans for pre-revenue bootstrapped startups, students, and not-for-profit organizations. Get in touch with us to request a discount.</p>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">Do you offer discounted pricing?</h3>
+				<p>Yes! We offer discounted or free Pro plans for pre-revenue bootstrapped startups, personal websites of students, our partners, and not-for-profit organizations. Get in touch with us to request a discount.</p>
 			</div>
-			<div class="col-md-4">
-				<h3 class="text-body font-weight-bold">Can I get a Google Analytics integration?</h3>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">Will I be charged for extra pageviews?</h3>
+				<p>No, the icon disappears and the plugin stops working when your have exhausted your pageview quota. You get an email and can upgrade, or wait until the next month for renewal. You are not charged.</p>
+			</div>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">Can I get a Google Analytics integration?</h3>
 				<p>On request, we can integrate your Google Analytics account with Agastya, so you will be able to track usage, mode changes, translations, and actions using custom events right in your GA dashboard.</p>
+			</div>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">Is there a discount for paying annually?</h3>
+				<p>Yes, if you pay in advance for the year, you get 2 months free. This means that you only have to pay €990 for a €99/month subscription which would otherwise cost €1188. Get in touch with us if you want this option.</p>
+			</div>
+			<div class="col-md-4 mb-5">
+				<h3 class="text-body text-muted font-weight-bold">Does Agastya increase page load time?</h3>
+				<p>No, the plugin uses an asynchronous loader script, which means it does not block loading, and it only loads the bare minimum (icon and tracker). When a user clicks on the icon, the rest of the plugin is loaded.</p>
 			</div>
 		</div>
 	</div>

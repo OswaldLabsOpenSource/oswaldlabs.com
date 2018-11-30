@@ -1,5 +1,5 @@
 ---
-title: Agastya Features
+title: Features · Agastya
 type: agastya
 ---
 
