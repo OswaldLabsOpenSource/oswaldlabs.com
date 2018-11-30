@@ -1,5 +1,26 @@
 {{ define "main" }}
 {{ partial "subnav.html" . }}
+{{ if eq .Section "blog" }}
+<section class="hero pb-5 text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<h1>{{ .Title }}</h1>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				{{ .Content }}
+			</div>
+		</div>
+	</div>
+</section>
+{{ else }}
 {{ .Content }}
+{{ end }}
 {{ partial "subfooter.html" . }}
 {{ end }}

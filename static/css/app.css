@@ -66,6 +66,7 @@ h3 {
   height: 40px;
   margin-right: 20px;
   -webkit-transform: translateY(1px);
+      -ms-transform: translateY(1px);
           transform: translateY(1px);
   vertical-align: middle; }
 
@@ -84,6 +85,7 @@ h3 {
   vertical-align: middle;
   margin-right: 10px;
   -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
           transform: translateY(2px); }
 
 main {
@@ -103,6 +105,7 @@ main > header {
     background-color: #f6f9fc;
     height: 20rem;
     -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
             transform: rotate(-10deg);
     z-index: -1; }
   main > header.smaller {
@@ -126,6 +129,7 @@ section.gray-slanted:before {
   height: 150%;
   top: 0;
   -webkit-transform: skewY(-12deg);
+  -ms-transform: skewY(-12deg);
   transform: skewY(-12deg);
   background: #f6f9fc; }
 
@@ -233,6 +237,7 @@ footer {
   font-size: 90%; }
   footer .fa-external-link-alt {
     -webkit-transform: scale(0.9) translateX(-6px);
+        -ms-transform: scale(0.9) translateX(-6px);
             transform: scale(0.9) translateX(-6px); }
   footer a {
     color: inherit; }
@@ -264,6 +269,7 @@ footer {
     background-color: #f6f9fc;
     height: 20rem;
     -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
             transform: rotate(-10deg);
     z-index: -1; }
   .hero p {
@@ -424,6 +430,7 @@ header .navbar .dropdown-menu a {
 
 .app-illustrations {
   -webkit-transform-origin: 100% 0;
+      -ms-transform-origin: 100% 0;
           transform-origin: 100% 0;
   pointer-events: none;
   display: -ms-flexbox;
@@ -432,8 +439,10 @@ header .navbar .dropdown-menu a {
   width: 1287px;
   margin-left: -644px;
   -webkit-transform: scale(0.5) translateX(50px);
+      -ms-transform: scale(0.5) translateX(50px);
           transform: scale(0.5) translateX(50px);
   -webkit-transform-origin: 50% 20%;
+      -ms-transform-origin: 50% 20%;
           transform-origin: 50% 20%; }
   .app-illustrations div {
     display: -ms-flexbox;
@@ -479,8 +488,10 @@ header .navbar .dropdown-menu a {
     width: 512px;
     margin-left: -50px;
     -webkit-transform: translateX(150px);
+        -ms-transform: translateX(150px);
             transform: translateX(150px);
     -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
             transform-origin: 100% 0; }
   .app-illustrations [class^=tablet] {
     margin: 0; }
@@ -797,6 +808,7 @@ a.card {
   a.card:hover, a.card:focus {
     text-decoration: none;
     -webkit-transform: scale(1.025);
+        -ms-transform: scale(1.025);
             transform: scale(1.025);
     -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important; }
