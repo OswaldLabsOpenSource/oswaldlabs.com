@@ -919,6 +919,10 @@ img, svg {
 	max-width: 350px;
 	margin-bottom: -100%;
 }
+.hero-image-alt-2 {
+	max-width: 400px;
+	margin-bottom: -50%;
+}
 @media (max-width: 670px) {
 	.hero-image-alt {
 		margin-bottom: -20%;
@@ -1093,4 +1097,30 @@ img, svg {
 
 svg.align {
 	vertical-align: -.125em !important;
+}
+
+.bc {
+	margin: 0 0 0 1rem;
+	display: inline-block;
+	padding: 0;
+	list-style: none;
+	li {
+		display: inline-block;
+		&:not(:last-of-type)::after {
+			content: "›";
+			opacity: 0.5;
+			margin: 0 0.5rem;
+		}
+		a {
+			color: inherit;
+			&.active {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+			&:hover {
+				text-decoration: none;
+				opacity: 0.75;
+			}
+		}
+	}
 }
