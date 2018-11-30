@@ -7,8 +7,8 @@
 <meta property="twitter:card" content="summary_large_image">
 {{ end }}{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">
 <meta property="twitter:image" content="{{ .Params.image }}">
-{{ else }}<meta property="og:image" content="#">
-<meta property="twitter:image" content="#">
+{{ else }}<meta property="og:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
+<meta property="twitter:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
 {{ end }}{{ if .Params.title }}<meta name="title" content="{{ .Params.title }}">
 <meta property="og:title" content="{{ .Params.title }}">
 <meta property="twitter:title" content="{{ .Params.title }}">

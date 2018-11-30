@@ -1,12 +1,10 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
-{{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
-<title>{{ block "title" . }}{{- with .Title }}{{ . }} · {{ end }}{{ .Site.Title -}}{{ end }}</title>
+{{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}<title>{{ block "title" . }}{{- with .Title }}{{ . }} · {{ end }}{{ .Site.Title -}}{{ end }}</title>
 {{ range .AlternativeOutputFormats }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-{{ end }}
-{{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+{{ end }}{{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 </head>
 {{ if .Params.type }}
 <body class="page-{{ .Params.type }}">
