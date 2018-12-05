@@ -15,7 +15,7 @@ Shravan is a smartphone concept that can be used by everybody, including people 
 
 Shravan is an Android-based operating system but Oswald Labs also plans to launch individual apps under the Shravan brand name for both Android devices and iPhones after the Dutch Design Week. At the event, Oswald Labs will be showcasing Augmenta11y, an augmented reality (AR) based app which helps people with learning disabilities like dyslexia easily read signage, paper, and other material in the real world, and Visib11y, an app for people with visual impairment or blindness to navigate and identify objects around them.
 
-Augmenta11y is built in collaboration with Computer Science thesis students Tushar Gupta, Mitali Raju, and Mudita Sisodia from Mukesh Patel School of Technology Management & Engineering, Mumbai.
+Augmenta11y is built in collaboration with Computer Science thesis students Tushar Gupta, Mitali Raju, Mudita Sisodia, and Schezeen Fazulbhoy from Mukesh Patel School of Technology Management & Engineering, Mumbai.
 
 "I'm very happy to have university students invest in building inclusive products. Tushar and his team are doing a fantastic job building our first collaborative app and we're very happy to give them this platform," said Anand Chowdhary, the co-founder and CEO of Oswald Labs.
 
