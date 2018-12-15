@@ -1,0 +1,73 @@
+{{ if eq .Type "agastya" }}
+<section class="bg-light-1 text-center">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<h2>It’s a no-brainer&mdash;get started now.</h2>
+				<p class="mt-4 mb-4">Agastya by Oswald Labs is the world's first end-to-end web accessibility solution, and it helps thousands of users access information every month. Create a free account now to add it to your website.</p>
+				<div>
+					<a href="#" class="btn btn-warning btn-lg">Get started for free &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="pt-4 pb-4">
+	<div class="container">
+		<strong class="text-muted">You are here</strong>
+		<ol class="bc" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/">
+					<span itemprop="name">Oswald Labs</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/platform/">
+					<span itemprop="name">Platform</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/platform/agastya/">
+					<span itemprop="name">Agastya</span></a>
+				<meta itemprop="position" content="3">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ substr .Title 0 -25 }}</span></a>
+				<meta itemprop="position" content="4">
+			</li>
+		</ol>
+	</div>
+</section>
+{{ end }}
+{{ if eq .Type "shravan" }}
+<section class="pt-4 pb-4">
+	<div class="container">
+		<strong class="text-muted">You are here</strong>
+		<ol class="bc" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/">
+					<span itemprop="name">Oswald Labs</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/platform/">
+					<span itemprop="name">Platform</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/platform/shravan/">
+					<span itemprop="name">Shravan</span></a>
+				<meta itemprop="position" content="3">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ .Title }}</span></a>
+				<meta itemprop="position" content="4">
+			</li>
+		</ol>
+	</div>
+</section>
+{{ end }}

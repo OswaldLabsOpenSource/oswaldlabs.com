@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ if .Params.description }}<meta name="description" content="{{ .Params.description }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="twitter:description" content="{{ .Params.description }}">
+<meta property="twitter:card" content="summary_large_image">
+{{ end }}{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">
+<meta property="twitter:image" content="{{ .Params.image }}">
+{{ else }}<meta property="og:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
+<meta property="twitter:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
+{{ end }}{{ if .Params.title }}<meta name="title" content="{{ .Params.title }}">
+<meta property="og:title" content="{{ .Params.title }}">
+<meta property="twitter:title" content="{{ .Params.title }}">
+{{ end }}<meta name="apple-mobile-web-app-title" content="Oswald Labs">
+<meta name="twitter:site" content="@OswaldLabs">
+<meta name="twitter:creator" content="@AnandChowdhary">
+{{ if in .Title "Oswald Labs "}}<title>{{ .Title }}</title>{{ else }}<title>{{ .Title }} · Oswald Labs</title>{{ end }}
+<link rel="publisher" href="https://plus.google.com/109050675253975445822">
+<meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<link rel="apple-touch-icon" sizes="180x180" href="https://oswaldlabs.com/icons/apple-touch-icon-8cb4501d.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://oswaldlabs.com/icons/favicon-32x32-13f95116.png">
+<link rel="icon" type="image/png" sizes="194x194" href="https://oswaldlabs.com/icons/favicon-194x194-e8f4d00f.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://oswaldlabs.com/icons/android-chrome-192x192-3a35daa0.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://oswaldlabs.com/icons/favicon-16x16-2d782c7a.png">
+<link rel="manifest" href="https://oswaldlabs.com/manifest.json">
+<link rel="mask-icon" href="https://oswaldlabs.com/icons/safari-pinned-tab-4b4442cd.svg" color="#007bff">
+<link rel="shortcut icon" href="https://oswaldlabs.com/icons/favicon.ico">
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="theme-color" content="#533aff">
+{{ .Hugo.Generator }}

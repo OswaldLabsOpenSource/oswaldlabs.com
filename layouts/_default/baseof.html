@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+{{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
+{{ range .AlternativeOutputFormats }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end }}{{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+</head>
+{{ if .Params.type }}
+<body class="page-{{ .Params.type }}">
+{{ else if .Params.title }}
+<body class="page-{{ .Params.title | urlize }}">
+{{ else }}
+<body>
+{{ end }}
+{{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+<div id="barba-wrapper">
+<div class="barba-container">
+<main class="site-main" role="main">
+{{ block "main" . }}{{ end }}
+<div class="page-meta">
+{{ if .Params.type }}
+<div class="page-slug">{{ .Params.type }}</div>
+{{ else if .Params.title }}
+<div class="page-slug">{{ .Params.title | urlize }}</div>
+{{ else }}
+<div class="page-slug">default</div>
+{{ end }}
+</div>
+</main>
+</div>
+</div>
+{{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+{{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+</body>
+</html>
