@@ -1,5 +1,5 @@
 ---
-title: Made for Europe · Agastya
+title: Made for Europe · Agastya by Oswald Labs
 description: Agastya by Oswald Labs has been built for customers in the European Union and shares the same values such as accessibility and equality, data security, and GDPR and user privacy.
 type: agastya
 ---

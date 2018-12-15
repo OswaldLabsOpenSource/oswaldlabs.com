@@ -1,5 +1,5 @@
 ---
-title: Valmiki
+title: Valmiki by Oswald Labs
 type: valmiki
 description: Smartphone for the rest of us
 ---

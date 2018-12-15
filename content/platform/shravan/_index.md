@@ -1,5 +1,5 @@
 ---
-title: Shravan
+title: Shravan by Oswald Labs
 type: shravan
 description: Smartphone for the rest of us
 ---

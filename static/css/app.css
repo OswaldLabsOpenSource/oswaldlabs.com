@@ -2,7 +2,7 @@
 @import url("https://oswaldlabs.com/stylesheets/fonts-b9c9ba49.css");
 body {
   font-size: 105%;
-  color: #4b5f79;
+  color: #32325d;
   overflow-x: hidden; }
 
 a {
@@ -235,6 +235,8 @@ header {
 
 footer {
   font-size: 90%; }
+  footer section {
+    padding: 4rem 0; }
   footer .fa-external-link-alt {
     -webkit-transform: scale(0.9) translateX(-6px);
         -ms-transform: scale(0.9) translateX(-6px);
@@ -326,10 +328,10 @@ footer {
     color: #563135; }
 
 .page-valmiki main {
-  color: #31563d; }
+  color: #28382d; }
   .page-valmiki main .hero, .page-valmiki main .navigation, .page-valmiki main .bg-light-1, .page-valmiki main .triangle::after {
     background-color: #f8fff3;
-    color: #31563d; }
+    color: #28382d; }
 
 .page-valmiki .bg {
   color: #fff;

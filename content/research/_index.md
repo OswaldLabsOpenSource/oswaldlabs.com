@@ -3,7 +3,7 @@ title: Oswald Labs Research
 type: research
 ---
 
-<section class="hero pb-5">
+<section class="hero">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

@@ -4,7 +4,7 @@ $color: #007bff;
 
 body {
 	font-size: 105%;
-	color: #4b5f79;
+	color: #32325d;
 	overflow-x: hidden;
 }
 
@@ -255,6 +255,9 @@ header {
 }
 
 footer {
+	section {
+		padding: 4rem 0;
+	}
 	font-size: 90%;
 	.fa-external-link-alt {
 		transform: scale(0.9) translateX(-6px);
@@ -364,10 +367,10 @@ footer {
 }
 .page-valmiki {
 	main {
-		color: #31563d;
+		color: #28382d;
 		.hero, .navigation, .bg-light-1, .triangle::after {
 			background-color: #f8fff3;
-			color: #31563d;
+			color: #28382d;
 		}
 	}
 	.bg {

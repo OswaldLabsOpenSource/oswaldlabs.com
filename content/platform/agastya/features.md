@@ -1,5 +1,5 @@
 ---
-title: Features · Agastya
+title: Features · Agastya by Oswald Labs
 type: agastya
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Agastya
+title: Agastya by Oswald Labs
 type: agastya
 description: Smartphone for the rest of us
 ---

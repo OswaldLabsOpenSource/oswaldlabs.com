@@ -1,5 +1,5 @@
 ---
-title: Compliance · Agastya
+title: Compliance · Agastya by Oswald Labs
 type: agastya
 ---
 

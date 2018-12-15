@@ -1,5 +1,5 @@
 ---
-title: Pricing · Agastya
+title: Pricing · Agastya by Oswald Labs
 type: agastya
 ---
 

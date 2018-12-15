@@ -1,5 +1,5 @@
 ---
-title: Shravan OS
+title: Shravan OS by Oswald Labs
 type: shravan
 description: Smartphone for the rest of us
 ---
