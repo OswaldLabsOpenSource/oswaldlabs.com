@@ -1,7 +1,6 @@
 ---
 title: Oswald Labs presenting Shravan at Dutch Design Week
 date: 2018-10-10T15:17:33+01:00
-draft: false
 ---
 
 Oswald Labs, New Delhi, India and Enschede, the Netherlands-based research and technology company is presenting an exhibition at the Dutch Design Week in Eindhoven, the Netherlands, this October. Dutch Design Week is an annual event that takes place in the last week of October and is a nine-day event with exhibitions, workshops, seminars and parties at many venues. It is the largest design event in Northern Europe and presents work and concepts from more than 2,600 designers to more than 3,35,000 visitors from around the world.

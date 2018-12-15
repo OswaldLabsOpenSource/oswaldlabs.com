@@ -1032,3 +1032,14 @@ footer .text-danger {
   font-size: 80%;
   margin-top: -0.25rem;
   opacity: 0.6; }
+
+.list-heading {
+  color: inherit;
+  opacity: 0.75;
+  display: block;
+  line-height: 1.25;
+  font-size: 75%;
+  font-weight: bold; }
+
+article + article {
+  margin-top: 3rem; }
