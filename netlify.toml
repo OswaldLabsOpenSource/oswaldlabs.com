@@ -1,5 +1,5 @@
 [build]
-	command = "npm run build"
+	command = "yarn build"
 	publish = "public"
 	functions = "functions"
 
@@ -11,4 +11,16 @@
 	NODE_ENV = "production"
 
 [context.deploy-preview]
-	command = "npm run build:preview"
+	command = "yarn build:preview"
+
+[[redirects]]
+  from = "/agastya/*"
+  to = "/platform/agastya/:splat"
+
+[[redirects]]
+  from = "/shravan/*"
+  to = "/platform/shravan/:splat"
+
+[[redirects]]
+  from = "/valmiki/*"
+  to = "/platform/valmiki/:splat"

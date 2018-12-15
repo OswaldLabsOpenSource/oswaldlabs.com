@@ -8,7 +8,7 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 		<h1>Technology for the next billion users.</h1>
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
 		<div class="mt-5">
-			<a class="btn btn-light mr-3" href="/platform/solutions">Explore solutions</a>
+			<a class="btn btn-light mr-3" href="/platform/solutions">Explore our solutions &rarr;</a>
 			<a class="btn btn-outline-light" href="/contact">Get in Touch</a>
 		</div>
 		<div class="right-drawings d-none d-lg-flex">
@@ -133,7 +133,7 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 					<span class="mt-2 small text-body d-block">Smartphone for the rest of us</span>
 				</h2>
 				<p>Shravan is the world’s first end-to-end accessible smartphone OS. With our patent-pending speech and vibration interface, Shravan can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting Android smartphone.</p>
-				<a class="btn btn-left" href="/shravan">Download for your smartphone →</a>
+				<a class="btn btn-left" href="/platform/shravan/">Download for your smartphone →</a>
 			</div>
 			<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
 				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
@@ -142,7 +142,7 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 					<span class="mt-2 small text-body d-block">Accessibility extension</span>
 				</h2>
 				<p>Valmiki (Oswald for Chrome) is a browser extension that changes the look and feel of the entire web based on your design customizations and preferences. It’s especially helpful for people with dyslexia, because it comes built-in with an option that adjusts the color-contrast ratio and typography.</p>
-				<a class="btn btn-left" href="/valmiki">Download for your browser →</a>
+				<a class="btn btn-left" href="/platform/valmiki/">Download for your browser →</a>
 			</div>
 		</div>
 	</div>
