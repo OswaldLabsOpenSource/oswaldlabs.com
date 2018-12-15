@@ -55,7 +55,7 @@ type: agastya
 							<tr>
 								<td>Pageviews</td>
 								<td>
-									<select class="custom-select">
+									<select aria-label="Select number of pageviews" class="custom-select">
 										<option>10,000 pageviews per month</option>
 									</select>
 								</td>
@@ -105,7 +105,7 @@ type: agastya
 							<tr>
 								<td>Pageviews</td>
 								<td>
-									<select class="custom-select agastya-pricing-selector">
+									<select aria-label="Select number of pageviews" class="custom-select agastya-pricing-selector">
 										<option value="100k">100,000 pageviews per month</option>
 										<option value="250k">250,000 pageviews per month</option>
 										<option value="500k">500,000 pageviews per month</option>
