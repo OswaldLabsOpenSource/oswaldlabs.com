@@ -1,7 +1,47 @@
-# Built files
-dist
-public
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
+# Created by https://www.gitignore.io/api/macos,visualstudiocode,hugo,node
+# Edit at https://www.gitignore.io/?templates=macos,visualstudiocode,hugo,node
+
+### Hugo ###
+# gitginore template for Hugo projects
+# website: https://gohugo.io
+
+# generated files by hugo
+/public/
+
+# executable may be added to repository
+hugo.exe
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Node ###
 # Logs
 logs
 *.log
@@ -79,5 +119,21 @@ typings/
 # FuseBox cache
 .fusebox/
 
-#DynamoDB Local files 
-.dynamodb/ 
+#DynamoDB Local files
+.dynamodb/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/macos,visualstudiocode,hugo,node
+
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
