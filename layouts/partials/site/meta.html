@@ -15,6 +15,7 @@
 {{ end }}<meta name="apple-mobile-web-app-title" content="Oswald Labs">
 <meta name="twitter:site" content="@OswaldLabs">
 <meta name="twitter:creator" content="@AnandChowdhary">
+{{ if in .Title "Oswald Labs "}}<title>{{ .Title }}</title>{{ else }}<title>{{ .Title }} · Oswald Labs</title>{{ end }}
 <link rel="publisher" href="https://plus.google.com/109050675253975445822">
 <meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
 <meta property="og:type" content="website">

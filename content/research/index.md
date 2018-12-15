@@ -1,6 +1,6 @@
 ---
-title: Oswald Labs Accelerator
-type: accelerator
+title: Oswald Labs Research
+type: research
 ---
 
 <section class="hero pb-5">
@@ -8,10 +8,10 @@ type: accelerator
         <div class="row">
             <div class="col-md-6">
 				<h1>Everything a startup needs,<br>for 0% equity.</h1>
-				<p class="intro-para">Oswald Labs Accelerator is a free, remote, global support program for early-stage startups building for the next billion users. The program is based out of Enschede, the Netherlands, but is open to startups worldwide.</p>
+				<p class="intro-para">Oswald Labs Research is a free, remote, global support program for early-stage startups building for the next billion users. The program is based out of Enschede, the Netherlands, but is open to startups worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img class="hero-image-alt-2" alt="" src="/images/illustrations/accelerator.svg">
+                <img class="hero-image-alt-2" alt="" src="/images/illustrations/research.svg">
             </div>
         </div>
     </div>
