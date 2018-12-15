@@ -1016,3 +1016,11 @@ svg.align {
   background-color: #f6f9fc; }
   .subnav-menu .navigation {
     padding: 0.5rem 0; }
+
+.sharer a {
+  font-size: 125%;
+  display: inline-block;
+  margin-left: 1rem; }
+
+.content p + p {
+  margin-top: 2rem; }

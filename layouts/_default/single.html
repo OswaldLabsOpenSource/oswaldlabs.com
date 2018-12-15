@@ -3,9 +3,10 @@
 {{ if eq .Section "blog" }}
 <section class="hero pb-5 text-center">
 	<div class="container">
-		<div class="row">
-			<div class="col-md">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
 				<h1>{{ .Title }}</h1>
+				<div class="mt-4">Posted on <a href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006" }}</a></div>
 			</div>
 		</div>
 	</div>
@@ -13,8 +14,18 @@
 <section>
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-6">
-				{{ .Content }}
+			<div class="col-md-7">
+				<div class="content">
+					{{ .Content }}
+				</div>
+				<div class="sharer d-flex justify-content-end mt-5">
+					<div>
+						<span>Share</span>
+						<a title="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+						<a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+						<a title="LinkedIn" href="#"><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
