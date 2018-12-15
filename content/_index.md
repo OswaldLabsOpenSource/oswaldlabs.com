@@ -1,11 +1,12 @@
 ---
-title: Oswald Labs · Technology for the next billion users
+title: Oswald Labs · Technology for the next billion
 description: Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.
+type: home
 ---
 
 <section class="hero">
 	<div class="container">
-		<h1>Technology for the next billion users.</h1>
+		<h1>Technology for the next billion.</h1>
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
 		<div class="mt-5">
 			<a class="btn btn-light mr-3" href="/platform/">Explore our solutions &rarr;</a>

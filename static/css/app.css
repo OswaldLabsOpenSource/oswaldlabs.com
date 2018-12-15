@@ -50,7 +50,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 2px; }
 
-.page-oswald-labs-technology-for-the-next-billion-users .subheading, .page-accelerator .subheading {
+.page-home .subheading, .page-accelerator .subheading {
   color: #007bff;
   font-size: 140%;
   letter-spacing: 2px;
@@ -58,7 +58,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase; }
 
-.page-oswald-labs-technology-for-the-next-billion-users .text-body.small, .page-accelerator .text-body.small {
+.page-home .text-body.small, .page-accelerator .text-body.small {
   color: #6b7c93 !important;
   font-size: 75%; }
 
@@ -151,9 +151,9 @@ header .navbar .nav-link, header .navbar .navbar-brand {
   header .navbar .nav-link:hover, header .navbar .navbar-brand:hover {
     opacity: 0.75; }
 
-.page-oswald-labs-technology-for-the-next-billion-users header .navbar .nav-link, .page-oswald-labs-technology-for-the-next-billion-users header .navbar .navbar-brand, .page-about header .navbar .nav-link, .page-about header .navbar .navbar-brand {
+.page-home header .navbar .nav-link, .page-home header .navbar .navbar-brand, .page-about header .navbar .nav-link, .page-about header .navbar .navbar-brand {
   color: #fff; }
-  .page-oswald-labs-technology-for-the-next-billion-users header .navbar .nav-link svg g, .page-oswald-labs-technology-for-the-next-billion-users header .navbar .navbar-brand svg g, .page-about header .navbar .nav-link svg g, .page-about header .navbar .navbar-brand svg g {
+  .page-home header .navbar .nav-link svg g, .page-home header .navbar .navbar-brand svg g, .page-about header .navbar .nav-link svg g, .page-about header .navbar .navbar-brand svg g {
     fill: #fff; }
 
 header {
@@ -280,11 +280,11 @@ footer {
     .hero p a {
       font-weight: 500; }
 
-.page-oswald-labs-technology-for-the-next-billion-users .hero {
+.page-home .hero {
   color: #fff; }
-  .page-oswald-labs-technology-for-the-next-billion-users .hero p {
+  .page-home .hero p {
     color: #d9fcff; }
-    .page-oswald-labs-technology-for-the-next-billion-users .hero p a {
+    .page-home .hero p a {
       color: #fff; }
 
 .light .hero p a {
@@ -297,8 +297,8 @@ footer {
 .hero {
   position: relative; }
 
-.page-oswald-labs-technology-for-the-next-billion-users .hero {
-  background: linear-gradient(150deg, #4e30e2 15%, #05d5ff 80%, #a6ffcb 94%);
+.page-home .hero {
+  background: linear-gradient(150deg, #4e30e2 25%, #05d5ff 90%, #a6ffcb 100%);
   margin-bottom: 0; }
 
 .page-about .hero {
@@ -370,7 +370,7 @@ footer {
     background-color: #fffeee;
     color: #40301b; }
 
-.page-oswald-labs-technology-for-the-next-billion-users .fa-quote-left {
+.page-home .fa-quote-left {
   opacity: 0.5; }
 
 section.dark {
@@ -715,11 +715,11 @@ blockquote {
   padding-left: 20px;
   border-left: 5px solid #e9edf1; }
 
-.page-oswald-labs-technology-for-the-next-billion-users blockquote {
+.page-home blockquote {
   border-left: 0;
   margin-left: 0;
   padding-left: 0; }
-  .page-oswald-labs-technology-for-the-next-billion-users blockquote .blockquote-footer::before {
+  .page-home blockquote .blockquote-footer::before {
     display: none; }
 
 .breaker .blockquote-footer {
@@ -1024,3 +1024,6 @@ svg.align {
 
 .content p + p {
   margin-top: 2rem; }
+
+footer .text-danger {
+  margin-top: -0.25rem; }

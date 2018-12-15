@@ -8,6 +8,7 @@
 							<svg viewBox="0 0 116 116" xmlns="http://www.w3.org/2000/svg"><g fill="#007bff" fill-rule="evenodd"><path d="M58 116C25.967 116 0 90.033 0 58S25.967 0 58 0s58 25.967 58 58-25.967 58-58 58zm.5-11c26.234 0 47.5-21.266 47.5-47.5S84.734 10 58.5 10 11 31.266 11 57.5 32.266 105 58.5 105z"></path><circle cx="58.5" cy="57.5" r="35.5"></circle></g></svg>
 							<span>Oswald Labs</span>
 						</a>
+						<div>Technology for the next billion</div>
 					</div>
 					<div class="text-muted">
 						<p>&copy; 2016&ndash;{{ now.Format "2006" }} &middot; <a href="/licenses">Licenses</a></p>
@@ -76,11 +77,65 @@
 			</div>
 		</div>
 	</section>
-	<div class="pt-4 pb-4 bg-light-2-force">
+	<div class="pt-3 pb-3 bg-light-2-force">
 		<div class="container">
 			<div class="row">
-				<div class="col-md">Accessibility tools</div>
-				<div class="col-md text-right">Made in India and the Netherlands</div>
+				<div class="col-md">
+					<span class="dropdown dropup">
+						<button class="btn bg-transparent dropdown-toggle" type="button" id="translateMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-language mr-1"></i>
+							<span>English<span class=sr-only> (Change language)</span></span>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="translateMenu">
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'en')">
+								<span class="flag-span" aria-hidden="true">🇺🇸</span>
+								<span>English</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'nl')">
+								<span class="flag-span" aria-hidden="true">🇳🇱</span>
+								<span>Nederlands</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'de')">
+								<span class="flag-span" aria-hidden="true">🇩🇪</span>
+								<span>Deutsch</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'es')">
+								<span class="flag-span" aria-hidden="true">🇪🇸</span>
+								<span>Espa&ntilde;ol</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'fr')">
+								<span class="flag-span" aria-hidden="true">🇫🇷</span>
+								<span>Fran&ccedil;ais</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'it')">
+								<span class="flag-span" aria-hidden="true">🇮🇹</span>
+								<span>Italiano</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('translate', 'hi')">
+								<span class="flag-span" aria-hidden="true">🇮🇳</span>
+								<span>हिन्दी</span>
+							</button>
+							<button class="dropdown-item" onclick="window.agastya.api('frame', 'open')">
+								<span>More Languages</span>
+							</button>
+						</div>
+					</span>
+					<button class="btn bg-transparent">
+						<i class="fas fa-universal-access mr-1"></i>
+						<span>Accessibility</span>
+					</button>
+					<button class="btn bg-transparent">
+						<i class="fas fa-sun mr-1"></i>
+						<span>Contrast</span>
+					</button>
+					<button class="btn bg-transparent">
+						<i class="fas fa-volume-up mr-1"></i>
+						<span>Read aloud</span>
+					</button>
+				</div>
+				<div class="col-md text-right align-items-center justify-content-end d-none d-md-flex">
+					<a target="_blank" rel="noopener noreferrer" href="https://madewithlove.org.in">Made with <i class="fas fa-heart ml-1 mr-1 text-danger" title="Love"></i> in India and the Netherlands</a>
+				</div>
 			</div>
 		</div>
 	</div>
