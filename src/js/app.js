@@ -1,12 +1,11 @@
 function ready(fn) {
-	if (document.readyState !== "loading"){
+	if (document.readyState !== "loading") {
 		fn();
 	} else if (document.addEventListener) {
 		document.addEventListener("DOMContentLoaded", fn);
 	} else {
 		document.attachEvent("onreadystatechange", function() {
-			if (document.readyState !== "loading")
-			fn();
+			if (document.readyState !== "loading") fn();
 		});
 	}
 }
@@ -14,7 +13,8 @@ function ready(fn) {
 ready(() => {
 	function initMe(container) {
 		if (container && container.querySelector(".page-meta .page-slug")) {
-			document.body.className = "page-" + container.querySelector(".page-meta .page-slug").innerHTML;
+			document.body.className =
+				"page-" + container.querySelector(".page-meta .page-slug").innerHTML;
 		}
 		function simplify(url) {
 			if (!url || typeof url.toLowerCase === "undefined") return;
@@ -26,7 +26,10 @@ ready(() => {
 			link.classList.remove("subactive");
 			if (simplify(link.getAttribute("href")) === simplify(location.pathname)) {
 				link.classList.add("active");
-			} else if (link.getAttribute("href") !== "/" && simplify(location.pathname).includes(simplify(link.getAttribute("href")))) {
+			} else if (
+				link.getAttribute("href") !== "/" &&
+				simplify(location.pathname).includes(simplify(link.getAttribute("href")))
+			) {
 				link.classList.add("subactive");
 			}
 		});
