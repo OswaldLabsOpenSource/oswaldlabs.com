@@ -1,3 +1,26 @@
+{{ if eq .Type "accelerator" }}
+<div class="subnav-menu">
+	<div class="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex align-items-center">
+					<a class="d-flex align-items-center logo" href="/accelerator/">
+						<h1 class="m-0 text-body font-weight-bold p-2 pl-3 p-md-0">Oswald Labs Accelerator</h1>
+					</a>
+				</div>
+				<div class="col-md">
+					<nav class="nav justify-content-end">
+						<a class="nav-link" href="/accelerator/">Overview</a>
+						<a class="nav-link" href="/accelerator/apps/">Shravan Apps</a>
+						<a class="nav-link" href="/accelerator/os/">Shravan OS</a>
+						<a class="nav-link" href="/accelerator/phone/">Shravan Phone</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}
 {{ if eq .Type "shravan" }}
 <div class="subnav">
 	<div class="navigation">

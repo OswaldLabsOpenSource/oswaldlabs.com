@@ -42,7 +42,7 @@ h2 {
 h3 {
   font-weight: 400; }
 
-.subheading {
+.subheading, .subheading-2 {
   text-transform: uppercase;
   font-size: 110%;
   margin-bottom: 1rem;
@@ -50,7 +50,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 2px; }
 
-.page-home .subheading {
+.page-home .subheading, .page-accelerator .subheading {
   color: #007bff;
   font-size: 140%;
   letter-spacing: 2px;
@@ -58,7 +58,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase; }
 
-.page-home .text-body.small {
+.page-home .text-body.small, .page-accelerator .text-body.small {
   color: #6b7c93 !important;
   font-size: 75%; }
 
@@ -1008,3 +1008,9 @@ svg.align {
 
 .agastya-has-custom {
   display: none; }
+
+.subnav-menu {
+  padding-top: 5rem;
+  background-color: #f6f9fc; }
+  .subnav-menu .navigation {
+    padding: 0.5rem 0; }
