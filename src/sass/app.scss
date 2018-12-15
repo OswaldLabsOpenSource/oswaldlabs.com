@@ -402,14 +402,14 @@ footer {
 		}
 	}
 	main {
-		color: #5d421e;
+		color: #40301b;
 		.text-muted {
-			color: #5d421e !important;
+			color: #40301b !important;
 			opacity: 0.75;
 		}
 		.hero, .navigation, .bg-light-1, .triangle::after {
 			background-color: #fffeee;
-			color: #5d421e;
+			color: #40301b;
 		}
 	}
 }
@@ -1123,4 +1123,8 @@ svg.align {
 			}
 		}
 	}
+}
+
+.agastya-has-custom {
+	display: none;
 }

@@ -8,7 +8,7 @@ description: Oswald Labs is a research-driven, award-winning accessibility techn
 		<h1>Technology for the next billion users.</h1>
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
 		<div class="mt-5">
-			<a class="btn btn-light mr-3" href="/about">About Oswald Labs</a>
+			<a class="btn btn-light mr-3" href="/platform/solutions">Explore solutions</a>
 			<a class="btn btn-outline-light" href="/contact">Get in Touch</a>
 		</div>
 		<div class="right-drawings d-none d-lg-flex">

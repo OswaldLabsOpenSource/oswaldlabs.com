@@ -360,13 +360,13 @@ footer {
     border-color: #c95300 !important; }
 
 .page-agastya main, .page-agastya-features main, .page-agastya-pricing main {
-  color: #5d421e; }
+  color: #40301b; }
   .page-agastya main .text-muted, .page-agastya-features main .text-muted, .page-agastya-pricing main .text-muted {
-    color: #5d421e !important;
+    color: #40301b !important;
     opacity: 0.75; }
   .page-agastya main .hero, .page-agastya main .navigation, .page-agastya main .bg-light-1, .page-agastya main .triangle::after, .page-agastya-features main .hero, .page-agastya-features main .navigation, .page-agastya-features main .bg-light-1, .page-agastya-features main .triangle::after, .page-agastya-pricing main .hero, .page-agastya-pricing main .navigation, .page-agastya-pricing main .bg-light-1, .page-agastya-pricing main .triangle::after {
     background-color: #fffeee;
-    color: #5d421e; }
+    color: #40301b; }
 
 .page-home .fa-quote-left {
   opacity: 0.5; }
@@ -1005,3 +1005,6 @@ svg.align {
       .bc li a:hover {
         text-decoration: none;
         opacity: 0.75; }
+
+.agastya-has-custom {
+  display: none; }

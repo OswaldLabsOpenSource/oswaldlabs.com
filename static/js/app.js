@@ -33,10 +33,36 @@ ready(function () {
       } else if (link.getAttribute("href") !== "/" && simplify(location.pathname).includes(simplify(link.getAttribute("href")))) {
         link.classList.add("subactive");
       }
-    }); // gtag('config', 'UA-58910975-1', {
+    });
+    var pricingSelector = document.querySelector(".agastya-pricing-selector");
+    var amountSelector = document.querySelector(".agastya-calculated-price");
+    var pricingValues = {
+      "100k": 99,
+      "250k": 249,
+      "500k": 499,
+      "1m": 749,
+      "5m": 999,
+      "10m": "custom"
+    };
+
+    if (pricingSelector) {
+      pricingSelector.addEventListener("change", function () {
+        if (amountSelector) {
+          if (pricingValues[pricingSelector.value] === "custom") {
+            document.querySelector(".agastya-no-custom").style.display = "none";
+            document.querySelector(".agastya-has-custom").style.display = "inline-block";
+          } else {
+            document.querySelector(".agastya-no-custom").style.display = "inline-block";
+            document.querySelector(".agastya-has-custom").style.display = "none";
+            amountSelector.innerHTML = pricingValues[pricingSelector.value];
+          }
+        }
+      });
+    } // gtag('config', 'UA-58910975-1', {
     // 	'page_title': document.title,
     // 	'page_path': location.pathname
     // });
+
   }
 
   initMe();
