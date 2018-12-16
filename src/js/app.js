@@ -53,10 +53,13 @@ ready(() => {
 				link.classList.add("subactive");
 			}
 			if (location.hostname !== link.hostname) {
-				link.classList.add("has-external-link");
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
-				if (!link.getAttribute("href").includes("mailto:")) {
+				if (
+					!link.getAttribute("href").includes("mailto:") &&
+					!link.getAttribute("href").includes("tel:")
+				) {
+					link.classList.add("has-external-link");
 					if (link.getAttribute("href").includes("?")) {
 						link.setAttribute("href", link.getAttribute("href") + "&");
 					} else {
@@ -120,6 +123,10 @@ ready(() => {
 				});
 				e.preventDefault();
 			});
+		}
+		const calendlyLink = document.querySelector(".calendly-button");
+		if (calendlyLink) {
+			loadJS("https://assets.calendly.com/assets/external/widget.js");
 		}
 		// gtag('config', 'UA-58910975-1', {
 		// 	'page_title': document.title,

@@ -186,6 +186,7 @@ header .navbar {
 	}
 }
 .page-home,
+.page-contact,
 .page-about {
 	header .navbar {
 		.nav-link,
@@ -197,6 +198,30 @@ header .navbar {
 		}
 	}
 }
+
+.page-contact .hero {
+	background-color: #292d73;
+	color: #e5f2ff;
+	overflow: hidden;
+	a {
+		color: inherit;
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		left: -10%;
+		right: -10%;
+		bottom: -10%;
+		top: -10%;
+		opacity: 0.75;
+		background-image: url("/images/backgrounds/contact.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		filter: blur(0.25rem);
+	}
+}
+
 header {
 	z-index: 10;
 	position: absolute;
@@ -367,8 +392,9 @@ footer {
 .hero {
 	position: relative;
 }
-.page-home .hero {
-	background: linear-gradient(150deg, #4e30e2 25%, #05d5ff 90%, #a6ffcb 100%);
+.page-home .hero,
+.page-contact .hero {
+	background-image: linear-gradient(150deg, #4e30e2 25%, #05d5ff 90%, #a6ffcb 100%);
 	margin-bottom: 0;
 }
 .page-about .hero {
@@ -1335,4 +1361,8 @@ h6,
 	font-size: 240%;
 	line-height: 1.2;
 	font-weight: 300;
+}
+
+.card {
+	color: #32325d;
 }
