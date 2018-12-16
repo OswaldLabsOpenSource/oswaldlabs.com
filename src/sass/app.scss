@@ -264,6 +264,7 @@ footer {
 	}
 	a {
 		color: inherit;
+
 		+ a {
 			margin-top: 0.5rem;
 		}
@@ -281,6 +282,11 @@ footer {
 		font-weight: bold;
 		margin-bottom: 1rem;
 		text-transform: uppercase;
+	}
+	.justify-content-end {
+		a::after {
+			display: none;
+		}
 	}
 }
 
@@ -1147,6 +1153,15 @@ svg.align {
 		margin-left: 1rem;
 	}
 }
+footer .sharer a {
+	margin-top: 1rem;
+	opacity: 0.5;
+	margin-left: 0;
+	margin-right: 0.5rem;
+	&:hover {
+		opacity: 0.7;
+	}
+}
 
 .content p + p {
 	margin-top: 2rem;
@@ -1173,4 +1188,22 @@ footer .text-danger {
 
 article + article {
 	margin-top: 3rem;
+}
+
+a.has-external-link::after {
+	content: "";
+	vertical-align: middle;
+	width: 1rem;
+	height: 1rem;
+	margin-top: -0.25rem;
+	margin-left: 0.5rem;
+	opacity: 0.3;
+	background-image: url("https://static.oswaldlabs.com/e80rj23-external.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+}
+.sharer .has-external-link::after {
+	display: none;
 }

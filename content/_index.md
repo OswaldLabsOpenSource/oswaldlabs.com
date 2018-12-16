@@ -43,7 +43,7 @@ type: home
 						</div>
 					</a>
 				</div>
-				<a target="_blank" rel="noopener" class="btn btn-left" href="https://oswaldlabs.typeform.com/to/uWzZPc">Sign up for the beta →</a>
+				<a target="_blank" rel="noopener noreferrer" class="btn btn-left" href="https://oswaldlabs.typeform.com/to/uWzZPc">Sign up for the beta →</a>
 			</div>
 		</div>
 	</div>

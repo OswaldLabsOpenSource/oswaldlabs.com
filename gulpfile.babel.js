@@ -142,7 +142,7 @@ gulp.task("sass", () => {
 		.pipe($.if(!isProduction, $.sassLint.format()))
 		.pipe($.sass({ precision: 5, importer: tildeImporter }))
 		.pipe($.autoprefixer(["ie >= 8", "last 2 versions"]))
-		.pipe($.if(isProduction, $.cssnano({ discardUnused: false, minifyFontValues: false })))
+		.pipe($.cssnano({ discardUnused: false, minifyFontValues: false }))
 		.pipe($.size({ gzip: true, showFiles: true }))
 		.pipe(gulp.dest("static/css"))
 		.pipe(browserSync.stream());
@@ -172,7 +172,7 @@ gulp.task("js", () => {
 		.pipe($.print())
 		.pipe($.babel())
 		.pipe($.concat("app.js"))
-		.pipe($.if(isProduction, $.uglify()))
+		.pipe($.uglify())
 		.pipe($.size({ gzip: true, showFiles: true }))
 		.pipe(gulp.dest("static/js"));
 });

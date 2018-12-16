@@ -16,7 +16,7 @@ ready(() => {
 			document.body.className =
 				"page-" + container.querySelector(".page-meta .page-slug").innerHTML;
 		}
-		function simplify(url) {
+		const simplify = url => {
 			if (!url || typeof url.toLowerCase === "undefined") return;
 			return url.toLowerCase().replace(/\//g, "");
 		}
@@ -32,10 +32,21 @@ ready(() => {
 			) {
 				link.classList.add("subactive");
 			}
+			if (location.hostname !== link.hostname) {
+				link.classList.add("has-external-link");
+				link.setAttribute("target", "_blank");
+				link.setAttribute("rel", "noopener noreferrer");
+				if (link.getAttribute("href").includes("?")) {
+					link.setAttribute("href", link.getAttribute("href") + "&");
+				} else {
+					link.setAttribute("href", link.getAttribute("href") + "?");
+				}
+				link.setAttribute("href", link.getAttribute("href") + "utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com&ref=oswaldlabs.com");
+			}
 		});
-		var pricingSelector = document.querySelector(".agastya-pricing-selector");
-		var amountSelector = document.querySelector(".agastya-calculated-price");
-		var pricingValues = {
+		const pricingSelector = document.querySelector(".agastya-pricing-selector");
+		const amountSelector = document.querySelector(".agastya-calculated-price");
+		const pricingValues = {
 			"100k": 99,
 			"250k": 249,
 			"500k": 499,
@@ -63,7 +74,7 @@ ready(() => {
 		// });
 	}
 	initMe();
-	var FadeTransition = Barba.BaseTransition.extend({
+	const FadeTransition = Barba.BaseTransition.extend({
 		start: function() {
 			Promise.all([this.newContainerLoading, this.fadeOut()]).then(this.fadeIn.bind(this));
 		},
