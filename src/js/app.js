@@ -1,3 +1,23 @@
+/*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+var loadJS = function(src, cb, ordered) {
+	var tmp,
+		w = window;
+	var ref = w.document.getElementsByTagName("script")[0];
+	var script = w.document.createElement("script");
+	if (typeof cb === "boolean") {
+		tmp = ordered;
+		ordered = cb;
+		cb = tmp;
+	}
+	script.src = src;
+	script.async = !ordered;
+	ref.parentNode.insertBefore(script, ref);
+	if (cb && typeof cb === "function") {
+		script.onload = cb;
+	}
+	return script;
+};
+
 function ready(fn) {
 	if (document.readyState !== "loading") {
 		fn();
@@ -19,7 +39,7 @@ ready(() => {
 		const simplify = url => {
 			if (!url || typeof url.toLowerCase === "undefined") return;
 			return url.toLowerCase().replace(/\//g, "");
-		}
+		};
 		const links = document.querySelectorAll("a");
 		links.forEach(link => {
 			link.classList.remove("active");
@@ -41,7 +61,11 @@ ready(() => {
 				} else {
 					link.setAttribute("href", link.getAttribute("href") + "?");
 				}
-				link.setAttribute("href", link.getAttribute("href") + "utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com&ref=oswaldlabs.com");
+				link.setAttribute(
+					"href",
+					link.getAttribute("href") +
+						"utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com&ref=oswaldlabs.com"
+				);
 			}
 		});
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");
@@ -53,19 +77,46 @@ ready(() => {
 			"1m": 749,
 			"5m": 999,
 			"10m": "custom"
-		}
+		};
 		if (pricingSelector) {
 			pricingSelector.addEventListener("change", () => {
 				if (amountSelector) {
 					if (pricingValues[pricingSelector.value] === "custom") {
 						document.querySelector(".agastya-no-custom").style.display = "none";
-						document.querySelector(".agastya-has-custom").style.display = "inline-block";
+						document.querySelector(".agastya-has-custom").style.display =
+							"inline-block";
 					} else {
 						document.querySelector(".agastya-no-custom").style.display = "inline-block";
 						document.querySelector(".agastya-has-custom").style.display = "none";
 						amountSelector.innerHTML = pricingValues[pricingSelector.value];
 					}
 				}
+			});
+		}
+		const contributeAmount = document.querySelector(".contribute-amount");
+		const contributeForm = document.querySelector(".contribute-form");
+		if (contributeAmount && contributeForm) {
+			contributeForm.addEventListener("submit", e => {
+				loadJS("https://checkout.stripe.com/checkout.js", () => {
+					const handler = StripeCheckout.configure({
+						key: "pk_live_2khUYvJReOob9xJ2QG4l1UoQ",
+						image: "https://stripe.com/img/documentation/checkout/marketplace.png",
+						locale: "auto",
+						token: () => {
+							alert("Thank you for your contribution!");
+						}
+					});
+					handler.open({
+						name: "Research Fund",
+						description: "Oswald Labs",
+						currency: "eur",
+						amount: contributeAmount.value * 100
+					});
+					window.addEventListener("popstate", function() {
+						handler.close();
+					});
+				});
+				e.preventDefault();
 			});
 		}
 		// gtag('config', 'UA-58910975-1', {
