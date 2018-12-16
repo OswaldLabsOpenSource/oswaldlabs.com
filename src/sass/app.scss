@@ -122,6 +122,9 @@ main > section {
 	& + section:not(.bg-light-1) {
 		// border-top: 2px solid #eee;
 	}
+	&.no-header {
+		padding-top: 7.5rem;
+	}
 }
 
 .color-tomato {
@@ -1209,4 +1212,8 @@ a.has-external-link::after {
 }
 p a.has-external-link::after {
 	margin-left: 0.25rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	margin: 2rem 0;
 }
