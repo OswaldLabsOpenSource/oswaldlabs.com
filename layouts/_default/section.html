@@ -25,6 +25,27 @@
     <div class="container mt-5">
         <div class="row">
             {{ range .Pages }}
+            {{ if .Params.Quote }}
+            <div class="col-md-4 mb-med">
+                <a class="card card-body" href="{{ .Permalink }}">
+                    <div class="mb-4">&ldquo;{{ .Params.Quote }}&rdquo;</div>
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="w-20 mr-3">
+                            <img alt="" class="rounded-circle" src="https://logo.clearbit.com/{{ .Params.Domain }}">
+                        </div>
+                        <div>
+                            <div><strong>{{ .Title }}</strong></div>
+                            <div>{{ .Date.Format "January 2, 2006" }}</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        <div class="row">
+            {{ range .Pages }}
+            {{ if not .Params.Quote }}
             <div class="col-md-4 mb-med">
                 <a class="card card-body d-flex flex-row align-items-center" href="{{ .Permalink }}">
                     <div class="w-20 mr-3">
@@ -36,6 +57,7 @@
                     </div>
                 </a>
             </div>
+            {{ end }}
             {{ end }}
         </div>
     </div>
