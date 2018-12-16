@@ -68,7 +68,7 @@ description: Smartphone for the rest of us
 		</div>
 	</div>
 </section>
-<section>
+<section class="pb-4">
 	<div class="container">
 		<div class="disclaimer small text-muted">
 			<p>Shravan is a trademark of OswaldAble Technology Private Limited, doing business as Oswald Labs. The Shravan brand name, logo, and identity is protected by copyright under Indian and international law. Some features might not work in all smartphones or in all locations. Requires a connection to the internet. Android and the Android logo are registered trademarks of Google LLC.</p>

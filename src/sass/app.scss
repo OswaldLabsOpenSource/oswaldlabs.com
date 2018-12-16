@@ -1145,6 +1145,13 @@ svg {
 
 .team {
 	text-align: center;
+	a {
+		color: inherit;
+		&:hover {
+			text-decoration: none;
+			opacity: 0.75;
+		}
+	}
 	img {
 		max-width: 120px;
 	}
@@ -1267,7 +1274,8 @@ a.has-external-link::after {
 	display: inline-block;
 }
 .sharer,
-.btn {
+.btn,
+.social {
 	.has-external-link,
 	&.has-external-link {
 		&::after {
@@ -1306,4 +1314,19 @@ h6,
 
 .w-80 {
 	width: 80%;
+}
+
+.social {
+	margin-top: 1rem;
+	svg,
+	i {
+		transform: scale(1.25) translateY(-1px);
+	}
+	a {
+		display: inline-block;
+		margin-bottom: 0.5rem;
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }

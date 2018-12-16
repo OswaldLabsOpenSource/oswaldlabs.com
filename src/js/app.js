@@ -56,16 +56,18 @@ ready(() => {
 				link.classList.add("has-external-link");
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
-				if (link.getAttribute("href").includes("?")) {
-					link.setAttribute("href", link.getAttribute("href") + "&");
-				} else {
-					link.setAttribute("href", link.getAttribute("href") + "?");
+				if (!link.getAttribute("href").includes("mailto:")) {
+					if (link.getAttribute("href").includes("?")) {
+						link.setAttribute("href", link.getAttribute("href") + "&");
+					} else {
+						link.setAttribute("href", link.getAttribute("href") + "?");
+					}
+					link.setAttribute(
+						"href",
+						link.getAttribute("href") +
+							"utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com&ref=oswaldlabs.com"
+					);
 				}
-				link.setAttribute(
-					"href",
-					link.getAttribute("href") +
-						"utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com&ref=oswaldlabs.com"
-				);
 			}
 		});
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");

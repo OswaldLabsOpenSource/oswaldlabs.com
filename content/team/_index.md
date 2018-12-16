@@ -16,12 +16,12 @@ description: Team
 <section>
 	<div class="container team">
 		<div class="row">
-			<div class="col-md-3 mb-5">
+			<a href="/team/anand/" class="col-md-3 mb-5">
 				<img alt="Photo of Anand Chowdhary" src="/images/team/anand.png" class="rounded-circle">
 				<h3>Anand Chowdhary</h3>
 				<div class="subtitle">Chief Executive Officer</div>
 				<p>Creative technologist and entrepreneur, student at University of Twente</p>
-			</div>
+			</a>
 			<div class="col-md-3 mb-5">
 				<img alt="Photo of Anand Chowdhary" src="/images/team/nishant.png" class="rounded-circle">
 				<h3>Nishant Gadihoke</h3>
@@ -47,10 +47,10 @@ description: Team
 				<p>Engineer, marketer, salesperson, student at University of Twente</p>
 			</div>
 			<div class="col-md-3 mb-5">
-				<img alt="Photo of Tushar Gupta" src="/images/team/jarco.png" class="rounded-circle">
+				<img alt="Photo of Tushar Gupta" src="/images/team/tushar.png" class="rounded-circle">
 				<h3>Tushar Gupta</h3>
 				<div class="subtitle">Research Fellow</div>
-				<p>Engineer, marketer, salesperson, student at University of Twente</p>
+				<p>Designer turned developer, passionate about research, building products</p>
 			</div>
 			<div class="col-md-3 mb-5">
 				<img alt="Photo of Tarek Gethe" src="/images/team/erik.jpg" class="rounded-circle">
