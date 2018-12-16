@@ -104,7 +104,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-5">
-				<img style="margin-top: -7rem" alt="" src="https://undraw.oswaldlabs.com/c82333/mobile-apps.svg">
+				<img class="minus-margin" alt="" src="https://undraw.oswaldlabs.com/c82333/mobile-apps.svg">
 			</div>
 		</div>
 	</div>

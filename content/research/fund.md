@@ -8,7 +8,7 @@ type: research
         <div class="row text-center justify-content-center">
             <div class="col-md-6">
 				<h1>Oswald Labs Research Fund</h1>
-				<p class="intro-para">Oswald Labs Research Fund is a not-for-profit fund part of Oswald Labs Research built to support efforts into R&amp;D and invention. We're partnering with some of the world's smartest companies to fund projects across accessibility and research.</p>
+				<p class="intro-para">Oswald Labs Research Fund is our <strong>not-for-profit</strong> fund built to support efforts into R&amp;D and invention. We're partnering with some of the world's smartest companies to fund projects across accessibility and research.</p>
                 <form class="ml-auto mr-auto col-8 contribute-form">
                     <div class="input-group input-group-lg">
                         <div class="input-group-prepend">
