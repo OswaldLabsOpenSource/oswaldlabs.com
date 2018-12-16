@@ -3,7 +3,7 @@ title: Oswald Labs Research
 type: research
 ---
 
-<section class="hero">
+<section class="hero big-image">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -11,7 +11,7 @@ type: research
 				<p class="intro-para">Oswald Labs Research is a free, remote, global support program for early-stage startups building for the next billion users. The program is based out of Enschede, the Netherlands, but is open to startups worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img class="hero-image-alt-2" alt="" src="/images/illustrations/research.svg">
+                <img alt="" src="/images/illustrations/research.svg">
             </div>
         </div>
     </div>
