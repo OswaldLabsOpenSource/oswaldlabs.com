@@ -3,7 +3,7 @@ title: Oswald Labs Accelerator
 type: accelerator
 ---
 
-<section class="hero pb-5">
+<section class="hero pb-5 big-image">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -11,7 +11,7 @@ type: accelerator
 				<p class="intro-para">Oswald Labs Accelerator is a free, remote, global support program for early-stage startups building for the next billion users. The program is based out of Enschede, the Netherlands, but is open to startups worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img class="hero-image-alt-2" alt="" src="/images/illustrations/accelerator.svg">
+                <img alt="" src="/images/illustrations/accelerator.svg">
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@ type: accelerator
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-5">
-                <h2 class="subheading">How it works</h2>
+                <h2 class="subheading-3">How it works</h2>
                 <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
                 <p>We select up to 8 startups every batch, and help them accelerate their growth for six months.</p>
             </div>

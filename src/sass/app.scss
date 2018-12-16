@@ -65,17 +65,17 @@ h3 {
 	font-weight: 400;
 	letter-spacing: 2px;
 }
+.subheading-3 {
+	color: $color;
+	font-size: 140%;
+	letter-spacing: 2px;
+	margin-bottom: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
 .page-home,
 .page-accelerator {
-	.subheading {
-		color: $color;
-		font-size: 140%;
-		letter-spacing: 2px;
-		margin-bottom: 2rem;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
 	.text-body.small {
 		color: #6b7c93 !important;
 		font-size: 75%;
@@ -1329,4 +1329,10 @@ h6,
 			text-decoration: none;
 		}
 	}
+}
+
+.display-n {
+	font-size: 240%;
+	line-height: 1.2;
+	font-weight: 300;
 }

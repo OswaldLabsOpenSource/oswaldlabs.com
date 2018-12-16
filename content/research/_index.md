@@ -20,7 +20,7 @@ type: research
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-5">
-                <h2 class="subheading">How it works</h2>
+                <h2 class="subheading-3">How it works</h2>
                 <p>We've partnered with the most innovative companies across the globe to conduct research into accessibility and build new products. We partner with thesis students, researchers in universities, and devote pro bono time from our team for collaboration.</p>
             </div>
         </div>
@@ -54,7 +54,7 @@ type: research
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="hero-image" alt="" src="https://oswaldlabs.com/images/shravan-1-f628c4f5.png">
+                <img class="hero-image" alt="" src="/images/mockups/augmenta11y.png">
             </div>
         </div>
     </div>
@@ -63,9 +63,12 @@ type: research
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="subheading">How it works</h2>
-                <p>We've partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
-                <p>We select up to 8 startups every batch, and help them accelerate their growth for six months.</p>
+                <h2 class="subheading">Case study</h2>
+                <div class="display-n">20% decrease in reading time for students with dyslexia.</div>
+                <p class="intro-para">Our researchers conducted a study with Augmenta11y, our AR app to help students with dyslexia read more easily, and found a reduction in reading time of over 20%.</p>
+                <div>
+                    <a class="btn btn-outline-primary" href="/research/publications/">Our publications &rarr;</a>
+                </div>
             </div>
         </div>
     </div>
