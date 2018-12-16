@@ -4,7 +4,7 @@ type: shravan
 description: Smartphone for the rest of us
 ---
 
-<section class="hero">
+<section class="hero big-image">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -13,6 +13,9 @@ description: Smartphone for the rest of us
 				<div>
 					<a href="#" class="btn btn-danger">Join the waitlist &rarr;</a>
 				</div>
+			</div>
+			<div class="col-md-6 text-right">
+				<img class="w-80" alt="" src="/images/illustrations/phone.svg">
 			</div>
 		</div>
 	</div>

@@ -20,4 +20,25 @@
 </div>
 </section>
 {{ end }}
+{{ if eq .Section "press" }}
+<section class="pt-0">
+    <div class="container mt-5">
+        <div class="row">
+            {{ range .Pages }}
+            <div class="col-md-4 mb-med">
+                <a class="card card-body d-flex flex-row align-items-center" href="#">
+                    <div class="w-20 mr-3">
+                        <img alt="" class="rounded-circle" src="https://logo.clearbit.com/{{ .Domain }}">
+                    </div>
+                    <div>
+                        <div><strong>{{ .Title }}</strong></div>
+                        <div>Name of article</div>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
 {{ end }}

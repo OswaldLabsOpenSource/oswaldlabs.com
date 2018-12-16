@@ -137,7 +137,7 @@ main > section {
 		// border-top: 2px solid #eee;
 	}
 	&.no-header {
-		padding-top: 7.5rem;
+		padding-top: 9rem;
 	}
 }
 
@@ -1344,6 +1344,9 @@ h6,
 .w-80 {
 	width: 80%;
 }
+.w-20 {
+	width: 20%;
+}
 
 .social {
 	margin-top: 1rem;
@@ -1368,4 +1371,8 @@ h6,
 
 .card {
 	color: #32325d;
+}
+
+.mb-med {
+	margin-bottom: 2rem;
 }
