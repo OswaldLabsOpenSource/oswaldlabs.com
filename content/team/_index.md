@@ -46,12 +46,12 @@ description: Team
 				<div class="subtitle">Head of Sales, the Netherlands</div>
 				<p>Engineer, marketer, salesperson, student at University of Twente</p>
 			</div>
-			<div class="col-md-3 mb-5">
+			<a href="/team/tushar/" class="col-md-3 mb-5">
 				<img alt="Photo of Tushar Gupta" src="/images/team/tushar.png" class="rounded-circle">
 				<h3>Tushar Gupta</h3>
 				<div class="subtitle">Research Fellow</div>
 				<p>Designer turned developer, passionate about research, building products</p>
-			</div>
+			</a>
 			<div class="col-md-3 mb-5">
 				<img alt="Photo of Tarek Gethe" src="/images/team/erik.jpg" class="rounded-circle">
 				<h3>Erik Hasenoehrl</h3>
