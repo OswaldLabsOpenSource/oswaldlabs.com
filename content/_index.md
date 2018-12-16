@@ -31,7 +31,10 @@ type: home
 	<div class="container">
 		<div class="row mt-5 mb-5">
 			<div class="col-md-6">
-				<h2 class="subheading"> <span class="small text-body">Introducing the new</span> <span class="mt-2 d-block">Shravan Apps</span> </h2>
+				<h2 class="subheading-3">
+					<span class="small text-body">Introducing the new</span>
+					<span class="mt-2 d-block">Shravan Apps</span>
+				</h2>
 				<p>
 					<i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>
 					We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</p>
@@ -43,7 +46,7 @@ type: home
 						</div>
 					</a>
 				</div>
-				<a target="_blank" rel="noopener noreferrer" class="btn btn-left" href="https://oswaldlabs.typeform.com/to/uWzZPc">Sign up for the beta →</a>
+				<a class="btn btn-left" href="/platform/shravan/apps/">Sign up for the beta →</a>
 			</div>
 		</div>
 	</div>
@@ -112,12 +115,7 @@ type: home
 </section>
 <div class="d-flex justify-content-center breaker pb-3">
 	<div class="common-Link globalFooterCard col-md-6 card-sigma">
-		<svg class="icon-image" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
-			<g fill="none" fill-rule="evenodd">
-				<circle fill="#ED9E9E" cx="160" cy="160" r="160"></circle>
-				<path d="M57 83h32.142c7.047 0 13.05 1.08 18.013 3.236 4.96 2.157 9.024 5.033 12.188 8.63 3.164 3.594 5.43 7.73 6.795 12.402 1.366 4.674 2.05 9.528 2.05 14.562v5.608c0 4.17-.324 7.694-.97 10.57-.648 2.877-1.62 5.394-2.913 7.55-1.295 2.158-2.877 4.063-4.746 5.717-1.87 1.654-4.028 3.2-6.473 4.638 5.177 2.445 8.988 6.076 11.433 10.894 2.445 4.818 3.668 11.254 3.668 19.307v8.63c0 13.517-3.272 23.872-9.816 31.063-6.543 7.19-17.006 10.786-31.387 10.786H57V83zm22.003 131.59h9.492c4.458 0 7.946-.648 10.463-1.942 2.516-1.295 4.422-3.092 5.716-5.393 1.294-2.3 2.085-5.034 2.373-8.198.288-3.164.43-6.615.43-10.354 0-3.883-.214-7.263-.646-10.14-.43-2.875-1.33-5.284-2.695-7.226-1.366-1.94-3.272-3.415-5.717-4.422-2.445-1.007-5.68-1.51-9.707-1.51h-9.707v49.184zm0-68.6h9.924c7.334 0 12.26-1.833 14.776-5.5 2.517-3.668 3.775-9.025 3.775-16.072 0-6.903-1.402-12.08-4.206-15.532-2.804-3.45-7.874-5.177-15.208-5.177h-9.06v42.28zm161.143 90.603h-20.71l-16.825-99.663h-.43l-16.61 99.663h-20.71L141.994 83h23.297l11.003 97.505h.432L193.982 83h16.826l17.905 99.878h.43L239.716 83h23.297l-22.866 153.593z" fill="#FFF" fill-rule="nonzero"></path>
-			</g>
-		</svg>
+		<img alt="BW Disrupt icon" src="/images/logos/bw-circle.svg" class="icon-image">
 		<blockquote class="blockquote mb-0">
 			<p class="mb-0">“Oswald Labs continues to be a leader in the research and development of disabled-friendly technology”</p>
 			<footer class="blockquote-footer justify-content-end"> <cite title="BW Disrupt" class="align-self-end"> <img alt="BW Disrupt" src="https://oswaldlabs.com/images/logos/bwdisrupt-a32d2d4d.svg"> </cite> </footer>
@@ -129,19 +127,15 @@ type: home
 		<div class="row">
 			<div class="col-md-6 pr-md-5 links-fc3c53">
 				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
-				<h2 class="subheading">
-					<span>Shravan</span>
-					<span class="mt-2 small text-body d-block">Smartphone for the rest of us</span>
-				</h2>
+				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
+				<div class="mb-4 text-uppercase text-body">Smartphone for the rest of us</div>
 				<p>Shravan is the world’s first end-to-end accessible smartphone OS. With our patent-pending speech and vibration interface, Shravan can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting Android smartphone.</p>
 				<a class="btn btn-left" href="/platform/shravan/">Download for your smartphone →</a>
 			</div>
 			<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
 				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
-				<h2 class="subheading">
-					<span>Valmiki</span>
-					<span class="mt-2 small text-body d-block">Accessibility extension</span>
-				</h2>
+				<h2 class="subheading-3 mt-0 mb-1">Valmiki</h2>
+				<div class="mb-4 text-uppercase text-body">Accessibility extension</div>
 				<p>Valmiki (Oswald for Chrome) is a browser extension that changes the look and feel of the entire web based on your design customizations and preferences. It’s especially helpful for people with dyslexia, because it comes built-in with an option that adjusts the color-contrast ratio and typography.</p>
 				<a class="btn btn-left" href="/platform/valmiki/">Download for your browser →</a>
 			</div>

@@ -28,7 +28,7 @@ description: Smartphone for the rest of us
 					<h2 class="subheading">Augmenta11y</h2>
 					<p>Augmented Reality reading app for people with dyslexia</p>
 					<div>
-						<a class="btn btn-outline-danger" href="https://play.google.com/store/apps/details?id=com.oswaldlabs.augmenta11y">Android &rarr;</a>
+						<a class="btn btn-outline-danger" href="https://play.google.com/store/apps/details?id=com.oswaldlabs.augmenta11y">Download &rarr;</a>
 					</div>
 				</div>
 			</div>
@@ -42,11 +42,8 @@ description: Smartphone for the rest of us
 					<img class="icon" src="https://static.oswaldlabs.com/shravan-icons/live-subtitles/generated/android-chrome-144x144.png">
 					<h2 class="subheading">Live Subtitles</h2>
 					<p>Conversational captionion app for people with deafness</p>
-					<div class="app-icons mt-4 d-none">
-						<button class="btn btn-dark">
-							<i class="fab fa-android"></i>
-							Android
-						</button>
+					<div>
+						<a class="btn btn-outline-danger" href="https://oswaldlabs.typeform.com/to/uWzZPc">Preregister &rarr;</a>
 					</div>
 				</div>
 			</div>
@@ -60,15 +57,8 @@ description: Smartphone for the rest of us
 					<img class="icon" src="https://static.oswaldlabs.com/shravan-icons/visib11y/generated/android-chrome-144x144.png">
 					<h2 class="subheading">Visib11y</h2>
 					<p>Object recognition and navigation app for people with blindness</p>
-					<div class="app-icons mt-4 d-none">
-						<button class="btn btn-dark">
-							<i class="fab fa-android"></i>
-							Android
-						</button>
-						<button class="btn btn-dark">
-							<i class="fab fa-apple"></i>
-							iPhone
-						</button>
+					<div>
+						<a class="btn btn-outline-danger" href="https://oswaldlabs.typeform.com/to/uWzZPc">Preregister &rarr;</a>
 					</div>
 				</div>
 			</div>
@@ -82,15 +72,8 @@ description: Smartphone for the rest of us
 					<img class="icon" src="https://static.oswaldlabs.com/shravan-icons/wikibility/generated/android-chrome-144x144.png">
 					<h2 class="subheading">Wikibility</h2>
 					<p>Wikipedia referencing app for people with disabilities</p>
-					<div class="app-icons mt-4 d-none">
-						<button class="btn btn-dark">
-							<i class="fab fa-android"></i>
-							Android
-						</button>
-						<button class="btn btn-dark">
-							<i class="fab fa-apple"></i>
-							iPhone
-						</button>
+					<div>
+						<a class="btn btn-outline-danger" href="https://oswaldlabs.typeform.com/to/uWzZPc">Preregister &rarr;</a>
 					</div>
 				</div>
 			</div>
