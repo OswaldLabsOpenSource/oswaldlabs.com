@@ -52,6 +52,7 @@ h3 {
 	text-transform: uppercase;
 	font-size: 110%;
 	margin-bottom: 1rem;
+	margin-top: 0.5rem;
 	color: #6b7c93;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -280,6 +281,7 @@ footer {
 		opacity: 0.65;
 	}
 	h2.h5 {
+		margin-top: 0;
 		font-size: 95%;
 		letter-spacing: 1px;
 		font-weight: bold;
@@ -314,6 +316,10 @@ footer {
 		a {
 			font-weight: 500;
 		}
+	}
+	.justify-content-center p {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -443,7 +449,7 @@ section.dark {
 header .navbar .dropdown-menu {
 	top: 150%;
 	border: none;
-	box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
 	.dropdown-text {
 		display: flex;
 		width: 14rem;
@@ -972,52 +978,28 @@ img, svg {
 }
 
 .card.card-body {
-	box-shadow: 0 15px 35px rgba(50,50,93,0.1), 0 5px 15px rgba(0,0,0,0.07);
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 }
 
 .card-phone {
 	border-radius: 2rem;
 	text-align: center;
 	margin-top: -12rem;
-	padding-bottom: 1rem;
 	position: relative;
 	border: 1px solid #ddd;
-	&::before {
-		content: "";
-		position: absolute;
-		left: 50%; top: 1.15rem;
-		border-radius: 100%;
-		margin-left: -3rem;
-		width: 0.75rem;
-		height: 0.75rem;
-		border: 1px solid #ddd;
-	}
-	&::after {
-		content: "";
-		position: absolute;
-		left: 50%; top: 1.3rem;
-		border-radius: 3rem;
-		margin-left: -1rem;
-		right: 5rem;
-		height: 0.3rem;
-		border: 1px solid #ddd;
-	}
+	box-shadow:
+		inset 0 4px 7px 1px #fff,
+		inset 0 -5px 20px rgba(173, 186, 204, .25),
+		0 2px 6px rgba(0, 21, 64, .14),
+		0 10px 20px rgba(0, 21, 64, .05)
+	;
 	.screen {
 		background-color: whitesmoke;
+		border-radius: 0.5rem;
+		overflow: hidden;
 		border: 1px solid #ddd;
 		margin: 3rem 0.5rem;
 		position: relative;
-		&::after {
-			content: "";
-			position: absolute;
-			bottom: -3rem;
-			left: 50%;
-			margin-left: -1.125rem;
-			width: 2.25rem;
-			height: 2.25rem;
-			border-radius: 100%;
-			border: 1px solid #ddd;
-		}
 	}
 }
 
@@ -1207,13 +1189,20 @@ a.has-external-link::after {
 	background-position: center center;
 	display: inline-block;
 }
-.sharer .has-external-link::after {
-	display: none;
+.sharer, .btn {
+	.has-external-link, &.has-external-link {
+		&::after {
+			display: none;
+		}
+	}
 }
 p a.has-external-link::after {
 	margin-left: 0.25rem;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	margin: 2rem 0;
+	margin: 2rem 0 1rem 0;
+	&:first-child {
+		margin-top: 0;
+	}
 }

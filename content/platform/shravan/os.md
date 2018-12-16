@@ -6,7 +6,7 @@ description: Smartphone for the rest of us
 
 <section class="hero">
 	<div class="container">
-		<div class="row">
+		<div class="row justify-content-center text-center">
 			<div class="col-md-6">
 				<h1>The inclusive and <em>smart</em>phone operating system.</h1>
 				<p class="intro-para">Shravan OS is a concept operating system for phones and tablets running Android which uses a patent-pending vibration and speech interface which allows partially or completely blind users use a smartphone with ease.</p>
