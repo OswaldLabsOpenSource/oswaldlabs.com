@@ -9,6 +9,8 @@ This is the repo for Oswald Labs' official website. You can visit it at https://
 - [ ] Screenshot API for meta image or platform image generator
 - [ ] Remove robots.txt prevent
 - [ ] Check current sitemap.xml and make redirects
+- [ ] Dark theme/dyslexia theme for plugin footer
+- [ ] Add Minify to Gulp build process
 
 ## Development
 
