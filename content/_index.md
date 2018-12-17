@@ -10,7 +10,7 @@ type: home
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
 		<div class="mt-5">
 			<a class="btn btn-light mr-3" href="/platform/">Explore our solutions &rarr;</a>
-			<a class="btn btn-outline-light" href="/contact">Get in Touch</a>
+			<a class="btn btn-outline-light" href="/contact/">Get in Touch</a>
 		</div>
 		<div class="right-drawings d-none d-lg-flex">
 			<div class="app-illustrations">
@@ -39,7 +39,7 @@ type: home
 					<i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>
 					We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</p>
 				<div class="mt-4 mb-3">
-					<a href="/team/anand" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="https://avatars2.githubusercontent.com/u/2841780" class="rounded-circle avatar-small">
+					<a href="/team/anand/" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="https://avatars2.githubusercontent.com/u/2841780" class="rounded-circle avatar-small">
 						<div>
 							<div>Anand Chowdhary</div>
 							<div class="small">Co-founder &amp; CEO</div>
@@ -110,7 +110,7 @@ type: home
 				</dl>
 			</div>
 		</div>
-		<p class="mt-4 text-center"><a class="btn color-tomato" href="/agastya">Add Agastya to your website →</a></p>
+		<p class="mt-4 text-center"><a class="btn color-tomato" href="/platform/agastya/">Add Agastya to your website →</a></p>
 	</div>
 </section>
 <div class="d-flex justify-content-center breaker pb-3">
@@ -145,11 +145,11 @@ type: home
 <section class="press-section pt-4 pb-4">
 	<h2 class="sr-only">Press</h2>
 	<div class="container d-flex align-items-center justify-content-between">
-		<a href="/press/forbes" class="press-item" title="Forbes"> <img alt="Forbes logo" src="https://oswaldlabs.com/images/logos/forbes-ed1f4c00.svg" style="height: 25px"> </a>
+		<a href="/press/forbes/" class="press-item" title="Forbes"> <img alt="Forbes logo" src="https://oswaldlabs.com/images/logos/forbes-ed1f4c00.svg" style="height: 25px"> </a>
 		<a href="/press/huffpost" class="press-item" title="HuffPost"> <img alt="HuffPost logo" src="https://oswaldlabs.com/images/logos/huffpost-b9726347.svg" style="height: 20px"> </a>
-		<a href="/press/het-financieele-dagblad" class="press-item" title="Het Financieele Dagblad"> <img alt="Het Financieele Dagblad logo" src="https://oswaldlabs.com/images/logos/hetfinancieeledagblad-f23359bb.svg" style="height: 40px"> </a>
-		<a href="/press/hindustan-times" class="press-item" title="Hindustan Times"> <img alt="Hindustan Times logo" src="https://oswaldlabs.com/images/logos/hindustantimes-6b31c94e.svg" style="height: 22px"> </a>
-		<a href="/press/yourstory" class="press-item" title="YourStory"> <img alt="YourStory logo" src="https://oswaldlabs.com/images/logos/yourstory-ce2a7a42.svg" style="height: 45px"> </a>
-		<a href="/press/scoopwhoop" class="press-item" title="ScoopWhoop"> <img alt="ScoopWhoop logo" src="https://oswaldlabs.com/images/logos/scoopwhoop-5861e522.svg" style="height: 55px"> </a>
+		<a href="/press/het-financieele-dagblad/" class="press-item" title="Het Financieele Dagblad"> <img alt="Het Financieele Dagblad logo" src="https://oswaldlabs.com/images/logos/hetfinancieeledagblad-f23359bb.svg" style="height: 40px"> </a>
+		<a href="/press/hindustan-times/" class="press-item" title="Hindustan Times"> <img alt="Hindustan Times logo" src="https://oswaldlabs.com/images/logos/hindustantimes-6b31c94e.svg" style="height: 22px"> </a>
+		<a href="/press/yourstory/" class="press-item" title="YourStory"> <img alt="YourStory logo" src="https://oswaldlabs.com/images/logos/yourstory-ce2a7a42.svg" style="height: 45px"> </a>
+		<a href="/press/scoopwhoop/" class="press-item" title="ScoopWhoop"> <img alt="ScoopWhoop logo" src="https://oswaldlabs.com/images/logos/scoopwhoop-5861e522.svg" style="height: 55px"> </a>
 	</div>
 </section>

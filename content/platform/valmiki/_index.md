@@ -55,6 +55,6 @@ description: Smartphone for the rest of us
 	<div>
 		<h2 class="display-4">Free as in freedom.</h2>
 		<p class="mt-4 mb-4">Valmiki by Oswald Labs is completely free and open-sourced under the MIT license. This means that users never have to pay for it and developers can build on top of it.</p>
-		<a class="btn btn-primary btn-lg" href="#">Download for Chrome &rarr;</a>
+		<a class="btn btn-primary btn-lg" href="https://chrome.google.com/webstore/detail/oswald/ibonfikdhfajjmcaoiecaoaomnngamfn">Download for Chrome &rarr;</a>
 	</div>
 </section>

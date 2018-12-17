@@ -25,7 +25,7 @@ description: Smartphone for the rest of us
 					<h2>Shravan OS</h2>
 					<p class="intro-para">With our speech and vibration technology, Shravan OS can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between.</p>
 					<div>
-						<a href="/platform/shravan/os" class="btn btn-danger">Explore Shravan OS &rarr;</a>
+						<a href="/platform/shravan/os/" class="btn btn-danger">Explore Shravan OS &rarr;</a>
 					</div>
 				</div>
 			</div>
@@ -62,7 +62,7 @@ description: Smartphone for the rest of us
 					<h2>Shravan apps</h2>
 					<p class="intro-para">For users using Android and iOS, Oswald Labs also offers free and open-source apps. Shravan apps help the visually impaired understand the world around them, the hearing impaired have conversations, and the dyslexic read more easily.</p>
 					<div>
-						<a href="/platform/shravan/apps" class="btn btn-danger">Download Shravan apps &rarr;</a>
+						<a href="/platform/shravan/apps/" class="btn btn-danger">Download Shravan apps &rarr;</a>
 					</div>
 				</div>
 			</div>
@@ -99,7 +99,7 @@ description: Smartphone for the rest of us
 					<h2>Shravan Phone</h2>
 					<p class="intro-para">What would an affordable, accessible smartphone look like? Take a sneak peek at and preorder the $69, end-to-end accessible smartphone running Shravan OS.</p>
 					<div>
-						<a href="/platform/shravan/phone" class="btn btn-danger">Preview Shravan Phone &rarr;</a>
+						<a href="/platform/shravan/phone/" class="btn btn-danger">Preview Shravan Phone &rarr;</a>
 					</div>
 				</div>
 			</div>

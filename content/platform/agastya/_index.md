@@ -11,7 +11,7 @@ description: Smartphone for the rest of us
 				<h1>Web accessibility made simple.</h1>
 				<p class="intro-para">By adding just one line of JavaScript code, you can make your website accessible to a much wider audience. You can customize the widget, view usage analytics, install apps, and more.</p>
 				<div>
-					<a href="/platform/agastya/features" class="btn btn-warning">Get started for free &rarr;</a>
+					<a href="/platform/agastya/features/" class="btn btn-warning">Get started for free &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md-6 text-right">
@@ -157,7 +157,7 @@ description: Smartphone for the rest of us
 				<h2 class="mt-4 mb-4">Start for free, pay as you grow.</h2>
 				<p>Agastya is affordable for everyone — from small startups to multinational institutions. It’s free for websites with less than 10,000 pageviews per month, and we offer special discounts and free Pro plans for non-profits, student startups, and bootstrapped startups.</p>
 				<div>
-					<a href="/platform/agastya/pricing" class="btn btn-warning">Explore pricing &rarr;</a>
+					<a href="/platform/agastya/pricing/" class="btn btn-warning">Explore pricing &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md-6 pl-5">
@@ -165,7 +165,7 @@ description: Smartphone for the rest of us
 				<h2 class="mt-4 mb-4">By developers, for developers.</h2>
 				<p>Agastya features a powerful API for developers, along with plugins for popular platforms such as WordPress, Squarespace, Ghost, and Shopify. Developers can also build their own modes and add them to the a11y.co web accessibility store to earn money. Coming soon.</p>
 				<div>
-					<a href="/platform/agastya/pricing" class="btn btn-warning">API documentation &rarr;</a>
+					<a href="https://help.oswaldlabs.com/developers/" class="btn btn-warning">API documentation &rarr;</a>
 				</div>
 			</div>
 		</div>
@@ -192,7 +192,7 @@ description: Smartphone for the rest of us
 			</div>
 		</div>
 		<p class="small mt-5">
-			<sup>1</sup> Oswald Labs is registered as Oswald Able Technology Private Limited in India. All invoices are issued by the Indian company. We use Transferwise and Stripe to collect payments in euros. <sup>2</sup> Data is stored by Amazon Web Services in Dublin, Ireland or Frankfurt, Germany; servers may also run in Paris, France. We use CloudFlare’s global CDN to deliver resources. <sup>3</sup> Learn more about our GDPR-readiness on our <a href="#">GDPR compliancy page</a>.
+			<sup>1</sup> Oswald Labs is registered as Oswald Able Technology Private Limited in India. All invoices are issued by the Indian company. We use Transferwise and Stripe to collect payments in euros. <sup>2</sup> Data is stored by Amazon Web Services in Dublin, Ireland or Frankfurt, Germany; servers may also run in Paris, France. We use CloudFlare’s global CDN to deliver resources. <sup>3</sup> Learn more about our GDPR-readiness on our <a href="/platform/agastya/eu/">GDPR compliancy page</a>.
 		</p>
 	</div>
 </section>

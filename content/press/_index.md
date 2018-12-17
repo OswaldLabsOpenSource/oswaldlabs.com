@@ -2,7 +2,7 @@
 title: Press
 ---
 
-<section class="no-header pb-1">
+<section class="hero pb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
