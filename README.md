@@ -2,28 +2,28 @@
 
 This is the repo for Oswald Labs' official website. You can visit it at https://oswaldlabs.com.
 
-Quick things to remember:
-- Site should be WCAG 2.0 compliant
-- SVGs wherever possible
+## Todo before production
 
-Todo:
-- i18n
-- Connect accelerator platform (Middleman + CMS)
+- [ ] Migration
+- [ ] Rich Snippets docs, add all everywhere
+- [ ] Screenshot API for meta image or platform image generator
+- [ ] Remove robots.txt prevent
+- [ ] Check current sitemap.xml and make redirects
 
 ## Development
 
-### Installation
-```
-gem install middleman
-bundle install
+Run a local Gulp/Hugo server:
+
+```bash
+yarn serve
 ```
 
-### Testing
-```
-middleman server
+Run Prettier while writing CSS or JS:
+
+```bash
+yarn prettier
 ```
 
-### Production
-```
-middleman build && middleman deploy
-```
+## Production
+
+Just pust to `master` branch and Netlify will deploy (currently set to temp URL)
