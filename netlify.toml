@@ -14,6 +14,10 @@
 	command = "yarn build:preview"
 
 [[redirects]]
+  from = "/agastya/sla"
+  to = "/policies/sla/"
+
+[[redirects]]
   from = "/agastya/*"
   to = "/platform/agastya/:splat"
 
@@ -24,3 +28,43 @@
 [[redirects]]
   from = "/valmiki/*"
   to = "/platform/valmiki/:splat"
+
+[[redirects]]
+  from = "/education"
+  to = "/values/education/"
+
+[[redirects]]
+  from = "/environment"
+  to = "/values/environment/"
+
+[[redirects]]
+  from = "/accessibility"
+  to = "/values/accessibility/"
+
+[[redirects]]
+  from = "/justice"
+  to = "/values/justice/"
+
+[[redirects]]
+  from = "/cookies"
+  to = "/policies/cookies/"
+
+[[redirects]]
+  from = "/terms"
+  to = "/policies/terms/"
+
+[[redirects]]
+  from = "/logos"
+  to = "/press/logos/"
+
+[[redirects]]
+  from = "/brand-guidelines"
+  to = "/press/brand-guidelines/"
+
+[[redirects]]
+  from = "/spaces"
+  to = "/accelerator/spaces/"
+
+[[redirects]]
+  from = "/partners"
+  to = "/accelerator/partners/"
