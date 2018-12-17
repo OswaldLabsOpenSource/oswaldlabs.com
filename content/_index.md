@@ -55,9 +55,14 @@ type: home
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-6">
-				<div class="d-flex align-items-center justify-content-center mb-4"> <img class="icon-image bigger mr-4" alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
-					<h2 class="subheading mb-0 color-tomato"> <span>Agastya</span> <span class="mt-2 small text-body d-block">Web accessibility made simple</span> </h2> </div>
-				<p class="text-center">a11y.co lets web developers and business owners incorporate accessibility features to their websites. By adding just one line of JavaScript code, you can make your website disabled-friendly and accessible to a much wider audience.</p>
+				<div class="d-flex align-items-center justify-content-center mb-4">
+					<img class="icon-image bigger mr-4" alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
+					<div>
+						<h2 class="subheading-3 mt-0 mb-1 color-tomato">Agastya</h2>
+						<div class="text-uppercase text-body">Web accessibility made simple</div>
+					</div>
+				</div>
+				<p class="text-center">Agastya lets web developers and business owners incorporate accessibility features to their websites. By adding just one line of JavaScript code, you can make your website disabled-friendly and accessible to a much wider audience.</p>
 			</div>
 		</div>
 		<div class="row justify-content-center mt-5 d-none d-md-flex">
@@ -129,8 +134,8 @@ type: home
 				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
 				<div class="mb-4 text-uppercase text-body">Smartphone for the rest of us</div>
-				<p>Shravan is the world’s first end-to-end accessible smartphone OS. With our patent-pending speech and vibration interface, Shravan can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting Android smartphone.</p>
-				<a class="btn btn-left" href="/platform/shravan/">Download for your smartphone →</a>
+				<p>Shravan is the world’s first end-to-end accessible smartphone platform. With our patent-pending speech and vibration interface, Shravan OS and Shravan Apps can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting smartphone.</p>
+				<a class="btn btn-left" href="/platform/shravan/">Explore Shravan products →</a>
 			</div>
 			<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
 				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
@@ -141,6 +146,36 @@ type: home
 			</div>
 		</div>
 	</div>
+</section>
+<section class="bg-light-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Oswald Labs Accelerator</h2>
+                <p>Oswald Labs Research Fund is our not-for-profit fund built to support efforts into R&D and invention. We're partnering with some of the world's smartest companies to fund projects across accessibility and research.</p>
+                <div>
+                    <a class="btn btn-primary" href="/accelerator/">More about the program &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="hero-image" alt="" src="/images/mockups/augmenta11y.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="subheading">Oswald Labs Research</h2>
+                <div class="display-n">20% decrease in reading time for students with dyslexia.</div>
+                <p class="intro-para">Our researchers conducted a study with Augmenta11y, our AR app to help students with dyslexia read more easily, and found a reduction in reading time of over 20%.</p>
+                <div>
+                    <a class="btn btn-outline-primary" href="/research/">Visit Oswald Labs Research &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="press-section pt-4 pb-4">
 	<h2 class="sr-only">Press</h2>
