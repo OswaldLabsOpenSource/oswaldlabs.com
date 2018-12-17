@@ -12,7 +12,9 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                 <p>If you’d like to request a product demo, discuss a potential partnership, or write about us, you can click on use the “Schedule a Meeting” button to add something to our calendar.</p>
                 <div class="row mt-5">
                     <div class="col-md">
-                        <div class="display-4">🇮🇳</div>
+                        <div>
+                            <img class="rounded-circle w-20 mb-3 image-shadow" alt="Flag for India" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/1x1/in.svg">
+                        </div>
                         <h2 class="h4 mt-0">New Delhi</h2>
                         <div>
                             <div>E-267, Third Floor</div>
@@ -35,7 +37,9 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                         </div>
                     </div>
                     <div class="col-md">
-                        <div class="display-4">🇳🇱</div>
+                        <div>
+                            <img class="rounded-circle w-20 mb-3 image-shadow" alt="Flag for India" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/1x1/nl.svg">
+                        </div>
                         <h2 class="h4 mt-0">Enschede</h2>
                         <div>
                             <div>Hardstart, De Hems 10</div>
