@@ -22,30 +22,30 @@ description: Team
 				<div class="subtitle">Chief Executive Officer</div>
 				<p>Creative technologist and entrepreneur, student at University of Twente</p>
 			</a>
-			<div class="col-md-3 mb-5">
-				<img alt="Photo of Anand Chowdhary" src="/images/team/nishant.png" class="rounded-circle">
+			<a href="/team/nishant/" class="col-md-3 mb-5">
+				<img alt="Photo of Nishant Gadihoke" src="/images/team/nishant.png" class="rounded-circle">
 				<h3>Nishant Gadihoke</h3>
 				<div class="subtitle">Chief Technology Officer</div>
 				<p>Multi-disciplinary designer and developer, student</p>
-			</div>
-			<div class="col-md-3 mb-5">
+			</a>
+			<a href="/team/mahendra/" class="col-md-3 mb-5">
 				<img alt="Photo of Nishant Gadihoke" src="/images/team/mahendra.png" class="rounded-circle">
 				<h3>Mahendra Raghuwanshi</h3>
 				<div class="subtitle">Chief Operating Officer</div>
 				<p>Electronics engineer, previously Radio Expert at Nokia, BTech SGSITS</p>
-			</div>
-			<div class="col-md-3 mb-5">
+			</a>
+			<a href="/team/tarek/" class="col-md-3 mb-5">
 				<img alt="Photo of Mahendra Raghuwanshi" src="/images/team/tarek.png" class="rounded-circle">
 				<h3>Tarek Gethe</h3>
 				<div class="subtitle">Head of Sales, Germany</div>
 				<p>Digital marketer, researcher, psychology student at University of Twente</p>
-			</div>
-			<div class="col-md-3 mb-5">
+			</a>
+			<a href="/team/jarco/" class="col-md-3 mb-5">
 				<img alt="Photo of Jarco van Roest" src="/images/team/jarco.png" class="rounded-circle">
 				<h3>Jarco van Roest</h3>
 				<div class="subtitle">Head of Sales, the Netherlands</div>
 				<p>Engineer, marketer, salesperson, student at University of Twente</p>
-			</div>
+			</a>
 			<a href="/team/tushar/" class="col-md-3 mb-5">
 				<img alt="Photo of Tushar Gupta" src="/images/team/tushar.png" class="rounded-circle">
 				<h3>Tushar Gupta</h3>

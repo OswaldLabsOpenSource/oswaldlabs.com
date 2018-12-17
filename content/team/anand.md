@@ -1,7 +1,7 @@
 ---
 title: Anand Chowdhary
 position: Chief Executive Officer
-city: New Delhi, India
+city: Enschede, the Netherlands
 email: anand@oswaldlabs.com
 image: /images/team/anand.png
 linkedin: https://www.linkedin.com/in/AnandChowdhary/
