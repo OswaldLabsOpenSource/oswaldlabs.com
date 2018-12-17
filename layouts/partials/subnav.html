@@ -45,6 +45,29 @@
 	</div>
 </div>
 {{ end }}
+{{ if eq .Type "values" }}
+<div class="subnav-menu">
+	<div class="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 d-flex align-items-center">
+					<span class="d-flex align-items-center logo">
+						<h1 class="m-0 text-body font-weight-bold p-2 pl-3 p-md-0">Values</h1>
+					</span>
+				</div>
+				<div class="col-md">
+					<nav class="nav justify-content-end">
+						<a class="nav-link" href="/values/accessibility/">Accessibility</a>
+						<a class="nav-link" href="/values/education/">Education</a>
+						<a class="nav-link" href="/values/justice/">Justice</a>
+						<a class="nav-link" href="/values/environment/">Environment</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}
 {{ if eq .Type "research" }}
 <div class="subnav-menu">
 	<div class="navigation">

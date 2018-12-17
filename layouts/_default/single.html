@@ -41,6 +41,17 @@
 		</div>
 	</div>
 </section>
+{{ else if eq .Section "values" }}
+<section class="no-header">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<h1 class="text-center mb-5">{{ .Title }}</h1>
+				<div class="content">{{ .Content }}</div>
+			</div>
+		</div>
+	</div>
+</section>
 {{ else if eq .Section "team" }}
 <section class="hero pb-5">
 	<div class="container">
