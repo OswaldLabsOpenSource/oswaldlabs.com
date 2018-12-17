@@ -14,6 +14,7 @@ This is the repo for Oswald Labs' official website. It's built on Hugo as oppose
 - [ ] Blog post ideas
    - [ ] Open Dyslexic results
    - [ ] A case for web accessibility plugins
+   - [ ] Translation with Netlify prerender for /nl URLs
 
 ## Development
 
