@@ -12,6 +12,7 @@ The Oswald Labs website is written in Hugo and is released under the MIT license
 
 - Illustrations from [Undraw](https://undraw.co) under the MIT license
 - [LoadJS](https://github.com/filamentgroup/loadJS) by Filament Group under the MIT license
+- [Balloon.css](https://github.com/kazzkiq/balloon.css) by Claudio Holanda under the MIT license
 
 ### Apps
 
