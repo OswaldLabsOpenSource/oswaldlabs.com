@@ -1,6 +1,6 @@
 # Oswald Labs Website
 
-This is the repo for Oswald Labs' official website. You can visit it at https://oswaldlabs.com.
+This is the repo for Oswald Labs' official website. It's built on Hugo as opposed to the previous version in Middleman.
 
 ## Todo before production
 
