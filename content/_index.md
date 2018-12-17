@@ -152,7 +152,7 @@ type: home
         <div class="row">
             <div class="col-md-6">
                 <h2>Oswald Labs Accelerator</h2>
-                <p>Oswald Labs Research Fund is our not-for-profit fund built to support efforts into R&D and invention. We're partnering with some of the world's smartest companies to fund projects across accessibility and research.</p>
+                <p class="mb-4">Oswald Labs Accelerator is a free, remote, global support program for early-stage startups building for the next billion users.</p>
                 <div>
                     <a class="btn btn-primary" href="/accelerator/">More about the program &rarr;</a>
                 </div>
