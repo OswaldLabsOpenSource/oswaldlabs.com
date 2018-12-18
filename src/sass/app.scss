@@ -1380,7 +1380,8 @@ a.has-external-link::after {
 }
 .sharer,
 .btn,
-.social {
+.social,
+.card {
 	.has-external-link,
 	&.has-external-link {
 		&::after {
