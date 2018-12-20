@@ -136,6 +136,14 @@ ready(() => {
 					ipAddress.value = json.ip;
 				})
 		}
+		const departmentSelect = document.querySelector(".department-select");
+		if (departmentSelect) {
+			const urlParams = new URLSearchParams(window.location.search);
+			const departmentInfo = urlParams.get("department");
+			if (departmentInfo) {
+				departmentSelect.value = departmentInfo;
+			}
+		}
 		// gtag('config', 'UA-58910975-1', {
 		// 	'page_title': document.title,
 		// 	'page_path': location.pathname

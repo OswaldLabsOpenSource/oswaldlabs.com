@@ -79,13 +79,14 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                         </div>
                         <div class="form-group">
                             <label for="department">Department</label>
-                            <select class="custom-select">
+                            <select class="custom-select department-select">
                                 <option>Support</option>
                                 <option>Sales</option>
                                 <option>Accelerator</option>
                                 <option>Partnerships</option>
                                 <option>Feedback</option>
                                 <option>CEO&rsquo;s office</option>
+                                <option>Data Protection Officer</option>
                             </select>
                         </div>
                         <div class="form-group">
