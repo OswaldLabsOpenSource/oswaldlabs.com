@@ -27,34 +27,58 @@ type: accelerator
         </div>
         <div class="row pt-5">
             <div class="col-md-4 mb-5">
-                <i class="fas fa-lock fa-2x text-muted mb-4"></i>
+                <i class="fas fa-briefcase fa-2x text-muted mb-4"></i>
                 <h2 class="subheading-2">Legal support</h2>
-                <p>Our payment system is PSD2 Strong Customer Authentication (SCA) compliant, which will be mandatory starting from September 2019 in the European Economic Area (EEA).</p>
+                <p>Hiring professional lawyers is expensive. So you don’t have to. Get free legal consultations for your startup, patent and IP support, and one-on-one meetings.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Enschede</span>
+                </p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <i class="fas fa-building fa-2x text-muted mb-4"></i>
+                <h2 class="subheading-2">Office space</h2>
+                <p>Get a rented office space or access to coworking spaces in your city for free. Build your team, work unlimited hours, and have a legal office address.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Enschede, New Delhi</span>
+                </p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <i class="fas fa-user-tie fa-2x text-muted mb-4"></i>
+                <h2 class="subheading-2">Business development</h2>
+                <p>One-on-one meetings for strategy and scalability with business development experts and industry leaders from around the world. Up to two hours per week.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Worldwide</span>
+                </p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <i class="fas fa-laptop-code fa-2x text-muted mb-4"></i>
+                <h2 class="subheading-2">Technology support</h2>
+                <p>Free consultations and pro-bono development from some of the leading digital studios to help improve your technology stack, DevOps, and user experience design.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Worldwide</span>
+                </p>
+            </div>
+            <div class="col-md-4 mb-5">
+                <i class="fas fa-graduation-cap fa-2x text-muted mb-4"></i>
+                <h2 class="subheading-2">Research &amp; testing</h2>
+                <p>Work with universities, non-profit organizations, and professional user experience and testing companies to get feedback and R&D support before you launch.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Enschede, New Delhi, London</span>
+                </p>
             </div>
             <div class="col-md-4 mb-5">
                 <i class="fas fa-shield-alt fa-2x text-muted mb-4"></i>
-                <h2 class="subheading-2">Office space</h2>
-                <p>Our payment system also has a PCI DSS Level 1 compliance certification, which is the highest level of Payment Card Industry Data Security Standard (PCI DSS) compliance.</p>
-            </div>
-            <div class="col-md-4 mb-5">
-                <i class="fas fa-money-bill-wave fa-2x text-muted mb-4"></i>
-                <h2 class="subheading-2">Business development</h2>
-                <p>With an e-money license in Europe, our payment system is compliant with the EU E-money directive (EMD) for non-cash payments in the European single market.</p>
-            </div>
-            <div class="col-md-4 mb-5">
-                <i class="fas fa-globe-africa fa-2x text-muted mb-4"></i>
-                <h2 class="subheading-2">Technology support</h2>
-                <p>All databases, logs, and servers are securely stored in Dublin, Ireland; Paris, France; or Frankfurt, Germany; within the borders of the European Union and delivered through a global CDN.</p>
-            </div>
-            <div class="col-md-4 mb-5">
-                <i class="fas fa-globe-africa fa-2x text-muted mb-4"></i>
-                <h2 class="subheading-2">Research &amp; testing</h2>
-                <p>All databases, logs, and servers are securely stored in Dublin, Ireland; Paris, France; or Frankfurt, Germany; within the borders of the European Union and delivered through a global CDN.</p>
-            </div>
-            <div class="col-md-4 mb-5">
-                <i class="fas fa-globe-africa fa-2x text-muted mb-4"></i>
-                <h2 class="subheading-2">And much more!</h2>
-                <p>All databases, logs, and servers are securely stored in Dublin, Ireland; Paris, France; or Frankfurt, Germany; within the borders of the European Union and delivered through a global CDN.</p>
+                <h2 class="subheading-2">Security &amp; services</h2>
+                <p>GDPR and EU laws compliancy, two-factor authentication and security stack development, and more such services are made available to our accelerator startups for free.</p>
+                <p class="small">
+                    <i class="fas fa-globe-europe mr-1"></i>
+                    <span>Worldwide</span>
+                </p>
             </div>
         </div>
     </div>

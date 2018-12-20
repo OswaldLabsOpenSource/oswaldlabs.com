@@ -20,7 +20,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<p class="intro-para mt-0 mb-4">With over 20 unique problem-solving verticals, Oswald Labs is the world's most versatile company in accessibility. From helping your users access content to give feedback, our products help you break barriers to universal access.</p>
+				<p class="intro-para mt-0 mb-4">Oswald Labs Platform consists of three products &mdash; Agastya, Shravan, and Valmiki. Each product features several features designed to make technology more accessible.</p>
 			</div>
 		</div>
 		<div class="row mt-5">
