@@ -16,6 +16,35 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 		</div>
 	</div>
 </section>
+<section class="products pb-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="intro-para mt-0 mb-4">With over 20 unique problem-solving verticals, Oswald Labs is the world's most versatile company in accessibility. From helping your users access content to give feedback, our products help you break barriers to universal access.</p>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-4 links-e96300">
+				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
+				<h2 class="subheading-3 mt-0 mb-1">Agastya</h2>
+				<p>Accessibility for websites</p>
+				<a class="btn btn-left" href="/platform/agastya/">Get started for free →</a>
+			</div>
+			<div class="col-md-4 links-c82333">
+				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
+				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
+				<p>Accessibility for smartphones</p>
+				<a class="btn btn-left" href="/platform/shravan/">Explore Shravan products →</a>
+			</div>
+			<div class="col-md-4 links-40806a mt-5 mt-md-0">
+				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
+				<h2 class="subheading-3 mt-0 mb-1">Valmiki</h2>
+				<p>Accessibility for browsers</p>
+				<a class="btn btn-left" href="/platform/valmiki/">Download for your browser →</a>
+			</div>
+		</div>
+	</div>
+</section>
 <section>
 	<div class="container pt-3 pt-md-0">
 		<h2 class="subheading mb-4">Modes for websites</h2>
@@ -108,7 +137,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">Apps for smartphones</h2>
+		<h2 class="subheading mb-4 mt-5">Smartphone apps</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/platform/agastya/use-cases/dyslexia-reading/" class="card card-body d-block">
@@ -135,7 +164,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">Services for companies</h2>
+		<h2 class="subheading mb-4 mt-5">Our services</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/platform/solutions/website-accessibility-audits/" class="card card-body d-block">
@@ -168,7 +197,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 		</div>
-		<h2 class="subheading mb-4 mt-5">APIs for developers</h2>
+		<h2 class="subheading mb-4 mt-5">Developer APIs</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
 				<a href="/platform/developers/accessibility-widget-api/" class="card card-body d-block">

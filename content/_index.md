@@ -58,7 +58,7 @@ type: home
 				<div class="d-flex align-items-center justify-content-center mb-4">
 					<img class="icon-image bigger mr-4" alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
 					<div>
-						<h2 class="subheading-3 mt-0 mb-1 color-tomato">Agastya</h2>
+						<h2 class="subheading-3 mt-0 mb-1 color-e96300">Agastya</h2>
 						<div class="text-uppercase text-body">Web accessibility made simple</div>
 					</div>
 				</div>
@@ -115,7 +115,7 @@ type: home
 				</dl>
 			</div>
 		</div>
-		<p class="mt-4 text-center"><a class="btn color-tomato" href="/platform/agastya/">Add Agastya to your website →</a></p>
+		<p class="mt-4 text-center"><a class="btn color-e96300" href="/platform/agastya/">Add Agastya to your website →</a></p>
 	</div>
 </section>
 <div class="d-flex justify-content-center breaker pb-3">
@@ -130,14 +130,14 @@ type: home
 <section class="bg-white products">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 pr-md-5 links-fc3c53">
+			<div class="col-md-6 pr-md-5 links-c82333">
 				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
 				<div class="mb-4 text-uppercase text-body">Smartphone for the rest of us</div>
 				<p>Shravan is the world’s first end-to-end accessible smartphone platform. With our patent-pending speech and vibration interface, Shravan OS and Shravan Apps can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting smartphone.</p>
 				<a class="btn btn-left" href="/platform/shravan/">Explore Shravan products →</a>
 			</div>
-			<div class="col-md-6 pl-md-5 links-24b47e mt-5 mt-md-0">
+			<div class="col-md-6 pl-md-5 links-40806a mt-5 mt-md-0">
 				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Valmiki</h2>
 				<div class="mb-4 text-uppercase text-body">Accessibility extension</div>
