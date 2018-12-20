@@ -8,7 +8,7 @@ This page serves as an imprint and colophon for this website and our products. W
 
 ### Website
 
-The Oswald Labs website is written in Hugo and is released under the MIT license. It uses the following open-source projects:
+The Oswald Labs website is written in Hugo and is released under the MIT license. The source code is available on [GitHub](https://github.com/OswaldLabsOpenSource/oswaldlabs.com). It uses the following open-source projects:
 
 - Illustrations from [Undraw](https://undraw.co) under the MIT license
 - [LoadJS](https://github.com/filamentgroup/loadJS) by Filament Group under the MIT license

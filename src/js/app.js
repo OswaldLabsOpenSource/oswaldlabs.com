@@ -128,6 +128,14 @@ ready(() => {
 		if (calendlyLink) {
 			loadJS("https://assets.calendly.com/assets/external/widget.js");
 		}
+		const ipAddress = document.querySelector(".ip-address-fill");
+		if (ipAddress) {
+			fetch("https://ipinfo.io/json")
+				.then(response => response.json())
+				.then(json => {
+					ipAddress.value = json.ip;
+				})
+		}
 		// gtag('config', 'UA-58910975-1', {
 		// 	'page_title': document.title,
 		// 	'page_path': location.pathname
