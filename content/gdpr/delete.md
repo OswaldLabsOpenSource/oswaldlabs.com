@@ -25,6 +25,7 @@ title: GDPR Delete
                         <button class="btn btn-primary btn-lg">Delete all my data &rarr;</button>
                     </form>
                 </div>
+                <a href="/contact/?department=Data+Protection+Officer" class="btn btn-outline-primary btn-block mt-4">Contact our Data Protection Officer &rarr;</a>
             </div>
 		</div>
 	</div>
