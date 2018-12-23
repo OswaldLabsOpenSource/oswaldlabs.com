@@ -12,7 +12,7 @@ description: Smartphone for the rest of us
 				<p>Shravan is Oswald Labs&rsquo; research project, which takes its form both as an operating system for Android-based smartphones, and a set of free, inclusive, and easy-to-use apps.</p>
 			</div>
 			<div class="col-md-6">
-				<img class="hero-image" alt="" src="https://oswaldlabs.com/images/shravan-1-f628c4f5.png">
+				<img class="hero-image" alt="" src="/images/mockups/shravan.png">
 			</div>
 		</div>
 	</div>
@@ -32,22 +32,22 @@ description: Smartphone for the rest of us
 		</div>
 		<div class="row pt-5">
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="https://oswaldlabs.com/images/shravan-image-1-9ab367f8.png">
+				<img class="mb-4" alt="" src="/images/photos/shravan-1.png">
 				<h2 class="subheading">Breaking barriers to smartphone usage</h2>
 				<p class="mb-4">It works for people who have visual impairment, learning disorders, or are senior citizens. It also works for villagers, illiterate audiences, disabled users, and everyone in between.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="https://oswaldlabs.com/images/shravan-image-2-71e4214d.png">
+				<img class="mb-4" alt="" src="/images/photos/shravan-2.png">
 				<h2 class="subheading">Revolutionary technology</h2>
 				<p class="mb-4">It uses accessible interface patterns with different modes for correcting system-wide contrast and design settings using a patent-pending combination of vibrations, speech, and touch.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="https://oswaldlabs.com/images/shravan-image-3-6969a5c3.png">
+				<img class="mb-4" alt="" src="/images/photos/shravan-3.png">
 				<h2 class="subheading">Made to empower every one of us</h2>
 				<p class="mb-4">It has Aadhar integration and works in native languages like Hindi, Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati, Kannada, Malayalam, Odia, Punjab, Assamese, and Maithili.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="https://oswaldlabs.com/images/shravan-image-4-59a9b548.png">
+				<img class="mb-4" alt="" src="/images/photos/shravan-4.png">
 				<h2 class="subheading">Tons of features and updates</h2>
 				<p class="mb-4">It has a built-in voice assistant, internet applications like live news and sports scores, music streaming, and search, and emergency features like one-tap ambulance access.</p>
 			</div>
