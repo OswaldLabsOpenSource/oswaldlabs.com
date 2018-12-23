@@ -6,7 +6,7 @@ enableRobotsTXT = true
 disableAliases = true
 
 [params]
-disallow_search_engines = false # set robots.txt to disallow everything
+disallow_search_engines = true
 
 # add redirects/headers
 [outputs]
