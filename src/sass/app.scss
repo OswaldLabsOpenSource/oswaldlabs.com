@@ -1067,10 +1067,14 @@ svg {
 	}
 	header {
 		.navbar-nav {
-			background-color: white;
+			background-color: #32325d;
+			.nav-link {
+				color: #fff;
+			}
+			padding: 1rem 0;
 		}
 		.navbar-collapse {
-			margin-top: 1rem;
+			margin: 1rem -1rem;
 		}
 		.nav-link {
 			padding: 0.5rem 1.5rem !important;
