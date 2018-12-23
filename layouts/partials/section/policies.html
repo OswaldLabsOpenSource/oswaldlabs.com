@@ -1,0 +1,13 @@
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                {{ range .Pages }}
+                    <article>
+                        <h2><a class="list-heading" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

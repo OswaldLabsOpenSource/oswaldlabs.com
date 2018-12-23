@@ -1,0 +1,17 @@
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                {{ range .Paginator.Pages }}
+                    <article>
+                        <h2><a class="list-heading" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                        <p class="text-muted">Posted on <time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+                        <p>{{ .Summary }}</p>
+                        <p><a href="{{ .Permalink }}">Continue reading &rarr;</a></p>
+                    </article>
+                {{ end }}
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </div>
+    </div>
+</section>

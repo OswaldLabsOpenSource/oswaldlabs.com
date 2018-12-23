@@ -1,0 +1,61 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="subheading-3">Program partners</h2>
+                <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            {{ range .Pages }}
+            {{ if .Params.Quote }}
+            <div class="col-md-4 d-flex align-items-stretch mb-med">
+                <a class="card" href="{{ .Permalink }}">
+                    <div class="image card-bg-image">
+                        {{ if .Params.Image }}
+                        <img alt="" src="{{ .Params.Image }}">
+                        {{ else }}
+                        <h2>{{ .Title }}</h2>
+                        {{ end }}
+                    </div>
+                    <div class="card-body">
+                        <p>{{ .Params.Quote }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+<section class="pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="subheading-3">Event partners</h2>
+                <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            {{ range .Pages }}
+            {{ if not .Params.Quote }}
+            <div class="col-md-4 mb-med">
+                <a class="card card-body d-flex flex-row align-items-center" href="{{ .Permalink }}">
+                    <div class="w-20 mr-3">
+                        {{ if .Params.Image }}
+                        <img alt="" class="rounded-circle" src="{{ .Params.Image }}">
+                        {{ else }}
+                        <img alt="" class="rounded-circle" src="https://logo.clearbit.com/{{ .Params.Domain }}">
+                        {{ end }}
+                    </div>
+                    <div>
+                        <div><strong>{{ .Title }}</strong></div>
+                        <div>{{ .Params.Category }}</div>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
