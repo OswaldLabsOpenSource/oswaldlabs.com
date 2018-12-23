@@ -39,7 +39,7 @@ type: home
 					<i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>
 					We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</p>
 				<div class="mt-4 mb-3">
-					<a href="/team/anand/" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="https://avatars2.githubusercontent.com/u/2841780" class="rounded-circle avatar-small">
+					<a href="/team/anand/" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="/images/team/anand.png" class="rounded-circle avatar-small">
 						<div>
 							<div>Anand Chowdhary</div>
 							<div class="small">Co-founder &amp; CEO</div>

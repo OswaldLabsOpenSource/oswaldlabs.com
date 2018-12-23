@@ -12,8 +12,8 @@
                 <a class="card w-100" href="{{ .Permalink }}">
                     <div class="card-body">
                         <h2>{{ .Title }}</h2>
-                        <div>{{ .Params.Subtitle }}</div>
-                        <div>{{ .Params.Author }}</div>
+                        {{ if .Params.Subtitle }}<div>{{ .Params.Subtitle }}</div>{{ end }}
+                        {{ if .Params.Author }}<div class="mt-3 text-muted">{{ .Params.Author }}</div>{{ end }}
                     </div>
                 </a>
             </div>
@@ -26,7 +26,7 @@
                                 <i class="fas fa-book-open fa-3x mb-4 text-muted"></i>
                             </div>
                             <h2 class="subheading">More coming soon</h2>
-                            <p>We're constantly adding more partners and co-working spaces, stay tuned!</p>
+                            <p>We're working on some great new research, so stay tuned!</p>
                         </div>
                     </div>
                 </div>

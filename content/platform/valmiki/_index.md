@@ -11,7 +11,7 @@ description: Smartphone for the rest of us
 				<h1>The revolutionary tool for accessible reading.</h1>
 				<p class="intro-para">Oswald Labs was founded with the development of Valmiki, which is a plug-in for Chromium-based web browsers like Google Chrome and Opera that changes the look and feel of the entire internet based on your preferences.</p>
 				<div>
-					<a href="#" class="btn btn-success">Download for free &rarr;</a>
+					<a href="https://chrome.google.com/webstore/detail/oswald/ibonfikdhfajjmcaoiecaoaomnngamfn?utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com" class="btn btn-success">Download for free &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -55,6 +55,6 @@ description: Smartphone for the rest of us
 	<div>
 		<h2 class="display-4">Free as in freedom.</h2>
 		<p class="mt-4 mb-4">Valmiki by Oswald Labs is completely free and open-sourced under the MIT license. This means that users never have to pay for it and developers can build on top of it.</p>
-		<a class="btn btn-primary btn-lg" href="https://chrome.google.com/webstore/detail/oswald/ibonfikdhfajjmcaoiecaoaomnngamfn">Download for Chrome &rarr;</a>
+		<a class="btn btn-success btn-lg" href="https://chrome.google.com/webstore/detail/oswald/ibonfikdhfajjmcaoiecaoaomnngamfn">Download for Chrome &rarr;</a>
 	</div>
 </section>
