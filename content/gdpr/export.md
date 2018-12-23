@@ -16,13 +16,14 @@ title: GDPR Export
                     <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input name="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
                             <label for="ip">IP address</label>
                             <input name="ip" class="form-control ip-address-fill" id="ip" placeholder="Enter your IP address" required>
                         </div>
                         <input type="hidden" name="type" value="export">
+                        <p class="small">By submitting this form, you are agreeing with our <a href="/policies/">policies</a>.</p>
                         <button class="btn btn-primary btn-lg">Send me an export &rarr;</button>
                     </form>
                 </div>

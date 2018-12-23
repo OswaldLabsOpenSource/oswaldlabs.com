@@ -11,7 +11,7 @@ description: Smartphone for the rest of us
 				<h1>Web accessibility made simple.</h1>
 				<p class="intro-para">By adding just one line of JavaScript code, you can make your website accessible to a much wider audience. You can customize the widget, view usage analytics, install apps, and more.</p>
 				<div>
-					<a href="/platform/agastya/features/" class="btn btn-warning">Get started for free &rarr;</a>
+					<a href="/platform/agastya/pricing/" class="btn btn-warning">Get started for free &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md-6 text-right">

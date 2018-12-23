@@ -75,6 +75,7 @@ ready(() => {
 		});
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");
 		const amountSelector = document.querySelector(".agastya-calculated-price");
+		const btnRequest = document.querySelector(".btn-request");
 		const pricingValues = {
 			"100k": 99,
 			"250k": 249,
@@ -95,6 +96,9 @@ ready(() => {
 						document.querySelector(".agastya-has-custom").style.display = "none";
 						amountSelector.innerHTML = pricingValues[pricingSelector.value];
 					}
+				}
+				if (btnRequest) {
+					btnRequest.setAttribute("href", "/platform/agastya/request/?pageviews=" + pricingSelector.value);
 				}
 			});
 		}
@@ -133,7 +137,12 @@ ready(() => {
 			fetch("https://ipinfo.io/json")
 				.then(response => response.json())
 				.then(json => {
-					ipAddress.value = json.ip;
+					if (json.ip) ipAddress.value = json.ip;
+					["city", "country", "org", "region", "postal", "loc"].forEach(value => {
+						if (json[value] && document.querySelector(`.${value}-fill`)) {
+							document.querySelector(`.${value}-fill`).value = json[value];
+						}
+					});
 				})
 		}
 		const departmentSelect = document.querySelector(".department-select");
@@ -142,6 +151,14 @@ ready(() => {
 			const departmentInfo = urlParams.get("department");
 			if (departmentInfo) {
 				departmentSelect.value = departmentInfo;
+			}
+		}
+		const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
+		if (pricingSelectPrefill) {
+			const urlParams = new URLSearchParams(window.location.search);
+			const planInfo = urlParams.get("pageviews");
+			if (planInfo) {
+				pricingSelectPrefill.value = planInfo;
 			}
 		}
 		// gtag('config', 'UA-58910975-1', {

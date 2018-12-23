@@ -62,7 +62,7 @@ type: agastya
 							</tr>
 						</tbody>
 					</table>
-					<button class="btn btn-light btn-lg">Get started &rarr;</button>
+					<a href="/platform/agastya/request/" class="btn btn-light btn-lg">Get started &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md">
@@ -117,7 +117,7 @@ type: agastya
 							</tr>
 						</tbody>
 					</table>
-					<button class="btn btn-warning btn-lg">Start free trial &rarr;</button>
+					<a href="/platform/agastya/request/?pageviews=100k" class="btn btn-warning btn-lg btn-request">Start free trial &rarr;</a>
 				</div>
 			</div>
 		</div>
