@@ -62,13 +62,13 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/features/blind-friendly-read-aloud/" class="card card-body d-block">
+				<a href="/platform/agastya/features/blue-light-filter/" class="card card-body d-block">
 					<i class="fas fa-cloud-moon fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Blue light filter</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/features/increase-font-size/" class="card card-body d-block">
+				<a href="/platform/agastya/features/dark-theme/" class="card card-body d-block">
 					<i class="fas fa-moon fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Dark theme</span>
 				</a>
@@ -83,6 +83,36 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				<a href="/platform/agastya/features/increase-font-size/" class="card card-body d-block">
 					<i class="fas fa-text-height fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Increase font size</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/platform/agastya/features/reading-mode/" class="card card-body d-block">
+					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Reading mode</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/platform/agastya/features/legible-fonts/" class="card card-body d-block">
+					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Legible fonts mode</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/platform/agastya/features/highlight-links/" class="card card-body d-block">
+					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Highlight links</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/platform/agastya/features/desaturation/" class="card card-body d-block">
+					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Desaturation</span>
+				</a>
+			</div>
+			<div class="col-md-4 mb-4">
+				<a href="/platform/agastya/features/large-cursor/" class="card card-body d-block">
+					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<span>Large cursor</span>
 				</a>
 			</div>
 		</div>
@@ -140,25 +170,25 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 		<h2 class="subheading mb-4 mt-5">Smartphone apps</h2>
 		<div class="row">
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/use-cases/dyslexia-reading/" class="card card-body d-block">
+				<a href="/platform/shravan/apps/augmenta11y/" class="card card-body d-block">
 					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Dyslexia-friendly reading</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/use-cases/deaf-live-subtitles/" class="card card-body d-block">
+				<a href="/platform/shravan/apps/live-subtitles/" class="card card-body d-block">
 					<i class="fas fa-deaf fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Live subtitles for hearing impaired</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/use-cases/books-for-dyslexic-students/" class="card card-body d-block">
+				<a href="/platform/shravan/apps/wikibility/" class="card card-body d-block">
 					<i class="fas fa-book-open fa-fw fa-2x mr-2 text-muted"></i>
-					<span>Books for dyslexic students</span>
+					<span>Wikipedia with accessibility</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/use-cases/blind-object-detection/" class="card card-body d-block">
+				<a href="/platform/shravan/apps/visib11y/" class="card card-body d-block">
 					<i class="fas fa-eye-slash fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Object detection for the blind</span>
 				</a>
