@@ -56,7 +56,7 @@ type: home
 		<div class="row justify-content-center">
 			<div class="col-md-6">
 				<div class="d-flex align-items-center justify-content-center mb-4">
-					<img class="icon-image bigger mr-4" alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
+					<img class="icon-image bigger mr-4" alt="" src="/images/icons/agastya.svg">
 					<div>
 						<h2 class="subheading-3 mt-0 mb-1 color-e96300">Agastya</h2>
 						<div class="text-uppercase text-body">Web accessibility made simple</div>
@@ -131,14 +131,14 @@ type: home
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 pr-md-5 links-c82333">
-				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
+				<img alt="Shravan icon" src="/images/icons/shravan.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
 				<div class="mb-4 text-uppercase text-body">Smartphone for the rest of us</div>
 				<p>Shravan is the world’s first end-to-end accessible smartphone platform. With our patent-pending speech and vibration interface, Shravan OS and Shravan Apps can be easily used by the visually impaired, the unlettered, senior citizens, and everyone in between; and can be installed in any preexisting smartphone.</p>
 				<a class="btn btn-left" href="/platform/shravan/">Explore Shravan products →</a>
 			</div>
 			<div class="col-md-6 pl-md-5 links-40806a mt-5 mt-md-0">
-				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
+				<img alt="Valmiki icon" src="/images/icons/valmiki.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Valmiki</h2>
 				<div class="mb-4 text-uppercase text-body">Accessibility extension</div>
 				<p>Valmiki (Oswald for Chrome) is a browser extension that changes the look and feel of the entire web based on your design customizations and preferences. It’s especially helpful for people with dyslexia, because it comes built-in with an option that adjusts the color-contrast ratio and typography.</p>

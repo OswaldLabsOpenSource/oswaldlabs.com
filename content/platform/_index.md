@@ -25,19 +25,19 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-4 links-e96300">
-				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Agastya.svg">
+				<img alt="Shravan icon" src="/images/icons/agastya.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Agastya</h2>
 				<p>Accessibility for websites</p>
 				<a class="btn btn-left" href="/platform/agastya/">Get started for free →</a>
 			</div>
 			<div class="col-md-4 links-c82333">
-				<img alt="Shravan icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Shravan.svg">
+				<img alt="Shravan icon" src="/images/icons/shravan.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Shravan</h2>
 				<p>Accessibility for smartphones</p>
 				<a class="btn btn-left" href="/platform/shravan/">Explore Shravan products →</a>
 			</div>
 			<div class="col-md-4 links-40806a mt-5 mt-md-0">
-				<img alt="Valmiki icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Valmiki.svg">
+				<img alt="Valmiki icon" src="/images/icons/valmiki.svg">
 				<h2 class="subheading-3 mt-0 mb-1">Valmiki</h2>
 				<p>Accessibility for browsers</p>
 				<a class="btn btn-left" href="/platform/valmiki/">Download for your browser →</a>
