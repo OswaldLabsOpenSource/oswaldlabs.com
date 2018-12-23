@@ -44,6 +44,7 @@ description: Sitemap
                     <a href="/platform/agastya/pricing/">Pricing</a>
                     <a href="/platform/agastya/compliance/">Compliance</a>
                     <a href="/platform/agastya/eu/">European Union</a>
+                    <a href="/platform/agastya/register/">Register</a>
                 </nav>
             </div>
 			<div class="col-md-3 mt-5">

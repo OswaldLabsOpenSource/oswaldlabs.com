@@ -98,7 +98,7 @@ ready(() => {
 					}
 				}
 				if (btnRequest) {
-					btnRequest.setAttribute("href", "/platform/agastya/request/?pageviews=" + pricingSelector.value);
+					btnRequest.setAttribute("href", "/platform/agastya/register/?pageviews=" + pricingSelector.value);
 				}
 			});
 		}
