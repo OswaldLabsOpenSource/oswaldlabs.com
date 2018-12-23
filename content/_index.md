@@ -66,52 +66,31 @@ type: home
 			</div>
 		</div>
 		<div class="row justify-content-center mt-5 d-none d-md-flex">
-			<div class="col-md-4 d-flex pr-4 align-items-center text-right">
-				<dl> <dt><strong>Translation</strong></dt>
-					<dd>Make your content available to everyone with built-in neural machine translation in over a hundred languages.</dd> <dt class="mt-4"><strong>Blue Light Filter</strong></dt>
-					<dd>Simulate an adjustment to the color temperature of the display to reduce eye strain and disruption of sleep patterns.</dd> <dt class="mt-4"><strong>Analytics</strong></dt>
-					<dd>Get access to raw data and computed analytics about your users’s disabilities, pageviews, and usage.</dd>
+			<div class="col-md-4 d-flex pr-5 align-items-center text-right">
+				<dl>
+					<dt><strong>Translation</strong></dt>
+					<dd>Make your content available to everyone with built-in neural machine translation in over a hundred languages.</dd>
+					<dt><strong>Blue Light Filter</strong></dt>
+					<dd>Simulate an adjustment to the color temperature of the display to reduce eye strain and disruption of sleep patterns.</dd>
+					<dt><strong>Live Chat</strong></dt>
+					<dd>Integrate with third-party services for customer feedback, chatbot, live chat and phone support, and more.</dd>
+					<dt><strong>Analytics</strong></dt>
+					<dd>Get access to raw data and computed analytics about your website, locations, referers, usage, and user abilities.</dd>
 				</dl>
 			</div>
 			<div class="col-md-4">
-				<div class="card p-3 agastya-demo-card">
-					<div class="row">
-						<div class="col-6 mb-3">
-							<button>Sample</button>
-						</div>
-						<div class="col-6 mb-3">
-							<button>Sample</button>
-						</div>
-						<div class="col-6 mb-3">
-							<button>Sample</button>
-						</div>
-						<div class="col-6 mb-3">
-							<button>Sample</button>
-						</div>
-						<div class="col-6">
-							<button id="translateOptions">Sample</button>
-							<div class="dropdown-menu" aria-labelledby="translateOptions">
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'en')"> <span class="flag-span" aria-hidden="true">🇺🇸</span> <span>English</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'nl')"> <span class="flag-span" aria-hidden="true">🇳🇱</span> <span>Nederlands</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'de')"> <span class="flag-span" aria-hidden="true">🇩🇪</span> <span>Deutsch</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'es')"> <span class="flag-span" aria-hidden="true">🇪🇸</span> <span>Español</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'fr')"> <span class="flag-span" aria-hidden="true">🇫🇷</span> <span>Français</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'it')"> <span class="flag-span" aria-hidden="true">🇮🇹</span> <span>Italiano</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('translate', 'hi')"> <span class="flag-span" aria-hidden="true">🇮🇳</span> <span>हिन्दी</span> </button>
-								<button class="dropdown-item" onclick="window.agastya.api('frame', 'open')"> <span>More Languages</span> </button>
-							</div>
-						</div>
-						<div class="col-6">
-							<button>Sample</button>
-						</div>
-					</div>
-				</div>
+				<img style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" src="/images/illustrations/agastya.png">
 			</div>
-			<div class="col-md-4 d-flex pl-4 align-items-center">
-				<dl> <dt><strong>Dyslexia-friendly Mode</strong></dt>
-					<dd>Uses the research verified by the British Dyslexia Association and the W3C for up to 65% faster reading.</dd> <dt class="mt-4"><strong>Visual Impairment</strong></dt>
-					<dd>Built-in content extraction finds the main content of your webpage and reads it out for the partially or completely blind.</dd> <dt class="mt-4"><strong>Accessibility Platform</strong></dt>
-					<dd>Developers can build modes for Agastya on a11y.co, and publishers can add and remove options from the store.</dd>
+			<div class="col-md-4 d-flex pl-5 align-items-center">
+				<dl>
+					<dt><strong>Dyslexia-friendly Mode</strong></dt>
+					<dd>Uses the research verified by the British Dyslexia Association and the W3C for up to 65% faster reading.</dd>
+					<dt><strong>Visual Impairment</strong></dt>
+					<dd>Built-in content extraction finds the main content of your webpage and reads it out for the partially or completely blind.</dd>
+					<dt><strong>Automated Audits</strong></dt>
+					<dd>Schedule automated accessibility and SEO audits to make sure no inaccessible code is ever pushed to production.</dd>
+					<dt><strong>Accessibility Platform</strong></dt>
+					<dd>Developers can build modes for Agastya on a11y.co, and customers can customize their plugin from the store.</dd>
 				</dl>
 			</div>
 		</div>
