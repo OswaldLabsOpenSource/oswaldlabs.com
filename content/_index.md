@@ -15,13 +15,13 @@ type: home
 		<div class="right-drawings d-none d-lg-flex">
 			<div class="app-illustrations">
 				<div class="tablet-landscape">
-					<img alt="window.Agastya accessibility plugin" src="https://oswaldlabs.com/images/agastyascreen-bb880cbc.svg">
+					<img alt="Agastya accessibility plugin" src="/images/illustrations/home-agastya.svg">
 				</div>
 				<div class="phone-small">
-					<img alt="Shravan smartphone OS" src="https://oswaldlabs.com/images/shravanscreen-ccb39628.svg">
+					<img alt="Shravan smartphone OS" src="/images/illustrations/home-shravan.svg">
 				</div>
 				<div class="tablet-portrait">
-					<img alt="window.Agastya accessibility plugin" src="https://oswaldlabs.com/images/a11yscreen-c42146b0.svg">
+					<img alt="Aristotle e-learning" src="/images/illustrations/home-aristotle.svg">
 				</div>
 			</div>
 		</div>
@@ -123,7 +123,11 @@ type: home
 		<img alt="BW Disrupt icon" src="/images/logos/bw-circle.svg" class="icon-image">
 		<blockquote class="blockquote mb-0">
 			<p class="mb-0">“Oswald Labs continues to be a leader in the research and development of disabled-friendly technology”</p>
-			<footer class="blockquote-footer justify-content-end"> <cite title="BW Disrupt" class="align-self-end"> <img alt="BW Disrupt" src="https://oswaldlabs.com/images/logos/bwdisrupt-a32d2d4d.svg"> </cite> </footer>
+			<footer class="blockquote-footer justify-content-end">
+				<cite title="BW Disrupt" class="align-self-end">
+					<img alt="BW Disrupt" src="/images/logos/bw-disrupt.svg">
+				</cite>
+			</footer>
 		</blockquote>
 	</div>
 </div>
@@ -180,11 +184,23 @@ type: home
 <section class="press-section pt-4 pb-4">
 	<h2 class="sr-only">Press</h2>
 	<div class="container d-flex align-items-center justify-content-between">
-		<a href="/press/forbes/" class="press-item" title="Forbes"> <img alt="Forbes logo" src="https://oswaldlabs.com/images/logos/forbes-ed1f4c00.svg" style="height: 25px"> </a>
-		<a href="/press/huffpost" class="press-item" title="HuffPost"> <img alt="HuffPost logo" src="https://oswaldlabs.com/images/logos/huffpost-b9726347.svg" style="height: 20px"> </a>
-		<a href="/press/het-financieele-dagblad/" class="press-item" title="Het Financieele Dagblad"> <img alt="Het Financieele Dagblad logo" src="https://oswaldlabs.com/images/logos/hetfinancieeledagblad-f23359bb.svg" style="height: 40px"> </a>
-		<a href="/press/hindustan-times/" class="press-item" title="Hindustan Times"> <img alt="Hindustan Times logo" src="https://oswaldlabs.com/images/logos/hindustantimes-6b31c94e.svg" style="height: 22px"> </a>
-		<a href="/press/yourstory/" class="press-item" title="YourStory"> <img alt="YourStory logo" src="https://oswaldlabs.com/images/logos/yourstory-ce2a7a42.svg" style="height: 45px"> </a>
-		<a href="/press/scoopwhoop/" class="press-item" title="ScoopWhoop"> <img alt="ScoopWhoop logo" src="https://oswaldlabs.com/images/logos/scoopwhoop-5861e522.svg" style="height: 55px"> </a>
+		<a href="/press/forbes/" class="press-item" title="Forbes">
+			<img alt="Forbes logo" src="/images/logos/forbes.svg" style="height: 25px">
+		</a>
+		<a href="/press/huffpost" class="press-item" title="HuffPost">
+			<img alt="HuffPost logo" src="/images/logos/huffpost.svg" style="height: 20px">
+		</a>
+		<a href="/press/het-financieele-dagblad/" class="press-item" title="Het Financieele Dagblad">
+			<img alt="Het Financieele Dagblad logo" src="/images/logos/fd.svg" style="height: 40px">
+		</a>
+		<a href="/press/bw-disrupt/" class="press-item" title="BW Disrupt">
+			<img alt="BW Disrupt logo" src="/images/logos/bw-disrupt.svg" style="height: 27px">
+		</a>
+		<a href="/press/hindustan-times/" class="press-item" title="Hindustan Times">
+			<img alt="Hindustan Times logo" src="/images/logos/hindustan-times.svg" style="height: 22px">
+		</a>
+		<a href="/press/yourstory/" class="press-item" title="YourStory">
+			<img alt="YourStory logo" src="/images/logos/yourstory.svg" style="height: 45px">
+		</a>
 	</div>
 </section>
