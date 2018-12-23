@@ -72,8 +72,8 @@ type: agastya
 							<h2>Pro</h2>
 						</div>
 						<div class="col text-right">
-							<h2 class="text-muted agastya-no-custom">€<span class="agastya-calculated-price">99</span>/month</h2>
-							<h2 class="text-muted agastya-has-custom">Custom pricing</h2>
+							<h2 class="text-muted m-0 agastya-no-custom">€<span class="agastya-calculated-price">99</span>/month</h2>
+							<h2 class="text-muted m-0 agastya-has-custom">Custom pricing</h2>
 						</div>
 					</div>
 					<table class="table">
@@ -111,7 +111,7 @@ type: agastya
 										<option value="500k">500,000 pageviews per month</option>
 										<option value="1m">1M pageviews per month</option>
 										<option value="5m">5M pageviews per month</option>
-										<option value="10m">10M pageviews or more per month</option>
+										<option value="10m">More than 5 million per month</option>
 									</select>
 								</td>
 							</tr>
