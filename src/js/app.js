@@ -167,28 +167,31 @@ ready(() => {
 		// });
 	}
 	initMe();
-	const FadeTransition = Barba.BaseTransition.extend({
-		start: function() {
-			Promise.all([this.newContainerLoading, this.fadeOut()]).then(this.fadeIn.bind(this));
-		},
-		fadeOut: function() {
-			document.body.classList.add("fade-out");
-			return new Promise(function(resolve) {
-				window.scrollTo(0, 0);
-				resolve();
-			});
-		},
-		fadeIn: function() {
-			document.body.classList.remove("fade-out");
-			this.newContainer.classList.toggle("fade-in");
-			this.done();
-		}
-	});
-	Barba.Pjax.getTransition = function() {
-		return FadeTransition;
-	};
-	Barba.Pjax.start();
-	Barba.Dispatcher.on("newPageReady", function(currentStatus, oldStatus, container) {
-		initMe(container);
-	});
+	const Barba = Barba || window.Barba;
+	if (Barba) {
+		const FadeTransition = Barba.BaseTransition.extend({
+			start: function() {
+				Promise.all([this.newContainerLoading, this.fadeOut()]).then(this.fadeIn.bind(this));
+			},
+			fadeOut: function() {
+				document.body.classList.add("fade-out");
+				return new Promise(function(resolve) {
+					window.scrollTo(0, 0);
+					resolve();
+				});
+			},
+			fadeIn: function() {
+				document.body.classList.remove("fade-out");
+				this.newContainer.classList.toggle("fade-in");
+				this.done();
+			}
+		});
+		Barba.Pjax.getTransition = function() {
+			return FadeTransition;
+		};
+		Barba.Pjax.start();
+		Barba.Dispatcher.on("newPageReady", function(currentStatus, oldStatus, container) {
+			initMe(container);
+		});
+	}
 });

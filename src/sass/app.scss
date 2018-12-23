@@ -491,6 +491,9 @@ footer {
 			color: #40301b !important;
 			opacity: 0.75;
 		}
+		.subheading {
+			color: #826f56;
+		}
 		.hero,
 		.navigation,
 		.bg-light-1,
@@ -1501,5 +1504,33 @@ dd + dt {
 .page-sitemap {
 	section nav a {
 		margin-top: 0.5rem;
+	}
+}
+
+a.col-md-4 {
+	color: inherit;
+	text-decoration: none;
+	&:hover {
+		opacity: 0.75;
+	}
+}
+
+.feature-demo {
+	text-align: center;
+	padding: 2.5rem 0;
+	font-size: 250%;
+	font-weight: 300;
+	background-color: whitesmoke;
+	&.dyslexia {
+		background: #feed64;
+		color: #000;
+	}
+	&.night {
+		background: #23272b;
+		color: #fff;
+	}
+	&.sepia {
+		background-color: #fec;
+		color: #672323;
 	}
 }

@@ -68,7 +68,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
-				<a href="/platform/agastya/features/dark-theme/" class="card card-body d-block">
+				<a href="/platform/agastya/features/night-mode/" class="card card-body d-block">
 					<i class="fas fa-moon fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Dark theme</span>
 				</a>
