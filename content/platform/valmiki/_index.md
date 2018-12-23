@@ -15,7 +15,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img class="hero-image" alt="" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1540631011/oswald-labs/valmiki/valmiki.png">
+				<img class="hero-image" alt="" src="/images/mockups/valmiki.png">
 			</div>
 		</div>
 	</div>

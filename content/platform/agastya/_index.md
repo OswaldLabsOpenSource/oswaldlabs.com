@@ -15,7 +15,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-6 text-right">
-				<img class="hero-image-alt" style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" alt="" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1543411572/oswald-labs/agatsya/agastya-custom.png">
+				<img class="hero-image-alt" style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" alt="" src="/images/illustrations/agastya.png">
 			</div>
 		</div>
 	</div>

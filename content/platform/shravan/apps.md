@@ -20,7 +20,7 @@ description: Smartphone for the rest of us
 			<div class="col-md">
 				<div class="card card-phone">
 					<div class="screen">
-						<img alt="Screenshot of the Augmenta11y app" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1540547239/oswald-labs/shravan/augmenta11y.png">
+						<img alt="Screenshot of the Augmenta11y app" src="/images/screenshots/augmenta11y.png">
 					</div>
 				</div>
 				<div class="text-center">
@@ -35,7 +35,7 @@ description: Smartphone for the rest of us
 			<div class="col-md">
 				<div class="card card-phone">
 					<div class="screen">
-						<img alt="Screenshot of the Subtitles app" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1540546287/oswald-labs/shravan/live-subtitles.png">
+						<img alt="Screenshot of the Subtitles app" src="/images/screenshots/live-subtitles.png">
 					</div>
 				</div>
 				<div class="text-center">
@@ -50,7 +50,7 @@ description: Smartphone for the rest of us
 			<div class="col-md">
 				<div class="card card-phone">
 					<div class="screen">
-						<img alt="Screenshot of the </ app" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1540472246/oswald-labs/shravan/visib11y.png">
+						<img alt="Screenshot of the </ app" src="/images/screenshots/visib11y.png">
 					</div>
 				</div>
 				<div class="text-center">
@@ -65,7 +65,7 @@ description: Smartphone for the rest of us
 			<div class="col-md">
 				<div class="card card-phone">
 					<div class="screen">
-						<img alt="Screenshot of the Wikibility app" src="https://res.cloudinary.com/anand-chowdhary/image/upload/v1540547236/oswald-labs/shravan/wikibility.png">
+						<img alt="Screenshot of the Wikibility app" src="/images/screenshots/wikibility.png">
 					</div>
 				</div>
 				<div class="text-center">
