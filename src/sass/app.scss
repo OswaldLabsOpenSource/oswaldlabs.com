@@ -193,9 +193,10 @@ header .navbar {
 .page-about {
 	header .navbar {
 		.nav-link,
-		.navbar-brand {
+		.navbar-brand,
+		.navbar-toggler {
 			color: #fff;
-			svg g {
+			svg g, svg path {
 				fill: #fff;
 			}
 		}
@@ -745,6 +746,13 @@ strong,
 	}
 }
 
+.navbar-toggler {
+	font-size: 150%;
+	padding: 0;
+	color: #32325d;
+	margin-top: -0.25rem;
+}
+
 .dark body {
 	background: #151d21;
 	color: #ccc;
@@ -769,10 +777,6 @@ strong,
 			p {
 				color: inherit;
 			}
-		}
-		.navbar .navbar-toggler svg,
-		.navbar-brand svg g {
-			fill: #fff;
 		}
 	}
 	.form-control,
@@ -1059,6 +1063,20 @@ svg {
 	.hero-image-alt {
 		margin-bottom: -20%;
 		margin-top: 5rem;
+	}
+	.subnav-menu {
+		margin-bottom: 2rem;
+	}
+	header {
+		.navbar-nav {
+			background-color: white;
+		}
+		.navbar-collapse {
+			margin-top: 1rem;
+		}
+		.nav-link {
+			padding: 0.5rem 1.5rem !important;
+		}
 	}
 	footer.site-footer {
 		.sharer {
@@ -1468,4 +1486,8 @@ h6,
 	text-align: center;
 	padding: 0 2rem;
 	margin-top: 1rem;
+}
+
+.flag-span {
+	margin-right: 0.5rem;
 }

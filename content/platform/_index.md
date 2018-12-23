@@ -11,7 +11,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 				<p>With over 20 unique problem-solving verticals, Oswald Labs is the world's most versatile company in accessibility. From helping your users access content to give feedback, our products help you break barriers to universal access.</p>
 				</div>
 			<div class="col-md-6">
-				<img alt="" src="https://undraw.oswaldlabs.com/007bff/gifts.svg">
+				<img alt="" src="/images/illustrations/platform.svg">
 			</div>
 		</div>
 	</div>
