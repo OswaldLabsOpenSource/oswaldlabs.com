@@ -30,7 +30,7 @@ button:focus {
 }
 
 .text-body {
-	color: #6b7c93 !important;
+	color: #67788e !important;
 	font-size: 105%;
 }
 a.text-body:hover {
@@ -59,7 +59,7 @@ h3 {
 	font-size: 110%;
 	margin-bottom: 1rem;
 	margin-top: 0.5rem;
-	color: #6b7c93;
+	color: #67788e;
 	font-weight: 400;
 	letter-spacing: 2px;
 }
@@ -78,7 +78,7 @@ h3 {
 .page-home,
 .page-accelerator {
 	.text-body.small {
-		color: #6b7c93 !important;
+		color: #67788e !important;
 		font-size: 75%;
 	}
 }
@@ -997,8 +997,10 @@ blockquote {
 			}
 		}
 	}
+	a {
+		color: inherit;
+	}
 	h1 {
-		color: #414d5b;
 		display: inline;
 		font-size: inherit;
 	}
@@ -1043,6 +1045,9 @@ img,
 svg {
 	vertical-align: middle !important;
 	max-width: 100%;
+	&.inline-fa {
+		vertical-align: -0.125rem !important;
+	}
 }
 
 .big-image {
