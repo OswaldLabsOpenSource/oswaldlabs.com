@@ -1,0 +1,54 @@
+<section class="hero pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>
+                    <img class="h1-image" alt="" src="/images/icons/{{ .File.TranslationBaseName }}.png">
+                    <span>{{ .Title }}</span>
+                </h1>
+                {{ if .Params.Description }}
+                <p class="intro-para">{{ .Params.Description }}</p>
+                {{ end }}
+            </div>
+            <div>
+                <img class="hero-image" alt="" src="/images/mockups/{{ .File.TranslationBaseName }}.png">
+            </div>
+        </div>
+    </div>
+</section>
+{{ .Content }}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Backed by proven research.</h2>
+                <p class="intro-para">Our researchers conducted a study with students with dyslexia in two different schools in India using Augmenta11y and found a reduction in reading time of over 20%.</p>
+                <div>
+                    <a class="btn btn-outline-danger" href="/research/publications/">Read on Oswald Labs Research &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Built on Oswald Labs Platform.</h2>
+                <p class="intro-para">All Shravan apps are built on Oswald Labs Platform, an extensive suite of products, open-source projects, and developer APIs and SDKs to build tools to empower the next billion users.</p>
+                <div>
+                    <a class="btn btn-outline-danger" href="/platform/">Visit Oswald Labs Platform &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ if .Params.Link }}
+<section class="bg-light-1 text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Free as in freedom&mdash;download now.</h2>
+                <p class="mt-4 mb-4">{{ .Title }} is part of Oswald Labs&rsquo; Shravan platform, and is 100% free for all users. We don't collect background data or sell your personal data, so its truly free and invasion-free.</p>
+                <div>
+                    <a href="{{ .Params.Link }}" class="btn btn-danger btn-lg">Download {{ .Title }} &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -177,6 +177,10 @@ img {
 	opacity: 0;
 }
 
+.o-5 {
+	opacity: 0.5;
+}
+
 header .navbar {
 	.nav-link,
 	.navbar-brand {
@@ -1564,4 +1568,11 @@ ul.steps {
 			text-align: center;
 		}
 	}
+}
+
+.h1-image {
+	height: 3rem;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+	margin-top: -0.25rem;
 }
