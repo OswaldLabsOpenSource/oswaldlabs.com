@@ -34,7 +34,20 @@
 					<span itemprop="name">Agastya</span></a>
 				<meta itemprop="position" content="3">
 			</li>
-			{{ if ne .URL "/platform/agastya/" }}
+			{{ if .Params.Subtype }}
+			{{ if eq .Params.Subtype "agastya_features" }}
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/platform/agastya/features/">
+					<span itemprop="name">Features</span></a>
+				<meta itemprop="position" content="4">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ .Title }}</span></a>
+				<meta itemprop="position" content="5">
+			</li>
+			{{ end }}
+			{{ else if ne .URL "/platform/agastya/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
 					{{ if gt (len .Title) 25 }}

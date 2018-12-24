@@ -1534,3 +1534,29 @@ a.col-md-4 {
 		color: #672323;
 	}
 }
+
+ul.steps {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 110%;
+	li {
+		counter-increment: steps;
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+		&::before {
+			content: counter(steps);
+			background-color: whitesmoke;
+			width: 4rem;
+			height: 4rem;
+			line-height: 4rem;
+			font-size: 2rem;
+			font-weight: 300;
+			border-radius: 100%;
+			margin-right: 1rem;
+			display: inline-block;
+			text-align: center;
+		}
+	}
+}

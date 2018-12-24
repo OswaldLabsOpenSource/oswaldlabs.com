@@ -11,6 +11,8 @@
 {{ else if .Params.Subtype }}
 {{ if eq .Params.Subtype "publications" }}
 	{{ partial "single/publications.html" . }}
+{{ else if eq .Params.Subtype "agastya_features" }}
+	{{ partial "single/agastya_features.html" . }}
 {{ end }}
 {{ else }}
 {{ .Content }}
