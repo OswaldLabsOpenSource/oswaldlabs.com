@@ -1593,10 +1593,13 @@ ul.steps {
 }
 
 .h1-image {
-	height: 3rem;
-	vertical-align: middle;
-	margin-right: 0.5rem;
-	margin-top: -0.25rem;
+	height: 3rem !important;
+	border-radius: 100%;
+	vertical-align: middle !important;
+	margin-left: 0 !important;
+	margin-bottom: 0 !important;
+	margin-right: 0.5rem !important;
+	margin-top: -0.25rem !important;
 }
 
 i.fas, i.fab {

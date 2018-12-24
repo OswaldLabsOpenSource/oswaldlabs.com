@@ -4,6 +4,7 @@ domain: f6s.com
 category: Ecosystem
 image: /images/logos/f6s.png
 subtype: accelerator_partners
+event_name: bharathacks_2017
 ---
 
 text

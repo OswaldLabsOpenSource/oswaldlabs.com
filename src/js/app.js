@@ -30,6 +30,23 @@ function ready(fn) {
 	}
 }
 
+// Agastya tracking event listener funciton
+const agastyaTrackLink = event => {
+	const eventElement = event.target || event.toElement || event.srcElement;
+	if (eventElement) {
+		console.log({
+			className: eventElement.className,
+			href: eventElement.href,
+			innerText: eventElement.innerText
+		});
+	}
+	if (window.agastya && typeof window.agastya.track === "function") {
+		window.agastya.track(/* params here */);
+	} else {
+		console.log("Not tracking");
+	}
+}
+
 ready(() => {
 	function initMe(container) {
 		if (container && container.querySelector(".page-meta .page-slug")) {
@@ -40,10 +57,13 @@ ready(() => {
 			if (!url || typeof url.toLowerCase === "undefined") return;
 			return url.toLowerCase().replace(/\//g, "");
 		};
+		// Add Agastya tracking listener for external link
+		// then add/remove listener from links on barba
 		const links = document.querySelectorAll("a");
 		links.forEach(link => {
 			link.classList.remove("active");
 			link.classList.remove("subactive");
+			link.removeEventListener("click", agastyaTrackLink);
 			if (simplify(link.getAttribute("href")) === simplify(location.pathname)) {
 				link.classList.add("active");
 			} else if (
@@ -53,6 +73,7 @@ ready(() => {
 				link.classList.add("subactive");
 			}
 			if (location.hostname !== link.hostname) {
+				link.addEventListener("click", agastyaTrackLink);
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
 				if (

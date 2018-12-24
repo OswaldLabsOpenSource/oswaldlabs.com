@@ -1,12 +1,21 @@
-<section class="hero pb-5 big-image">
+<section class="hero big-image">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1>{{ .Title }}</h1>
                 {{ if .Params.Quote }}
-                    <p>{{ .Params.Quote }}</p>
+                    <h1>{{ .Title }}</h1>
+                    <p class="intro-para">{{ .Params.Quote }}</p>
                 {{ else }}
-                    <p>{{ .Params.Description }}</p>
+                    <h1>
+                        <img class="h1-image" alt="{{ .Title }} logo" src="/images/logos/{{ .File.TranslationBaseName }}.png">
+                        <span>{{ .Title }}</span>
+                    </h1>
+                    <p class="intro-para">{{ .Params.Description }}</p>
+                {{ end }}
+                {{ if .Params.Link }}
+                    <div>
+                        <a href="{{ .Params.Link }}" class="btn btn-primary">Visit {{ .Title }} &rarr;</a>
+                    </div>
                 {{ end }}
 			</div>
             <div class="col-md-6 text-right">
@@ -19,7 +28,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
+                <h2 class="subheading">What they offer</h2>
                 {{ .Content }}
+                {{ if .Params.Quote }}
+                    <h2 class="subheading mt-5">Program partner</h2>
+                    <p>Oswald Labs Accelerator partners offer their benefits&mdash;completely for free&mdash;to our startups and research teams. {{ .Title }} is one of our program partners who are committed to giving back to the community.</p>
+                {{ else }}
+                    <h2 class="subheading mt-5">Event partner</h2>
+                   <p>{{ .Title }} is one of Oswald Labs Accelerator&rsquo;s event partners, which means that they do not directly offer benetifs to our portfolio startups, but have previously helped us in organizing events to find new startups and support new projects.</p>
+                   {{ if .Params.event_name }}
+                    {{ if eq .Params.event_name "bharathacks_2017" }}
+                        <h2 class="subheading mt-5">BharatHacks</h2>
+                        <p>In June 2017, Oswald Labs and partners organized <a href="/accelerator/events/bharathacks/">BharatHacks</a>, a hackathon to solve India-specific problems. It had over 20 industry partners and over 200 participants, and {{ .Title }} was one of our {{ .Params.Category }} partners.</p>
+                    {{ end }}
+                   {{ end }}
+                {{ end }}
             </div>
         </div>
     </div>
