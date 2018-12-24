@@ -489,6 +489,18 @@ footer {
 			border-color: #c95300 !important;
 		}
 	}
+	.btn-outline-warning {
+		color: #e96300 !important;
+		border-color: #e96300 !important;
+		background: none;
+		&:hover,
+		&:active,
+		&:focus {
+			color: #fff !important;
+			background-color: #e96300 !important;
+			border-color: #e96300 !important;
+		}
+	}
 	main {
 		color: #40301b;
 		.text-muted {
@@ -1559,18 +1571,23 @@ ul.steps {
 		&:not(:last-child) {
 			margin-bottom: 1rem;
 		}
-		&::before {
-			content: counter(steps);
-			background-color: whitesmoke;
-			width: 4rem;
-			height: 4rem;
-			line-height: 4rem;
-			font-size: 2rem;
-			font-weight: 300;
-			border-radius: 100%;
-			margin-right: 1rem;
-			display: inline-block;
-			text-align: center;
+		.col-10 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.col-2 {
+			> div {
+				margin: 0 auto;
+				background-color: whitesmoke;
+				width: 4rem;
+				height: 4rem;
+				line-height: 4rem;
+				font-size: 175%;
+				font-weight: 300;
+				border-radius: 100%;
+				text-align: center;
+			}
 		}
 	}
 }

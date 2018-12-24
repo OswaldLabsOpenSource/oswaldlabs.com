@@ -16,12 +16,37 @@
             <div class="col-md-7">
                 <div class="content">
                     {{ .Content }}
-                    <h2>How can I get {{ .Title }} on my website?</h2>
-                    <ul class="steps">
-                        <li>Sign up for Agastya and add the JavaScript code on your website</li>
-                        <li>Log in to your admin panel and enable {{ .Title }}</li>
-                        <li>That's it, you're done!</li>
-                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>How can I get {{ .Title }} on my website?</h2>
+                <ul class="steps">
+                    <li class="row">
+                        <div class="col-2"><div>1</div></div>
+                        <div class="col-10"><div>Sign up for Agastya and add the one-line JavaScript snippet to your website.</div></div>
+                    </li>
+                    <li class="row">
+                        <div class="col-2"><div>2</div></div>
+                        <div class="col-10"><div>Log in to your admin panel and enable {{ .Title }} from the Agastya App Store.</div></div>
+                    </li>
+                    <li class="row">
+                        <div class="col-2"><div>3</div></div>
+                        <div class="col-10"><div>That's it, you're done!</div></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Built on Oswald Labs Platform, with thousands of users.</h2>
+                <p class="intro-para mb-2">All Agastya features are built on Oswald Labs Platform, an extensive suite of products, open-source projects, and developer APIs and SDKs to build tools to empower the next billion users.</p>
+                <p>Oswald Labs Platform products are used by thousands of users and works for websites with millions of pageviews every month.</p>
+                <div class="mt-2">
+                    <a class="btn btn-outline-warning" href="/platform/">Visit Oswald Labs Platform &rarr;</a>
                 </div>
             </div>
         </div>
