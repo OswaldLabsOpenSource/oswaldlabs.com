@@ -29,7 +29,8 @@ type: research
         <div class="row">
             <div class="col-md-6 mb-5">
                 <h2 class="subheading">How it works</h2>
-                <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free. We're also curating this Research Fund dedicated to doing not-for-profit R&amp;D.</p>
+                <p>Starting January 1, 2019, we are contibuting 10% of all Oswald Labs profits directly to Oswald Labs Research Fund to further do new research and develop solutions.</p>
+                <p>Furthermore, we’ve partnered with some of the most innovative companies across the globe to bring the best advice, mentorship, services, resources, and investments — all pro bono for research.</p>
             </div>
         </div>
         <div class="row">

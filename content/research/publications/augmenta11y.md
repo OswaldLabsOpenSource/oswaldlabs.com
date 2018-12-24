@@ -2,6 +2,7 @@
 title: Improving Accessibility in the real world using Augmented Reality
 subtitle: The story of how we made an app to help people with dyslexia
 subtype: publications
+publication: Medium
 author: Mudita Sisodia
 date: 2018-12-23
 continue: https://blog.oswald.foundation/improving-accessibility-using-augmented-reality-augmenta11y-f3937e08995f

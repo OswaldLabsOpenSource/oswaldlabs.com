@@ -17,18 +17,11 @@
 					{{ .Content }}
 					{{ if .Params.Continue }}
 					<p>
-						<a class="btn btn-outline-primary btn-lg" href="{{ .Params.Continue }}">Continue reading &rarr;</a>
+						<a class="btn btn-outline-primary btn-lg" href="{{ .Params.Continue }}">Continue reading{{ if .Params.Publication }} on {{ .Params.Publication }}{{ end }} &rarr;</a>
 					</p>
 					{{ end }}
 				</div>
-				<div class="sharer d-flex justify-content-end mt-5">
-					<div>
-						<span>Share</span>
-						<a target="_blank" rel="noopener noreferrer" title="Twitter" href="https://twitter.com/intent/tweet?text={{ .Permalink }}"><i class="fab fa-twitter"></i></a>
-						<a target="_blank" rel="noopener noreferrer" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fab fa-facebook"></i></a>
-						<a target="_blank" rel="noopener noreferrer" title="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}"><i class="fab fa-linkedin"></i></a>
-					</div>
-				</div>
+				{{ partial "sharer.html" . }}
 			</div>
 		</div>
 	</div>

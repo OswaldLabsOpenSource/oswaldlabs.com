@@ -15,14 +15,7 @@
 				<div class="content">
 					{{ .Content }}
 				</div>
-				<div class="sharer d-flex justify-content-end mt-5">
-					<div>
-						<span>Share</span>
-						<a target="_blank" rel="noopener noreferrer" title="Twitter" href="https://twitter.com/intent/tweet?text={{ .Permalink }}"><i class="fab fa-twitter"></i></a>
-						<a target="_blank" rel="noopener noreferrer" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fab fa-facebook"></i></a>
-						<a target="_blank" rel="noopener noreferrer" title="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}"><i class="fab fa-linkedin"></i></a>
-					</div>
-				</div>
+				{{ partial "sharer.html" . }}
 			</div>
 		</div>
 	</div>
