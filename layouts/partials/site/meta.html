@@ -2,6 +2,36 @@
 <meta name="robots" content="noindex">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{ if .Params.Title }}
+    {{ if .Params.Subtype }}
+        {{ if eq .Params.Subtype "agastya_features" }}
+            <meta name="title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
+            <meta property="og:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
+            <meta property="twitter:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
+            <title>{{ .Title }} · Features · Agastya by Oswald Labs</title>
+        {{ else }}
+            <meta name="title" content="{{ .Params.Title }}">
+            <meta property="og:title" content="{{ .Params.Title }}">
+            <meta property="twitter:title" content="{{ .Params.Title }}">
+            {{ if in .Title "Oswald Labs "}}
+                <title>{{ .Title }}</title>
+            {{ else }}
+                <title>{{ .Title }} · Oswald Labs</title>
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        <meta name="title" content="{{ .Params.Title }}">
+        <meta property="og:title" content="{{ .Params.Title }}">
+        <meta property="twitter:title" content="{{ .Params.Title }}">
+        {{ if in .Title "Oswald Labs "}}
+            <title>{{ .Title }}</title>
+        {{ else }}
+            <title>{{ .Title }} · Oswald Labs</title>
+        {{ end }}
+    {{ end }}
+{{ end }}
+
 {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}">
 <meta property="og:description" content="{{ .Params.description }}">
 <meta property="twitter:description" content="{{ .Params.description }}">
@@ -10,13 +40,9 @@
 <meta property="twitter:image" content="{{ .Params.image }}">
 {{ else }}<meta property="og:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
 <meta property="twitter:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
-{{ end }}{{ if .Params.title }}<meta name="title" content="{{ .Params.title }}">
-<meta property="og:title" content="{{ .Params.title }}">
-<meta property="twitter:title" content="{{ .Params.title }}">
 {{ end }}<meta name="apple-mobile-web-app-title" content="Oswald Labs">
 <meta name="twitter:site" content="@OswaldLabs">
 <meta name="twitter:creator" content="@AnandChowdhary">
-{{ if in .Title "Oswald Labs "}}<title>{{ .Title }}</title>{{ else }}<title>{{ .Title }} · Oswald Labs</title>{{ end }}
 <link rel="publisher" href="https://plus.google.com/109050675253975445822">
 <meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
 <meta property="og:type" content="website">

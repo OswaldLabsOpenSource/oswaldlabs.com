@@ -93,25 +93,25 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 			</div>
 			<div class="col-md-4 mb-4">
 				<a href="/platform/agastya/features/legible-fonts/" class="card card-body d-block">
-					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<i class="fas fa-font fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Legible fonts mode</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
 				<a href="/platform/agastya/features/highlight-links/" class="card card-body d-block">
-					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<i class="fas fa-link fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Highlight links</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
 				<a href="/platform/agastya/features/desaturation/" class="card card-body d-block">
-					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<i class="fas fa-fill-drip fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Desaturation</span>
 				</a>
 			</div>
 			<div class="col-md-4 mb-4">
 				<a href="/platform/agastya/features/large-cursor/" class="card card-body d-block">
-					<i class="fas fa-book fa-fw fa-2x mr-2 text-muted"></i>
+					<i class="fas fa-mouse-pointer fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Large cursor</span>
 				</a>
 			</div>
@@ -183,7 +183,7 @@ description: With over 20 unique problem-solving verticals, Oswald Labs is the w
 			</div>
 			<div class="col-md-4 mb-4">
 				<a href="/platform/shravan/apps/wikibility/" class="card card-body d-block">
-					<i class="fas fa-book-open fa-fw fa-2x mr-2 text-muted"></i>
+					<i class="fab fa-wikipedia-w fa-fw fa-2x mr-2 text-muted"></i>
 					<span>Wikipedia with accessibility</span>
 				</a>
 			</div>
