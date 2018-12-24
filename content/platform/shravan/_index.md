@@ -69,22 +69,22 @@ description: Smartphone for the rest of us
 		</div>
 		<div class="row pt-5">
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="https://static.oswaldlabs.com/shravan-icons/augmenta11y/generated/android-chrome-144x144.png">
+				<img class="app-icon" alt="" src="/images/icons/augmenta11y.png">
 				<h2 class="subheading">Augmenta11y</h2>
 				<p class="mb-4">Augmenta11y is an Augmented Reality (AR)-based app that helps people with dyslexia easily read in the real world. Just point your phone's camera to any text and see it in dyslexia-friendly mode.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="https://static.oswaldlabs.com/shravan-icons/live-subtitles/generated/android-chrome-144x144.png">
+				<img class="app-icon" alt="" src="/images/icons/live-subtitles.png">
 				<h2 class="subheading">Live Subtitles</h2>
 				<p class="mb-4">Live Subtitles helps people with hearing impairment or deafness have conversations more easily. Just point your phone's camera at someone and see what they're saying on your screen in real-time.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="https://static.oswaldlabs.com/shravan-icons/visib11y/generated/android-chrome-144x144.png">
+				<img class="app-icon" alt="" src="/images/icons/visib11y.png">
 				<h2 class="subheading">Visib11y</h2>
 				<p class="mb-4">Visib11y is a daily help app for people with visual impairment or blindness. Instantly recognize objects all around you, read text, find out your location, and navigate to places, all with speech.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="https://static.oswaldlabs.com/shravan-icons/wikibility/generated/android-chrome-144x144.png">
+				<img class="app-icon" alt="" src="/images/icons/wikibility.png">
 				<h2 class="subheading">Wikibility</h2>
 				<p class="mb-4">Wikibility is when Wikipedia meets accessibility. Use Agastya's award-winning web accessibility options on Wikipedia, the free encyclopedia, for easy browsing, reading, and referencing.</p>
 			</div>

@@ -79,7 +79,9 @@ type: home
 				</dl>
 			</div>
 			<div class="col-md-4">
-				<img style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" src="/images/illustrations/agastya.png">
+				<a href="/platform/agastya/">
+					<img style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" src="/images/illustrations/agastya.png">
+				</a>
 			</div>
 			<div class="col-md-4 d-flex pl-5 align-items-center">
 				<dl>

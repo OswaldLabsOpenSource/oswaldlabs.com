@@ -1517,10 +1517,15 @@ a.col-md-4 {
 
 .feature-demo {
 	text-align: center;
-	padding: 2.5rem 0;
+	height: 8rem;
+	line-height: 8rem;
 	font-size: 250%;
 	font-weight: 300;
 	background-color: whitesmoke;
+	img {
+		height: 2rem;
+		margin-top: -0.25rem;
+	}
 	&.dyslexia {
 		background: #feed64;
 		color: #000;
