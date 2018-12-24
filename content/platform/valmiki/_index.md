@@ -15,7 +15,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img class="hero-image" alt="" src="/images/mockups/valmiki.png">
+				<img alt="Screenshot of Valmiki installed in a Chrome browser" class="hero-image" src="/images/mockups/valmiki.png">
 			</div>
 		</div>
 	</div>

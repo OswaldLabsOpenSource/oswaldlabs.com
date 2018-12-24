@@ -11,7 +11,7 @@ type: research
 				<p class="intro-para">Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users. Our R&amp;D is based out of Enschede, the Netherlands, but is open to collaborating projects worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img alt="" src="/images/illustrations/technologies.svg">
+                <img role="presentation" src="/images/illustrations/technologies.svg">
             </div>
         </div>
     </div>

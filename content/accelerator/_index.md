@@ -11,7 +11,7 @@ type: accelerator
 				<p class="intro-para">Oswald Labs Accelerator is a free, remote, global support program for early-stage startups building for the next billion users. The program is based out of Enschede, the Netherlands, but is open to startups worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img alt="" src="/images/illustrations/accelerator.svg">
+                <img role="presentation" src="/images/illustrations/accelerator.svg">
             </div>
         </div>
     </div>

@@ -11,7 +11,7 @@ type: research
 				<p class="intro-para">Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users. Our R&amp;D is based out of Enschede, the Netherlands, but is open to collaborating projects worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img alt="" src="/images/illustrations/research.svg">
+                <img role="presentation" src="/images/illustrations/research.svg">
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ type: research
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="hero-image" alt="" src="/images/mockups/augmenta11y.png">
+                <img alt="A smartphone running the Augmenta11y app" class="hero-image" src="/images/mockups/augmenta11y.png">
             </div>
         </div>
     </div>

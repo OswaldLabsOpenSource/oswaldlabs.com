@@ -12,7 +12,7 @@ subtype: partners
 				<p class="intro-para">Oswald Labs partners with impact-driven, passionate companies to bring the best of technology in the hands of the next billion users. Interested in working with us? <a href="/contact/?department=Accelerator">Get in touch</a>.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img alt="" src="/images/illustrations/partners.svg">
+                <img role="presentation" src="/images/illustrations/partners.svg">
             </div>
         </div>
     </div>

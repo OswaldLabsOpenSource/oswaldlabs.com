@@ -13,7 +13,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-3">
 				{{ if .Params.Image }}
-					<img class="rounded-circle w-50" alt="" src="{{ .Params.Image }}" itemprop="image">
+					<img class="rounded-circle w-50" alt="Photograph of {{ .Title }}" src="{{ .Params.Image }}" itemprop="image">
 				{{ end }}
 				<h1 class="h5 mb-0" itemprop="name">{{ .Title }}</h1>
 				{{ if .Params.Position }}

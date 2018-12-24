@@ -10,7 +10,7 @@
              {{ range .Pages }}
             <div class="col-md-4 d-flex align-items-stretch mb-med">
                 <a class="card" href="{{ .Permalink }}">
-                    <img class="card-img-top" alt="" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
+                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
                     <div class="card-body">
                         <h2 class="subheading">{{ .Title }}</h2>
                         {{ if .Params.Address_1 }}<div>{{ .Params.Address_1 }}</div>{{ end }}
@@ -44,7 +44,7 @@
              {{ range .Pages }}
             <div class="col-md-4 d-flex align-items-stretch mb-med">
                 <a class="card" href="{{ .Permalink }}">
-                    <img class="card-img-top" alt="" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
+                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
                     <div class="card-body">
                         <h2 class="subheading">{{ .Title }}</h2>
                         {{ if .Params.Address_1 }}<div>{{ .Params.Address_1 }}</div>{{ end }}

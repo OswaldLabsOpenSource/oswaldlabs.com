@@ -12,7 +12,7 @@ description: Smartphone for the rest of us
 				<p>Shravan is Oswald Labs&rsquo; research project, which takes its form both as an operating system for Android-based smartphones, and a set of free, inclusive, and easy-to-use apps.</p>
 			</div>
 			<div class="col-md-6">
-				<img class="hero-image" alt="" src="/images/mockups/shravan.png">
+				<img role="presentation" class="hero-image" src="/images/mockups/shravan.png">
 			</div>
 		</div>
 	</div>
@@ -32,22 +32,22 @@ description: Smartphone for the rest of us
 		</div>
 		<div class="row pt-5">
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="/images/photos/shravan-1.png">
+				<img alt="A farmer smiling while talking on the phone" class="mb-4" src="/images/photos/shravan-1.png">
 				<h2 class="subheading">Breaking barriers to smartphone usage</h2>
 				<p class="mb-4">It works for people who have visual impairment, learning disorders, or are senior citizens. It also works for villagers, illiterate audiences, disabled users, and everyone in between.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="/images/photos/shravan-2.png">
+				<img alt="A blind woman touching a smartphone display" class="mb-4" src="/images/photos/shravan-2.png">
 				<h2 class="subheading">Revolutionary technology</h2>
 				<p class="mb-4">It uses accessible interface patterns with different modes for correcting system-wide contrast and design settings using a patent-pending combination of vibrations, speech, and touch.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="/images/photos/shravan-3.png">
+				<img alt="An ethnic couple taking a selfie" class="mb-4" src="/images/photos/shravan-3.png">
 				<h2 class="subheading">Made to empower every one of us</h2>
 				<p class="mb-4">It has Aadhar integration and works in native languages like Hindi, Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati, Kannada, Malayalam, Odia, Punjab, Assamese, and Maithili.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="mb-4" alt="" src="/images/photos/shravan-4.png">
+				<img alt="A man using a Shravan smartphone" class="mb-4" src="/images/photos/shravan-4.png">
 				<h2 class="subheading">Tons of features and updates</h2>
 				<p class="mb-4">It has a built-in voice assistant, internet applications like live news and sports scores, music streaming, and search, and emergency features like one-tap ambulance access.</p>
 			</div>
@@ -69,22 +69,22 @@ description: Smartphone for the rest of us
 		</div>
 		<div class="row pt-5">
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="/images/icons/augmenta11y.png">
+				<img alt="Augmenta11y app icon" class="app-icon" src="/images/icons/augmenta11y.png">
 				<h2 class="subheading">Augmenta11y</h2>
 				<p class="mb-4">Augmenta11y is an Augmented Reality (AR)-based app that helps people with dyslexia easily read in the real world. Just point your phone's camera to any text and see it in dyslexia-friendly mode.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="/images/icons/live-subtitles.png">
+				<img alt="Live Subtitles app icon" class="app-icon" src="/images/icons/live-subtitles.png">
 				<h2 class="subheading">Live Subtitles</h2>
 				<p class="mb-4">Live Subtitles helps people with hearing impairment or deafness have conversations more easily. Just point your phone's camera at someone and see what they're saying on your screen in real-time.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="/images/icons/visib11y.png">
+				<img alt="Visib11y app icon" class="app-icon" src="/images/icons/visib11y.png">
 				<h2 class="subheading">Visib11y</h2>
 				<p class="mb-4">Visib11y is a daily help app for people with visual impairment or blindness. Instantly recognize objects all around you, read text, find out your location, and navigate to places, all with speech.</p>
 			</div>
 			<div class="col-md-3 mb-4">
-				<img class="app-icon" alt="" src="/images/icons/wikibility.png">
+				<img alt="Wikibility app icon" class="app-icon" src="/images/icons/wikibility.png">
 				<h2 class="subheading">Wikibility</h2>
 				<p class="mb-4">Wikibility is when Wikipedia meets accessibility. Use Agastya's award-winning web accessibility options on Wikipedia, the free encyclopedia, for easy browsing, reading, and referencing.</p>
 			</div>
@@ -104,7 +104,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-5">
-				<img class="minus-margin" alt="" src="/images/illustrations/shravan-apps.svg">
+				<img role="presentation" class="minus-margin" src="/images/illustrations/shravan-apps.svg">
 			</div>
 		</div>
 	</div>

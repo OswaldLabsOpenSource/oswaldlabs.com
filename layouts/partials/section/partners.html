@@ -13,7 +13,7 @@
                 <a class="card" href="{{ .Permalink }}">
                     <div class="image card-bg-image">
                         {{ if .Params.Image }}
-                        <img alt="" src="{{ .Params.Image }}">
+                        <img alt="{{ .Title }} logo" src="{{ .Params.Image }}">
                         {{ else }}
                         <h2>{{ .Title }}</h2>
                         {{ end }}
@@ -43,9 +43,9 @@
                 <a class="card card-body d-flex flex-row align-items-center" href="{{ .Permalink }}">
                     <div class="w-20 mr-3">
                         {{ if .Params.Image }}
-                        <img alt="" class="rounded-circle" src="{{ .Params.Image }}">
+                        <img alt="{{ .Title }} logo" class="rounded-circle" src="{{ .Params.Image }}">
                         {{ else }}
-                        <img alt="" class="rounded-circle" src="https://logo.clearbit.com/{{ .Params.Domain }}">
+                        <img alt="{{ .Title }} logo" class="rounded-circle" src="https://logo.clearbit.com/{{ .Params.Domain }}">
                         {{ end }}
                     </div>
                     <div>

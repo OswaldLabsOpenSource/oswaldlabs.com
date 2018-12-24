@@ -12,7 +12,7 @@ subtype: spaces
 				<p class="intro-para">Oswald Labs Accelerator spaces are offices where startups part of the program can work out of for free. Interested in sponsoring your location? <a href="/contact/?department=Accelerator">Get in touch</a>.</p>
 			</div>
             <div class="col-md-6 text-right">
-                <img alt="" src="/images/illustrations/spaces.svg">
+                <img role="presentation" src="/images/illustrations/spaces.svg">
             </div>
         </div>
     </div>

@@ -19,7 +19,7 @@ type: agastya
 		<div class="row">
 			<a href="/platform/agastya/features/dyslexia-friendly-mode/" class="col-md-4">
 				<div class="mb-4 feature-demo dyslexia">
-					<img alt="" src="/images/mockups/open-dyslexic.svg">
+					<img alt="Text written in Open Dyslexic font" src="/images/mockups/open-dyslexic.svg">
 				</div>
 				<h3 class="subheading">Dyslexia-friendly mode</h3>
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>

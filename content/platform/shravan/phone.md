@@ -15,7 +15,7 @@ description: Smartphone for the rest of us
 				</div>
 			</div>
 			<div class="col-md-6 text-right">
-				<img class="w-80" alt="" src="/images/illustrations/phone.svg">
+				<img role="presentation" class="w-80" src="/images/illustrations/phone.svg">
 			</div>
 		</div>
 	</div>

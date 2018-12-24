@@ -12,7 +12,7 @@ type: agastya
 				<p class="intro-para">Agastya has been built for customers in the European Union and shares the same values such as accessibility and equality, data security, and GDPR and user privacy.</p>
 			</div>
 			<div class="col-md-6 text-right">
-				<img class="hero-image-alt-2" alt="" src="/images/illustrations/eu.svg">
+				<img role="presentation" class="hero-image-alt-2" src="/images/illustrations/eu.svg">
 			</div>
 		</div>
 	</div>

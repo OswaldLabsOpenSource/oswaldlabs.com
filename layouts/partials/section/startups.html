@@ -12,7 +12,7 @@
                 <a class="card" href="{{ .Permalink }}">
                     <div class="image card-bg-image">
                         {{ if .Params.Image }}
-                        <img alt="" src="{{ .Params.Image }}">
+                        <img alt="{{ .Title }} logo" src="{{ .Params.Image }}">
                         {{ else }}
                         <h2>{{ .Title }}</h2>
                         {{ end }}

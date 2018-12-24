@@ -24,7 +24,7 @@ description: Smartphone for the rest of us
 					</a>
 				</div>
 				<div class="text-center">
-					<img class="icon" src="/images/icons/augmenta11y.png">
+					<img alt="Augmenta11y icon" class="icon" src="/images/icons/augmenta11y.png">
 					<h2 class="subheading">Augmenta11y</h2>
 					<p>Augmented Reality reading app for people with dyslexia</p>
 					<div>
@@ -39,7 +39,7 @@ description: Smartphone for the rest of us
 					</a>
 				</div>
 				<div class="text-center">
-					<img class="icon" src="/images/icons/live-subtitles.png">
+					<img alt="Live Subtitles icon" class="icon" src="/images/icons/live-subtitles.png">
 					<h2 class="subheading">Live Subtitles</h2>
 					<p>Conversational captionion app for people with deafness</p>
 					<div>
@@ -54,7 +54,7 @@ description: Smartphone for the rest of us
 					</a>
 				</div>
 				<div class="text-center">
-					<img class="icon" src="/images/icons/visib11y.png">
+					<img alt="Visib11y icon" class="icon" src="/images/icons/visib11y.png">
 					<h2 class="subheading">Visib11y</h2>
 					<p>Object recognition and navigation app for people with blindness</p>
 					<div>
@@ -69,7 +69,7 @@ description: Smartphone for the rest of us
 					</a>
 				</div>
 				<div class="text-center">
-					<img class="icon" src="/images/icons/wikibility.png">
+					<img alt="Wikibility icon" class="icon" src="/images/icons/wikibility.png">
 					<h2 class="subheading">Wikibility</h2>
 					<p>Wikipedia referencing app for people with disabilities</p>
 					<div>

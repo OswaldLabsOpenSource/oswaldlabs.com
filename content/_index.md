@@ -56,7 +56,7 @@ type: home
 		<div class="row justify-content-center">
 			<div class="col-md-6">
 				<div class="d-flex align-items-center justify-content-center mb-4">
-					<img class="icon-image bigger mr-4" alt="" src="/images/icons/agastya.svg">
+					<img class="icon-image bigger mr-4" alt="Agastya logo" src="/images/icons/agastya.svg">
 					<div>
 						<h2 class="subheading-3 mt-0 mb-1 color-e96300">Agastya</h2>
 						<div class="text-uppercase text-body">Web accessibility made simple</div>
@@ -79,8 +79,8 @@ type: home
 				</dl>
 			</div>
 			<div class="col-md-4">
-				<a href="/platform/agastya/">
-					<img style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" src="/images/illustrations/agastya.png">
+				<a href="/platform/agastya/" class="d-block">
+					<img alt="Agastya screenshot" style="filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2)" src="/images/illustrations/agastya.png">
 				</a>
 			</div>
 			<div class="col-md-4 d-flex pl-5 align-items-center">
@@ -143,7 +143,7 @@ type: home
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="hero-image" alt="" src="/images/mockups/augmenta11y.png">
+                <img class="hero-image" alt="Augmenta11y mockup and screenshot" src="/images/mockups/augmenta11y.png">
             </div>
         </div>
     </div>
