@@ -73,6 +73,11 @@ ready(() => {
 				}
 			}
 		});
+		const subNav = document.querySelector(".subnav nav");
+		if (subNav && !subNav.querySelector(".active") && subNav.querySelector(".subactive")) {
+			subNav.querySelectorAll(".subactive")[subNav.querySelectorAll(".subactive").length - 1].classList.add("active");
+			subNav.querySelectorAll(".subactive")[subNav.querySelectorAll(".subactive").length - 1].classList.remove("subactive");
+		}
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");
 		const amountSelector = document.querySelector(".agastya-calculated-price");
 		const btnRequest = document.querySelector(".btn-request");
