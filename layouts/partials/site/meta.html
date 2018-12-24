@@ -10,6 +10,11 @@
             <meta property="og:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
             <meta property="twitter:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
             <title>{{ .Title }} · Features · Agastya by Oswald Labs</title>
+        {{ else if eq .Params.Subtype "shravan_apps" }}
+            <meta name="title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
+            <meta property="og:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
+            <meta property="twitter:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
+            <title>{{ .Title }} · Shravan Apps by Oswald Labs</title>
         {{ else }}
             <meta name="title" content="{{ .Params.Title }}">
             <meta property="og:title" content="{{ .Params.Title }}">
