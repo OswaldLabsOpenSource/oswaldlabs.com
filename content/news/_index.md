@@ -1,5 +1,6 @@
 ---
 title: News
+type: press
 ---
 
 <section class="hero pb-5">

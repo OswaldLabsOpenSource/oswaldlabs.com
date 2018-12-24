@@ -46,7 +46,7 @@ type: agastya
                         <input type="hidden" name="postal" class="postal-fill">
                         <input type="hidden" name="loc" class="loc-fill">
                         <p class="small">By submitting this form, you are agreeing with our <a href="/policies/">policies</a>.</p>
-                        <button class="btn btn-primary btn-lg">Send me a sign up link &rarr;</button>
+                        <button class="btn btn-warning btn-lg">Send me a sign up link &rarr;</button>
                     </form>
                 </div>
             </div>
