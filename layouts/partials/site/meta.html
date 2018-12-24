@@ -15,6 +15,11 @@
             <meta property="og:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
             <meta property="twitter:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
             <title>{{ .Title }} · Shravan Apps by Oswald Labs</title>
+        {{ else if eq .Params.Subtype "accelerator_partners" }}
+            <meta name="title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
+            <meta property="og:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
+            <meta property="twitter:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
+            <title>{{ .Title }} · Partners · Oswald Labs Accelerator Labs</title>
         {{ else }}
             <meta name="title" content="{{ .Params.Title }}">
             <meta property="og:title" content="{{ .Params.Title }}">
@@ -25,6 +30,11 @@
                 <title>{{ .Title }} · Oswald Labs</title>
             {{ end }}
         {{ end }}
+    {{ else if eq .Params.Type "accelerator" }}
+            <meta name="title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
+            <meta property="og:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
+            <meta property="twitter:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
+            <title>{{ .Params.Title }} · Oswald Labs Accelerator</title>
     {{ else }}
         <meta name="title" content="{{ .Params.Title }}">
         <meta property="og:title" content="{{ .Params.Title }}">

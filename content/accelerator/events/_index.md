@@ -1,5 +1,5 @@
 ---
-title: Events · Oswald Labs Accelerator
+title: Events
 type: accelerator
 subtype: events
 ---

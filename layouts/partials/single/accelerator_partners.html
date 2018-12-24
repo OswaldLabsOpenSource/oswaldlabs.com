@@ -1,0 +1,26 @@
+<section class="hero pb-5 big-image">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>{{ .Title }}</h1>
+                {{ if .Params.Quote }}
+                    <p>{{ .Params.Quote }}</p>
+                {{ else }}
+                    <p>{{ .Params.Description }}</p>
+                {{ end }}
+			</div>
+            <div class="col-md-6 text-right">
+                <img role="presentation" src="/images/illustrations/partners.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>

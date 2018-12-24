@@ -132,6 +132,19 @@
 {{ end }}
 {{ if eq .Section "accelerator" }}
 {{ if ne .URL "/accelerator/" }}
+<section class="bg-light-1 text-center">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<h2>All of this&mdash;all for free.</h2>
+				<p class="mt-4 mb-4">Oswald Labs Accelerator is our way of giving back to the startup ecosystem. Apply now with your startup to get access to all of resources, completely for free, with no strings attached.</p>
+				<div>
+					<a href="/accelerator/apply/" class="btn btn-primary btn-lg">Apply for Oswald Labs Accelerator &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="pt-4 pb-4">
 	<div class="container">
 		<strong class="text-muted">You are here</strong>
@@ -147,15 +160,32 @@
 					<span itemprop="name">Accelerator</span></a>
 				<meta itemprop="position" content="2">
 			</li>
-			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
-					{{ if gt (len .Title) 26 }}
-					<span itemprop="name">{{ substr .Title 0 -26 }}</span></a>
-					{{ else }}
-					<span itemprop="name">{{ .Title }}</span></a>
-					{{ end }}
-				<meta itemprop="position" content="3">
-			</li>
+			{{ if .Params.Subtype }}
+				{{ if eq .Params.Subtype "accelerator_partners" }}
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/accelerator/partners/">
+							<span itemprop="name">Partners</span></a>
+						<meta itemprop="position" content="3">
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+							<span itemprop="name">{{ .Title }}</span></a>
+						<meta itemprop="position" content="4">
+					</li>
+				{{ else }}
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+							<span itemprop="name">{{ .Title }}</span></a>
+						<meta itemprop="position" content="3">
+					</li>
+				{{ end }}
+			{{ else if ne .URL "/accelerator/" }}
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+					<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<span itemprop="name">{{ .Title }}</span></a>
+					<meta itemprop="position" content="3">
+				</li>
+			{{ end }}
 		</ol>
 	</div>
 </section>

@@ -1,5 +1,5 @@
 ---
-title: Portfolio · Oswald Labs Accelerator
+title: Portfolio
 type: accelerator
 subtype: startups
 ---

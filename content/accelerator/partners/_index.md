@@ -1,5 +1,5 @@
 ---
-title: Partners · Oswald Labs Accelerator
+title: Partners
 type: accelerator
 subtype: partners
 ---

@@ -1,5 +1,5 @@
 ---
-title: Spaces · Oswald Labs Accelerator
+title: Spaces
 type: accelerator
 subtype: spaces
 ---

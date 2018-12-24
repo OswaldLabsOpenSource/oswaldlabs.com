@@ -73,7 +73,7 @@ ready(() => {
 				}
 			}
 		});
-		const subNav = document.querySelector(".subnav nav");
+		const subNav = document.querySelector(".subnav-menu nav, .subnav nav");
 		if (subNav && !subNav.querySelector(".active") && subNav.querySelector(".subactive")) {
 			subNav.querySelectorAll(".subactive")[subNav.querySelectorAll(".subactive").length - 1].classList.add("active");
 			subNav.querySelectorAll(".subactive")[subNav.querySelectorAll(".subactive").length - 1].classList.remove("subactive");
