@@ -6,5 +6,3 @@ image: /images/logos/dot-tech.png
 subtype: accelerator_partners
 event_name: bharathacks_2017
 ---
-
-text

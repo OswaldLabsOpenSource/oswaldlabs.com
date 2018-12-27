@@ -6,5 +6,3 @@ image: /images/logos/ibm-global-entrepreneur.png
 event_name: bharathacks_2017
 subtype: accelerator_partners
 ---
-
-text

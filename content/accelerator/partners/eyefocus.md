@@ -7,5 +7,3 @@ image: /images/logos/eyefocus.png
 quote: EyeFocus Accelerator is the world’s first innovation program for companies producing products for preventing, curing, and living with eye disease and blindness.
 subtype: accelerator_partners
 ---
-
-text

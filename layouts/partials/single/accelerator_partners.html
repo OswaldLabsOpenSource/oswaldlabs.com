@@ -28,13 +28,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
+                {{ if .Content }}
                 <h2 class="subheading">What they offer</h2>
-                {{ .Content }}
+                <div class="mb-5">
+                    {{ .Content }}
+                </div>
+                {{ end }}
                 {{ if .Params.Quote }}
-                    <h2 class="subheading mt-5">Program partner</h2>
+                    <h2 class="subheading">Program partner</h2>
                     <p>Oswald Labs Accelerator partners offer their benefits&mdash;completely for free&mdash;to our startups and research teams. {{ .Title }} is one of our program partners who are committed to giving back to the community.</p>
                 {{ else }}
-                    <h2 class="subheading mt-5">Event partner</h2>
+                    <h2 class="subheading">Event partner</h2>
                    <p>{{ .Title }} is one of Oswald Labs Accelerator&rsquo;s event partners, which means that they do not directly offer benetifs to our portfolio startups, but have previously helped us in organizing events to find new startups and support new projects.</p>
                    {{ if .Params.event_name }}
                     {{ if eq .Params.event_name "bharathacks_2017" }}
