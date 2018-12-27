@@ -1393,6 +1393,9 @@ footer .sharer a {
 footer .text-danger {
 	margin-top: -0.25rem;
 }
+footer svg + span {
+	display: none;
+}
 
 .nav-link .fa-external-link-alt {
 	font-size: 80%;
