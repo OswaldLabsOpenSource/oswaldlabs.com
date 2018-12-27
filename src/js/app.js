@@ -33,17 +33,12 @@ function ready(fn) {
 // Agastya tracking event listener funciton
 const agastyaTrackLink = event => {
 	const eventElement = event.target || event.toElement || event.srcElement;
-	if (eventElement) {
-		console.log({
+	if (eventElement && window.agastya && typeof window.agastya.track === "function") {
+		window.agastya.track("custom", {
 			className: eventElement.className,
 			href: eventElement.href,
 			innerText: eventElement.innerText
 		});
-	}
-	if (window.agastya && typeof window.agastya.track === "function") {
-		window.agastya.track(/* params here */);
-	} else {
-		console.log("Not tracking");
 	}
 }
 
