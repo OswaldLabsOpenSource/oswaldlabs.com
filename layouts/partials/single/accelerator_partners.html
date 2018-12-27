@@ -44,6 +44,11 @@
                    {{ end }}
                 {{ end }}
             </div>
+            {{ if .Params.Image }}{{ if .Params.Quote }}
+                <div class="col-md-6 text-center mt-5 pt-5">
+                    <img alt="{{ .Title }} logo" src="{{ .Params.Image }}">
+                </div>
+            {{ end }}{{ end }}
         </div>
     </div>
 </section>

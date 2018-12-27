@@ -42,11 +42,7 @@
             <div class="col-md-4 mb-med">
                 <a class="card card-body d-flex flex-row align-items-center" href="{{ .Permalink }}">
                     <div class="w-20 mr-3">
-                        {{ if .Params.Image }}
-                        <img alt="{{ .Title }} logo" class="rounded-circle" src="{{ .Params.Image }}">
-                        {{ else }}
-                        <img alt="{{ .Title }} logo" class="rounded-circle" src="https://logo.clearbit.com/{{ .Params.Domain }}">
-                        {{ end }}
+                        <img class="rounded-circle" alt="{{ .Title }} logo" src="/images/logos/{{ .File.TranslationBaseName }}.png">
                     </div>
                     <div>
                         <div><strong>{{ .Title }}</strong></div>
