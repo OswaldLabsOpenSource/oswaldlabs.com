@@ -9,9 +9,14 @@
                 {{ if .Params.Description }}
                 <p class="intro-para">{{ .Params.Description }}</p>
                 {{ end }}
+                <div>
+                    <a href="{{ .Params.Link }}" class="btn btn-danger">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>
+                </div>
             </div>
             <div>
-                <img class="hero-image" alt="A smartphone running the {{ .Title }} app" src="/images/mockups/{{ .File.TranslationBaseName }}.png">
+                <div class="smartphone-mockup smartphone-mockup-3d hero-image">
+                    <img class="screen" alt="A smartphone running the {{ .Title }} app" src="/images/screenshots/{{ .File.TranslationBaseName }}.png">
+                </div>
             </div>
         </div>
     </div>
@@ -45,7 +50,7 @@
                 <h2>Free as in freedom&mdash;download now.</h2>
                 <p class="mt-4 mb-4">{{ .Title }} is part of Oswald Labs&rsquo; Shravan platform, and is 100% free for all users. We don't collect background data or sell your personal data, so its truly free and invasion-free.</p>
                 <div>
-                    <a href="{{ .Params.Link }}" class="btn btn-danger btn-lg">Download {{ .Title }} &rarr;</a>
+                    <a href="{{ .Params.Link }}" class="btn btn-danger btn-lg">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>
                 </div>
             </div>
         </div>

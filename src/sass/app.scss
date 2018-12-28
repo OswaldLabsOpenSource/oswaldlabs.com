@@ -1233,6 +1233,27 @@ svg {
 	}
 }
 
+.smartphone-mockup {
+	border-radius: 2rem;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25),
+		0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
+	.screen {
+		background-color: whitesmoke;
+		border-radius: 0.5rem;
+		width: 95%;
+		overflow: hidden;
+		border: 1px solid #ddd;
+		margin: 3rem 2.5%;
+		position: relative;
+	}
+	&.smartphone-mockup {
+		transform: scale(0.8) translateY(-10%) translateX(15%) rotate(10deg);
+	}
+}
+
 .icon {
 	height: 3rem;
 	margin-top: 2rem;

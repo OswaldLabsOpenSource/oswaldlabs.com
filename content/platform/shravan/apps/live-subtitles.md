@@ -2,9 +2,10 @@
 title: Live Subtitles
 type: shravan
 subtype: shravan_apps
-description: Conversational captionion app for people with deafness
-intro: Conversational captionion app for people with deafness
+description: Live Subtitles is an Augmented Reality (AR) app which displays real-time conversational subtitles on your smartphone screen as someone is speaking.
+intro: Conversational captioning app for people with deafness
 link: link
+preregister: true
 ---
 
 <section>
