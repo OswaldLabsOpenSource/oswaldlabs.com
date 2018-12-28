@@ -123,6 +123,14 @@ ready(() => {
 				}
 			});
 		}
+		const microLinks = document.querySelectorAll(".microlink");
+		if (microLinks && microLinks.length) {
+			loadJS("https://cdn.jsdelivr.net/npm/@microlink/vanilla@latest/umd/microlink.min.js", () => {
+				microlink(".microlink", {
+					video: true
+				});
+			});
+		}
 		const contributeAmount = document.querySelector(".contribute-amount");
 		const contributeForm = document.querySelector(".contribute-form");
 		if (contributeAmount && contributeForm) {

@@ -1,0 +1,36 @@
+<section class="hero big-image pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {{ if .Params.Quote }}
+                    <h1>{{ .Title }}</h1>
+                    <p class="intro-para">{{ .Params.Quote }}</p>
+                {{ else }}
+                    <h1>
+                        <img class="h1-image" alt="{{ .Title }} logo" src="/images/logos/{{ .File.TranslationBaseName }}.png">
+                        <span>{{ .Title }}</span>
+                    </h1>
+                    <p class="intro-para">{{ .Params.Description }}</p>
+                {{ end }}
+            </div>
+            <div class="col-md-6 text-right">
+                <img role="presentation" src="/images/illustrations/press.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {{ .Content }}
+                <div>
+                    <a href="{{ .Params.Link }}" class="btn btn-primary btn-lg mt-3">Read the {{ .Title }} article &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center mt-all">
+                <a class="microlink" href="{{ .Params.Link }}">Loading link preview...</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -4,6 +4,8 @@
 	{{ partial "single/news.html" . }}
 {{ else if eq .Section "policies" }}
 	{{ partial "single/policies.html" . }}
+{{ else if eq .Section "press" }}
+	{{ partial "single/press.html" . }}
 {{ else if eq .Section "values" }}
 	{{ partial "single/values.html" . }}
 {{ else if eq .Section "team" }}

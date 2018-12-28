@@ -1454,6 +1454,7 @@ a.has-external-link::after {
 .sharer,
 .btn,
 .social,
+.microlink,
 .card {
 	.has-external-link,
 	&.has-external-link {
@@ -1629,4 +1630,8 @@ ul.steps {
 i.fas, i.fab {
 	text-transform: capitalize;
 	font-style: normal;
+}
+
+.mt-all {
+	margin-top: 12.5rem;
 }

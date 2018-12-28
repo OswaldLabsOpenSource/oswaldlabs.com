@@ -65,7 +65,7 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
             </div>
             <div class="col-md-5">
                 <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
-                <button class="btn btn-primary btn-block calendly-button" type="button" onclick="Calendly.showPopupWidget('https://calendly.com/oswaldlabs');return false;">Schedule a meeting</button>
+                <button class="btn btn-primary btn-block calendly-button" type="button" onclick="Calendly.showPopupWidget('https://calendly.com/oswaldlabs');return false;">Schedule a meeting &rarr;</button>
                 <div class="text-center mt-3 mb-3"><em>or</em></div>
                 <div class="card p-4">
                     <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
