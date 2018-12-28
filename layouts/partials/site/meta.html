@@ -2,51 +2,7 @@
 <meta name="robots" content="noindex">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-{{ if .Params.Title }}
-    {{ if .Params.Subtype }}
-        {{ if eq .Params.Subtype "agastya_features" }}
-            <meta name="title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <meta property="og:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <meta property="twitter:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <title>{{ .Title }} · Features · Agastya by Oswald Labs</title>
-        {{ else if eq .Params.Subtype "shravan_apps" }}
-            <meta name="title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <meta property="og:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <meta property="twitter:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <title>{{ .Title }} · Shravan Apps by Oswald Labs</title>
-        {{ else if eq .Params.Subtype "accelerator_partners" }}
-            <meta name="title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <meta property="og:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <meta property="twitter:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <title>{{ .Title }} · Partners · Oswald Labs Accelerator</title>
-        {{ else }}
-            <meta name="title" content="{{ .Params.Title }}">
-            <meta property="og:title" content="{{ .Params.Title }}">
-            <meta property="twitter:title" content="{{ .Params.Title }}">
-            {{ if in .Title "Oswald Labs "}}
-                <title>{{ .Title }}</title>
-            {{ else }}
-                <title>{{ .Title }} · Oswald Labs</title>
-            {{ end }}
-        {{ end }}
-    {{ else if eq .Params.Type "accelerator" }}
-            <meta name="title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <meta property="og:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <meta property="twitter:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <title>{{ .Params.Title }} · Oswald Labs Accelerator</title>
-    {{ else }}
-        <meta name="title" content="{{ .Params.Title }}">
-        <meta property="og:title" content="{{ .Params.Title }}">
-        <meta property="twitter:title" content="{{ .Params.Title }}">
-        {{ if in .Title "Oswald Labs "}}
-            <title>{{ .Title }}</title>
-        {{ else }}
-            <title>{{ .Title }} · Oswald Labs</title>
-        {{ end }}
-    {{ end }}
-{{ end }}
-
+{{ partial "site/title.html" . }}
 {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}">
 <meta property="og:description" content="{{ .Params.description }}">
 <meta property="twitter:description" content="{{ .Params.description }}">
