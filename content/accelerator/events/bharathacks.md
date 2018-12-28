@@ -11,4 +11,8 @@ address_2: Noida, Uttar Pradesh
 address_3: India
 ---
 
-text
+Programmers, designers, engineers, and entrepreneurs will come together to build products to make the lives of a billion Indians better at BharatHacks Delhi 2017.
+
+BharatHacks is the first-of-its-kind hackathon to solve India-specific problems that will help you take your idea forward, from hacking to raising investment to launching your product in the market.
+
+Out of all applications we receive, we will select the top 200 hackers for the on-site event. All of these participants will get at least $175 in credits for free, with over ₹2 Million in prizes to be won.

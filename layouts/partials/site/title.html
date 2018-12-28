@@ -1,48 +1,45 @@
 {{ if .Params.Title }}
-    {{ if .Params.Subtype }}
+    {{ if eq .File.Path "accelerator/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "accelerator/partners/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Partners · Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "accelerator/events/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Events · Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "accelerator/spaces/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Spaces · Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "accelerator/startups/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Portfolio Startups · Oswald Labs Accelerator" }}
+    {{ else if .Params.Subtype }}
         {{ if eq .Params.Subtype "agastya_features" }}
-            <meta name="title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <meta property="og:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <meta property="twitter:title" content="{{ .Title }} · Features · Agastya by Oswald Labs">
-            <title>{{ .Title }} · Features · Agastya by Oswald Labs</title>
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Features · Agastya by Oswald Labs" }}
         {{ else if eq .Params.Subtype "shravan_apps" }}
-            <meta name="title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <meta property="og:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <meta property="twitter:title" content="{{ .Title }} · Shravan Apps by Oswald Labs">
-            <title>{{ .Title }} · Shravan Apps by Oswald Labs</title>
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Shravan Apps by Oswald Labs" }}
         {{ else if eq .Params.Subtype "events" }}
-            <meta name="title" content="{{ .Title }} · Events · Oswald Labs Accelerator">
-            <meta property="og:title" content="{{ .Title }} · Events · Oswald Labs Accelerator">
-            <meta property="twitter:title" content="{{ .Title }} · Events · Oswald Labs Accelerator">
-            <title>{{ .Title }} · Events · Oswald Labs Accelerator</title>
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Events · Oswald Labs Accelerator" }}
         {{ else if eq .Params.Subtype "accelerator_partners" }}
-            <meta name="title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <meta property="og:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <meta property="twitter:title" content="{{ .Title }} · Partners · Oswald Labs Accelerator">
-            <title>{{ .Title }} · Partners · Oswald Labs Accelerator</title>
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Partners · Oswald Labs Accelerator" }}
         {{ else }}
-            <meta name="title" content="{{ .Params.Title }}">
-            <meta property="og:title" content="{{ .Params.Title }}">
-            <meta property="twitter:title" content="{{ .Params.Title }}">
             {{ if in .Title "Oswald Labs "}}
-                <title>{{ .Title }}</title>
+                {{ .Scratch.Set "setTitle" .Title }}
             {{ else }}
-                <title>{{ .Title }} · Oswald Labs</title>
+                {{ .Scratch.Add "setTitle" .Title }}
+                {{ .Scratch.Add "setTitle" " · Oswald Labs" }}
             {{ end }}
         {{ end }}
     {{ else if eq .Params.Type "accelerator" }}
-            <meta name="title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <meta property="og:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <meta property="twitter:title" content="{{ .Params.Title }} · Oswald Labs Accelerator">
-            <title>{{ .Params.Title }} · Oswald Labs Accelerator</title>
+        {{ .Scratch.Add "setTitle" .Title }}
+        {{ .Scratch.Add "setTitle" " · Oswald Labs Accelerator" }}
     {{ else }}
-        <meta name="title" content="{{ .Params.Title }}">
-        <meta property="og:title" content="{{ .Params.Title }}">
-        <meta property="twitter:title" content="{{ .Params.Title }}">
         {{ if in .Title "Oswald Labs "}}
-            <title>{{ .Title }}</title>
+            {{ .Scratch.Set "setTitle" "{{ .Title }}" }}
         {{ else }}
-            <title>{{ .Title }} · Oswald Labs</title>
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Oswald Labs" }}
         {{ end }}
     {{ end }}
 {{ end }}
+<title>{{ .Scratch.Get "setTitle" }}</title>

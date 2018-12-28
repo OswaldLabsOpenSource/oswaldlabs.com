@@ -1,10 +1,53 @@
-<section class="no-header">
+<section class="hero big-image pb-5">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-7">
-				<h1 class="text-center mb-5">{{ .Title }}</h1>
-				<div class="content">{{ .Content }}</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>{{ .Title }}</h1>
+				<div class="row intro-para">
+					<div class="col-md-2 text-center">
+                        <div class="display-n text-danger">{{ .Date.Format "02" }}</div>
+                        <div>{{ .Date.Format "Jan" }}</div>
+                    </div>
+					<div class="col-md-10">
+						{{ if .Params.Address_1 }}{{ .Params.Address_1 }}<br>{{ end }}
+						{{ if .Params.Address_2 }}{{ .Params.Address_2 }}<br>{{ end }}
+						{{ if .Params.Address_3 }}{{ .Params.Address_3 }}<br>{{ end }}
+					</div>
+				</div>
+				{{ if .Params.Link }}
+					<div>
+						<a href="{{ .Params.Link }}" class="btn btn-primary">Visit {{ .Title }} &rarr;</a>
+					</div>
+				{{ end }}
 			</div>
+			<div class="col-md-6 text-right">
+				<img role="presentation" src="/images/illustrations/events.svg">
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				{{ if .Content }}
+				<h2 class="subheading">About {{ .Title }}</h2>
+				<div class="mb-5">
+					{{ .Content }}
+				</div>
+				{{ end }}
+				{{ if .Params.Role }}
+					{{ if eq .Params.Role "organizer" }}
+						<h2 class="subheading mt-5">Organizer</h2>
+						<p>Organizing events is an exciting way to give back to the ecosystem, and it also helps us find new talent and startups for our program or potential partnerships. Oswald Labs organized the {{ .Params.Category | lower }} {{ .Title }} on <time datetime="{{ .Date }}">{{ .Date.Format "January 02, 2006" }}</time>.</p>
+					{{ end }}
+				{{ end }}
+			</div>
+			{{ if .Params.Image }}{{ if .Params.Quote }}
+				<div class="col-md-6 text-center mt-5 pt-5">
+					<img alt="{{ .Title }} logo" src="{{ .Params.Image }}">
+				</div>
+			{{ end }}{{ end }}
 		</div>
 	</div>
 </section>
