@@ -1,6 +1,7 @@
 ---
 title: HackerSpace
 link: http://hackerspace.work/
+subtype: startups
 image: /images/logos/novel-t.png
 address_1: A-73, Sector 2, Second Floor
 address_2: Noida 201301, Uttar Pradesh

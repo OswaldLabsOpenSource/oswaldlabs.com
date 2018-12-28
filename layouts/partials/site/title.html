@@ -3,6 +3,12 @@
         {{ .Scratch.Set "setTitle" "Oswald Labs Accelerator" }}
     {{ else if eq .File.Path "accelerator/partners/_index.md" }}
         {{ .Scratch.Set "setTitle" "Partners · Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "team/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Team · Oswald Labs" }}
+    {{ else if eq .File.Path "press/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Press · Oswald Labs" }}
+    {{ else if eq .File.Path "values/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Values · Oswald Labs" }}
     {{ else if eq .File.Path "accelerator/events/_index.md" }}
         {{ .Scratch.Set "setTitle" "Events · Oswald Labs Accelerator" }}
     {{ else if eq .File.Path "accelerator/spaces/_index.md" }}
@@ -14,14 +20,24 @@
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Features · Agastya by Oswald Labs" }}
         {{ else if eq .Params.Subtype "shravan_apps" }}
-            {{ .Scratch.Add "setTitle" .Title }}
-            {{ .Scratch.Add "setTitle" " · Shravan Apps by Oswald Labs" }}
+            {{ if in .Title "Shravan"}}
+                {{ .Scratch.Set "setTitle" .Title }}
+            {{ else }}
+                {{ .Scratch.Add "setTitle" .Title }}
+                {{ .Scratch.Add "setTitle" " · Shravan Apps by Oswald Labs" }}
+            {{ end }}
         {{ else if eq .Params.Subtype "events" }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Events · Oswald Labs Accelerator" }}
         {{ else if eq .Params.Subtype "accelerator_partners" }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Partners · Oswald Labs Accelerator" }}
+        {{ else if eq .Params.Subtype "spaces" }}
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Spaces · Oswald Labs Accelerator" }}
+        {{ else if eq .Params.Subtype "startups" }}
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Portfolio Startups · Oswald Labs Accelerator" }}
         {{ else }}
             {{ if in .Title "Oswald Labs "}}
                 {{ .Scratch.Set "setTitle" .Title }}
@@ -33,9 +49,35 @@
     {{ else if eq .Params.Type "accelerator" }}
         {{ .Scratch.Add "setTitle" .Title }}
         {{ .Scratch.Add "setTitle" " · Oswald Labs Accelerator" }}
+    {{ else if eq .Params.Type "agastya" }}
+        {{ if in .Title "Agastya" }}
+            {{ .Scratch.Set "setTitle" .Title }}
+        {{ else }}
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Agastya by Oswald Labs" }}
+        {{ end }}
+    {{ else if eq .Section "team" }}
+        {{ if .Params.Position }}
+            {{ .Scratch.Set "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" ", " }}
+            {{ .Scratch.Add "setTitle" .Params.Position }}
+            {{ .Scratch.Add "setTitle" " · Oswald Labs" }}
+        {{ else }}
+            {{ .Scratch.Set "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Team · Oswald Labs" }}
+        {{ end }}
+    {{ else if eq .Section "news" }}
+        {{ .Scratch.Set "setTitle" .Title }}
+        {{ .Scratch.Add "setTitle" " · Oswald Labs News" }}
+    {{ else if eq .Section "press" }}
+        {{ .Scratch.Set "setTitle" .Title }}
+        {{ .Scratch.Add "setTitle" " · Press · Oswald Labs" }}
+    {{ else if eq .Section "values" }}
+        {{ .Scratch.Set "setTitle" .Title }}
+        {{ .Scratch.Add "setTitle" " · Values · Oswald Labs" }}
     {{ else }}
-        {{ if in .Title "Oswald Labs "}}
-            {{ .Scratch.Set "setTitle" "{{ .Title }}" }}
+        {{ if in .Title "Oswald Labs"}}
+            {{ .Scratch.Set "setTitle" .Title }}
         {{ else }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Oswald Labs" }}
@@ -43,3 +85,6 @@
     {{ end }}
 {{ end }}
 <title>{{ .Scratch.Get "setTitle" }}</title>
+<meta name="title" content="{{ .Scratch.Get "setTitle" }}">
+<meta property="og:title" content="{{ .Scratch.Get "setTitle" }}">
+<meta property="twitter:title" content="{{ .Scratch.Get "setTitle" }}">

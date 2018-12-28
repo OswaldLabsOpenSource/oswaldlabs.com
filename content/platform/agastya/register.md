@@ -1,5 +1,5 @@
 ---
-title: Register · Agastya by Oswald Labs
+title: Register
 type: agastya
 ---
 
