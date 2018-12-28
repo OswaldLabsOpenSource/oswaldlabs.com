@@ -2,16 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                {{ if .Params.Quote }}
-                    <h1>{{ .Title }}</h1>
-                    <p class="intro-para">{{ .Params.Quote }}</p>
-                {{ else }}
-                    <h1>
-                        <img class="h1-image" alt="{{ .Title }} logo" src="/images/logos/{{ .File.TranslationBaseName }}.png">
-                        <span>{{ .Title }}</span>
-                    </h1>
-                    <p class="intro-para">{{ .Params.Description }}</p>
-                {{ end }}
+                <h1>
+                    <img class="h1-image" alt="{{ .Title }} logo" src="/images/logos/{{ .File.TranslationBaseName }}.png">
+                    <span>{{ .Title }}</span>
+                </h1>
+                <p class="intro-para">{{ .Params.Description }}</p>
             </div>
             <div class="col-md-6 text-right">
                 <img role="presentation" src="/images/illustrations/press.svg">
