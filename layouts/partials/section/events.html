@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="subheading-3">Upcoming events</h2>
+                <!-- <h2 class="subheading-3">Upcoming events</h2> -->
                 <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
             </div>
         </div>
@@ -10,12 +10,20 @@
              {{ range .Pages }}
             <div class="col-md-4 d-flex align-items-stretch mb-med">
                 <a class="card" href="{{ .Permalink }}">
-                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
+                    <img alt="Photo for {{ .Title }} event" src="{{ .Params.Image }}">
                     <div class="card-body">
-                        <h2 class="subheading">{{ .Title }}</h2>
-                        {{ if .Params.Address_1 }}<div>{{ .Params.Address_1 }}</div>{{ end }}
-                        {{ if .Params.Address_2 }}<div>{{ .Params.Address_2 }}</div>{{ end }}
-                        {{ if .Params.Address_3 }}<div>{{ .Params.Address_3 }}</div>{{ end }}
+                        <div class="row">
+                            <div class="col-3 text-center">
+                                <div class="display-n text-danger">{{ .Date.Format "02" }}</div>
+                                <div>{{ .Date.Format "Jan" }}</div>
+                                <div>{{ .Date.Format "2006" }}</div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="subheading mt-2 mb-2">{{ .Title }}</h2>
+                                {{ if .Params.Category }}<div>{{ .Params.Category }}</div>{{ end }}
+                                {{ if .Params.Address_2 }}<div>{{ .Params.Address_2 }}</div>{{ end }}
+                            </div>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -25,16 +33,16 @@
                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                         <div>
                             <div>
-                                <i class="fas fa-map-marked-alt fa-3x mb-4 text-muted"></i>
+                                <i class="fas fa-calendar-week fa-3x mb-4 text-muted"></i>
                             </div>
                             <h2 class="subheading">More coming soon</h2>
-                            <p>We're constantly adding more partners and co-working spaces, stay tuned!</p>
+                            <p>We're constantly working on organizing great new events, so stay tuned!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
             <div class="col-md-6">
                 <h2 class="subheading-3">Past events</h2>
                 <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
@@ -54,6 +62,6 @@
                 </a>
             </div>
             {{ end }}
-        </div>
+        </div> -->
     </div>
 </section>

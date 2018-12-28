@@ -85,6 +85,7 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                                 <option>Accelerator</option>
                                 <option>Partnerships</option>
                                 <option>Feedback</option>
+                                <option>Event Sponsorships</option>
                                 <option>CEO&rsquo;s office</option>
                                 <option>Data Protection Officer</option>
                             </select>

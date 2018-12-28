@@ -9,8 +9,8 @@
 <meta property="twitter:card" content="summary_large_image">
 {{ end }}{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">
 <meta property="twitter:image" content="{{ .Params.image }}">
-{{ else }}<meta property="og:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
-<meta property="twitter:image" content="https://platform.oswaldlabs.com/v1/screenshot/{{ .URL | safeURL }}">
+{{ else }}<meta property="og:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
+<meta property="twitter:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
 {{ end }}<meta name="apple-mobile-web-app-title" content="Oswald Labs">
 <meta name="twitter:site" content="@OswaldLabs">
 <meta name="twitter:creator" content="@AnandChowdhary">

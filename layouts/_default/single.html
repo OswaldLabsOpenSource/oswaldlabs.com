@@ -4,8 +4,8 @@
 	{{ partial "single/news.html" . }}
 {{ else if eq .Section "policies" }}
 	{{ partial "single/policies.html" . }}
-{{ else if eq .Section "press" }}
-	{{ partial "single/press.html" . }}
+{{ else if eq .Section "events" }}
+	{{ partial "single/events.html" . }}
 {{ else if eq .Section "values" }}
 	{{ partial "single/values.html" . }}
 {{ else if eq .Section "team" }}
@@ -13,6 +13,8 @@
 {{ else if .Params.Subtype }}
 {{ if eq .Params.Subtype "publications" }}
 	{{ partial "single/publications.html" . }}
+{{ else if eq .Params.Subtype "events" }}
+	{{ partial "single/events.html" . }}
 {{ else if eq .Params.Subtype "agastya_features" }}
 	{{ partial "single/agastya_features.html" . }}
 {{ else if eq .Params.Subtype "accelerator_partners" }}

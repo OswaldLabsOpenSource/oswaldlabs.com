@@ -3,13 +3,13 @@ title: Oswald Labs Research Fund
 type: research
 ---
 
-<section class="hero">
+<section class="hero big-image pb-5">
     <div class="container">
-        <div class="row text-center justify-content-center">
+        <div class="row">
             <div class="col-md-6">
 				<h1>Oswald Labs Research Fund</h1>
 				<p class="intro-para">Oswald Labs Research Fund is our <strong>not-for-profit</strong> fund built to support efforts into R&amp;D and invention. We're partnering with some of the world's smartest companies to fund projects across accessibility and research.</p>
-                <form class="ml-auto mr-auto col-8 contribute-form">
+                <form class="col-8 pl-0 contribute-form">
                     <div class="input-group input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">€</span>
@@ -21,6 +21,9 @@ type: research
                     </div>
                 </form>
 			</div>
+            <div class="col-md-6 text-right">
+                <img role="presentation" src="/images/illustrations/fund.svg">
+            </div>
         </div>
     </div>
 </section>
