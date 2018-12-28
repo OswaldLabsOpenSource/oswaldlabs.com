@@ -1,19 +1,19 @@
 ---
-title: Augmenta11y
+title: Visib11y
 type: shravan
 subtype: shravan_apps
-description: Augmenta11y is an Augmented Reality (AR) app that helps people with learning disabilities like dyslexia easily read signage, paper, and other material in the real world.
-intro: Augmented Reality reading app for people with dyslexia
-link: https://play.google.com/store/apps/details?id=com.oswaldlabs.augmenta11y
+description: Object recognition and navigation app for people with blindness
+intro: Object recognition and navigation app for people with blindness
+link: link
 ---
 
 <section>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p>Augmenta11y is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.</p>
-                <p>It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Augmenta11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.</p>
-                <p>It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Augmenta11y work its magic.</p>
+                <p>Visib11y is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.</p>
+                <p>It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Visib11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.</p>
+                <p>It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Visib11y work its magic.</p>
             </div>
         </div>
     </div>

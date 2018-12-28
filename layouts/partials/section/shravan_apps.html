@@ -1,0 +1,24 @@
+
+<section>
+    <div class="container mt-5 pt-4">
+        <div class="row">
+            {{ range .Paginator.Pages }}
+            <div class="col-md">
+                <div class="card card-phone">
+                    <a href="{{ .Permalink }}" class="screen">
+                        <img alt="Screenshot of the {{ .Title }} app" src="/images/screenshots/{{ .File.TranslationBaseName }}.png">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <img alt="{{ .Title }} icon" class="icon" src="/images/icons/{{ .File.TranslationBaseName }}.png">
+                    <h2 class="subheading">{{ .Title }}</h2>
+                    <p>{{ .Params.Intro }}</p>
+                    <div>
+                        <a class="btn btn-outline-danger" href="{{ .Permalink }}">Visit {{ .Title }} &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

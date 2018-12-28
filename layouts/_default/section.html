@@ -29,6 +29,9 @@
 {{ if eq .Params.Subtype "publications" }}
 {{ partial "section/publications.html" . }}
 {{ end }}
+{{ if eq .Params.Subtype "shravan_apps" }}
+{{ partial "section/shravan_apps.html" . }}
+{{ end }}
 {{ end }}
 {{ partial "subfooter.html" . }}
 {{ end }}
