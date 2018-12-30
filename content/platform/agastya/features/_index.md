@@ -25,12 +25,12 @@ type: agastya
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</a>
 			<a href="/platform/agastya/features/night-mode/" class="col-md-4">
-				<div class="mb-4 feature-demo night">Aa</div>
+				<div class="mb-4 feature-demo night" aria-hidden="true">Aa</div>
 				<h3 class="subheading">Night/dark theme</h3>
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</a>
 			<a href="/platform/agastya/features/blue-light-filter/" class="col-md-4">
-				<div class="mb-4 feature-demo sepia">Aa</div>
+				<div class="mb-4 feature-demo sepia" aria-hidden="true">Aa</div>
 				<h3 class="subheading">Blue light filter</h3>
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</a>
@@ -95,7 +95,7 @@ type: agastya
 				<h3 class="subheading">Desaturation</h3>
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</a>
-			<a href="/platform/agastya/features/large/" class="col-md-4">
+			<a href="/platform/agastya/features/large-cursor/" class="col-md-4">
 				<div class="mb-4 feature-demo">
 					<i class="fas fa-mouse-pointer"></i>
 				</div>
