@@ -18,6 +18,22 @@ var loadJS = function(src, cb, ordered) {
 	return script;
 };
 
+const loadCss = (src, callback) => {
+	const link = document.createElement("link");
+	link.setAttribute("rel", "stylesheet");
+	link.setAttribute("href", src);
+	link.onload = () => {
+		if (callback && typeof callback === "function") callback();
+	};
+	link.onreadystatechange = () => {
+		const state = link.readyState;
+		if (state === "loaded" || state === "complete") {
+			if (callback && typeof callback === "function") callback();
+		} 
+	};
+	(document.head || document.documentElement || document.body).appendChild(link);
+}
+
 function ready(fn) {
 	if (document.readyState !== "loading") {
 		fn();
@@ -45,13 +61,29 @@ const agastyaTrackLink = event => {
 ready(() => {
 	function initMe(container) {
 		if (container && container.querySelector(".page-meta .page-slug")) {
+			let hasMoved = false;
+			if (document.body.className.includes("hello-bar--has-moved")) {
+				hasMoved = true;
+			}
 			document.body.className =
-				"page-" + container.querySelector(".page-meta .page-slug").innerHTML;
+				"page-" + container.querySelector(".page-meta .page-slug").innerHTML + (hasMoved ? " hello-bar--has-moved" : "");
 		}
 		const simplify = url => {
 			if (!url || typeof url.toLowerCase === "undefined") return;
 			return url.toLowerCase().replace(/\//g, "");
 		};
+		// Show Hello Bar on home page
+		loadCss("https://unpkg.com/hello-bar@0.4.0/build/index.css", () => {
+			loadJS("https://unpkg.com/hello-bar@0.4.0/build/index.js", () => {
+				if (window.HelloBar && window.HelloBar.default && !document.querySelector(".hello-bar")) {
+					const HelloBar = new window.HelloBar.default({
+						text: "What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
+						background: "#231463",
+						move: "header"
+					});
+				}
+			});
+		})
 		// Add Agastya tracking listener for external link
 		// then add/remove listener from links on barba
 		const links = document.querySelectorAll("a");
@@ -71,6 +103,7 @@ ready(() => {
 				link.addEventListener("click", agastyaTrackLink);
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
+				if (!link.getAttribute("href")) return;
 				if (
 					!link.getAttribute("href").includes("mailto:") &&
 					!link.getAttribute("href").includes("tel:")
