@@ -38,6 +38,7 @@ type: agastya
                                 <option value="10m">More than 5 million per month</option>
                             </select>
                         </div>
+                        <input type="hidden" name="currency" class="agastya-currency-prefill">
                         <input type="hidden" name="ip" class="ip-address-fill">
                         <input type="hidden" name="city" class="city-fill">
                         <input type="hidden" name="country" class="country-fill">

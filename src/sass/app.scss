@@ -1389,7 +1389,8 @@ svg.align {
 	}
 }
 
-.agastya-has-custom {
+.agastya-has-custom,
+.switch-to-eur {
 	display: none;
 }
 
@@ -1645,4 +1646,26 @@ i.fas, i.fab {
 
 .mt-all {
 	margin-top: 12.5rem;
+}
+
+.agastya-currencies {
+	label input {
+		display: none;
+	}
+	label input:checked + span {
+		font-weight: bold;
+		cursor: default;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	label span {
+		cursor: pointer;
+		&:hover {
+			opacity: 0.75;
+		}
+	}
+	label + label {
+		margin-left: 1rem;
+	}
 }

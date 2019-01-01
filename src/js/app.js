@@ -133,30 +133,68 @@ ready(() => {
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");
 		const amountSelector = document.querySelector(".agastya-calculated-price");
 		const btnRequest = document.querySelector(".btn-request");
-		const pricingValues = {
-			"100k": 99,
-			"250k": 249,
-			"500k": 499,
-			"1m": 749,
-			"5m": 999,
-			"10m": "custom"
+		const currencySymbols = {
+			eur: "€",
+			usd: "$",
+			inr: "₹"
 		};
+		const pricingValues = {
+			eur: {
+				"100k": 99,
+				"250k": 249,
+				"500k": 499,
+				"1m": 749,
+				"5m": 999,
+				"10m": "custom"
+			},
+			usd: {
+				"100k": 119,
+				"250k": 289,
+				"500k": 579,
+				"1m": 869,
+				"5m": 1159,
+				"10m": "custom"
+			},
+			inr: {
+				"100k": 7899,
+				"250k": 18999,
+				"500k": 38999,
+				"1m": 58999,
+				"5m": 78999,
+				"10m": "custom"
+			}
+		};
+		const updatePriceValues = () => {
+			if (amountSelector) {
+				if (pricingValues[selectedCurrency][pricingSelector.value] === "custom") {
+					document.querySelector(".agastya-no-custom").style.display = "none";
+					document.querySelector(".agastya-has-custom").style.display =
+						"inline-block";
+				} else {
+					document.querySelector(".agastya-no-custom").style.display = "inline-block";
+					document.querySelector(".agastya-has-custom").style.display = "none";
+					amountSelector.innerHTML = pricingValues[selectedCurrency][pricingSelector.value].toLocaleString();
+				}
+			}
+			if (btnRequest) {
+				btnRequest.setAttribute("href", "/platform/agastya/register/?pageviews=" + pricingSelector.value + "&currency=" + selectedCurrency);
+			}
+		};
+		let selectedCurrency = "eur";
+		const agastyaCurrencySpan = document.querySelector(".agastya-currency");
+		const switchToUsd = document.querySelectorAll("input[name='agastya-currency-selector']");
+		if (switchToUsd.length) {
+			for (let i = 0; i < switchToUsd.length; i++) {
+				switchToUsd[i].addEventListener("change", () => {
+					selectedCurrency = switchToUsd[i].value;
+					agastyaCurrencySpan.innerHTML = currencySymbols[switchToUsd[i].value];
+					updatePriceValues();
+				});
+			}
+		}
 		if (pricingSelector) {
 			pricingSelector.addEventListener("change", () => {
-				if (amountSelector) {
-					if (pricingValues[pricingSelector.value] === "custom") {
-						document.querySelector(".agastya-no-custom").style.display = "none";
-						document.querySelector(".agastya-has-custom").style.display =
-							"inline-block";
-					} else {
-						document.querySelector(".agastya-no-custom").style.display = "inline-block";
-						document.querySelector(".agastya-has-custom").style.display = "none";
-						amountSelector.innerHTML = pricingValues[pricingSelector.value];
-					}
-				}
-				if (btnRequest) {
-					btnRequest.setAttribute("href", "/platform/agastya/register/?pageviews=" + pricingSelector.value);
-				}
+				updatePriceValues();
 			});
 		}
 		const microLinks = document.querySelectorAll(".microlink");
@@ -219,11 +257,19 @@ ready(() => {
 			}
 		}
 		const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
+		const currencyPrefill = document.querySelector(".agastya-currency-prefill");
 		if (pricingSelectPrefill) {
 			const urlParams = new URLSearchParams(window.location.search);
 			const planInfo = urlParams.get("pageviews");
 			if (planInfo) {
 				pricingSelectPrefill.value = planInfo;
+			}
+		}
+		if (currencyPrefill) {
+			const urlParams = new URLSearchParams(window.location.search);
+			const planInfo = urlParams.get("currency");
+			if (planInfo) {
+				currencyPrefill.value = planInfo;
 			}
 		}
 		// gtag('config', 'UA-58910975-1', {

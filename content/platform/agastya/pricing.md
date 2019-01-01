@@ -9,11 +9,25 @@ type: agastya
 			<div class="col-md-6">
 				<h1>Simple, transparent pricing.</h1>
 				<p class="intro-para">Our fair pricing charges websites with higher pageviews a subscription cost, but is free for smaller websites with less than 10,000 pageviews per month.</p>
+				<div class="agastya-currencies">
+					<label>
+						<input value="eur" type="radio" name="agastya-currency-selector" checked>
+						<span>EUR</span>
+					</label>
+					<label>
+						<input value="usd" type="radio" name="agastya-currency-selector">
+						<span>USD</span>
+					</label>
+					<label>
+						<input value="inr" type="radio" name="agastya-currency-selector">
+						<span>INR</span>
+					</label>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section class="pt-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md">
@@ -62,7 +76,7 @@ type: agastya
 							</tr>
 						</tbody>
 					</table>
-					<a href="/platform/agastya/register/?pageviews=10k" class="btn btn-light btn-lg">Get started &rarr;</a>
+					<a href="/platform/agastya/register/?pageviews=10k&currency=eur" class="btn btn-light btn-lg">Get started &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md">
@@ -72,7 +86,7 @@ type: agastya
 							<h2>Pro</h2>
 						</div>
 						<div class="col text-right">
-							<h2 class="text-muted m-0 agastya-no-custom">€<span class="agastya-calculated-price">99</span>/month</h2>
+							<h2 class="text-muted m-0 agastya-no-custom"><span class="agastya-currency">€</span><span class="agastya-calculated-price">99</span>/month</h2>
 							<h2 class="text-muted m-0 agastya-has-custom">Custom pricing</h2>
 						</div>
 					</div>
@@ -117,7 +131,7 @@ type: agastya
 							</tr>
 						</tbody>
 					</table>
-					<a href="/platform/agastya/register/?pageviews=100k" class="btn btn-warning btn-lg btn-request">Start free trial &rarr;</a>
+					<a href="/platform/agastya/register/?pageviews=100k&currency=eur" class="btn btn-warning btn-lg btn-request">Start free trial &rarr;</a>
 				</div>
 			</div>
 		</div>
