@@ -73,13 +73,16 @@ ready(() => {
 			return url.toLowerCase().replace(/\//g, "");
 		};
 		// Show Hello Bar on home page
-		loadCss("https://unpkg.com/hello-bar@0.4.0/build/index.css", () => {
-			loadJS("https://unpkg.com/hello-bar@0.4.0/build/index.js", () => {
+		loadCss("https://unpkg.com/hello-bar@1.0.0/build/index.css", () => {
+			loadJS("https://unpkg.com/hello-bar@1.0.0/build/index.js", () => {
 				if (window.HelloBar && window.HelloBar.default && !document.querySelector(".hello-bar")) {
 					const HelloBar = new window.HelloBar.default({
 						text: "What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
 						background: "#231463",
-						move: "header"
+						move: "header",
+						targeting: {
+							once: true
+						}
 					});
 				}
 			});
