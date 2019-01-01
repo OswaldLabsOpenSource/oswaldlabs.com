@@ -2,13 +2,14 @@
 title: Melangebox
 type: agastya
 subtype: agastya_case_studies
-description: Our exclusive Melangebox automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.
+description: Agastya by Oswald Labs helps Melangebox, a fashion e-commerce company, get more sales, offer support to customers, and discover new insights into their business.
+link: https://www.melangebox.com
 ---
 
-## What is Melangebox?
+## How does Melangebox use Agastya?
 
-Melangebox is built to increase webpage legibility for users with learning disorders like dyslexia. It not only helps those with said disorders, but also users who prefer visual modifications for easier reading.
+Melangebox is one of India's fastest-growing e-commerce websites. With hundreds of designs and products, Melangebox is the one-stop solution for t-shirts, hoodies, mugs, phone cases, and more.
 
-## How many users really have dyslexia?
+To help customers after their orders, Melangebox has built-in live chat powered by Agastya's third-party integrations, and users with disabilities can easily use their website and buy products.
 
-According to [Dyslexia International](#), there are over 100 Million users around the world who have dyslexia. This means that over 50 Million users who use the web have a learning disorder and might not be able to use your website easily. Other estimates range dyslexia at around 10% of the general population, so the number may be even higher. It is very important to ensure your website can be used by users with dyslexia.
+{{< quote text="Agastya is the best way for us to help our users. We use the Live Chat integration to give support in real-time and we've seen many users use accessibility features on our e-commerce website." author="Shelika Bhasin, CMO, Melangebox" >}}

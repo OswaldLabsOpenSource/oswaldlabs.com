@@ -29,6 +29,9 @@
         {{ else if eq .Params.Subtype "events" }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Events · Oswald Labs Accelerator" }}
+        {{ else if eq .Params.Subtype "agastya_case_studies" }}
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Case Studies · Agastya by Oswald Labs" }}
         {{ else if eq .Params.Subtype "accelerator_partners" }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Partners · Oswald Labs Accelerator" }}
