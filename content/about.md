@@ -9,7 +9,7 @@ description: About
 			<div class="col-md-6">
 				<h1>About</h1>
 				<p>Oswald Labs is an award-winning accessibility technology company that builds technology for the next billion users. Our mission is to build new technologies that help people grow, and do it in a manner promoting accessibility and equality.</p>
-				<p>Oswald Labs was founded as Oswald Foundation on August 15, 2016, by Anand Chowdhary and Nishant Gadihoke in New Delhi, India, after building the first web reading tool for people with dyslexia at a weekend hackathon, along with Mahendra Singh Raghuwanshi.</p>
+				<p>Oswald Labs was founded as Oswald Foundation on August 15, 2016, by Anand Chowdhary and Nishant Gadihoke in New Delhi, India, after building the first web reading tool for people with dyslexia at a weekend hackathon, along with Mahendra Singh Raghuwanshi. Since then, Oswald Labs&rsquo; products have been used by thousands of users around the world.</p>
 				<p>You can learn more about the <a href="/platform/">solutions</a> we provide, the <a href="/accelerator/partners/">partners</a> we work with, our incredible <a href="/team/">team</a> that make this possible, or <a href="/contact/">Get in touch</a> with us for more information.</p>
 			</div>
 		</div>
