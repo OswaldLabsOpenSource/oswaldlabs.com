@@ -2,6 +2,8 @@
 {{ partial "subnav.html" . }}
 {{ if eq .Section "news" }}
 	{{ partial "single/news.html" . }}
+{{ else if eq .Section "press" }}
+	{{ partial "single/press.html" . }}
 {{ else if eq .Section "policies" }}
 	{{ partial "single/policies.html" . }}
 {{ else if eq .Section "events" }}
