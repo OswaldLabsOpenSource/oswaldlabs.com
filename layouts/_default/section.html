@@ -10,7 +10,9 @@
 {{ if eq .Section "values" }}
 {{ partial "section/values.html" . }}
 {{ end }}
-{{ if eq .Section "press" }}
+{{ if eq .Params.Subtype "logos" }}
+{{ partial "section/logos.html" . }}
+{{ else if eq .Section "press" }}
 {{ partial "section/press.html" . }}
 {{ end }}
 {{ if .Params.Subtype }}
