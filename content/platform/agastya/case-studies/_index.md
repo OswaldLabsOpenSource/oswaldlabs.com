@@ -1,5 +1,5 @@
 ---
-title: Use Cases
+title: Case Studies
 type: agastya
 ---
 
@@ -7,8 +7,8 @@ type: agastya
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h1>Use Cases.</h1>
-				<p class="intro-para">Agastya comes with a built-in feature store where developers can pick and choose their features. It has something for everybody, from disabled-friendly modes to live chat.</p>
+				<h1>Works for thousands of users every month.</h1>
+				<p class="intro-para">With over ten features, Agastya is used by thousands of users every month on websites with millions of pageviews. Click on any of the following logos to explore more.</p>
 			</div>
 		</div>
 	</div>

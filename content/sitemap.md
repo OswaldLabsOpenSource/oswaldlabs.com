@@ -42,6 +42,7 @@ description: Sitemap
                     <a href="/platform/agastya/">Home</a>
                     <a href="/platform/agastya/features/">Features</a>
                     <a href="/platform/agastya/pricing/">Pricing</a>
+                    <a href="/platform/agastya/case-studies/">Case studies</a>
                     <a href="/platform/agastya/compliance/">Compliance</a>
                     <a href="/platform/agastya/eu/">European Union</a>
                     <a href="/platform/agastya/register/">Register</a>

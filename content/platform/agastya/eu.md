@@ -40,7 +40,7 @@ type: agastya
 			<div class="col-md-6 mb-5">
 				<i class="fas fa-euro-sign fa-2x text-muted mb-4"></i>
 				<h2 class="subheading">Payment options</h2>
-				<p>We accept all major debit and credit cards from customers in every country, including Visa, Mastercard, and American Express. We also support SEPA Direct Debit and iDEAL.</p>
+				<p>We accept all major debit and credit cards from customers in every country, including Visa, Mastercard, and American Express. We also support SEPA Direct Debit and iDEAL.<sup>1</sup></p>
 			</div>
 			<div class="col-md-6 mb-5">
 				<i class="fas fa-lock fa-2x text-muted mb-4"></i>

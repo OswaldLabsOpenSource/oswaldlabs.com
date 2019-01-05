@@ -8,7 +8,7 @@ type: agastya
 		<div class="row">
 			<div class="col-md-6">
 				<h1>Register</h1>
-                <p>Thank you for your interest and for signing up for Agastya.</p>
+                <p>Thank you for your interest in signing up for Agastya!</p>
                 <p>Once you've submitted this form, you will receive an email containing a link to your personal dashboard, where you can find your API key and learn how to set up Agastya on your website.</p>
 			</div>
             <div class="col-md-6">
@@ -16,7 +16,7 @@ type: agastya
                     <form action="https://formspree.io/yourfriends@a11y.co" method="POST">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter your full name" required>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter your full name (not your website's)" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
