@@ -109,7 +109,8 @@ ready(() => {
 				if (!link.getAttribute("href")) return;
 				if (
 					!link.getAttribute("href").includes("mailto:") &&
-					!link.getAttribute("href").includes("tel:")
+					!link.getAttribute("href").includes("tel:") &&
+					!link.getAttribute("href").includes("utm_source")
 				) {
 					link.classList.add("has-external-link");
 					if (link.getAttribute("href").includes("?")) {

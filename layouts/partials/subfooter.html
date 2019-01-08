@@ -258,6 +258,7 @@
 				<meta itemprop="position" content="2">
 			</li>
 			{{ if eq .Params.Subtype "logos" }}
+			{{ if ne .URL "/press/logos/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="/press/logos/">
 					<span itemprop="name">Logos</span></a>
@@ -269,6 +270,7 @@
 				</a>
 				<meta itemprop="position" content="4">
 			</li>
+			{{ end }}
 			{{ else }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">

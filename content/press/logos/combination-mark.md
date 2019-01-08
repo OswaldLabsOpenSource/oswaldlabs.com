@@ -6,3 +6,5 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/9c/Oswald_Labs_Logo.
 info: Official logo
 license: CC BY-SA 4.0, Wikimedia Commons
 ---
+
+The Oswald Labs logo is a combination of our symbol and wordmark in Proxima Nova.

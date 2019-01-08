@@ -6,3 +6,5 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/6b/Oswald_Labs_Platf
 info: Combination mark
 license: CC BY-SA 4.0, Wikimedia Commons
 ---
+
+The Oswald Labs Platform logo is a wordmark with the Oswald Labs logo and the word "Platform" below it.

@@ -6,3 +6,5 @@ thumbnail: https://static.oswaldlabs.com/shravan-icons/wikibility/generated/andr
 info: Circle PNG
 license: CC BY-SA 4.0, Oswald Labs CDN
 ---
+
+The Wikibility app icon is based on the Shravan logo, with the signature gradient and a finder icon signifying interaction.

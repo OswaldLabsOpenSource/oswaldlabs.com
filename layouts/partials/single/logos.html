@@ -1,12 +1,13 @@
 <section class="no-header">
 	<div class="container">
 		<div class="row justify-content-center text-center">
-			<div class="col-md-7">
+			<div class="col-md-5">
 				<h1 class="mb-5">{{ .Title }}</h1>
 				<img class="mw mb-5" alt="{{ .Title }}" src="{{ .Params.Thumbnail }}">
                 <div class="content">{{ .Content }}</div>
                 <div class="mt-4">
-                    <a href="{{ .Params.Link }}" class="btn btn-primary btn-lg mt-3">Download the {{ .Title }} &rarr;</a>
+					<a href="{{ .Params.Link }}" class="btn btn-primary btn-lg mt-3">Download the {{ .Title }} &rarr;</a>
+					<p class="mt-4 small">This logo is a trademark or registered tradamark of Oswald Labs. If you want to use this logo, please make sure to follow our <a href="/press/brand-guidelines/">brand guidelines</a>.</p>
                 </div>
 			</div>
 		</div>

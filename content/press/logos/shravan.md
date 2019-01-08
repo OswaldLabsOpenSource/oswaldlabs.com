@@ -7,4 +7,4 @@ info: Circle SVG
 license: CC BY-SA 4.0, Wikimedia Commons
 ---
 
-This is an example of some content
+The Shravan logo is a red-magenta gradient and the Devanagari letter श्र (Shra for Shravan).
