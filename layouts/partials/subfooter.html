@@ -9,6 +9,7 @@
 		<a href="/platform/agastya/case-studies/cls-group/" class="press-item" title="CLS Group">
 			<img alt="CLS Group logo" src="/images/logos/cls-group.png" style="height: 40px">
 		</a>
+		
 		<a href="/platform/agastya/case-studies/youth-ki-awaaz/" class="press-item" title="Youth ki Awaaz">
 			<img alt="Youth ki Awaaz logo" src="/images/logos/youth-ki-awaaz.png" style="height: 45px">
 		</a>
@@ -226,6 +227,76 @@
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="/gdpr/">
 					<span itemprop="name">GDPR Tools</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ .Title }}</span>
+				</a>
+				<meta itemprop="position" content="3">
+			</li>
+		</ol>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+{{ if eq .Section "press" }}
+{{ if ne .URL "/press/" }}
+<section class="pt-4 pb-4">
+	<div class="container">
+		<strong class="text-muted">You are here</strong>
+		<ol class="bc" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/">
+					<span itemprop="name">Oswald Labs</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/press/">
+					<span itemprop="name">Press</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			{{ if eq .Params.Subtype "logos" }}
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/press/logos/">
+					<span itemprop="name">Logos</span></a>
+				<meta itemprop="position" content="3">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ .Title }}</span>
+				</a>
+				<meta itemprop="position" content="4">
+			</li>
+			{{ else }}
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<span itemprop="name">{{ .Title }}</span>
+				</a>
+				<meta itemprop="position" content="3">
+			</li>
+			{{ end }}
+		</ol>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+{{ if eq .Section "news" }}
+{{ if ne .URL "/news/" }}
+<section class="pt-4 pb-4">
+	<div class="container">
+		<strong class="text-muted">You are here</strong>
+		<ol class="bc" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/">
+					<span itemprop="name">Oswald Labs</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="/news/">
+					<span itemprop="name">News</span></a>
 				<meta itemprop="position" content="2">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">

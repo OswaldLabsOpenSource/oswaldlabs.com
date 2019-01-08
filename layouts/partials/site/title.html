@@ -19,6 +19,9 @@
         {{ if eq .Params.Subtype "agastya_features" }}
             {{ .Scratch.Add "setTitle" .Title }}
             {{ .Scratch.Add "setTitle" " · Features · Agastya by Oswald Labs" }}
+        {{ else if eq .Params.Subtype "logos" }}
+            {{ .Scratch.Add "setTitle" .Title }}
+            {{ .Scratch.Add "setTitle" " · Press · Oswald Labs" }}
         {{ else if eq .Params.Subtype "shravan_apps" }}
             {{ if in .Title "Shravan"}}
                 {{ .Scratch.Set "setTitle" .Title }}
