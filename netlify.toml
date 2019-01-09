@@ -19,15 +19,15 @@
 
 [[redirects]]
   from = "/agastya/*"
-  to = "/platform/agastya/:splat"
+  to = "/platform/agastya/:splat/"
 
 [[redirects]]
   from = "/shravan/*"
-  to = "/platform/shravan/:splat"
+  to = "/platform/shravan/:splat/"
 
 [[redirects]]
   from = "/valmiki/*"
-  to = "/platform/valmiki/:splat"
+  to = "/platform/valmiki/:splat/"
 
 [[redirects]]
   from = "/education"
