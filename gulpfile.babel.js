@@ -7,7 +7,7 @@ import gulpLoadPlugins from "gulp-load-plugins";
 import { spawn } from "child_process";
 import tildeImporter from "node-sass-tilde-importer";
 import postcss from "gulp-postcss";
-import uncss from "postcss-uncss";
+import purify from "gulp-purifycss";
 import fs from "fs";
 
 const $ = gulpLoadPlugins();
@@ -67,11 +67,11 @@ gulp.task("init-watch", () => {
 });
 
 gulp.task("build", () => {
-	runSequence("pub-delete", ["sass", "js", "fonts", "images", "build-functions"], "hugo");
+	runSequence("pub-delete", ["sass", "js", "fonts", "images", "build-functions"], "hugo", "pure-css");
 });
 
 gulp.task("build-preview", () => {
-	runSequence("pub-delete", ["sass", "js", "fonts", "images", "build-functions"], "hugo-preview");
+	runSequence("pub-delete", ["sass", "js", "fonts", "images", "build-functions"], "hugo-preview", "pure-css");
 });
 
 gulp.task("build-functions", cb => {
@@ -145,19 +145,16 @@ gulp.task("sass", () => {
 		.pipe($.cssnano({ discardUnused: false, minifyFontValues: false }))
 		.pipe($.size({ gzip: true, showFiles: true }))
 		.pipe(gulp.dest("static/css"))
-		.pipe(browserSync.stream());
+		.pipe(browserSync.stream())
 });
 
-gulp.task("uncss", () => {
-	const plugins = [
-		uncss({
-			html: ["public/**/*.html"]
-		})
-	];
+gulp.task("pure-css", () => {
 	return gulp
-		.src(["public/css/*.css"])
-		.pipe(postcss(plugins))
-		.pipe(gulp.dest("public"));
+		.src(["src/css/**/*.css"])
+		.pipe(purify(["./public/**/*.html"]))
+		.pipe($.cssnano({ discardUnused: false, minifyFontValues: false }))
+		.pipe($.size({ gzip: true, showFiles: true }))
+		.pipe(gulp.dest("static/css"));
 });
 
 gulp.task("js-watch", ["js"], cb => {

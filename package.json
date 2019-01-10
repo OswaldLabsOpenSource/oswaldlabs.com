@@ -29,6 +29,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^8.0.0",
     "gulp-print": "^2.0.1",
+    "gulp-purifycss": "^0.2.0",
     "gulp-sass": "^4.0.1",
     "gulp-sass-lint": "^1.4.0",
     "gulp-size": "^2.1.0",
@@ -36,7 +37,6 @@
     "gulp-watch": "^4.3.11",
     "netlify-lambda": "^0.4.0",
     "node-sass-tilde-importer": "^1.0.2",
-    "postcss-uncss": "^0.16.1",
     "run-sequence": "^2.0.0",
     "uncss": "^0.16.2"
   },
