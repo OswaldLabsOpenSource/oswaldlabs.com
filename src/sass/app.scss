@@ -1055,11 +1055,8 @@ a.card {
 
 img,
 svg {
-	vertical-align: middle !important;
+	vertical-align: middle;
 	max-width: 100%;
-	&.inline-fa {
-		vertical-align: -0.125rem !important;
-	}
 }
 
 .big-image {
@@ -1681,4 +1678,9 @@ i.fas, i.fab {
 .mw {
 	max-width: 300px;
 	max-height: 100px;
+}
+
+.color {
+	padding: 1rem 0;
+	text-align: center;
 }

@@ -20,7 +20,20 @@ title: Brand Guidelines
                 <p>When using the Oswald Labs logo, always make sure that the color is hex <code>#007bff</code>. The corresponding RGB code is <code>rgb(0, 123, 255)</code>. In CMYK, it is <code>100, 52, 0, 0</code>.</p>
             </div>
             <div class="col-md-6 pl-md-5">
-                Colors
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="color" style="background: #007bff; color: #fff">#007bff</div>
+                        <div class="color" style="background: #0656cc; color: #fff">#0656cc</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="color" style="background: #263238; color: #fff">#263238</div>
+                        <div class="color" style="background: #151d21; color: #fff">#151d21</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="color" style="background: #f6f9fc">#f6f9fc</div>
+                        <div class="color" style="background: #e9edf1">#e9edf1</div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row mt-5">
@@ -31,9 +44,11 @@ title: Brand Guidelines
             <div class="col-md-6 pl-md-5">
                 <div class="row">
                     <div class="col">
+                        <svg style="height: 1.5rem; margin-bottom: 1rem" viewBox="0 0 116 116" xmlns="http://www.w3.org/2000/svg"><g fill="#1abc9c" fill-rule="evenodd"><path d="M58 116C25.967 116 0 90.033 0 58S25.967 0 58 0s58 25.967 58 58-25.967 58-58 58zm.5-11c26.234 0 47.5-21.266 47.5-47.5S84.734 10 58.5 10 11 31.266 11 57.5 32.266 105 58.5 105z"></path><circle cx="58.5" cy="57.5" r="35.5"></circle></g></svg>
                         <p><span class="text-danger"><i class="fas fa-times mr-2"></i>Don’t</span> change the color</p>
                     </div>
                     <div class="col">
+                        <svg style="height: 1.5rem; margin-bottom: 1rem" viewBox="0 0 116 116" xmlns="http://www.w3.org/2000/svg"><g fill="#007bff" fill-rule="evenodd"><path d="M58 116C25.967 116 0 90.033 0 58S25.967 0 58 0s58 25.967 58 58-25.967 58-58 58zm.5-11c26.234 0 47.5-21.266 47.5-47.5S84.734 10 58.5 10 11 31.266 11 57.5 32.266 105 58.5 105z"></path><circle cx="58.5" cy="57.5" r="35.5"></circle></g></svg>
                         <p><span class="text-success"><i class="fas fa-check mr-2"></i></span>Use the official color</p>
                     </div>
                 </div>
