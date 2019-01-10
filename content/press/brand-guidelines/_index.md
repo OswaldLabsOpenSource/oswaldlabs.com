@@ -19,7 +19,7 @@ title: Brand Guidelines
                 <h1 class="subheading">Colors</h1>
                 <p>When using the Oswald Labs logo, always make sure that the color is hex <code>#007bff</code>. The corresponding RGB code is <code>rgb(0, 123, 255)</code>. In CMYK, it is <code>100, 52, 0, 0</code>.</p>
             </div>
-            <div class="col-md-6 pl-md-5">
+            <div class="col-md-6 pl-md-5 mt-4 mt-md-0">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="color" style="background: #007bff; color: #fff">#007bff</div>
@@ -41,7 +41,7 @@ title: Brand Guidelines
                 <h1 class="subheading">Symbol</h1>
                 <p>Always use the new Oswald Labs symbol available on the <a href="/press/logos/">Logos</a> page. When possible, use the vector SVG, but high-resolution PNGs are also available on Wikimedia Commons.</p>
             </div>
-            <div class="col-md-6 pl-md-5">
+            <div class="col-md-6 pl-md-5 mt-4 mt-md-0">
                 <div class="row">
                     <div class="col">
                         <svg style="height: 1.5rem; margin-bottom: 1rem" viewBox="0 0 116 116" xmlns="http://www.w3.org/2000/svg"><g fill="#1abc9c" fill-rule="evenodd"><path d="M58 116C25.967 116 0 90.033 0 58S25.967 0 58 0s58 25.967 58 58-25.967 58-58 58zm.5-11c26.234 0 47.5-21.266 47.5-47.5S84.734 10 58.5 10 11 31.266 11 57.5 32.266 105 58.5 105z"></path><circle cx="58.5" cy="57.5" r="35.5"></circle></g></svg>
@@ -60,7 +60,7 @@ title: Brand Guidelines
                 <p>Our logotype is the text “Oswald Labs” in <a href="https://www.marksimonson.com/fonts/view/proxima-nova">Proxima Nova</a> by Mark Simonson Studio in the weights Light or Regular — depending on the context.</p>
                 <p>Do not substitute Proxima Nova with a different typeface. It is, however, accepted to change the typeface when customizing your work for disability, eg. changing to Open Dyslexic based on a user’s preference.</p>
             </div>
-            <div class="col-md-6 pl-md-5">
+            <div class="col-md-6 pl-md-5 mt-4 mt-md-0">
                 <div class="row">
                     <div class="col">
                         <div style="font-family: serif; font-size: 1.5rem; margin-bottom: 0.5rem">Oswald Labs</div>
@@ -89,7 +89,7 @@ title: Brand Guidelines
                 <p>Always use the new Oswald Labs combination mark.</p>
                 <p>Our old logo was in a custom-designed version of Proxima Nova semibold with the text “Oswald” in lowercase. Please do not use that, stick to the official logo.</p>
             </div>
-            <div class="col-md-6 pl-md-5">
+            <div class="col-md-6 pl-md-5 mt-4 mt-md-0">
                 <div class="row">
                     <div class="col">
                         <div style="height: 3rem">
