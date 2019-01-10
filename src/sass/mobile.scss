@@ -95,9 +95,6 @@
 		margin-bottom: -20%;
 		margin-top: 5rem;
 	}
-	.subnav-menu {
-		// margin-bottom: 2rem;
-	}
 	header {
 		.navbar-nav {
 			background-color: #fff;
@@ -166,6 +163,34 @@
 		padding-top: 7.5rem;
 		padding-bottom: 3rem;
 	}
+	.minus-margin {
+		margin-top: 2.5rem;
+	}
+	.subnav {
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.col-md-3 {
+			justify-content: center;
+		}
+		.container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.nav-link {
+			white-space: nowrap;
+		}
+		.col-md-3 + .col-md {
+			margin-top: 1rem;
+			background-color: rgba(0, 0, 0, 0.05);
+			overflow-x: auto;
+			padding: 0.5rem 0;
+			nav {
+				flex-wrap: nowrap;
+			}
+		}
+	}
 	.subnav-menu {
 		position: relative;
 		.navigation {
@@ -197,6 +222,32 @@
 		}
 		.nav-link:last-of-type {
 			padding-right: 4rem;
+		}
+	}
+	.page-shravan,
+	.page-shravan-os,
+	.page-shravan-phone,
+	.page-shravan-apps,
+	.page-agastya,
+	.page-agastya-features,
+	.page-agastya-pricing,
+	.page-valmiki {
+		header {
+			font-size: 95%;
+			padding: 0;
+			nav {
+				background-color: #fff;
+				padding: 0.75rem 1rem;
+			}
+			.navbar-brand {
+				font-size: 1.05rem;
+				margin: 0;
+				padding: 0;
+				svg {
+					height: 20px;
+					width: 20px;
+				}
+			}
 		}
 	}
 }
