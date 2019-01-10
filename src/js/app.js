@@ -1,14 +1,10 @@
 /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
-var loadJS = function(src, cb, ordered) {
-	var tmp,
-		w = window;
-	var ref = w.document.getElementsByTagName("script")[0];
-	var script = w.document.createElement("script");
-	if (typeof cb === "boolean") {
-		tmp = ordered;
-		ordered = cb;
-		cb = tmp;
-	}
+const loadedScripts = [];
+const loadJS = (src, cb, ordered) => {
+	if (loadedScripts.includes(src)) return;
+	loadedScripts.push(src);
+	const script = window.document.createElement("script");
+	const ref = window.document.getElementsByTagName("script")[0];
 	script.src = src;
 	script.async = !ordered;
 	ref.parentNode.insertBefore(script, ref);
@@ -19,6 +15,8 @@ var loadJS = function(src, cb, ordered) {
 };
 
 const loadCss = (src, callback) => {
+	if (loadedScripts.includes(src)) return;
+	loadedScripts.push(src);
 	const link = document.createElement("link");
 	link.setAttribute("rel", "stylesheet");
 	link.setAttribute("href", src);

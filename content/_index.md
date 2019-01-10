@@ -29,7 +29,7 @@ type: home
 </section>
 <section class="text">
 	<div class="container">
-		<div class="row mt-5 mb-5">
+		<div class="row mt-md-5 mb-md-5">
 			<div class="col-md-6">
 				<h2 class="subheading-3">
 					<span class="small text-body">Introducing the new</span>
@@ -37,7 +37,8 @@ type: home
 				</h2>
 				<p>
 					<i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>
-					We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</p>
+					<span>We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</span>
+				</p>
 				<div class="mt-4 mb-3">
 					<a href="/team/anand/" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="/images/team/anand.png" class="rounded-circle avatar-small">
 						<div>
@@ -46,7 +47,7 @@ type: home
 						</div>
 					</a>
 				</div>
-				<a class="btn btn-left" href="/platform/shravan/apps/">Sign up for the beta →</a>
+				<a class="btn btn-left text-danger" href="/platform/shravan/apps/">Sign up for the beta →</a>
 			</div>
 		</div>
 	</div>
@@ -62,14 +63,14 @@ type: home
 						<div class="text-uppercase text-body">Web accessibility made simple</div>
 					</div>
 				</div>
-				<p class="text-center">Agastya lets web developers and business owners incorporate accessibility features to their websites. By adding just one line of JavaScript code, you can make your website disabled-friendly and accessible to a much wider audience.</p>
+				<p class="text-md-center">Agastya lets web developers and business owners incorporate accessibility features to their websites. By adding just one line of JavaScript code, you can make your website disabled-friendly and accessible to a much wider audience.</p>
 			</div>
 		</div>
 		<div class="row justify-content-center mt-5 d-none d-md-flex">
 			<div class="col-md-4 d-flex pr-5 align-items-center text-right">
 				<dl>
 					<dt><strong>Translation</strong></dt>
-					<dd>Make your content available to everyone with built-in neural machine translation in over a hundred languages.</dd>
+					<dd>Make your content available to everyone with built-in neural machine translation to over a hundred languages.</dd>
 					<dt><strong>Blue Light Filter</strong></dt>
 					<dd>Simulate an adjustment to the color temperature of the display to reduce eye strain and disruption of sleep patterns.</dd>
 					<dt><strong>Live Chat</strong></dt>
@@ -96,7 +97,7 @@ type: home
 				</dl>
 			</div>
 		</div>
-		<p class="mt-4 text-center"><a class="btn color-e96300" href="/platform/agastya/">Add Agastya to your website →</a></p>
+		<p class="mt-4 text-md-center"><a class="btn color-e96300 btn-sm-left" href="/platform/agastya/">Add Agastya to your website →</a></p>
 	</div>
 </section>
 <div class="d-flex justify-content-center breaker pb-3">
@@ -162,9 +163,9 @@ type: home
         </div>
     </div>
 </section>
-<section class="press-section pt-4 pb-4">
+<section class="press-section horizontal-scroll-parent pt-4 pb-4">
 	<h2 class="sr-only">Press</h2>
-	<div class="container d-flex align-items-center justify-content-between">
+	<div class="container d-flex align-items-center justify-content-between horizontal-scroll">
 		<a href="/press/forbes/" class="press-item" title="Forbes">
 			<img alt="Forbes logo" src="/images/logos/forbes.svg" style="height: 25px">
 		</a>
