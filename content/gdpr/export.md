@@ -11,7 +11,7 @@ title: GDPR Export
                 <p>Starting May 2018, we stopped collected any personally identifiable information to protect our users’ privacy. We only collect completely anonymized information keyed using one-way (undecryptable) hashing algorithms.</p>
                 <p>You will receive an email containing a ZIP export of your data in JSON format within 48 hours.</p>
 			</div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4 mt-md-0">
                 <div class="card p-4">
                     <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
                         <div class="form-group">

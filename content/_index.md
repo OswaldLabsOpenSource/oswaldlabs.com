@@ -9,8 +9,8 @@ type: home
 		<h1>Technology for the next billion users.</h1>
 		<p>Oswald Labs is an award-winning accessibility technology company. With our research-driven and inclusive product portfolio, we’ve impacted thousands of lives throughout the globe.</p>
 		<div class="mt-5">
-			<a class="btn btn-light mr-3" href="/platform/">Explore our solutions &rarr;</a>
-			<a class="btn btn-outline-light" href="/contact/">Get in Touch</a>
+			<a class="btn d-block w-sm-100 d-md-inline-block btn-light mr-3" href="/platform/">Explore our solutions &rarr;</a>
+			<a class="btn d-block w-sm-100 mt-3 mt-md-0 d-md-inline-block btn-outline-light" href="/contact/">Get in Touch</a>
 		</div>
 		<div class="right-drawings d-none d-lg-flex">
 			<div class="app-illustrations">

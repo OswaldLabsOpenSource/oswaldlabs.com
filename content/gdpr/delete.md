@@ -10,7 +10,7 @@ title: GDPR Delete
                 <p>You can use this tool to delete all collected data that belongs to you.</p>
                 <p>Starting May 2018, we stopped collected any personally identifiable information to protect our users’ privacy. We only collect completely anonymized information keyed using one-way (undecryptable) hashing algorithms.</p>
 			</div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4 mt-md-0">
                 <div class="card p-4">
                     <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
                         <div class="form-group">

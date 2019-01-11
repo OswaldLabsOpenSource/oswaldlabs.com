@@ -190,6 +190,11 @@ header .navbar {
 		}
 	}
 }
+
+.icon-aligned {
+	vertical-align: middle;
+}
+
 .page-home,
 .page-contact,
 .page-about {
@@ -198,7 +203,7 @@ header .navbar {
 		.navbar-brand,
 		.navbar-toggler {
 			color: #fff;
-			svg g, svg path {
+			svg g, svg path, svg {
 				fill: #fff;
 			}
 		}
@@ -759,6 +764,10 @@ strong,
 	padding: 0;
 	color: #32325d;
 	margin-top: -0.25rem;
+	svg {
+		width: 30px;
+		height: 30px;
+	}
 }
 
 .dark body {
