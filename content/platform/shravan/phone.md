@@ -11,7 +11,7 @@ description: Smartphone for the rest of us
 				<h1>Everyone&rsquo;s first smartphone.</h1>
 				<p class="intro-para">Shravan Phone is a low-cost smartphone running Shravan OS, the world's first universally accessible operating system compatible with Android. Seniors, users who are unlettered, or users with disabilities like visual impairment or dyslexia can easily use Shravan Phone.</p>
 				<div>
-					<a href="#" class="btn btn-danger">Join the waitlist &rarr;</a>
+					<a href="https://eepurl.com/clrg1n" class="btn btn-danger">Join the waitlist &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md-6 text-right">

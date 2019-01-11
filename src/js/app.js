@@ -139,7 +139,7 @@ ready(() => {
 					link.setAttribute(
 						"href",
 						link.getAttribute("href") +
-							"utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com"
+							"ref=oswaldlabs.com&utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com"
 					);
 				}
 			}

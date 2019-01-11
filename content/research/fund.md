@@ -37,7 +37,7 @@ type: research
             </div>
         </div>
     </div>
-    <div class="horizontal-scroll-parent">
+    <!-- <div class="horizontal-scroll-parent">
         <h2 class="sr-only">Partners</h2>
         <div class="container d-flex align-items-center justify-content-between horizontal-scroll">
             <a href="/press/forbes/" class="press-item" title="Forbes">
@@ -53,5 +53,5 @@ type: research
                 <img alt="HuffPost logo" src="/images/logos/mcdc.png" style="">
             </a>
         </div>
-    </div>
+    </div> -->
 </section>

@@ -21,7 +21,7 @@
                             <div class="col-9">
                                 <h2 class="subheading mt-2 mb-2">{{ .Title }}</h2>
                                 {{ if .Params.Category }}<div>{{ .Params.Category }}</div>{{ end }}
-                                {{ if .Params.Address_2 }}<div>{{ .Params.Address_2 }}</div>{{ end }}
+                                <div>{{ .Params.addressLocality }}, {{ .Params.addressCountry }}</div>
                             </div>
                         </div>
                     </div>
