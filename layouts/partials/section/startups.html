@@ -19,9 +19,7 @@
                     </div>
                     <div class="card-body">
                         <h2 class="subheading">{{ .Title }}</h2>
-                        {{ if .Params.Address_1 }}<div>{{ .Params.Address_1 }}</div>{{ end }}
-                        {{ if .Params.Address_2 }}<div>{{ .Params.Address_2 }}</div>{{ end }}
-                        {{ if .Params.Address_3 }}<div>{{ .Params.Address_3 }}</div>{{ end }}
+                        <p>{{ .Params.Description }}</p>
                     </div>
                 </a>
             </div>

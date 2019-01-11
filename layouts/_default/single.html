@@ -25,6 +25,8 @@
 	{{ partial "single/agastya_case_studies.html" . }}
 {{ else if eq .Params.Subtype "accelerator_partners" }}
 	{{ partial "single/accelerator_partners.html" . }}
+{{ else if eq .Params.Subtype "startups" }}
+	{{ partial "single/startups.html" . }}
 {{ else if eq .Params.Subtype "shravan_apps" }}
 	{{ partial "single/shravan_apps.html" . }}
 {{ end }}
