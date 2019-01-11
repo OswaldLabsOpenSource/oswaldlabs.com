@@ -27,39 +27,37 @@ description: Smartphone for the rest of us
 			<div class="col-md-6">
 				<h2>It works for everyone.</h2>
 				<p>Agastya was designed keeping users' needs and their devices (such as smartphones, laptops, and screen readers) in mind.</p>
-				<div class="row text-center justify-content-center mt-5">
-					<div class="col-md">
-						<i class="fas fa-blind fa-2x text-muted mb-3"></i>
+				<div class="row text-center justify-content-md-center mt-5">
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-blind fa-2x text-muted mb-2"></i>
 						<div>Blindness</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-book-open fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-book-open fa-2x text-muted mb-2"></i>
 						<div>Dyslexia</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-hand-holding-heart fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-hand-holding-heart fa-2x text-muted mb-2"></i>
 						<div>Seniors</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-atlas fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-atlas fa-2x text-muted mb-2"></i>
 						<div>Unlettered</div>
 					</div>
-				</div>
-				<div class="row text-center justify-content-center mt-5">
-					<div class="col-md">
-						<i class="fas fa-user-injured fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-user-injured fa-2x text-muted mb-2"></i>
 						<div>Situational</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-low-vision fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-low-vision fa-2x text-muted mb-2"></i>
 						<div>Low vision</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-wheelchair fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-wheelchair fa-2x text-muted mb-2"></i>
 						<div>Mobility</div>
 					</div>
-					<div class="col-md">
-						<i class="fas fa-users fa-2x text-muted mb-3"></i>
+					<div class="col-4 col-md-3 mt-4">
+						<i class="fas fa-users fa-2x text-muted mb-2"></i>
 						<div>Everyone</div>
 					</div>
 				</div>
@@ -69,83 +67,71 @@ description: Smartphone for the rest of us
 </section>
 <section class="bg-light-1">
 	<div class="container">
-		<h2 class="text-center mb-5">Features for everybody.</h2>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="row text-center justify-content-center">
-					<div class="col-md">
-						<i class="fas fa-book-open fa-2x text-muted mb-3"></i>
-						<div>Reading</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-language fa-2x text-muted mb-3"></i>
-						<div>Translation</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-adjust fa-2x text-muted mb-3"></i>
-						<div>Contrast</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-text-height fa-2x text-muted mb-3"></i>
-						<div>Font size</div>
-					</div>
-				</div>
-				<div class="row text-center justify-content-center mt-5">
-					<div class="col-md">
-						<i class="fas fa-cloud-moon fa-2x text-muted mb-3"></i>
-						<div>Blue filter</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-volume-up fa-2x text-muted mb-3"></i>
-						<div>Read aloud</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-chart-pie fa-2x text-muted mb-3"></i>
-						<div>Analytics</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-comments fa-2x text-muted mb-3"></i>
-						<div>Live chat</div>
-					</div>
-				</div>
+		<h2 class="text-center mb-4">Features for everybody.</h2>
+		<div class="row text-center">
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-book-open fa-2x text-muted mb-2"></i>
+				<div>Reading</div>
 			</div>
-			<div class="col-md-6">
-				<div class="row text-center justify-content-center">
-					<div class="col-md">
-						<i class="fas fa-comment fa-2x text-muted mb-3"></i>
-						<div>Feedback</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-cookie-bite fa-2x text-muted mb-3"></i>
-						<div>Cookie law</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-podcast fa-2x text-muted mb-3"></i>
-						<div>Text-to-speech</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-chart-area fa-2x text-muted mb-3"></i>
-						<div>Audits</div>
-					</div>
-				</div>
-				<div class="row text-center justify-content-center mt-5">
-					<div class="col-md">
-						<i class="fas fa-moon fa-2x text-muted mb-3"></i>
-						<div>Night mode</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-file-export fa-2x text-muted mb-3"></i>
-						<div>Data export</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-universal-access fa-2x text-muted mb-3"></i>
-						<div>Statement</div>
-					</div>
-					<div class="col-md">
-						<i class="fas fa-hands-helping fa-2x text-muted mb-3"></i>
-						<div>Guide</div>
-					</div>
-				</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-language fa-2x text-muted mb-2"></i>
+				<div>Translation</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-adjust fa-2x text-muted mb-2"></i>
+				<div>Contrast</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-text-height fa-2x text-muted mb-2"></i>
+				<div>Font size</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-comment fa-2x text-muted mb-2"></i>
+				<div>Feedback</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-cookie-bite fa-2x text-muted mb-2"></i>
+				<div>Cookie law</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-podcast fa-2x text-muted mb-2"></i>
+				<div>Text-to-speech</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-chart-area fa-2x text-muted mb-2"></i>
+				<div>Audits</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-cloud-moon fa-2x text-muted mb-2"></i>
+				<div>Blue filter</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-volume-up fa-2x text-muted mb-2"></i>
+				<div>Read aloud</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-chart-pie fa-2x text-muted mb-2"></i>
+				<div>Analytics</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-comments fa-2x text-muted mb-2"></i>
+				<div>Live chat</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-moon fa-2x text-muted mb-2"></i>
+				<div>Night mode</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-file-export fa-2x text-muted mb-2"></i>
+				<div>Data export</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-universal-access fa-2x text-muted mb-2"></i>
+				<div>Statement</div>
+			</div>
+			<div class="col-4 col-md-1h mt-4">
+				<i class="fas fa-hands-helping fa-2x text-muted mb-2"></i>
+				<div>Guide</div>
 			</div>
 		</div>
 	</div>
@@ -176,17 +162,17 @@ description: Smartphone for the rest of us
 	<div class="container">
 		<h2 class="text-center mb-5">Built for Europe.</h2>
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md-4">
 				<i class="fas fa-euro-sign fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">Pay in euros.</h3>
 				<p>Pay with your VISA, MasterCard, or American Express cards with 3D Secure in euros.<sup>1</sup> We’re working on bringing iDEAL & SEPA support very soon.</p>
 			</div>
-			<div class="col-md">
+			<div class="col-md-4">
 				<i class="fas fa-database fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">Data stored in the EU.</h3>
 				<p>You remain the owner of your data. Easily export, modify, and download your data whenever you want. Securely stored in Dublin, Ireland or Frankfurt, Germany.<sup>2</sup></p>
 			</div>
-			<div class="col-md">
+			<div class="col-md-4">
 				<i class="fas fa-envelope-open fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">GDPR, check.</h3>
 				<p>We’re GDPR-compliant from the start, no matter when you’re from. We also add EU cookie law compliance to your website automatically.<sup>3</sup></p>

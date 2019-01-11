@@ -63,15 +63,21 @@ ready(() => {
 			document.querySelector(".navbar-collapse").classList.toggle("show");
 		});
 	}
-	const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
-	for (let i = 0; i < dropdownElements.length; i++) {
-		dropdownElements[i].addEventListener("click", event => {
-			document.querySelector("[aria-labelledby='platformDropdown']").classList.toggle("show");
-			event.preventDefault();
-			return false;
-		});
-	}
+	document.body.addEventListener("click", event => {
+		const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
+		for (let i = 0; i < dropdownElements.length; i++) {
+			document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.remove("show");
+			if (event.target === dropdownElements[i]) {
+				document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.add("show");
+				event.preventDefault();
+				return false;
+			}
+		}
+	});
 	function initMe(container) {
+		if (navbarToggler) {
+			document.querySelector(".navbar-collapse").classList.remove("show");
+		}
 		if (container && container.querySelector(".page-meta .page-slug")) {
 			let hasMoved = false;
 			if (document.body.className.includes("hello-bar--has-moved")) {

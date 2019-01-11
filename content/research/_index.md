@@ -24,7 +24,7 @@ type: research
                 <p>We've partnered with the most innovative companies across the globe to conduct research into accessibility and build new products. We partner with thesis students, researchers in universities, and devote pro bono time from our team for collaboration.</p>
             </div>
         </div>
-        <div class="row pt-5">
+        <div class="row pt-md-5">
             <div class="col-md-4 mb-5 mb-md-0">
                 <i class="fas fa-book-reader fa-2x text-muted mb-4"></i>
                 <h2 class="subheading-2">Literature research</h2>

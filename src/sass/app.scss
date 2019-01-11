@@ -1568,4 +1568,11 @@ i.fas, i.fab {
 	text-align: center;
 }
 
+@media (min-width: 768px) {
+	.col-md-1h {
+		flex: 0 0 12.5%;
+		max-width: 12.5%;
+	}
+}
+
 @import "mobile";

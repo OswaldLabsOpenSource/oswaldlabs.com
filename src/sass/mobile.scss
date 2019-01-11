@@ -141,21 +141,24 @@
 		.col-md:first-child {
 			overflow-x: auto;
 		}
-		.a11y-buttons {
-			white-space: nowrap;
+		.a11y-buttons-parent {
+			position: relative;
 			&::after {
 				background: linear-gradient(to right, rgba(255, 255, 255, 0), #e9edf1);
 				position: absolute;
 				pointer-events: none;
 				right: 0;
 				top: 0;
-				bottom: 0;
+				bottom: 50%;
 				width: 4rem;
 				content: "";
 				z-index: 1;
 			}
+		}
+		.a11y-buttons {
+			white-space: nowrap;
 			> *:last-child {
-				padding-right: 4rem;
+				padding-right: 2rem;
 			}
 		}
 	}
@@ -213,18 +216,24 @@
 		.col-md:last-child {
 			overflow-x: auto;
 		}
+		.row > div:first-child {
+			padding: 0.5rem 0;
+		}
+		.logo {
+			margin: 0 auto;
+		}
 		.row > * {
 			padding-left: 0.25rem;
 			padding-right: 0.25rem;
 		}
-		.nav.justify-content-end {
+		.nav.justify-content-md-end {
 			flex-wrap: nowrap;
 			white-space: nowrap;
 			width: auto;
 			justify-content: flex-start !important;
 		}
 		.nav-link:last-of-type {
-			padding-right: 4rem;
+			padding-right: 2rem;
 		}
 	}
 	.page-shravan,

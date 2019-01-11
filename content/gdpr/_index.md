@@ -4,7 +4,7 @@ title: GDPR Tools
 
 <section class="hero pb-5">
 	<div class="container">
-		<div class="row justify-content-center text-center">
+		<div class="row justify-content-center text-md-center">
 			<div class="col-md-6">
 				<h1>GDPR Tools</h1>
 				<p>As part of our General Data Protection Regulation (GDPR) compliancy, we have created this toolkit to help your browse information and data.</p>
