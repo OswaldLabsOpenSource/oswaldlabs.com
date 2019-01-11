@@ -147,7 +147,7 @@ description: Smartphone for the rest of us
 					<a href="/platform/agastya/pricing/" class="btn btn-warning">Explore pricing options &rarr;</a>
 				</div>
 			</div>
-			<div class="col-md-6 pl-md-5">
+			<div class="col-md-6 pl-md-5 mt-5 mt-md-0">
 				<i class="fas fa-code fa-2x mb-1 o-6"></i>
 				<h2 class="mt-4 mb-4">By developers, for developers.</h2>
 				<p>Agastya features a powerful API for developers, along with plugins for popular platforms such as WordPress, Squarespace, Ghost, and Shopify. Developers can also build their own modes and add them to the a11y.co web accessibility store to earn money. Coming soon.</p>
@@ -160,19 +160,19 @@ description: Smartphone for the rest of us
 </section>
 <section class="dark">
 	<div class="container">
-		<h2 class="text-center mb-5">Built for Europe.</h2>
+		<h2 class="text-md-center mb-5">Built for Europe.</h2>
 		<div class="row">
 			<div class="col-md-4">
 				<i class="fas fa-euro-sign fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">Pay in euros.</h3>
 				<p>Pay with your VISA, MasterCard, or American Express cards with 3D Secure in euros.<sup>1</sup> We’re working on bringing iDEAL & SEPA support very soon.</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 mt-5 mt-md-0">
 				<i class="fas fa-database fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">Data stored in the EU.</h3>
 				<p>You remain the owner of your data. Easily export, modify, and download your data whenever you want. Securely stored in Dublin, Ireland or Frankfurt, Germany.<sup>2</sup></p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 mt-5 mt-md-0">
 				<i class="fas fa-envelope-open fa-2x o-6"></i>
 				<h3 class="mt-4 mb-3">GDPR, check.</h3>
 				<p>We’re GDPR-compliant from the start, no matter when you’re from. We also add EU cookie law compliance to your website automatically.<sup>3</sup></p>

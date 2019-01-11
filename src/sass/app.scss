@@ -454,7 +454,7 @@ footer {
 	}
 	.bg {
 		color: #fff;
-		background: url("https://source.unsplash.com/UH-xs-FizTk/1600x900") center;
+		background: url("/images/backgrounds/valmiki.jpeg") center;
 		background-size: cover;
 		padding: 7.5rem 0;
 		position: relative;
@@ -1129,6 +1129,7 @@ svg {
 	text-align: center;
 	background-color: #fff;
 	border: 1px solid #ddd;
+	transform: scale(0.8) translateY(-10%) translateX(15%) rotate(10deg);
 	box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25),
 		0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
 	.screen {
@@ -1139,9 +1140,6 @@ svg {
 		border: 1px solid #ddd;
 		margin: 3rem 2.5%;
 		position: relative;
-	}
-	&.smartphone-mockup {
-		transform: scale(0.8) translateY(-10%) translateX(15%) rotate(10deg);
 	}
 }
 

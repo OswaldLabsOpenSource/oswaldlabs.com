@@ -27,12 +27,12 @@ preregister: true
                     <h3 class="mt-3">Reader mode</h3>
                     <p>The user can read the text unaffected by external environmental factors by tapping on a text box and entering the Reader mode.</p>
                 </div>
-                <div class="col-md">
+                <div class="col-md mt-5 mt-md-0">
                     <i class="fas fa-tools fa-2x o-5"></i>
                     <h3 class="mt-3">Customization</h3>
                     <p>Different users have different requirements for styling text, so we ensure complete design customization for easier reading.</p>
                 </div>
-                <div class="col-md">
+                <div class="col-md mt-5 mt-md-0">
                     <i class="fas fa-history fa-2x o-5"></i>
                     <h3 class="mt-3">History</h3>
                     <p>This tool keeps track of previously detected text for future reference, so users can revisit anything they found interesting.</p>

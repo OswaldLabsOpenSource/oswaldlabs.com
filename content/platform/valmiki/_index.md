@@ -22,7 +22,7 @@ description: Smartphone for the rest of us
 </section>
 <section>
 	<div class="container">
-		<h2 class="text-center mb-5">Valmiki works for everyone.</h2>
+		<h2 class="text-md-center mb-5">Valmiki works for everyone.</h2>
 		<div class="row">
 			<div class="col-md-6 d-flex align-items-center mb-5">
 				<div>
@@ -51,7 +51,7 @@ description: Smartphone for the rest of us
 		</div>
 	</div>
 </section>
-<section class="text-center d-flex justify-content-center align-items-center bg">
+<section class="text-md-center d-flex justify-content-center align-items-center bg">
 	<div>
 		<h2 class="display-4">Free as in freedom.</h2>
 		<p class="mt-4 mb-4">Valmiki by Oswald Labs is completely free and open-sourced under the MIT license. This means that users never have to pay for it and developers can build on top of it.</p>

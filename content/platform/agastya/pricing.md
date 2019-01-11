@@ -27,7 +27,7 @@ type: agastya
 		</div>
 	</div>
 </section>
-<section class="pt-5">
+<section class="pt-0 pt-md-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md">
@@ -79,7 +79,7 @@ type: agastya
 					<a href="/platform/agastya/register/?pageviews=10k&currency=eur" class="btn btn-light btn-lg">Get started &rarr;</a>
 				</div>
 			</div>
-			<div class="col-md">
+			<div class="col-md mt-4 mt-md-0">
 				<div class="card card-body">
 					<div class="row p-2">
 						<div class="col">
@@ -137,7 +137,7 @@ type: agastya
 		</div>
 	</div>
 </section>
-<section>
+<section class="pb-0">
 	<div class="container">
 		<h2>FAQs</h2>
 		<div class="row mt-4">
