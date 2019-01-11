@@ -57,6 +57,18 @@ const agastyaTrackLink = event => {
 }
 
 ready(() => {
+	const navbarToggler = document.querySelector(".navbar-toggler");
+	if (navbarToggler) {
+		navbarToggler.addEventListener("click", () => {
+			document.querySelector(".navbar-collapse").classList.toggle("show");
+		});
+	}
+	const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
+	x.addEventListener("click", event => {
+		document.querySelector("[aria-labelledby='platformDropdown']").classList.toggle("show");
+		event.preventDefault();
+		return false;
+	});
 	function initMe(container) {
 		if (container && container.querySelector(".page-meta .page-slug")) {
 			let hasMoved = false;

@@ -153,7 +153,7 @@ description: Smartphone for the rest of us
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 pr-5">
+			<div class="col-md-6 pr-md-5">
 				<i class="fas fa-credit-card fa-2x mb-1 o-6"></i>
 				<h2 class="mt-4 mb-4">Start for free, pay as you grow.</h2>
 				<p>Agastya is affordable for everyone — from small startups to multinational institutions. It’s free for websites with less than 10,000 pageviews per month, and we offer special discounts and free Pro plans for non-profits, student startups, and bootstrapped startups.</p>
@@ -161,7 +161,7 @@ description: Smartphone for the rest of us
 					<a href="/platform/agastya/pricing/" class="btn btn-warning">Explore pricing options &rarr;</a>
 				</div>
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<i class="fas fa-code fa-2x mb-1 o-6"></i>
 				<h2 class="mt-4 mb-4">By developers, for developers.</h2>
 				<p>Agastya features a powerful API for developers, along with plugins for popular platforms such as WordPress, Squarespace, Ghost, and Shopify. Developers can also build their own modes and add them to the a11y.co web accessibility store to earn money. Coming soon.</p>
