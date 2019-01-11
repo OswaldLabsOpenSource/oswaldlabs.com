@@ -64,11 +64,13 @@ ready(() => {
 		});
 	}
 	const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
-	x.addEventListener("click", event => {
-		document.querySelector("[aria-labelledby='platformDropdown']").classList.toggle("show");
-		event.preventDefault();
-		return false;
-	});
+	for (let i = 0; i < dropdownElements.length; i++) {
+		dropdownElements[i].addEventListener("click", event => {
+			document.querySelector("[aria-labelledby='platformDropdown']").classList.toggle("show");
+			event.preventDefault();
+			return false;
+		});
+	}
 	function initMe(container) {
 		if (container && container.querySelector(".page-meta .page-slug")) {
 			let hasMoved = false;
