@@ -12,7 +12,13 @@
         max-width: 75%;
         margin-left: auto;
         margin-right: auto;
-    }
+	}
+	ul.steps li .col-2 > div {
+		width: 3rem;
+		line-height: 3rem;
+		height: 3rem;
+		font-size: 100%;
+	}
     .w-sm-120 {
         max-width: 120px;
 	}
