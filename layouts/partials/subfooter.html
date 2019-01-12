@@ -204,6 +204,17 @@
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="4">
 					</li>
+				{{ else if eq .Params.Subtype "spaces" }}
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/accelerator/spaces/">
+							<span itemprop="name">Spaces</span></a>
+						<meta itemprop="position" content="3">
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+							<span itemprop="name">{{ .Title }}</span></a>
+						<meta itemprop="position" content="4">
+					</li>
 				{{ else }}
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
