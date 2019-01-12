@@ -8,7 +8,7 @@ date: 2018-12-23
 continue: https://blog.oswald.foundation/improving-accessibility-using-augmented-reality-augmenta11y-f3937e08995f
 ---
 
-When we started brainstorming ideas for our degree’s thesis project, we knew that we wanted to work towards improving how people interact with technology, specifically accessibility. Through preliminary research, we narrowed our focus down to visual and cognitive impairments such as dyslexia, color blindness, and partial vision loss. Here is how we created **Augmenta11y**, an AR solution for helping individuals with dyslexia read real-world text better.
+When we started brainstorming ideas for our degree’s thesis project, we knew that we wanted to work towards improving how people interact with technology, specifically accessibility. Through preliminary research, we narrowed our focus down to visual and cognitive impairments such as dyslexia, color blindness, and partial vision loss. Here is how we created [Augmenta11y](/platform/shravan/apps/augmenta11y/), an AR solution for helping individuals with dyslexia read real-world text better.
 
 ## The Why
 
