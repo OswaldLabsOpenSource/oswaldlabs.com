@@ -1,5 +1,6 @@
 ---
 title: GDPR Delete
+description: You can use this GDPR Delete tool to delete all collected data that belongs to you.
 ---
 
 <section class="hero pb-5">

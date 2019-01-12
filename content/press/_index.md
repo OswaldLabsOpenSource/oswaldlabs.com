@@ -1,5 +1,6 @@
 ---
 title: Press
+description: Oswald Labs, the award-winning accessibility technology company, has been featured by the press across the globe. You can find some of these articles here.
 ---
 
 <section class="hero pb-5">

@@ -1,6 +1,7 @@
 ---
 title: Oswald Labs Research Fund
 type: research
+description: Oswald Labs Research Fund is our not-for-profit fund built to support efforts into research, development, and invention.
 ---
 
 <section class="hero big-image pb-5">

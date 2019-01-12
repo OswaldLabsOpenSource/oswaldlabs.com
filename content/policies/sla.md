@@ -1,5 +1,6 @@
 ---
 title: Service-level Agreement
+description: Agastya, the accessibility plugin for websites by Oswald Labs, has a custom SLA for enterprise clients.
 ---
 
 This SLA only applies to custom enterprise plans. You can request an SLA by getting in touch with us.

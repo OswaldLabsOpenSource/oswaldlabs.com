@@ -1,6 +1,7 @@
 ---
 title: Register
 type: agastya
+description: Register for free for Agastya, the accessibility plugin for websites by Oswald Labs, an award-winning accessibility technology company.
 ---
 
 <section class="hero pb-5">

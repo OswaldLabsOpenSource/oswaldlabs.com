@@ -1,7 +1,7 @@
 ---
 title: Agastya by Oswald Labs
 type: agastya
-description: Smartphone for the rest of us
+description: Agastya makes your websites inclusive and accessible with just one line of code, a product by Oswald Labs, the award-winning accessibility technology company.
 ---
 
 <section class="hero">

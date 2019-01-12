@@ -2,6 +2,7 @@
 title: Publications
 type: research
 subtype: publications
+description: Oswald Labs, the accessibility technology company, write articles, journal papers, and literature research projects with our research findings.
 ---
 
 <section class="hero big-image pb-5">

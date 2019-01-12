@@ -1,5 +1,6 @@
 ---
 title: Licenses
+description: Learn more about how Oswald Labs, the award-winning accessibility technology company, and the licenses it uses and offers to customers.
 ---
 
 This page serves as an imprint and colophon for this website and our products. We use a number of open-source projects in our website and products, and also make a number of contributions to open-source projects. You can learn more about our open-source work on our [GitHub profile](https://github.com/OswaldLabsOpenSource).

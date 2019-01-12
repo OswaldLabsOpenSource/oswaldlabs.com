@@ -1,6 +1,6 @@
 ---
 title: About Oswald Labs
-description: About
+description: Oswald Labs is an award-winning accessibility technology company that builds technology for the next billion users.
 ---
 
 <section class="hero">

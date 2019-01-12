@@ -1,5 +1,6 @@
 ---
 title: Brand Guidelines
+description: Read the brand guidelines of Oswald Labs, the award-winning accessibility technology company, in this presskit.
 ---
 
 <section class="hero pb-5">

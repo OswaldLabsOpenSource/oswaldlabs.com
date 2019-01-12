@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+description: Learn more about how Oswald Labs, the award-winning accessibility technology company, uses your data for a better user experience in this Privacy Policy.
 ---
 
 This Privacy Policy applies to the Oswald Labs software, code, widget, plugin, associated services and website located at oswaldlabs.com, a11y.co, its sub-domains and any associated web-based and mobile applications (collectively, “Oswald Labs”) and that are the property of Oswald Labs or its parent company, Oswald Foundation (OswaldAbles Technologies Private Limited).

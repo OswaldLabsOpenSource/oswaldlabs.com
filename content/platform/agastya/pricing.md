@@ -1,6 +1,7 @@
 ---
 title: Pricing
 type: agastya
+description: Learn more about the pricing of Agastya, the accessibility plugin for websites by Oswald Labs, an award-winning accessibility technology company.
 ---
 
 <section class="hero pb-4 triangle">

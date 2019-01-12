@@ -1,7 +1,7 @@
 ---
 title: Shravan Apps by Oswald Labs
 type: shravan
-description: Smartphone for the rest of us
+description: The Shravan app suite is a set of accessible, easy-to-use smartphones apps available for free for devices running Android or iOS, made by Oswald Labs.
 ---
 
 <section class="hero triangle pb-0 pb-md-5">

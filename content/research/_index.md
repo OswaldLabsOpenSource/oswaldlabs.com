@@ -1,6 +1,7 @@
 ---
 title: Oswald Labs Research
 type: research
+description: Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users.
 ---
 
 <section class="hero big-image pb-5">

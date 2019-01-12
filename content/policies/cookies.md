@@ -1,5 +1,6 @@
 ---
 title: Cookie Policy
+description: Learn more about how Oswald Labs, the award-winning accessibility technology company, uses cookies and data for a better user experience in this Cookie Policy.
 ---
 
 This policy describes how a11y.co uses cookies, session storage, and local storage (“cookies”). We recommend that you also consult our Privacy Policy for additional information on how we collect and use information collected from visitors.

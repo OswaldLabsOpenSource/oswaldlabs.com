@@ -1,6 +1,7 @@
 ---
 title: Case Studies
 type: agastya
+description: With over ten features, Agastya by Oswald Labs is used by thousands of users every month on websites with millions of pageviews.
 ---
 
 <section class="hero pb-5">

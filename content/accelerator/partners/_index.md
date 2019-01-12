@@ -1,6 +1,7 @@
 ---
 title: Partners
 type: accelerator
+description: Oswald Labs partners with impact-driven, passionate companies to bring the best of technology in the hands of the next billion users.
 ---
 
 <section class="hero pb-5 big-image">

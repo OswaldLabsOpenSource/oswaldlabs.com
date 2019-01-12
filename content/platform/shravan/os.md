@@ -1,7 +1,7 @@
 ---
 title: Shravan OS by Oswald Labs
 type: shravan
-description: Smartphone for the rest of us
+description: Shravan OS by Oswald Labs is a concept operating system for phones and tablets which allows partially or completely blind users use a smartphone with ease.
 ---
 
 <section class="hero">

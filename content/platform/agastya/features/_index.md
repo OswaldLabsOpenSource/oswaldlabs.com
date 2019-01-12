@@ -1,6 +1,7 @@
 ---
 title: Features
 type: agastya
+description: Agastya by Oswald Labs comes with a built-in feature store where developers can pick and choose their features. It has something for everybody, from disabled-friendly modes to live chat.
 ---
 
 <section class="hero pb-5">

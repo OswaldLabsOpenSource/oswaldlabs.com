@@ -1,5 +1,6 @@
 ---
 title: Values
+description: Oswald Labs is an award-winning accessibility technology company. Learn more about what we stand for on our Values page.
 ---
 
 <section class="hero pb-5">

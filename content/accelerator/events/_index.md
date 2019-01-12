@@ -1,6 +1,7 @@
 ---
 title: Events
 type: accelerator
+description: Oswald Labs organizes and sponsors events as a way to give back to the startup ecosystem. We also actively speak at and particiate in these event.
 ---
 
 <section class="hero pb-5 big-image">

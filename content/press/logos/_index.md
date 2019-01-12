@@ -1,6 +1,6 @@
 ---
 title: Logos
-subtype: logos
+description: Download the logos, pictures, and information about Oswald Labs, the award-winning accessibility technology company.
 ---
 
 <section class="hero pb-5">

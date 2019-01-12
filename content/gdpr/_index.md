@@ -1,5 +1,6 @@
 ---
 title: GDPR Tools
+description: As part of our General Data Protection Regulation (GDPR) compliancy, we have created this toolkit to help your browse information and data.
 ---
 
 <section class="hero pb-5">

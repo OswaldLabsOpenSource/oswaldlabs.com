@@ -1,7 +1,7 @@
 ---
 title: Valmiki by Oswald Labs
 type: valmiki
-description: Smartphone for the rest of us
+description: Valmiki by Oswald Labs is the revolutionary tool for accessible reading. Download for Chrome and change the look and feel of the entire web based.
 ---
 
 <section class="hero">

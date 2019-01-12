@@ -1,5 +1,6 @@
 ---
 title: Focus
+description: At Oswald Labs Research, our focus is to bridge the gap between users in terms of access to technology.
 type: research
 ---
 

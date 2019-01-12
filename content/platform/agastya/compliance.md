@@ -1,6 +1,7 @@
 ---
 title: Compliance
 type: agastya
+description: Agastya, the accessibility plugin for websites by Oswald Labs, increases your compliance with WCAG 2.0, ATAG 2.0, ADA, and Section 508 requirements.
 ---
 
 <section class="hero pb-5">

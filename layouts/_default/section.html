@@ -10,7 +10,7 @@
 {{ if eq .Section "values" }}
 {{ partial "section/values.html" . }}
 {{ end }}
-{{ if eq .Params.Subtype "logos" }}
+{{ if eq .URL "/press/logos/" }}
 {{ partial "section/logos.html" . }}
 {{ else if eq .Section "press" }}
 {{ partial "section/press.html" . }}
@@ -24,13 +24,13 @@
 {{ if eq .URL "/accelerator/partners/" }}
 {{ partial "section/partners.html" . }}
 {{ end }}
+{{ if eq .URL "/accelerator/startups/" }}
+{{ partial "section/startups.html" . }}
+{{ end }}
 {{ if eq .URL "/platform/shravan/apps/" }}
 {{ partial "section/shravan_apps.html" . }}
 {{ end }}
 {{ if .Params.Subtype }}
-{{ if eq .Params.Subtype "startups" }}
-{{ partial "section/startups.html" . }}
-{{ end }}
 {{ if eq .Params.Subtype "publications" }}
 {{ partial "section/publications.html" . }}
 {{ end }}

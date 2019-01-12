@@ -1,5 +1,6 @@
 ---
 title: Justice
+description: Oswald Labs is an award-winning accessibility technology company, and our values focus on making justice accessible through our partnerships.
 ---
 
 Thousands of court cases have been locked up and are unavailable to people who, say, cannot read. We’ve partnered with Justice Adda, a part of the Cambridge Social Ventures programme in the Centre for Social Innovation at Cambridge Judge Business School, to make justice accessible. We provide accessibility technology solutions to them for free.

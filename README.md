@@ -4,16 +4,16 @@ This is the repo for Oswald Labs' official website. It's built on Hugo as oppose
 
 ## Todo before production
 
-- [ ] Migration
+- [x] Migration
 - [ ] Rich Snippets docs, add all everywhere
-- [ ] Screenshot API for meta image or platform image generator
+- [x] Screenshot API for meta image or platform image generator
 - [ ] Check RSS feed and add dates for everything
 - [ ] Remove robots.txt prevent
 - [x] Check current sitemap.xml and make redirects
-- [ ] Dark theme/dyslexia theme for plugin footer
+- [x] Dark theme/dyslexia theme for plugin footer
 - [ ] Add Minify to Gulp build process
 - [ ] Look into metas, titles
-= [ ] Fix subnav active bug for secondary link
+= [x] Fix subnav active bug for secondary link
 - [ ] Blog post ideas
    - [ ] Open Dyslexic results
    - [ ] A case for web accessibility plugins

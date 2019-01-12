@@ -1,6 +1,7 @@
 ---
 title: Spaces
 type: accelerator
+description: Oswald Labs Accelerator spaces are offices where startups part of the program can work out of for free.
 ---
 
 <section class="hero pb-5 big-image">

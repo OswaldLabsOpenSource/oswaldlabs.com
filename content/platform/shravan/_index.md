@@ -1,7 +1,7 @@
 ---
 title: Shravan by Oswald Labs
 type: shravan
-description: Smartphone for the rest of us
+description: Shravan by Oswald Labs is both as an operating system for Android-based smartphones, and a set of free, inclusive, and easy-to-use apps.
 ---
 
 <section class="hero">

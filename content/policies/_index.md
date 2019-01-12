@@ -1,5 +1,6 @@
 ---
 title: Policies
+description: Learn more about Oswald Labs privacy policy, terms, and other policies you have to accept before using our products, services, websites, apps, and/or platforms.
 ---
 
 <section class="hero pb-5">

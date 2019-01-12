@@ -1,5 +1,6 @@
 ---
 title: GDPR Export
+description: You can use this GDPR Export tool to export all collected data that belongs to you.
 ---
 
 <section class="hero pb-5">

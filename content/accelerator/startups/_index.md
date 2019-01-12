@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 type: accelerator
-subtype: startups
+description: Oswald Labs Accelerator accepts 6–8 startups per year and works extensively to accelerate their growth.
 ---
 
 <section class="hero pb-5 big-image">

@@ -1,7 +1,7 @@
 ---
 title: Shravan Phone by Oswald Labs
 type: shravan
-description: Smartphone for the rest of us
+description: Shravan Phone by Oswald Labs is a low-cost smartphone running Shravan OS, the world's first universally accessible operating system compatible with Android.
 ---
 
 <section class="hero big-image">

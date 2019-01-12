@@ -1,6 +1,7 @@
 ---
 title: Oswald Labs Accelerator
 type: accelerator
+description: Oswald Labs Accelerator is a free, remote, global support program for early-stage startups building for the next billion users.
 ---
 
 <section class="hero pb-5 big-image">

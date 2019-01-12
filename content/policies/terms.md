@@ -1,5 +1,6 @@
 ---
 title: Terms of Use
+description: Learn more about the Terms of Use of the products built by Oswald Labs, the award-winning accessibility technology company.
 ---
 
 Please read this Terms of Service (hereby the “TOS”) carefully, as it sets out the terms and conditions upon which we license our software. The a11y.co Web Accessibility Widget or a11y.co Plugin (“the Software”) and the accompanying documentation is protected by copyright laws and treaties, as well as laws and treaties related to other forms of intellectual property.

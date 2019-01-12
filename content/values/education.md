@@ -1,5 +1,6 @@
 ---
 title: Education
+description: Oswald Labs is an award-winning accessibility technology company, and our values focus on making knowledge universally accessible.
 ---
 
 Aubrey Priest said that a substandard education will always result in a substandard nation. 15 lakh students take the board exams every year. We want to ensure that each one of them has access to good-quality study material for free by building India’s first online classroom that’s accessible to everyone, regardless of their disability.
