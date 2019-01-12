@@ -5,6 +5,11 @@ title = "Oswald Labs"
 enableRobotsTXT = true
 disableAliases = true
 
+[taxonomies]
+  tag = ""
+  group = ""
+  category = ""
+
 [params]
 disallow_search_engines = true
 
