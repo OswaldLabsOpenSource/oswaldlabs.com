@@ -36,10 +36,6 @@ description: About
 				<a class="card">Anand Chowdhary featured by Het Financieele Dagblad (Dutch Financial Times) as one of the 50 most-innovative entrepreneurs and professionals in Holland.</a>
 			</div></li>
 			<li><div>
-				<time>March 27, 2018</time>
-				<a class="card">Anand Chowdhary (CEO) and Nishant Gadihoke (CTO) featured in Forbes 30 Under 30 Asia 2018 categories "Social Entrepreneurs" and "Youngest".</a>
-			</div></li>
-			<li><div>
 				<time>August 15, 2017</time>
 				<a class="card">Celebrating our first birthday with rebranding from Oswald Foundation to Oswald Labs, opening our first European office in the city of Enschede, the Netherlands.</a>
 			</div></li>

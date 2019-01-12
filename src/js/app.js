@@ -56,6 +56,9 @@ const agastyaTrackLink = event => {
 	}
 }
 
+window.a11ySettings = window.a11ySettings || {};
+window.a11ySettings.api = true;
+
 ready(() => {
 	const navbarToggler = document.querySelector(".navbar-toggler");
 	if (navbarToggler) {
@@ -67,7 +70,7 @@ ready(() => {
 		const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
 		for (let i = 0; i < dropdownElements.length; i++) {
 			document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.remove("show");
-			if (event.target === dropdownElements[i]) {
+			if (event.path.includes(dropdownElements[i])) {
 				document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.add("show");
 				event.preventDefault();
 				return false;

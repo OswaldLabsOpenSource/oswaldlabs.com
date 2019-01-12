@@ -56,7 +56,7 @@ type: agastya
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</div>
 		</div>
-		<h2 class="text-center">User customizations</h2>
+		<h2 class="text-center mt-5">User customizations</h2>
 		<div class="row">
 			<div href="/platform/agastya/features/increase-font-size/" class="col-md-4 mt-4">
 				<div class="mb-4 feature-demo">
@@ -101,7 +101,7 @@ type: agastya
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</div>
 		</div>
-		<h2 class="text-center">Support</h2>
+		<h2 class="text-center mt-5">Support</h2>
 		<div class="row">
 			<div href="/platform/agastya/features/live-chat-customer-support/" class="col-md-4 mt-4">
 				<div class="mb-4 feature-demo">
@@ -125,7 +125,7 @@ type: agastya
 				<p>It automatically changes the color schemes and contrast ratios, typography, and removes unnecessary elements.</p>
 			</div>
 		</div>
-		<h2 class="text-center">Data analytics</h2>
+		<h2 class="text-center mt-5">Data analytics</h2>
 		<div class="row">
 			<div href="/platform/agastya/features/privacy-web-analytics/" class="col-md-4 mt-4">
 				<div class="mb-4 feature-demo">
