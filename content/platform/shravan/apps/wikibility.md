@@ -1,41 +1,22 @@
 ---
-title: Visib11y
+title: Wikibility
 type: shravan
 subtype: shravan_apps
-description: Wikipedia referencing app for people with disabilities
+description: Wikibility is when Wikipedia meets accessibility. Use Agastya's award-winning web accessibility options on Wikipedia, the free encyclopedia, for easy browsing, reading, and referencing.
 intro: Wikipedia referencing app for people with disabilities
-link: link
+link: https://oswaldlabs.typeform.com/to/uWzZPc
+preregister: true
+section_icon_1: fa-language
+section_heading_1: All languages
+section_content_1: Wikibility works perfectly in all languages currently supported by Wikipedia, so you can browse and read around the world.
+section_icon_2: fa-tools
+section_heading_2: Customizable
+section_content_2: A user's preferences are saved by Wikibility, so it always shows you the layout and design that you are most comfortable with.
+section_icon_3: fa-graduation-cap
+section_heading_3: Vocabulary mode
+section_content_3: Vocabulary mode automatically highlights difficult words and displays their meaning on click, so you are always learning.
 ---
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p>Visib11y is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.</p>
-                <p>It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Visib11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.</p>
-                <p>It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Visib11y work its magic.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="bg-light-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <i class="fas fa-book-open fa-2x o-5"></i>
-                    <h3 class="mt-3">Reader mode</h3>
-                    <p>The user can read the text unaffected by external environmental factors by tapping on a text box and entering the Reader mode.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-tools fa-2x o-5"></i>
-                    <h3 class="mt-3">Customization</h3>
-                    <p>Different users have different requirements for styling text, so we ensure complete design customization for easier reading.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-history fa-2x o-5"></i>
-                    <h3 class="mt-3">History</h3>
-                    <p>This tool keeps track of previously detected text for future reference, so users can revisit anything they found interesting.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+Wikipedia is the world's largest curated source of knowledge. You can find information about any and everything on Wikipedia, but this information is not always accessible to everyone. Using Wikibility, users with learning disorders like dyslexia, senior, blind users, etc., can all easily use Wikipedia.
+
+It automatically highlights difficult words and works across all of Wikipedia's languages. Wikibility is a proof-of-concept app which implements Agastya on Wikipedia.

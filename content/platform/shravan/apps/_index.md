@@ -1,7 +1,6 @@
 ---
 title: Shravan Apps by Oswald Labs
 type: shravan
-subtype: shravan_apps
 description: Smartphone for the rest of us
 ---
 

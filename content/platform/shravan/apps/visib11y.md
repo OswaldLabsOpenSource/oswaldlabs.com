@@ -2,40 +2,21 @@
 title: Visib11y
 type: shravan
 subtype: shravan_apps
-description: Object recognition and navigation app for people with blindness
+description: Visib11y is a daily help app for people with visual impairment or blindness. Instantly recognize objects all around you, read text, find out your location, and navigate to places, all with speech.
 intro: Object recognition and navigation app for people with blindness
-link: link
+link: https://oswaldlabs.typeform.com/to/uWzZPc
+preregister: true
+section_icon_1: fa-map
+section_heading_1: Location-aware
+section_content_1: Visib11y helps users understand where they are and the places around them, for example ATMs, restaurants, and more.
+section_icon_2: fa-box-open
+section_heading_2: Object detection
+section_content_2: Using the smartphone camera, the app can tell a user what objects and places they are currently looking at.
+section_icon_3: fa-volume-up
+section_heading_3: Speech-enabled
+section_content_3: Visib11y works completely with speech and vibrations, so visually impaired users never have to see what's on the screen.
 ---
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p>Visib11y is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.</p>
-                <p>It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Visib11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.</p>
-                <p>It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Visib11y work its magic.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="bg-light-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <i class="fas fa-book-open fa-2x o-5"></i>
-                    <h3 class="mt-3">Reader mode</h3>
-                    <p>The user can read the text unaffected by external environmental factors by tapping on a text box and entering the Reader mode.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-tools fa-2x o-5"></i>
-                    <h3 class="mt-3">Customization</h3>
-                    <p>Different users have different requirements for styling text, so we ensure complete design customization for easier reading.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-history fa-2x o-5"></i>
-                    <h3 class="mt-3">History</h3>
-                    <p>This tool keeps track of previously detected text for future reference, so users can revisit anything they found interesting.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+The estimated number of people visually impaired in the world is 285 million, 39 million blind and 246 million having low vision. These users sometimes have difficulty understanding the world around them.
+
+Visib11y helps the visually impaired in many different ways, including being location-aware by understanding where they are, and seeing things around them using their camera and advanced object detection. Visually impaired users can also magnify using their camera, read text on paper, and much more.

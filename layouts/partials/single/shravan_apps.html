@@ -21,7 +21,36 @@
         </div>
     </div>
 </section>
-{{ .Content }}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <i class="fas {{ .Params.section_icon_1 }} fa-2x o-5"></i>
+                <h3 class="mt-3">{{ .Params.section_heading_1 }}</h3>
+                <p>{{ .Params.section_content_1 }}</p>
+            </div>
+            <div class="col-md mt-5 mt-md-0">
+                <i class="fas {{ .Params.section_icon_2 }} fa-2x o-5"></i>
+                <h3 class="mt-3">{{ .Params.section_heading_2 }}</h3>
+                <p>{{ .Params.section_content_2 }}</p>
+            </div>
+            <div class="col-md mt-5 mt-md-0">
+                <i class="fas {{ .Params.section_icon_3 }} fa-2x o-5"></i>
+                <h3 class="mt-3">{{ .Params.section_heading_3 }}</h3>
+                <p>{{ .Params.section_content_3 }}</p>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="container">
         <div class="row">

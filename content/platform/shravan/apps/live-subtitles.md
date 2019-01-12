@@ -4,39 +4,20 @@ type: shravan
 subtype: shravan_apps
 description: Live Subtitles is an Augmented Reality (AR) app which displays real-time conversational subtitles on your smartphone screen as someone is speaking.
 intro: Conversational captioning app for people with deafness
-link: link
 preregister: true
+link: https://oswaldlabs.typeform.com/to/uWzZPc
+preregister: true
+section_icon_1: fa-clock
+section_heading_1: Real-time
+section_content_1: Live Subtitles displays captions at the bottom of the screen as soon as a user starts speaking, literally as the sentence is being said.
+section_icon_2: fa-envelope-open-text
+section_heading_2: Accurate
+section_content_2: It is fast and highly accurate, with only certain accents and volumes not being interpreted correctly. It just works.
+section_icon_3: fa-language
+section_heading_3: Multi-lingual
+section_content_3: In the next version, Live Subtitles will not only support multiple languages, but also translate in real-time between 100+ languages.
 ---
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p>Live Subtitles is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.</p>
-                <p>It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Live Subtitles serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.</p>
-                <p>It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Live Subtitles work its magic.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="bg-light-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <i class="fas fa-book-open fa-2x o-5"></i>
-                    <h3 class="mt-3">Reader mode</h3>
-                    <p>The user can read the text unaffected by external environmental factors by tapping on a text box and entering the Reader mode.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-tools fa-2x o-5"></i>
-                    <h3 class="mt-3">Customization</h3>
-                    <p>Different users have different requirements for styling text, so we ensure complete design customization for easier reading.</p>
-                </div>
-                <div class="col-md mt-5 mt-md-0">
-                    <i class="fas fa-history fa-2x o-5"></i>
-                    <h3 class="mt-3">History</h3>
-                    <p>This tool keeps track of previously detected text for future reference, so users can revisit anything they found interesting.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+Over 5% of the world's population – or 466 million people – has disabling hearing. These users usually prefer to talk using sign language, but only a small number of people actually know sign language. Furthermore, there are several kinds of sign languages around the world, so speakers in India speak a different sign language from those in the US. This makes it very hard for users with deafness understand what people are saying.
+
+Live Subtitles is an app which uses real-time speech recognition to show the captions of what someone is saying while they are talking. With the app, users with deafness can just read what people are saying to understand them better.
