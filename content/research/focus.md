@@ -1,5 +1,5 @@
 ---
-title: Focus · Oswald Labs Research
+title: Focus
 type: research
 ---
 
@@ -8,7 +8,7 @@ type: research
         <div class="row">
             <div class="col-md-6">
 				<h1>Focus</h1>
-				<p class="intro-para">Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users. Our R&amp;D is based out of Enschede, the Netherlands, but is open to collaborating projects worldwide.</p>
+				<p class="intro-para">At Oswald Labs Research, our focus is to bridge the gap between access to technology and the general availability of modern technology.</p>
 			</div>
             <div class="col-md-6 text-right">
                 <img role="presentation" src="/images/illustrations/technologies.svg">

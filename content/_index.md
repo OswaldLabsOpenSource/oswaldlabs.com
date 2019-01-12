@@ -47,7 +47,7 @@ type: home
 						</div>
 					</a>
 				</div>
-				<a class="btn btn-left text-danger" href="/platform/shravan/apps/">Sign up for the beta →</a>
+				<a class="btn text-primary btn-left" href="/platform/shravan/apps/">Sign up for the beta →</a>
 			</div>
 		</div>
 	</div>

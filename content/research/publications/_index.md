@@ -1,5 +1,5 @@
 ---
-title: Publications · Oswald Labs Research
+title: Publications
 type: research
 subtype: publications
 ---

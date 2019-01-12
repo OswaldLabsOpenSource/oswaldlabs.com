@@ -18,6 +18,14 @@
   to = "/policies/sla/"
 
 [[redirects]]
+  from = "/agastya/regulation"
+  to = "/platform/agastya/compliance/"
+
+[[redirects]]
+  from = "/shravan/features"
+  to = "/platform/shravan/os/"
+
+[[redirects]]
   from = "/agastya/*"
   to = "/platform/agastya/:splat/"
 

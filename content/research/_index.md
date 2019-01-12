@@ -8,7 +8,7 @@ type: research
         <div class="row">
             <div class="col-md-6">
 				<h1>Research-driven innovation.</h1>
-				<p class="intro-para">Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users. Our R&amp;D is based out of Enschede, the Netherlands, but is open to collaborating projects worldwide.</p>
+				<p class="intro-para">Oswald Labs Research is our division focusing on inventing new technologies and conducting research for the next billion users. Our R&amp;D team is based out of Enschede, the Netherlands, but is open to collaborating projects worldwide.</p>
 			</div>
             <div class="col-md-6 text-right">
                 <img role="presentation" src="/images/illustrations/research.svg">
@@ -21,7 +21,7 @@ type: research
         <div class="row">
             <div class="col-md-6 mb-5">
                 <h2 class="subheading-3">How it works</h2>
-                <p>We've partnered with the most innovative companies across the globe to conduct research into accessibility and build new products. We partner with thesis students, researchers in universities, and devote pro bono time from our team for collaboration.</p>
+                <p>We've partnered with the most innovative companies across the globe to conduct research into accessibility and build new products. We collaborate with thesis students, researchers in universities, and devote pro bono time from our team for collaboration.</p>
             </div>
         </div>
         <div class="row pt-md-5">

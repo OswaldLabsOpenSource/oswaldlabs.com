@@ -13,6 +13,10 @@
         {{ .Scratch.Set "setTitle" "Events · Oswald Labs Accelerator" }}
     {{ else if eq .File.Path "accelerator/spaces/_index.md" }}
         {{ .Scratch.Set "setTitle" "Spaces · Oswald Labs Accelerator" }}
+    {{ else if eq .File.Path "research/focus.md" }}
+        {{ .Scratch.Set "setTitle" "Focus · Oswald Labs Research" }}
+    {{ else if eq .File.Path "research/publications/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Publications · Oswald Labs Research" }}
     {{ else if eq .File.Path "accelerator/startups/_index.md" }}
         {{ .Scratch.Set "setTitle" "Portfolio Startups · Oswald Labs Accelerator" }}
     {{ else if .Params.Subtype }}
