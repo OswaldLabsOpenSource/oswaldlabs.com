@@ -1,7 +1,6 @@
 ---
 title: Spaces
 type: accelerator
-subtype: spaces
 ---
 
 <section class="hero pb-5 big-image">

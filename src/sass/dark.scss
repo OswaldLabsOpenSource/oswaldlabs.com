@@ -1,0 +1,197 @@
+$color: #007bff;
+
+.dark {
+    .page-home,
+    .page-accelerator {
+        .text-body.small {
+            color: #fff !important;
+            opacity: 0.25;
+        }
+    }
+    .navigation {
+        background-color: #151d21;
+        color: #fff;
+        a {
+            color: #fff !important;
+        }
+    }
+    .timeline li:after {
+        border-color: #151d21;
+    }
+    .btn-light, input, select {
+        background: #000 !important;
+        color: #fff !important;
+        border-color: #000 !important;
+    }
+    .page-shravan,
+    .page-shravan-os,
+    .page-shravan-phone,
+    .page-shravan-apps,
+    .page-valmiki,
+    .page-agastya,
+    .page-agastya-features,
+    .page-agastya-pricing {
+        header .nav-link.subactive::before,
+        header .nav-link.subactive::after {
+            background: #151d21 !important;
+        }
+        .text-muted {
+            color: #ccc !important;
+            opacity: 0.5 !important;
+        }
+        .feature-demo {
+            background-color: #263238
+        }
+        main {
+            color: #fff !important;
+            .hero,
+            .navigation,
+            .bg-light-1,
+            .triangle::after {
+                background-color: #000 !important;
+                color: #fff !important;
+            }
+        }
+    }
+    body {
+        .hero, header {
+            background: #000 !important;
+            color: #fff;
+        }
+        background: #151d21;
+        .bg-light-2, .bg-light-2-force {
+            background: #151d21;
+            color: #ccc;
+        }
+        .btn {
+            color: #fff;
+        }
+        color: #ccc;
+        .dark-invert {
+            filter: invert(1);
+        }
+        .table {
+            td,
+            th {
+                border-color: #333;
+            }
+        }
+        #masthead.light {
+            background: #0c1215;
+            .hero,
+            .nav-link,
+            .navbar-brand,
+            .navbar-nav:last-child a {
+                color: #fff;
+            }
+            .hero {
+                p {
+                    color: inherit;
+                }
+            }
+        }
+        .form-control,
+        .card,
+        .list-group-item {
+            background: #0c1215;
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        p a {
+            color: yellow !important;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+        .bg-white,
+        .breaker::before,
+        .globalFooterCard,
+        .darkgray {
+            background: #151d21 !important;
+        }
+        #masthead .darkgray {
+            background: #263238 !important;
+        }
+        .gray,
+        .bg-light-1, .bg-light-1-force,
+        .gray-slanted::before {
+            background: #263238;
+        }
+        .press-section img,
+        img[alt="BW Disrupt"] {
+            filter: invert(1);
+        }
+        section.gray:first-child {
+            background: #0c1215 !important;
+        }
+        #colophon {
+            a {
+                &:hover,
+                &:active,
+                &:focus {
+                    color: #fff;
+                }
+            }
+            .darkgray .btn-light {
+                color: #ddd !important;
+                &:hover,
+                &:active,
+                &:focus {
+                    background: rgba(255, 255, 255, 0.1);
+                    color: #fff !important;
+                }
+            }
+        }
+        #masthead {
+            background: #0f171b;
+            .btn-light {
+                background: none;
+                border-color: yellow;
+                color: yellow;
+            }
+            .btn-light {
+                background: none;
+                color: inherit;
+            }
+            .hero,
+            p {
+                color: inherit;
+            }
+            .darkgray {
+                h2 {
+                    color: #909cab;
+                }
+            }
+        }
+        .globalFooterCard {
+            box-shadow: 0 5px 35px rgba(0, 0, 0, 0.25);
+        }
+        .subheading,
+        a.btn {
+            color: yellow;
+            &.btn-primary {
+                color: #fff;
+            }
+            &.btn-secondary {
+                background: #000;
+                border-color: #222;
+            }
+            &.btn-outline-primary,
+            &.btn-outline-secondary,
+            &.btn-outline-danger,
+            &.btn-outline-info,
+            &.btn-outline-warning {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        .app-illustrations {
+            div {
+                background: #000;
+                box-shadow: inset 0 4px 7px 1px #000, inset 0 -5px 20px rgba(173, 186, 204, 0.25),
+                    0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
+            }
+        }
+    }
+}

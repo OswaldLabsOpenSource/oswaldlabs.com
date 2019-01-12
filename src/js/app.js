@@ -111,7 +111,8 @@ ready(() => {
 		// Add Agastya tracking listener for external link
 		// then add/remove listener from links on barba
 		const links = document.querySelectorAll("a");
-		links.forEach(link => {
+		for (let i = 0; i < links.length; i++) {
+			const link = links[i];
 			link.classList.remove("active");
 			link.classList.remove("subactive");
 			link.removeEventListener("click", agastyaTrackLink);
@@ -123,7 +124,7 @@ ready(() => {
 			) {
 				link.classList.add("subactive");
 			}
-			if (location.hostname !== link.hostname) {
+			if (location.hostname !== link.hostname && !link.querySelectorAll("img").length) {
 				link.addEventListener("click", agastyaTrackLink);
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
@@ -146,7 +147,7 @@ ready(() => {
 					);
 				}
 			}
-		});
+		}
 		setTimeout(() => {
 			const subNav = document.querySelector(".subnav-menu nav, .subnav nav");
 			if (subNav && !subNav.querySelector(".active") && subNav.querySelector(".subactive")) {
@@ -270,6 +271,10 @@ ready(() => {
 						}
 					});
 				})
+		}
+		const globalParams = new URLSearchParams(window.location.search);
+		for (let param of globalParams.keys()) {
+			document.body.classList.add(`has-param-${param}`);
 		}
 		const departmentSelect = document.querySelector(".department-select");
 		if (departmentSelect) {

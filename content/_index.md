@@ -87,7 +87,7 @@ type: home
 			<div class="col-md-4 d-flex pl-5 align-items-center">
 				<dl>
 					<dt><strong>Dyslexia-friendly Mode</strong></dt>
-					<dd>Uses the research verified by the British Dyslexia Association and the W3C for up to 65% faster reading.</dd>
+					<dd>Uses the research to make content on your website easier to read for users with learning disabilities.</dd>
 					<dt><strong>Visual Impairment</strong></dt>
 					<dd>Built-in content extraction finds the main content of your webpage and reads it out for the partially or completely blind.</dd>
 					<dt><strong>Automated Audits</strong></dt>

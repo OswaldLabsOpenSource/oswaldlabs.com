@@ -18,13 +18,13 @@
 {{ if eq .URL "/accelerator/events/" }}
 {{ partial "section/events.html" . }}
 {{ end }}
+{{ if eq .URL "/accelerator/spaces/" }}
+{{ partial "section/spaces.html" . }}
+{{ end }}
 {{ if eq .URL "/accelerator/partners/" }}
 {{ partial "section/partners.html" . }}
 {{ end }}
 {{ if .Params.Subtype }}
-{{ if eq .Params.Subtype "spaces" }}
-{{ partial "section/spaces.html" . }}
-{{ end }}
 {{ if eq .Params.Subtype "startups" }}
 {{ partial "section/startups.html" . }}
 {{ end }}
