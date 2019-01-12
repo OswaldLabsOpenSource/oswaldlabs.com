@@ -11,7 +11,7 @@ disableAliases = true
   category = ""
 
 [params]
-disallow_search_engines = true
+disallow_search_engines = false
 
 # add redirects/headers
 [outputs]

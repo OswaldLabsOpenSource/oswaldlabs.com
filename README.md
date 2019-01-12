@@ -8,7 +8,7 @@ This is the repo for Oswald Labs' official website. It's built on Hugo as oppose
 - [ ] Rich Snippets docs, add all everywhere
 - [x] Screenshot API for meta image or platform image generator
 - [ ] Check RSS feed and add dates for everything
-- [ ] Remove robots.txt prevent
+- [x] Remove robots.txt prevent
 - [x] Check current sitemap.xml and make redirects
 - [x] Dark theme/dyslexia theme for plugin footer
 - [ ] Add Minify to Gulp build process
