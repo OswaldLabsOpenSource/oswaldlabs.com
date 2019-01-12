@@ -26,3 +26,29 @@
 		</div>
 	</div>
 </section>
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "NewsArticle",
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://google.com/article"
+		},
+		"headline": "{{ .Title }}",
+		"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z0700" }}",
+		"dateModified": "{{ .Date.Format "2006-01-02T15:04:05Z0700" }}",
+		"author": {
+			"@type": "Person",
+			"name": "John Doe"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Oswald Labs",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://static.oswaldlabs.com/logo.png"
+			}
+		},
+		"description": "{{ .Title }}"
+	}
+</script>
