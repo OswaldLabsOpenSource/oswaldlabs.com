@@ -2,35 +2,54 @@
 <meta name="robots" content="noindex">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 {{ partial "site/title.html" . }}
-{{ if .Params.description }}<meta name="description" content="{{ .Params.description }}">
-<meta property="og:description" content="{{ .Params.description }}">
-<meta property="twitter:description" content="{{ .Params.description }}">
+
+{{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+    <meta property="og:description" content="{{ .Params.description }}">
+    <meta property="twitter:description" content="{{ .Params.description }}">
+{{ else }}
+    <meta name="description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
+    <meta property="og:description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
+    <meta property="twitter:description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
+{{ end }}
+
+{{ if .Params.image }}
+    <meta property="og:image" content="{{ .Params.image }}">
+    <meta property="twitter:image" content="{{ .Params.image }}">
+{{ else }}
+    <meta property="og:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
+    <meta property="twitter:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
+{{ end }}
+
+<meta name="apple-mobile-web-app-title" content="Oswald Labs">
+<meta name="apple-mobile-web-app-title" content="Oswald Labs">
+<meta name="application-name" content="Oswald Labs">
+
 <meta property="twitter:card" content="summary_large_image">
-{{ end }}{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">
-<meta property="twitter:image" content="{{ .Params.image }}">
-{{ else }}<meta property="og:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
-<meta property="twitter:image" content="https://api.screenshotlayer.com/api/capture?access_key=fb27dc8d0be3bda51c5db6ee6848f8c9&url=https://oswaldlabs.netlify.com{{ .URL | safeURL }}&viewport=1200x630&width=1200">
-{{ end }}<meta name="apple-mobile-web-app-title" content="Oswald Labs">
 <meta name="twitter:site" content="@OswaldLabs">
 <meta name="twitter:creator" content="@AnandChowdhary">
+
 <link rel="publisher" href="https://plus.google.com/109050675253975445822">
 <meta property="og:publisher" content="https://www.facebook.com/OswaldLabs">
 <meta property="og:type" content="website">
+
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="twitter:url" content="{{ .Permalink }}">
 <link rel="canonical" href="{{ .Permalink }}">
+
 <link rel="apple-touch-icon" sizes="180x180" href="/images/pwa/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/pwa/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/images/pwa/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/pwa/favicon-16x16.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/images/pwa/safari-pinned-tab.svg" color="#007bff">
 <meta name="msapplication-config" content="/browserconfig.xml">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Oswald Labs">
-<meta name="application-name" content="Oswald Labs">
 <meta name="msapplication-TileColor" content="#007bff">
 <meta name="msapplication-TileImage" content="/images/pwa/mstile-144x144.png">
 <meta name="theme-color" content="#007bff">
+
 {{ .Hugo.Generator }}

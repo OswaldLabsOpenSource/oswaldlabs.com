@@ -5,8 +5,8 @@ import del from "del";
 import runSequence from "run-sequence";
 import gulpLoadPlugins from "gulp-load-plugins";
 import { spawn } from "child_process";
+import minifyHTML from "gulp-minify-html";
 import tildeImporter from "node-sass-tilde-importer";
-import postcss from "gulp-postcss";
 import purify from "gulp-purifycss";
 import fs from "fs";
 
@@ -50,6 +50,14 @@ gulp.task("server:with-drafts", ["build-preview"], () => {
 		],
 		() => gulp.start("hugo-preview")
 	);
+});
+
+gulp.task("minify", () => {
+	const opts = { comments: true, spare: true };
+	gulp
+		.src("./public/**/*.html")
+		.pipe(minifyHTML(opts))
+		.pipe(gulp.dest("./public/"));
 });
 
 gulp.task("init-watch", () => {
@@ -106,6 +114,7 @@ gulp.task("hugo", cb => {
 	return spawn("hugo", args, { stdio: "inherit" }).on("close", code => {
 		if (suppressHugoErrors || code === 0) {
 			browserSync.reload();
+			gulp.start("minify");
 			cb();
 		} else {
 			console.log("hugo command failed.");
