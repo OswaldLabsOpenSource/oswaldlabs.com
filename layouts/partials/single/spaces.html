@@ -1,0 +1,46 @@
+<section class="hero big-image pb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+                <h1>{{ .Title }}</h1>
+                <p class="intro-para">{{ .Params.Description }}</p>
+                {{ if .Params.Link }}
+                    <div>
+                        <a href="{{ .Params.Link }}" class="btn btn-primary">Visit {{ .Title }} &rarr;</a>
+                    </div>
+                {{ end }}
+			</div>
+            <div class="col-md-6 text-right">
+                <img role="presentation" src="/images/illustrations/spaces.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {{ if .Content }}
+                <h2 class="subheading">The deal</h2>
+                <div class="mb-5">
+                    {{ .Content }}
+                    <p>The deal is subject to availability, please contact {{ .Title }} to get a custom quote with the reference of Oswald Labs Accelerator.</p>
+                </div>
+                {{ end }}
+                <h2 class="subheading">Program partner</h2>
+                <p>Oswald Labs Accelerator partners offer their benefits&mdash;completely for free&mdash;to our startups and research teams. {{ .Title }} is one of our program partners who are committed to giving back to the community.</p>
+                <h2 class="subheading mt-5">Map location</h2>
+                <a href="https://maps.google.com/?q={{ .Params.AddressName }} {{ .Params.StreetAddress }} {{ .Params.AddressLocality }} {{ .Params.AddressRegion }} {{ .Params.PostalCode }} {{ .Params.Country }} ">
+                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ .Params.streetAddress }}, {{ .Params.addressLocality }}, {{ .Params.addressRegion }}, {{ .Params.postalCode }}, {{ .Params.addressCountry }}, +&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
+                </a>
+            </div>
+            <div class="col-md-6 pl-md-5 mt-all">
+                <h2 class="subheading">Visiting address</h2>
+                <p>{{ .Title }} is located at {{ .Params.streetAddress }}, {{ .Params.addressLocality }}, {{ .Params.addressRegion }}, {{ .Params.postalCode }}, {{ .Params.addressCountry }}{{ if .Params.addressLandmark }} ({{ .Params.addressLandmark }}).{{ else }}.{{ end }}</p>
+				<div>
+					<a href="https://maps.google.com/?q={{ .Params.AddressName }} {{ .Params.StreetAddress }} {{ .Params.AddressLocality }} {{ .Params.AddressRegion }} {{ .Params.PostalCode }} {{ .Params.Country }} " class="btn btn-outline-primary">Navigate to {{ .Title }} &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

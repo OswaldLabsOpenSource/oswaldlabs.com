@@ -2,20 +2,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="subheading-3">Program partners</h2>
-                <p>We’ve partnered with the most innovative companies across the globe to bring you the best advice, mentorship, services, resources, and investments — all for free.</p>
+                <h2 class="subheading-3">Partner workspaces</h2>
+                <p>We’ve partnered with co-working spaces and private offices to help our startups and research teams save time and money when deciding on a workspace.</p>
             </div>
         </div>
         <div class="row pt-5">
              {{ range .Pages }}
             <div class="col-md-4 d-flex align-items-stretch mb-med">
                 <a class="card" href="{{ .Permalink }}">
-                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ if .Params.Address_1 }}{{ .Params.Address_1 }}{{ end }}+{{ if .Params.Address_2 }}{{ .Params.Address_2 }}{{ end }}+{{ if .Params.Address_3 }}{{ .Params.Address_3 }}{{ end }}+&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
+                    <img alt="The location of {{ .Title }} from Google Maps" class="card-img-top" src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center={{ .Params.streetAddress }}, {{ .Params.addressLocality }}, {{ .Params.addressRegion }}, {{ .Params.postalCode }}, {{ .Params.addressCountry }}, +&key=AIzaSyCuiZevIb1G87KAoLRSECEdWNBQ06JCMjU">
                     <div class="card-body">
                         <h2 class="subheading">{{ .Title }}</h2>
-                        {{ if .Params.Address_1 }}<div>{{ .Params.Address_1 }}</div>{{ end }}
-                        {{ if .Params.Address_2 }}<div>{{ .Params.Address_2 }}</div>{{ end }}
-                        {{ if .Params.Address_3 }}<div>{{ .Params.Address_3 }}</div>{{ end }}
+                        <div>{{ .Params.streetAddress }}, {{ .Params.addressLocality }}</div>
+                        <div>{{ .Params.addressRegion }}, {{ .Params.postalCode }}</div>
                     </div>
                 </a>
             </div>

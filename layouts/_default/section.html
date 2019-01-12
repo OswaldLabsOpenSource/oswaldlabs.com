@@ -15,15 +15,15 @@
 {{ else if eq .Section "press" }}
 {{ partial "section/press.html" . }}
 {{ end }}
-{{ if .Params.Subtype }}
-{{ if eq .Params.Subtype "partners" }}
+{{ if eq .URL "/accelerator/events/" }}
+{{ partial "section/events.html" . }}
+{{ end }}
+{{ if eq .URL "/accelerator/partners/" }}
 {{ partial "section/partners.html" . }}
 {{ end }}
+{{ if .Params.Subtype }}
 {{ if eq .Params.Subtype "spaces" }}
 {{ partial "section/spaces.html" . }}
-{{ end }}
-{{ if eq .Params.Subtype "events" }}
-{{ partial "section/events.html" . }}
 {{ end }}
 {{ if eq .Params.Subtype "startups" }}
 {{ partial "section/startups.html" . }}

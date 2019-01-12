@@ -1,7 +1,6 @@
 ---
 title: Partners
 type: accelerator
-subtype: partners
 ---
 
 <section class="hero pb-5 big-image">

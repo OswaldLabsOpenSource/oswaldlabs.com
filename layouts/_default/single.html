@@ -19,6 +19,8 @@
 	{{ partial "single/publications.html" . }}
 {{ else if eq .Params.Subtype "events" }}
 	{{ partial "single/events.html" . }}
+{{ else if eq .Params.Subtype "spaces" }}
+	{{ partial "single/spaces.html" . }}
 {{ else if eq .Params.Subtype "agastya_features" }}
 	{{ partial "single/agastya_features.html" . }}
 {{ else if eq .Params.Subtype "agastya_case_studies" }}
