@@ -169,3 +169,91 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
         </div>
     </div>
 </section>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Oswald Labs APAC HQ",
+  "image": "",
+  "@id": "",
+  "url": "https://oswaldlabs.com",
+  "telephone": "+918860844523",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "E-267, Greater Kailash II",
+    "addressLocality": "New Delhi",
+    "postalCode": "110048",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.5417093,
+    "longitude": 77.24028010000006
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/OswaldLabs",
+    "https://www.instagram.com/oswaldlabs/",
+    "https://twitter.com/OswaldLabs",
+    "https://www.linkedin.com/company/oswald-foundation/about/",
+    "https://en.wikipedia.org/wiki/Oswald_Labs"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Oswald Labs Enschede",
+  "image": "",
+  "@id": "",
+  "url": "https://oswaldlabs.com",
+  "telephone": "+31644691056",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "De Hems 10",
+    "addressLocality": "Enschede",
+    "postalCode": "7522NL",
+    "addressCountry": "NL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.2433332,
+    "longitude": 6.851924800000006
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/OswaldLabs",
+    "https://www.instagram.com/oswaldlabs/",
+    "https://twitter.com/OswaldLabs",
+    "https://www.linkedin.com/company/oswald-foundation/about/",
+    "https://en.wikipedia.org/wiki/Oswald_Labs"
+  ]
+}
+</script>
