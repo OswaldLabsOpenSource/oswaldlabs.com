@@ -7,6 +7,8 @@
         {{ .Scratch.Set "setTitle" "Team · Oswald Labs" }}
     {{ else if eq .File.Path "press/_index.md" }}
         {{ .Scratch.Set "setTitle" "Press · Oswald Labs" }}
+    {{ else if eq .File.Path "news/_index.md" }}
+        {{ .Scratch.Set "setTitle" "Oswald Labs News" }}
     {{ else if eq .File.Path "values/_index.md" }}
         {{ .Scratch.Set "setTitle" "Values · Oswald Labs" }}
     {{ else if eq .File.Path "accelerator/events/_index.md" }}

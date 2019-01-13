@@ -5,6 +5,10 @@
     {{ .Scratch.Add "setDescription" " is the " }}
     {{ .Scratch.Add "setDescription" .Params.Position }}
     {{ .Scratch.Add "setDescription" " of Oswald Labs, a research-driven award-winning accessibility technology company. Learn more on his Team page." }}
+{{ else if eq .Section "logos" }}
+    {{ .Scratch.Set "setDescription" "Download the " }}
+    {{ .Scratch.Add "setDescription" .Title }}
+    {{ .Scratch.Add "setDescription" " on the Oswald Labs logos page, part of the presskit of the award-winning accessibility technology company." }}
 {{ else }}
     {{ .Scratch.Set "setDescription" "Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users." }}
 {{ end }}
