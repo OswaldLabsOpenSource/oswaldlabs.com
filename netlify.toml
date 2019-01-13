@@ -62,6 +62,10 @@
   to = "/policies/terms/"
 
 [[redirects]]
+  from = "/privacy"
+  to = "/policies/privacy/"
+
+[[redirects]]
   from = "/logos"
   to = "/press/logos/"
 
