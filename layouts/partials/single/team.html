@@ -76,35 +76,3 @@
 		</div>
 	</div>
 </section>
-<script type="application/ld+json">
-	{
-		"@context": "http://schema.org/",
-		"@type": "Person",
-		"name": "{{ .Title }}",
-		"jobTitle": "{{ .Params.Position }}",
-		"url": "https://oswaldlabs.com/team/{{ .File.TranslationBaseName }}/",
-		"image": "https://oswaldlabs.com/images/team/{{ .File.TranslationBaseName }}.png",
-		"sameAs": [
-			{{ if .Params.Website }}"{{ .Params.Website }}",
-			{{ if .Params.Linkedin }}"{{ .Params.Linkedin }}",
-			{{ if .Params.Facebook }}"{{ .Params.Facebook }}",
-			{{ if .Params.Twitter }}"{{ .Params.Twitter }}",
-			{{ if .Params.Github }}"{{ .Params.Github }}",
-			{{ if .Params.Instagram }}"{{ .Params.Instagram }}",
-			"https://oswaldlabs.com/team/{{ .File.TranslationBaseName }}/"
-		],
-		"worksFor": {
-			"@type": "Organization",
-			"name": "Oswald Labs",
-			"url": "https://oswaldlabs.com",
-			"logo": "https://static.oswaldlabs.com/logo.png",
-			"sameAs": [
-				"https://www.facebook.com/OswaldLabs",
-				"https://www.instagram.com/oswaldlabs/",
-				"https://twitter.com/OswaldLabs",
-				"https://www.linkedin.com/company/oswald-foundation/about/",
-				"https://en.wikipedia.org/wiki/Oswald_Labs"
-			]
-		}
-	}
-</script>
