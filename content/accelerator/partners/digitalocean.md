@@ -8,3 +8,6 @@ event_name: bharathacks_2017
 description: Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you’re running one virtual machine or ten thousand.
 link: https://www.digitalocean.com/
 ---
+
+- $15 in DigitalOcean credits per participant of the hackathon
+- $50 in DigitalOcean credits per winner of the hackathon

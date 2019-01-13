@@ -8,3 +8,5 @@ subtype: accelerator_partners
 event_name: bharathacks_2017
 description: The .TECH domain extension, signalling a cutting edge brand persona associated with the tech industry, competes with .COM as a domain of choice for entities with a passion for tech.
 ---
+
+- Free .tech domain name, one per participant of the hackathon.

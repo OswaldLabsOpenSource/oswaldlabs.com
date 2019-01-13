@@ -3,16 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {{ partial "site/title.html" . }}
-
-{{ if .Params.description }}
-    <meta name="description" content="{{ .Params.description }}">
-    <meta property="og:description" content="{{ .Params.description }}">
-    <meta property="twitter:description" content="{{ .Params.description }}">
-{{ else }}
-    <meta name="description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
-    <meta property="og:description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
-    <meta property="twitter:description" content="Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users.">
-{{ end }}
+{{ partial "site/description.html" . }}
 
 {{ if .Params.image }}
     <meta property="og:image" content="{{ .Params.image }}">

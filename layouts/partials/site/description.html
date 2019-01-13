@@ -1,0 +1,14 @@
+{{ if .Params.description }}
+    {{ .Scratch.Set "setDescription" .Params.Description }}
+{{ else if eq .Section "team" }}
+    {{ .Scratch.Set "setDescription" .Title }}
+    {{ .Scratch.Add "setDescription" " is the " }}
+    {{ .Scratch.Add "setDescription" .Params.Position }}
+    {{ .Scratch.Add "setDescription" " of Oswald Labs, a research-driven award-winning accessibility technology company. Learn more on his Team page." }}
+{{ else }}
+    {{ .Scratch.Set "setDescription" "Oswald Labs is a research-driven, award-winning accessibility technology company building products for the next billion users." }}
+{{ end }}
+
+<meta name="description" content="{{ .Scratch.Get "setDescription" }}">
+<meta property="og:description" content="{{ .Scratch.Get "setDescription" }}">
+<meta property="twitter:description" content="{{ .Scratch.Get "setDescription" }}">
