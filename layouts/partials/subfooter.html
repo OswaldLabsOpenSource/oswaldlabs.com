@@ -1,4 +1,59 @@
 {{ if eq .Type "agastya" }}
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/", 
+		"@type": "Product", 
+		"name": "Agastya",
+		"image": "https://oswaldlabs.com/images/illustrations/agastya.png",
+		"description": "Agastya makes your websites inclusive and accessible with just one line of code, a product by Oswald Labs, the award-winning accessibility technology company.",
+		"brand": "Oswald Labs",
+		"offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR",
+			"price": "0",
+			"priceValidUntil": "2020-12-31",
+			"availability": "http://schema.org/InStock",
+			"itemCondition": "http://schema.org/NewCondition"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"bestRating": "5",
+			"worstRating": "1",
+			"ratingCount": "2",
+			"reviewCount": "2"
+		},
+		"reviews": [{
+			"@context": "http://schema.org/",
+			"@type": "Review",
+			"name": "Jaydeep Bhosale",
+			"reviewBody": "The special thing of web site of Youth Ki Awaaz is that the people having learning disabilities can also read easily.",
+			"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": "5",
+			"bestRating": "5",
+			"worstRating": "1"
+			},
+			"datePublished": "2018-07-28",
+			"author": {"@type": "Person", "name": "Jaydeep Bhosale"},
+			"publisher": {"@type": "Organization", "name": "Twitter"}
+		},{
+			"@context": "http://schema.org/",
+			"@type": "Review",
+			"name": "Shelika Bhasin",
+			"reviewBody": "Agastya is the best way for us to help our users. We use the Live Chat integration to give support in real-time and we've seen many users use accessibility features on our e-commerce website.",
+			"reviewRating": {
+			"@type": "Rating",
+			"ratingValue": "5",
+			"bestRating": "5",
+			"worstRating": "1"
+			},
+			"datePublished": "2019-01-01",
+			"author": {"@type": "Person", "name": "Shelika Bhasin"},
+			"publisher": {"@type": "Organization", "name": "Oswald Labs"}
+		}]
+	}
+</script>
 {{ if ne .URL "/platform/agastya/register/" }}
 <section class="press-section horizontal-scroll-parent pt-4 pb-4">
 	<h2 class="sr-only">Clients</h2>
