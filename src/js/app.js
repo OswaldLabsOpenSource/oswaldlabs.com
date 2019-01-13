@@ -102,7 +102,7 @@ ready(() => {
 						background: "#231463",
 						move: "header",
 						targeting: {
-							once: true
+							onceUser: true
 						}
 					});
 					// window.darkMessage = new window.HelloBar.default({
