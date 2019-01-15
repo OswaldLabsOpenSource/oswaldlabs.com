@@ -5,7 +5,7 @@
                 {{ range .Paginator.Pages }}
                     <article>
                         <h2><a class="list-heading" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                        <p class="text-muted">Posted on <time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+                        <p class="text-muted"><span>Posted on&nbsp;</span><time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
                         <p>{{ .Summary }}</p>
                         <p><a href="{{ .Permalink }}">Continue reading &rarr;</a></p>
                     </article>
