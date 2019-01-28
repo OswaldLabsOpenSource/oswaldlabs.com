@@ -35,23 +35,35 @@ description: Oswald Labs is an innovative, young company of 10+ motivated indivi
 				<div class="subtitle">Chief Operating Officer</div>
 				<p>Electronics engineer, previously Radio Expert at Nokia, BTech SGSITS</p>
 			</a>
-			<a href="/team/tarek/" class="col-md-3 mb-5">
-				<img alt="Photo of Mahendra Raghuwanshi" src="/images/team/tarek.png" class="rounded-circle">
-				<h3>Tarek Gethe</h3>
-				<div class="subtitle">Head of Sales, Germany</div>
-				<p>Digital marketer, researcher, psychology student at University of Twente</p>
-			</a>
 			<a href="/team/jarco/" class="col-md-3 mb-5">
 				<img alt="Photo of Jarco van Roest" src="/images/team/jarco.png" class="rounded-circle">
 				<h3>Jarco van Roest</h3>
 				<div class="subtitle">Head of Sales, the Netherlands</div>
 				<p>Engineer, marketer, salesperson, student at University of Twente</p>
 			</a>
+			<a href="/team/tarek/" class="col-md-3 mb-5">
+				<img alt="Photo of Mahendra Raghuwanshi" src="/images/team/tarek.png" class="rounded-circle">
+				<h3>Tarek Gethe</h3>
+				<div class="subtitle">Head of Sales, Germany</div>
+				<p>Digital marketer, researcher, psychology student at University of Twente</p>
+			</a>
 			<a href="/team/tushar/" class="col-md-3 mb-5">
 				<img alt="Photo of Tushar Gupta" src="/images/team/tushar.png" class="rounded-circle">
 				<h3>Tushar Gupta</h3>
 				<div class="subtitle">Research Fellow</div>
 				<p>Designer turned developer, passionate about research, building products</p>
+			</a>
+			<a href="/team/mudita/" class="col-md-3 mb-5">
+				<img alt="Photo of Mudita Sisodia" src="/images/team/mudita.png" class="rounded-circle">
+				<h3>Mudita Sisodia</h3>
+				<div class="subtitle">Research Fellow</div>
+				<p>Engineering student from Mumbai, dabbling in front end technologies</p>
+			</a>
+			<a href="/team/schezeen/" class="col-md-3 mb-5">
+				<img alt="Photo of Schezeen Fazulbhoy" src="/images/team/schezeen.png" class="rounded-circle">
+				<h3>Schezeen Fazulbhoy</h3>
+				<div class="subtitle">Research Fellow</div>
+				<p>Researcher, student, passionate about creative development</p>
 			</a>
 			<div class="col-md-3 mb-5">
 				<img alt="Photo of Tarek Gethe" src="/images/team/erik.jpg" class="rounded-circle">
