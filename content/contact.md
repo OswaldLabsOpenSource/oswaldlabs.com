@@ -2,7 +2,6 @@
 title: Contact
 description: To get in touch with Oswald Labs, the award-winning accessibility technology company based in New Delhi and Enschede, email at yourfriends@oswaldlabs.com.
 ---
-
 <section class="hero">
 	<div class="container">
 		<div class="row justify-content-between">

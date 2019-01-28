@@ -29,7 +29,7 @@ description: Register for free for Agastya, the accessibility plugin for website
                         </div>
                         <div class="form-group">
                             <label for="pageviews">Estimated number of pageviews</label>
-                            <select aria-label="Select number of pageviews" class="custom-select agastya-pricing-prefill">
+                            <select name="pageviews" aria-label="Select number of pageviews" class="custom-select agastya-pricing-prefill">
                                 <option value="10k">Less than 10,000 pageviews per month</option>
                                 <option value="100k">100,000 pageviews per month</option>
                                 <option value="250k">250,000 pageviews per month</option>
