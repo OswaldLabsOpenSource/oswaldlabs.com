@@ -3,8 +3,9 @@
 		<div class="row justify-content-center">
 			<div class="col-md-7">
 				<h1>{{ .Title }}</h1>
+				{{ if .Params.Journal }}<div class="subheading intro-para ml-auto mr-auto">{{ .Params.Journal }}</div>{{ end }}
 				{{ if .Params.Subtitle }}<div class="subheading intro-para ml-auto mr-auto">{{ .Params.Subtitle }}</div>{{ end }}
-				<div class="mt-4">Published on <a href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006" }}</a>{{ if .Params.Author }} by {{ .Params.Author }}{{ end }}</div>
+				<div class="mt-4 ml-auto mr-auto" style="max-width: 400px">Published on <a href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006" }}</a>{{ if .Params.Author }} by {{ .Params.Author }}{{ end }}</div>
 			</div>
 		</div>
 	</div>
@@ -17,7 +18,7 @@
 					{{ .Content }}
 					{{ if .Params.Continue }}
 					<p>
-						<a class="btn btn-outline-primary btn-lg" href="{{ .Params.Continue }}">Continue reading{{ if .Params.Publication }} on {{ .Params.Publication }}{{ end }} &rarr;</a>
+						<a class="btn btn-outline-primary btn-lg" href="{{ .Params.Continue }}">{{ if eq .Params.Publication "pdf" }}Download the PDF{{ else }}Continue reading{{ if .Params.Publication }} on {{ .Params.Publication }}{{ end }}{{ end }} &rarr;</a>
 					</p>
 					{{ end }}
 				</div>
