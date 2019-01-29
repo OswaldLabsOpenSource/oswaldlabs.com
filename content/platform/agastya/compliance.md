@@ -1,7 +1,7 @@
 ---
 title: Compliance
 type: agastya
-description: Agastya, the accessibility plugin for websites by Oswald Labs, increases your compliance with WCAG 2.0, ATAG 2.0, ADA, and Section 508 requirements.
+description: Agastya, the accessibility plugin for websites by Oswald Labs, help you increase your compliance with WCAG 2.0, ATAG 2.0, ADA, and Section 508 requirements.
 ---
 
 <section class="hero pb-5">
@@ -9,7 +9,8 @@ description: Agastya, the accessibility plugin for websites by Oswald Labs, incr
 		<div class="row">
 			<div class="col-md-6">
 				<h1>Increase your compliance.</h1>
-				<p class="intro-para">There is no plug-and-play solution to being compliant with the various accessibility regulations around the world, but Agastya increases your compliance with these requirements.</p>
+				<p class="intro-para"><strong>There is no plug-and-play solution to being compliant with the various accessibility regulations around the world</strong>, but Agastya increases your compliance with these requirements by telling you what to fix.</p>
+				<p>Agastya's feature Dai11y adds daily automated accessibility audits for your website. A bot visits your website every day and runs an automated accessibility audit. This will not catch all accessibility issues, but will help you find important problems like missing alternate text.</p>
 			</div>
 		</div>
 	</div>
