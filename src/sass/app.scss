@@ -10,14 +10,12 @@ a {
 	cursor: pointer;
 }
 
-a:focus,
-[tabindex]:focus,
-area:focus,
-iframe input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-	box-shadow: 0 0 0 3px $color;
+:focus {
+	outline: 3px dashed $color;
+	transform: scale(1.01);
+	opacity: 1;
+}
+.js-focus-visible :focus:not(.focus-visible) {
 	outline: none;
 }
 
@@ -164,9 +162,6 @@ img {
 }
 ::selection {
 	background-color: #e9edf1;
-}
-:focus:not(:focus-visible) {
-	// outline: none;
 }
 .page-enter-active,
 .page-leave-active {
