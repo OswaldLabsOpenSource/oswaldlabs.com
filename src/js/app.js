@@ -94,35 +94,37 @@ ready(() => {
 			return url.toLowerCase().replace(/\//g, "");
 		};
 		// Show Hello Bar on home page
-		loadCss("https://unpkg.com/hello-bar@1.0.1/build/index.css", () => {
-			loadJS("https://unpkg.com/hello-bar@1.0.1/build/index.js", () => {
-				if (window.HelloBar && window.HelloBar.default && !document.querySelector(".hello-bar")) {
-					new window.HelloBar.default({
-						text: "What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
-						background: "#231463",
-						move: "header",
-						targeting: {
-							onceUser: true
-						}
-					});
-					// window.darkMessage = new window.HelloBar.default({
-					// 	text: "🌙 Good evening! Do you want to switch to our dark theme? <button class='cta lh-1' onclick='window.agastya.api(\"cssClass\", \"night\"); window.darkMessage.hideBar()'>Activate dark theme</button>",
-					// 	background: "#000",
-					// 	size: "large",
-					// 	fixed: true,
-					// 	position: "bottom",
-					// 	targeting: {
-					// 		once: true,
-					// 		time: {
-					// 			after: {
-					// 				hour: 20
-					// 			}
-					// 		}
-					// 	}
-					// });
-				}
+		if (false) {
+			loadCss("https://unpkg.com/hello-bar@1.0.1/build/index.css", () => {
+				loadJS("https://unpkg.com/hello-bar@1.0.1/build/index.js", () => {
+					if (window.HelloBar && window.HelloBar.default && !document.querySelector(".hello-bar")) {
+						new window.HelloBar.default({
+							text: "What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
+							background: "#231463",
+							move: "header",
+							targeting: {
+								onceUser: true
+							}
+						});
+						// window.darkMessage = new window.HelloBar.default({
+						// 	text: "🌙 Good evening! Do you want to switch to our dark theme? <button class='cta lh-1' onclick='window.agastya.api(\"cssClass\", \"night\"); window.darkMessage.hideBar()'>Activate dark theme</button>",
+						// 	background: "#000",
+						// 	size: "large",
+						// 	fixed: true,
+						// 	position: "bottom",
+						// 	targeting: {
+						// 		once: true,
+						// 		time: {
+						// 			after: {
+						// 				hour: 20
+						// 			}
+						// 		}
+						// 	}
+						// });
+					}
+				});
 			});
-		})
+		}
 		// Add Agastya tracking listener for external link
 		// then add/remove listener from links on barba
 		const links = document.querySelectorAll("a");
