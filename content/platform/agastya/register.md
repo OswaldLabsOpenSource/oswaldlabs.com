@@ -39,6 +39,7 @@ description: Register for free for Agastya, the accessibility plugin for website
                                 <option value="10m">More than 5 million per month</option>
                             </select>
                         </div>
+                        <input type="hidden" name="page" class="agastya-url-prefill">
                         <input type="hidden" name="currency" class="agastya-currency-prefill">
                         <input type="hidden" name="ip" class="ip-address-fill">
                         <input type="hidden" name="city" class="city-fill">

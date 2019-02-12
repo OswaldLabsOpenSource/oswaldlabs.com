@@ -1465,3 +1465,7 @@ i.fas, i.fab {
 
 @import "mobile";
 @import "dark";
+
+p:empty {
+	display: none;
+}

@@ -278,7 +278,7 @@ ready(() => {
 		}
 		const ipAddress = document.querySelector(".ip-address-fill");
 		if (ipAddress) {
-			fetch("https://ipinfo.io/json")
+			fetch("https://ipinfo.io/json?token=07089fada04d89")
 				.then(response => response.json())
 				.then(json => {
 					if (json.ip) ipAddress.value = json.ip;
@@ -303,6 +303,7 @@ ready(() => {
 		}
 		const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
 		const currencyPrefill = document.querySelector(".agastya-currency-prefill");
+		const urlPrefill = document.querySelector(".agastya-url-prefill");
 		if (pricingSelectPrefill) {
 			const urlParams = new URLSearchParams(window.location.search);
 			const planInfo = urlParams.get("pageviews");
@@ -316,6 +317,9 @@ ready(() => {
 			if (planInfo) {
 				currencyPrefill.value = planInfo;
 			}
+		}
+		if (urlPrefill) {
+			urlPrefill.value = location.href;
 		}
 		// gtag('config', 'UA-58910975-1', {
 		// 	'page_title': document.title,

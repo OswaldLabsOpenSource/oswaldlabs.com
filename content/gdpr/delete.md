@@ -23,6 +23,7 @@ description: You can use this GDPR Delete tool to delete all collected data that
                             <input name="ip" class="form-control ip-address-fill" id="ip" placeholder="Enter your IP address" required>
                         </div>
                         <input type="hidden" name="type" value="delete">
+                        <input type="hidden" name="page" class="agastya-url-prefill">
                         <p class="small">By submitting this form, you are agreeing with our <a href="/policies/">policies</a>.</p>
                         <button class="btn btn-primary btn-lg">Delete all my data &rarr;</button>
                     </form>
