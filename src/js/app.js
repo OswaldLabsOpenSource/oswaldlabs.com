@@ -49,8 +49,9 @@ const agastyaTrackLink = event => {
 	const eventElement = event.target || event.toElement || event.srcElement;
 	if (eventElement && window.agastya && typeof window.agastya.secureTrack === "function") {
 		window.agastya.secureTrack({
+			event: "external_link",
 			className: eventElement.className,
-			href: eventElement.href,
+			href: eventElement.getAttribute("href"),
 			innerText: eventElement.innerText
 		});
 	}
