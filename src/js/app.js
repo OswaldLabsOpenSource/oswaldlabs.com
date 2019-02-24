@@ -14,6 +14,26 @@ const loadJS = (src, cb, ordered) => {
 	return script;
 };
 
+const request = (url, data, callback) => {
+	const req = new XMLHttpRequest();
+	req.onreadystatechange = () => {
+		if (req.readyState == 4) {
+			if (req.status >= 200 && req.status < 300) {
+				typeof callback === "function" && callback(JSON.parse(req.responseText));
+			} else {
+				let error = false;
+				try {
+					error = JSON.parse(req.responseText).error;
+				} catch (e) {}
+				error && console.error("Agastya error", error);
+			}
+		}
+	};
+	req.open(data ? "POST" : "GET", url, true);
+	req.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+	req.send(data && JSON.stringify(data));
+};
+
 const loadCss = (src, callback) => {
 	if (loadedScripts.includes(src)) return;
 	loadedScripts.push(src);
@@ -27,10 +47,10 @@ const loadCss = (src, callback) => {
 		const state = link.readyState;
 		if (state === "loaded" || state === "complete") {
 			if (callback && typeof callback === "function") callback();
-		} 
+		}
 	};
 	(document.head || document.documentElement || document.body).appendChild(link);
-}
+};
 
 function ready(fn) {
 	if (document.readyState !== "loading") {
@@ -55,7 +75,7 @@ const agastyaTrackLink = event => {
 			innerText: eventElement.innerText
 		});
 	}
-}
+};
 
 window.a11ySettings = window.a11ySettings || {};
 window.a11ySettings.api = true;
@@ -70,9 +90,13 @@ ready(() => {
 	document.body.addEventListener("click", event => {
 		const dropdownElements = document.querySelectorAll("[data-toggle='dropdown']");
 		for (let i = 0; i < dropdownElements.length; i++) {
-			document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.remove("show");
+			document
+				.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
+				.classList.remove("show");
 			if (event.path.includes(dropdownElements[i])) {
-				document.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`).classList.add("show");
+				document
+					.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
+					.classList.add("show");
 				event.preventDefault();
 				return false;
 			}
@@ -88,7 +112,9 @@ ready(() => {
 				hasMoved = true;
 			}
 			document.body.className =
-				"page-" + container.querySelector(".page-meta .page-slug").innerHTML + (hasMoved ? " hello-bar--has-moved" : "");
+				"page-" +
+				container.querySelector(".page-meta .page-slug").innerHTML +
+				(hasMoved ? " hello-bar--has-moved" : "");
 		}
 		const simplify = url => {
 			if (!url || typeof url.toLowerCase === "undefined") return;
@@ -98,9 +124,14 @@ ready(() => {
 		if (false) {
 			loadCss("https://unpkg.com/hello-bar@1.0.1/build/index.css", () => {
 				loadJS("https://unpkg.com/hello-bar@1.0.1/build/index.js", () => {
-					if (window.HelloBar && window.HelloBar.default && !document.querySelector(".hello-bar")) {
+					if (
+						window.HelloBar &&
+						window.HelloBar.default &&
+						!document.querySelector(".hello-bar")
+					) {
 						new window.HelloBar.default({
-							text: "What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
+							text:
+								"What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
 							background: "#231463",
 							move: "header",
 							targeting: {
@@ -169,7 +200,9 @@ ready(() => {
 		setTimeout(() => {
 			const subNav = document.querySelector(".subnav-menu nav, .subnav nav");
 			if (subNav && !subNav.querySelector(".active") && subNav.querySelector(".subactive")) {
-				subNav.querySelectorAll(".subactive")[subNav.querySelectorAll(".subactive").length - 1].classList.add("active");
+				subNav
+					.querySelectorAll(".subactive")
+					[subNav.querySelectorAll(".subactive").length - 1].classList.add("active");
 			}
 		}, 1);
 		const pricingSelector = document.querySelector(".agastya-pricing-selector");
@@ -210,16 +243,23 @@ ready(() => {
 			if (amountSelector) {
 				if (pricingValues[selectedCurrency][pricingSelector.value] === "custom") {
 					document.querySelector(".agastya-no-custom").style.display = "none";
-					document.querySelector(".agastya-has-custom").style.display =
-						"inline-block";
+					document.querySelector(".agastya-has-custom").style.display = "inline-block";
 				} else {
 					document.querySelector(".agastya-no-custom").style.display = "inline-block";
 					document.querySelector(".agastya-has-custom").style.display = "none";
-					amountSelector.innerHTML = pricingValues[selectedCurrency][pricingSelector.value].toLocaleString();
+					amountSelector.innerHTML = pricingValues[selectedCurrency][
+						pricingSelector.value
+					].toLocaleString();
 				}
 			}
 			if (btnRequest) {
-				btnRequest.setAttribute("href", "/platform/agastya/register/?pageviews=" + pricingSelector.value + "&currency=" + selectedCurrency);
+				btnRequest.setAttribute(
+					"href",
+					"/platform/agastya/register/?pageviews=" +
+						pricingSelector.value +
+						"&currency=" +
+						selectedCurrency
+				);
 			}
 		};
 		let selectedCurrency = "eur";
@@ -241,11 +281,14 @@ ready(() => {
 		}
 		const microLinks = document.querySelectorAll(".microlink");
 		if (microLinks && microLinks.length) {
-			loadJS("https://cdn.jsdelivr.net/npm/@microlink/vanilla@latest/umd/microlink.min.js", () => {
-				microlink(".microlink", {
-					video: true
-				});
-			});
+			loadJS(
+				"https://cdn.jsdelivr.net/npm/@microlink/vanilla@latest/umd/microlink.min.js",
+				() => {
+					microlink(".microlink", {
+						video: true
+					});
+				}
+			);
 		}
 		const contributeAmount = document.querySelector(".contribute-amount");
 		const contributeForm = document.querySelector(".contribute-form");
@@ -288,7 +331,7 @@ ready(() => {
 							document.querySelector(`.${value}-fill`).value = json[value];
 						}
 					});
-				})
+				});
 		}
 		const globalParams = new URLSearchParams(window.location.search);
 		for (let param of globalParams.keys()) {
@@ -322,6 +365,40 @@ ready(() => {
 		if (urlPrefill) {
 			urlPrefill.value = location.href;
 		}
+		const prefillDataEvents = document.querySelectorAll(".prefill-data-events");
+		const prefillDataEventsMin = document.querySelectorAll(".prefill-data-events-min");
+		if (prefillDataEvents.length) {
+			request("https://developer.oswaldlabs.com/data", undefined, data => {
+				if (typeof data === "object" && !!data.eventsThisMonth) {
+					data.eventsThisMonth = parseInt(data.eventsThisMonth || 0);
+					let perMinute = 0;
+					const now = new Date();
+					const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
+					perMinute =
+						data.eventsThisMonth / ((now.getTime() - firstDay.getTime()) / 60000);
+					for (let i = 0; i < prefillDataEvents.length; i++)
+						prefillDataEvents[i].innerHTML =
+							data.eventsThisMonth.toLocaleString().toString() + "+";
+					for (let i = 0; i < prefillDataEventsMin.length; i++)
+						prefillDataEventsMin[i].innerHTML = Math.ceil(perMinute)
+							.toLocaleString()
+							.toString();
+					if (!window.countInterval)
+						window.countInterval = setInterval(() => {
+							let prefillDataEventsNew = document.querySelectorAll(
+								".prefill-data-events"
+							);
+							const newNumber = Math.ceil(
+								data.eventsThisMonth +
+									((new Date().getTime() - now.getTime()) / 60000) * perMinute
+							);
+							for (let i = 0; i < prefillDataEventsNew.length; i++)
+								prefillDataEventsNew[i].innerHTML =
+									newNumber.toLocaleString().toString() + "+";
+						}, 1000);
+				}
+			});
+		}
 		// gtag('config', 'UA-58910975-1', {
 		// 	'page_title': document.title,
 		// 	'page_path': location.pathname
@@ -332,7 +409,9 @@ ready(() => {
 	if (Barba) {
 		const FadeTransition = Barba.BaseTransition.extend({
 			start: function() {
-				Promise.all([this.newContainerLoading, this.fadeOut()]).then(this.fadeIn.bind(this));
+				Promise.all([this.newContainerLoading, this.fadeOut()]).then(
+					this.fadeIn.bind(this)
+				);
 			},
 			fadeOut: function() {
 				document.body.classList.add("fade-out");
