@@ -9,9 +9,16 @@
                 {{ if .Params.Description }}
                 <p class="intro-para">{{ .Params.Description }}</p>
                 {{ end }}
+                {{ if or (.Params.app_store) (.Params.play_store) }}
+                <div>
+                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="btn btn-danger mr-2"><i class="fab fa-apple mr-2"></i>App Store &rarr;</a>{{ end }}
+                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="btn btn-danger"><i class="fab fa-google-play mr-2"></i>Google Play &rarr;</a>{{ end }}
+                </div>
+                {{ else }}
                 <div>
                     <a href="{{ .Params.Link }}" class="btn btn-danger">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>
                 </div>
+                {{ end }}
             </div>
             <div>
                 <div class="smartphone-mockup smartphone-mockup-3d hero-image">
@@ -71,7 +78,7 @@
         </div>
     </div>
 </section>
-{{ if .Params.Link }}
+{{ if or (.Params.app_store) (.Params.play_store) (.Params.link) }}
 <section class="bg-light-1 text-md-center">
     <div class="container">
         <div class="row justify-content-center">
@@ -79,7 +86,9 @@
                 <h2>Free as in freedom&mdash;download now.</h2>
                 <p class="mt-4 mb-4">{{ .Title }} is part of Oswald Labs&rsquo; Shravan platform, and is 100% free for all users. We don't collect background data or sell your personal data, so its truly free and invasion-free.</p>
                 <div>
-                    <a href="{{ .Params.Link }}" class="btn btn-danger btn-lg">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>
+                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="btn btn-danger btn-lg"><i class="fab fa-apple mr-2"></i>App Store &rarr;</a>{{ end }}
+                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="btn btn-danger btn-lg"><i class="fab fa-google-play mr-2"></i>Google Play &rarr;</a>{{ end }}
+                    {{ if .Params.link }}<a href="{{ .Params.Link }}" class="btn btn-danger btn-lg">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>{{ end }}
                 </div>
             </div>
         </div>

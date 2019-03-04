@@ -14,6 +14,8 @@ const loadJS = (src, cb, ordered) => {
 	return script;
 };
 
+const HELLO_BAR_SHOW = true;
+
 const request = (url, data, callback) => {
 	const req = new XMLHttpRequest();
 	req.onreadystatechange = () => {
@@ -121,7 +123,7 @@ ready(() => {
 			return url.toLowerCase().replace(/\//g, "");
 		};
 		// Show Hello Bar on home page
-		if (false) {
+		if (HELLO_BAR_SHOW) {
 			loadCss("https://unpkg.com/hello-bar@1.0.1/build/index.css", () => {
 				loadJS("https://unpkg.com/hello-bar@1.0.1/build/index.js", () => {
 					if (
@@ -131,8 +133,8 @@ ready(() => {
 					) {
 						new window.HelloBar.default({
 							text:
-								"What do you think of our new website? <a href='/contact/?department=Feedback'>Give us feedback</a>.",
-							background: "#231463",
+								"Beta available now: Augmented reality reading app for people with dyslexia. <a href='/platform/shravan/apps/augmenta11y/?utm_source=hellobar&utm_terms=augmenta11y'>Download Augmenta11y &rarr;</a>",
+							background: "#dc3545",
 							move: "header",
 							targeting: {
 								onceUser: true
