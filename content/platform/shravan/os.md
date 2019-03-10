@@ -55,14 +55,14 @@ description: Shravan OS by Oswald Labs is a concept operating system for phones 
 				<h2>Powered by Android&reg;</h2>
 				<p class="intro-para">Shravan OS is an Android ROM, which means it comes with the security, reliability, and compatibility of the world's most popular OS, Android. All Android apps work out-of-the-box.</p>
 				<div>
-					<button class="btn btn-danger">Technical introduction &rarr;</button>
+					<a href="https://static.oswaldlabs.com/shravan-os-layers.png" class="btn btn-danger">Technical introduction &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md pl-md-5 mt-5 mt-md-0">
 				<h2>Built on Oswald Labs Platform</h2>
 				<p class="intro-para">Shravan OS is built on Oswald Labs Platform, an extensive suite of products, open-source projects, and developer APIs and SDKs to build tools to empower the next billion users.</p>
 				<div>
-					<button class="btn btn-danger">Start building &rarr;</button>
+					<a href="/platform/" class="btn btn-danger">Visit Oswald Labs Platform &rarr;</a>
 				</div>
 			</div>
 		</div>
