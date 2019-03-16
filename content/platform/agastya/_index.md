@@ -11,7 +11,7 @@ description: Agastya makes your websites inclusive and accessible with just one 
 				<h1>Web accessibility made simple.</h1>
 				<p class="intro-para">By adding just one line of JavaScript code, you can make your website accessible to a much wider audience. You can customize the widget, view usage analytics, install apps, and more.</p>
 				<div>
-					<a onclick="window.agastya.frame.open()" class="btn btn-warning mr-2">See a demo &rarr;</a>
+					<a onclick="window.agastya.toggle()" class="btn btn-warning mr-2">See a demo &rarr;</a>
 					<a href="/platform/agastya/pricing/" class="btn btn-outline-warning">Get started for free &rarr;</a>
 				</div>
 			</div>
