@@ -6,6 +6,9 @@
                     <img class="h1-image" alt="{{ .Title }} logo" src="/images/icons/{{ .File.TranslationBaseName }}.png">
                     <span>{{ .Title }}</span>
                 </h1>
+                {{ if .Params.Subtitle }}
+                    <div class="h4 mt-0 font-weight-normal">{{ .Params.Subtitle }}</div>
+                {{ end }}
                 {{ if .Params.Description }}
                 <p class="intro-para">{{ .Params.Description }}</p>
                 {{ end }}

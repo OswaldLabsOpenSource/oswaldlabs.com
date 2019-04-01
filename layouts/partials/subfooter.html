@@ -20,7 +20,7 @@
 			"ratingValue": "5",
 			"bestRating": "5",
 			"worstRating": "1",
-			"ratingCount": "249",
+			"ratingCount": "{{ partial "data/reviews-agastya.html" . }}",
 			"reviewCount": "2"
 		},
 		"reviews": [{
@@ -150,6 +150,33 @@
 </section>
 {{ end }}
 {{ if eq .Type "shravan" }}
+{{ if eq .Title "Augmenta11y" }}
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/", 
+		"@type": "Product", 
+		"name": "Augmenta11y",
+		"image": "https://oswaldlabs.com/images/screenshots/augmenta11y.png",
+		"description": "Augmenta11y is an Augmented Reality (AR) app that helps people with learning disabilities like dyslexia easily read signage, paper, and other material in the real world.",
+		"brand": "Oswald Labs",
+		"offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR",
+			"price": "0",
+			"priceValidUntil": "2020-12-31",
+			"availability": "http://schema.org/InStock",
+			"itemCondition": "http://schema.org/NewCondition"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.9",
+			"bestRating": "5",
+			"worstRating": "1",
+			"ratingCount": "{{ partial "data/reviews-augmenta11y.html" . }}"
+		}
+	}
+</script>
+{{ end }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>

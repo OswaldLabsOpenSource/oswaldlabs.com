@@ -1,5 +1,6 @@
 ---
 title: Augmenta11y
+subtitle: Dyslexia-friendly reading app
 type: shravan
 subtype: shravan_apps
 description: Augmenta11y is an Augmented Reality (AR) app that helps people with learning disabilities like dyslexia easily read signage, paper, and other material in the real world.

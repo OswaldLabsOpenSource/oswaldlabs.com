@@ -31,8 +31,16 @@
         {{ else if eq .Params.Subtype "shravan_apps" }}
             {{ if in .Title "Shravan"}}
                 {{ .Scratch.Set "setTitle" .Title }}
+                {{ if .Params.Subtitle }}
+                    {{ .Scratch.Add "setTitle" " · " }}
+                    {{ .Scratch.Add "setTitle" .Params.Subtitle }}
+                {{ end }}
             {{ else }}
                 {{ .Scratch.Add "setTitle" .Title }}
+                {{ if .Params.Subtitle }}
+                    {{ .Scratch.Add "setTitle" " · " }}
+                    {{ .Scratch.Add "setTitle" .Params.Subtitle }}
+                {{ end }}
                 {{ .Scratch.Add "setTitle" " · Shravan Apps by Oswald Labs" }}
             {{ end }}
         {{ else if eq .Params.Subtype "events" }}
