@@ -151,7 +151,7 @@ ready(() => {
 			document
 				.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
 				.classList.remove("show");
-			if (event.path.includes(dropdownElements[i])) {
+			if (event.composedPath().includes(dropdownElements[i])) {
 				document
 					.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
 					.classList.add("show");
