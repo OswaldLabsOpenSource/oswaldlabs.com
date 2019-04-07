@@ -13,9 +13,6 @@ We don't collect any personal data from our applications for children.
 
 We don't require you to provide any information when using these applications.
 
-We only store anonymous logs for analytical purposes. This information is collected or maintained by our Data Protection Officer, who can be contacted on the following webpage: https://oswaldlabs.com/contact/?department=Data+Protection+Officer.
-
-
 ## Who We Disclose Information to
 
 This information is never publicly available.
