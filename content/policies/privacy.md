@@ -64,13 +64,9 @@ Mobile and desktop apps developed by Oswald Labs (such as Augmenta11y and Visib1
 
 ## Children
 
-This section of our Privacy Policy applies to children under the age of 13.
+We have a specific Privacy Policy for users under the age of 13.
 
-We don't collect any personal data from our applications for children. We don't require you to provide any information when using these applications. We only store anonymous logs for analytical purposes. This information is collected or maintained by our Data Protection Officer, who can be contacted on the following webpage: https://oswaldlabs.com/contact/?department=Data+Protection+Officer.
-
-This information is never publicly available. This information is also not disclosed or shared with any third-parties. Parents can review and delete any collected information by visiting the webpage available at https://oswaldlabs.com/gdpr/ from the device. Parents may also enable "Do Not Track" to prevent any further data collection. The procedure for enabling Do Not Track is available at https://help.oswaldlabs.com/usage-guidelines/do-not-track.html.
-
-Enquiries from parents may be directed to our parents@oswalldabs.com or sent through our contact page available at https://oswaldlabs.com/contact/.
+Please visit https://oswaldlabs.com/policies/privacy-children/.
 
 ## Updates
 
