@@ -1,6 +1,6 @@
 # Oswald Labs Website
 
-![Netlify status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fdeveloper.oswaldlabs.com%2Fnetlify-status%2F57369451-c166-4c9e-87e2-f51b86d4424e)
+![Netlify status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fplatform.oswaldlabs.com%2Fnetlify-status%2F57369451-c166-4c9e-87e2-f51b86d4424e)
 
 This is the repo for Oswald Labs' official website. It's built on Hugo as opposed to the previous version in Middleman.
 

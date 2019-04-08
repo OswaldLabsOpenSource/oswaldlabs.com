@@ -425,7 +425,7 @@ ready(() => {
 		const prefillDataEvents = document.querySelectorAll(".prefill-data-events");
 		const prefillDataEventsMin = document.querySelectorAll(".prefill-data-events-min");
 		if (prefillDataEvents.length) {
-			request("https://developer.oswaldlabs.com/data", undefined, data => {
+			request("https://platform.oswaldlabs.com/data", undefined, data => {
 				if (typeof data === "object" && !!data.eventsThisMonth) {
 					data.eventsThisMonth = parseInt(data.eventsThisMonth || 0);
 					let perMinute = 0;
