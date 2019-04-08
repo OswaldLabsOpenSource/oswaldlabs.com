@@ -59,6 +59,12 @@ description: Oswald Labs is an innovative, young company of 10+ motivated indivi
 				<div class="subtitle">Research Fellow</div>
 				<p>Engineering student from Mumbai, dabbling in front end technologies</p>
 			</a>
+			<a href="/team/mitali/" class="col-md-3 mb-5">
+				<img alt="Photo of Mitali Raju" src="/images/team/mitali.png" class="rounded-circle">
+				<h3>Mitali Raju</h3>
+				<div class="subtitle">Research Fellow</div>
+				<p>Engineering student enthusiastic about social entrepreneurship</p>
+			</a>
 			<a href="/team/schezeen/" class="col-md-3 mb-5">
 				<img alt="Photo of Schezeen Fazulbhoy" src="/images/team/schezeen.png" class="rounded-circle">
 				<h3>Schezeen Fazulbhoy</h3>
