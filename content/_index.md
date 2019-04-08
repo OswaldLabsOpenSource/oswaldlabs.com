@@ -32,22 +32,22 @@ type: home
 		<div class="row mt-md-5 mb-md-5">
 			<div class="col-md-6">
 				<h2 class="subheading-3">
-					<span class="small text-body">Introducing the new</span>
-					<span class="mt-2 d-block">Shravan Apps</span>
+					<span class="small text-body">Introducing the app</span>
+					<span class="mt-2 d-block">Augmenta11y</span>
 				</h2>
 				<p>
 					<i class="fas fa-quote-left fa-2x fa-pull-left mr-3 text-muted"></i>
-					<span>We’re very excited to launch five new apps for smartphones running Android or iOS. Visib11y, Live Subtitles, Augmenta11y, Reader, and Wikibility are apps that help people with disabilities get through their day with ease. Users with visual impairment or blindness, learning disorders or dyslexia, hearing impairment or deafness, etc., can easily use these new apps.</span>
+					<span>We’re very excited to launch Augmenta11y, an app for Android and iOS devices, to help children with dyslexia learn easier. Augmenta11y features our exclusive dyslexia-friendly mode and uses Augmented Reality to help students with learning disabilities like dyslexia easily read textbooks, paper, and other material in the real world.</span>
 				</p>
 				<div class="mt-4 mb-3">
-					<a href="/team/anand/" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="/images/team/anand.png" class="rounded-circle avatar-small">
+					<a href="/team/anand/?utm_source=homepage&utm_terms=hero" class="text-body d-inline-flex align-items-center"> <img alt="Anand Chowdhary's picture" src="/images/team/anand.png" class="rounded-circle avatar-small">
 						<div>
 							<div>Anand Chowdhary</div>
 							<div class="small">Co-founder &amp; CEO</div>
 						</div>
 					</a>
 				</div>
-				<a class="btn text-primary btn-left" href="/platform/shravan/apps/">Sign up for the beta →</a>
+				<a class="btn text-primary btn-left" href="/platform/shravan/apps/augmenta11y/?utm_source=homepage&utm_terms=hero">Download the free app →</a>
 			</div>
 		</div>
 	</div>

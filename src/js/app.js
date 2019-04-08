@@ -180,16 +180,17 @@ ready(() => {
 		};
 		// Show Hello Bar on home page
 		if (HELLO_BAR_SHOW) {
-			loadCss("https://unpkg.com/hello-bar@1.0.1/build/index.css", () => {
-				loadJS("https://unpkg.com/hello-bar@1.0.1/build/index.js", () => {
+			loadCss("https://unpkg.com/hello-bar@1.3.0/build/index.css", () => {
+				loadJS("https://unpkg.com/hello-bar@1.3.0/build/index.js", () => {
 					if (
 						window.HelloBar &&
 						window.HelloBar.default &&
 						!document.querySelector(".hello-bar")
 					) {
 						new window.HelloBar.default({
+							id: "augmenta11y-2",
 							text:
-								"Beta available now: Augmented reality reading app for people with dyslexia. <a href='/platform/shravan/apps/augmenta11y/?utm_source=hellobar&utm_terms=augmenta11y'>Download Augmenta11y &rarr;</a>",
+								"<strong>Just launched:</strong> Augmented reality reading app for children with dyslexia. <a href='/platform/shravan/apps/augmenta11y/?utm_source=hellobar&utm_terms=augmenta11y-2'>Download Augmenta11y &rarr;</a>",
 							background: "#dc3545",
 							move: "header",
 							targeting: {
