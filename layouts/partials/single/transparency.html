@@ -1,0 +1,48 @@
+<section class="hero pb-5 text-md-center">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<h1>{{ .Title }}</h1>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+                <div class="row mb-4 mt-4">
+                    <div class="col-md">
+                        <h3 class="h5 mb-2">Where</h3>
+                        <p>{{ .Params.transparency_where }}</p>
+                    </div>
+                    <div class="col-md">
+						<h3 class="h5 mb-2">When</h3>
+						<p>Fixed as of {{ .Date.Format "January 2, 2006" }}</p>
+                    </div>
+                </div>
+                <h3 class="h5 mb-2">What</h3>
+				<div class="content">
+					{{ .Content }}
+				</div>
+				<h3 class="h5 mb-3">Who</h3>
+				<div>
+					<a href="/team/{{ .Params.transparency_who }}" class="card card-body team-card">
+						<div class="d-flex align-items-center">
+						{{ with .Site.GetPage (printf "/team/%s.md" .Params.transparency_who) }}
+							<div class="team-image">
+								<img alt="Photo of {{ .Title }}" src="{{ .Params.image }}">
+							</div>
+							<div>
+								<div class="team-name"><strong>{{ .Title }}</strong></div>
+								<div class="team-position">{{ .Params.Position }}</div>
+							</div>
+						{{ end }}
+						</div>
+					</a>
+				</div>
+				{{ partial "sharer.html" . }}
+			</div>
+		</div>
+	</div>
+</section>

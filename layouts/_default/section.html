@@ -7,7 +7,9 @@
 {{ if eq .Section "policies" }}
     {{ partial "section/policies.html" . }}
 {{ end }}
-{{ if eq .Section "values" }}
+{{ if eq .Type "transparency" }}
+{{ partial "section/transparency.html" . }}
+{{ else if eq .Section "values" }}
 {{ partial "section/values.html" . }}
 {{ end }}
 {{ if eq .URL "/press/logos/" }}

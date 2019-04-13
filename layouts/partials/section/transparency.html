@@ -1,0 +1,36 @@
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                {{ range .Paginator.Pages }}
+                    <article>
+                        <h2>
+                            <a class="list-heading" href="{{ .Permalink }}">
+                                {{ if eq .Params.transparency_type "change" }}
+                                    <span class="badge badge-info">Change</span>
+                                {{ else if eq .Params.transparency_type "bug_fix" }}
+                                    <span class="badge badge-danger">Bug fix</span>
+                                {{ end }}
+                                <span>{{ .Title }}</span>
+                            </a>
+                        </h2>
+                        <div class="row mb-4 mt-4">
+                            <div class="col-md">
+                                <h3 class="h5 mb-2">Where</h3>
+                                <p>{{ .Params.transparency_where }}</p>
+                            </div>
+                            <div class="col-md">
+                                <h3 class="h5 mb-2">When</h3>
+                                <p>Fixed as of&nbsp;<time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+                            </div>
+                        </div>
+                        <h3 class="h5 mb-2">What</h3>
+                        <p>{{ .Summary }}</p>
+                        <p><a href="{{ .Permalink }}">More details &rarr;</a></p>
+                    </article>
+                {{ end }}
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </div>
+    </div>
+</section>

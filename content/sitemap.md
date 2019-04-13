@@ -89,6 +89,7 @@ description: Oswald Labs is an award-winning accessibility technology company th
                     <a href="/values/education/">Education</a>
                     <a href="/values/justice/">Justice</a>
                     <a href="/values/environment/">Environment</a>
+                    <a href="/values/transparency/">Transparency</a>
                 </nav>
             </div>
 			<div class="col-md-3 mt-5">

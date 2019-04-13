@@ -1,0 +1,9 @@
+<blockquote>
+    <p>{{ .Get "text" }}</p>
+    <footer>
+        <cite>— {{ .Get "author" }}</cite>
+        {{ if .Get "link" }}
+        <a href="{{ .Get "link" }}">(link)</a>
+        {{ end }}
+    </footer>
+</blockquote>
