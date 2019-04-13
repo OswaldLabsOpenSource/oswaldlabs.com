@@ -20,6 +20,6 @@ section_content_3: This tool keeps track of previously detected text for future 
 
 Augmenta11y is a one-stop platform that aims at making life easier on a regular basis, simplifying the process of interacting with objects and text-based data (such as billboards, street signs, hard copy documents, online data) that one may encounter with through the course of their day.
 
-It helps the dyslexic absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Augmenta11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.
+It helps those with dyslexia absorb and interact with reading material with comfort. It provides a vast array of customisable options, rendering the text to be completely user-customisable based on their preferences. Augmenta11y serves as the ultimate assistant while dealing with the effects of a condition such as dyslexia.
                 
-It aims at helping the cognitively disabled be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Augmenta11y work its magic.
+It aims at helping them be more independent, by ensuring ease of accessibility and usability. The application is fairly intuitive to use, simply point your device at the object at hand and let Augmenta11y work its magic.
