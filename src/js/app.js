@@ -138,6 +138,13 @@ function ready(fn) {
 window.a11ySettings = window.a11ySettings || {};
 window.a11ySettings.api = true;
 
+const getComposedPath = event => {
+	if (typeof event.getComposedPath === "function")
+		return event.composedPath();
+	if (event.path) return event.path;
+	return [];
+};
+
 ready(() => {
 	const navbarToggler = document.querySelector(".navbar-toggler");
 	if (navbarToggler) {
@@ -151,7 +158,7 @@ ready(() => {
 			document
 				.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
 				.classList.remove("show");
-			if (event.composedPath().includes(dropdownElements[i])) {
+			if (getComposedPath(event).includes(dropdownElements[i])) {
 				document
 					.querySelector(`[aria-labelledby="${dropdownElements[i].getAttribute("id")}"]`)
 					.classList.add("show");
