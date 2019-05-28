@@ -19,9 +19,9 @@
         <div class="row">
             <div class="col-md-6">
                 {{ .Content }}
-                <div>
+                {{ if .Params.Link }}<div>
                     <a href="{{ .Params.Link }}" class="btn btn-primary btn-lg mt-3">Read the {{ .Title }} article &rarr;</a>
-                </div>
+                </div>{{ end }}
             </div>
         </div>
     </div>

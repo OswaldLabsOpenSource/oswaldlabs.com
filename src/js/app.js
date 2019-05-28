@@ -238,7 +238,7 @@ ready(() => {
 			) {
 				link.classList.add("subactive");
 			}
-			if (location.hostname !== link.hostname && !link.querySelectorAll("img").length) {
+			if (location.hostname !== link.hostname && !link.querySelectorAll("img:not(.ignore-image)").length) {
 				link.setAttribute("target", "_blank");
 				link.setAttribute("rel", "noopener noreferrer");
 				if (!link.getAttribute("href")) return;
