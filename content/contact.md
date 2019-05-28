@@ -78,7 +78,7 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                         </div>
                         <div class="form-group">
                             <label for="department">Department</label>
-                            <select class="custom-select department-select">
+                            <select name="department" class="custom-select department-select">
                                 <option>Support</option>
                                 <option>Sales</option>
                                 <option>Accelerator</option>
@@ -91,9 +91,9 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea rows="5" class="form-control" id="email" placeholder="Enter your work email" required></textarea>
+                            <textarea name="message" rows="5" class="form-control" id="email" placeholder="Enter your work email" required></textarea>
                         </div>
-                        <input type="hidden" name="page" class="agastya-url-prefill">
+                        <input type="hidden" name="page" class="agastya-url-prefill" data-agastya-prefill-url>
                         <button class="btn btn-primary btn-lg">Get in touch &rarr;</button>
                     </form>
                 </div>
