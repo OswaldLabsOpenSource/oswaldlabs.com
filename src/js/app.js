@@ -397,35 +397,37 @@ ready(() => {
 					});
 				});
 		}
-		const globalParams = new URLSearchParams(window.location.search);
-		for (let param of globalParams.keys()) {
-			document.body.classList.add(`has-param-${param}`);
-		}
-		const departmentSelect = document.querySelector(".department-select");
-		if (departmentSelect) {
-			const urlParams = new URLSearchParams(window.location.search);
-			const departmentInfo = urlParams.get("department");
-			if (departmentInfo) {
-				departmentSelect.value = departmentInfo;
+		if ("URLSearchParams" in window) {
+			const globalParams = new URLSearchParams(window.location.search);
+			for (let param of globalParams.keys()) {
+				document.body.classList.add(`has-param-${param}`);
+			}
+			const departmentSelect = document.querySelector(".department-select");
+			if (departmentSelect) {
+				const urlParams = new URLSearchParams(window.location.search);
+				const departmentInfo = urlParams.get("department");
+				if (departmentInfo) {
+					departmentSelect.value = departmentInfo;
+				}
+			}
+			const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
+			const currencyPrefill = document.querySelector(".agastya-currency-prefill");
+			if (pricingSelectPrefill) {
+				const urlParams = new URLSearchParams(window.location.search);
+				const planInfo = urlParams.get("pageviews");
+				if (planInfo) {
+					pricingSelectPrefill.value = planInfo;
+				}
+			}
+			if (currencyPrefill) {
+				const urlParams = new URLSearchParams(window.location.search);
+				const planInfo = urlParams.get("currency");
+				if (planInfo) {
+					currencyPrefill.value = planInfo;
+				}
 			}
 		}
-		const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
-		const currencyPrefill = document.querySelector(".agastya-currency-prefill");
 		const urlPrefill = document.querySelector(".agastya-url-prefill");
-		if (pricingSelectPrefill) {
-			const urlParams = new URLSearchParams(window.location.search);
-			const planInfo = urlParams.get("pageviews");
-			if (planInfo) {
-				pricingSelectPrefill.value = planInfo;
-			}
-		}
-		if (currencyPrefill) {
-			const urlParams = new URLSearchParams(window.location.search);
-			const planInfo = urlParams.get("currency");
-			if (planInfo) {
-				currencyPrefill.value = planInfo;
-			}
-		}
 		if (urlPrefill) {
 			urlPrefill.value = location.href;
 		}
