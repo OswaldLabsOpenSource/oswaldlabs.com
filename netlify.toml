@@ -26,6 +26,10 @@
   to = "/platform/shravan/os/"
 
 [[redirects]]
+  from = "/augmenta11y"
+  to = "/platform/shravan/apps/augmenta11y/"
+
+[[redirects]]
   from = "/agastya/*"
   to = "/platform/agastya/:splat/"
 
