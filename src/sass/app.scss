@@ -850,6 +850,20 @@ blockquote {
 	filter: grayscale(0);
 	opacity: 1;
 }
+.press-item-alt {
+	color: inherit;
+	&:hover {
+		text-decoration: none;
+	}
+	span {
+		display: inline-block;
+		margin-left: 0.5rem;
+	}
+	img {
+		height: 4rem;
+		border-radius: 100%;
+	}
+}
 
 .navigation {
 	padding-top: 4rem;

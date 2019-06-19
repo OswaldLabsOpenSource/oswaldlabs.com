@@ -14,8 +14,8 @@
                 {{ end }}
                 {{ if or (.Params.app_store) (.Params.play_store) }}
                 <div>
-                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="btn btn-danger mr-2"><i class="fab fa-apple mr-2"></i>App Store &rarr;</a>{{ end }}
-                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="btn btn-danger"><i class="fab fa-google-play mr-2"></i>Google Play &rarr;</a>{{ end }}
+                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="btn btn-lg btn-danger mr-2"><i class="fab fa-apple mr-2"></i>For iPhone &amp; iPad &rarr;</a>{{ end }}
+                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="btn btn-lg btn-danger"><i class="fab fa-android mr-2"></i>For Android &rarr;</a>{{ end }}
                 </div>
                 {{ else }}
                 <div>
@@ -39,6 +39,31 @@
             </div>
         </div>
     </div>
+</section>
+<section class="press-section horizontal-scroll-parent pt-4 pb-4">
+	<p class="text-center font-italic mb-4">As featured in</p>
+	<div class="container d-flex align-items-center justify-content-between horizontal-scroll">
+		<a target="_blank" href="https://yourstory.com/socialstory/2019/05/dyslexia-children-elearning-app-augmenta11y?ref=oswaldlabs.com&utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com" class="press-item press-item-alt">
+            <img alt="YourStory logo" src="/images/logos/yourstory.png">
+            <span>YourStory</span>
+		</a>
+		<a target="_blank" href="https://newzhook.com/story/22327?ref=oswaldlabs.com&utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com" class="press-item press-item-alt">
+            <img alt="Newz Hook logo" src="/images/logos/newz-hook.png">
+            <span>Newz Hook</span>
+		</a>
+		<a target="_blank" href="https://overcast.fm/+J3m-VFVNg?ref=oswaldlabs.com&utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com" class="press-item press-item-alt">
+            <img alt="Gibby Booth logo" src="/images/logos/gibby-booth.png">
+            <span>Dyslexia Is Our Superpower</span>
+		</a>
+		<a target="_blank" href="http://atupdate.libsyn.com/atu414-flashback-to-days-past" class="press-item press-item-alt">
+            <img alt="INDATAProject logo" src="/images/logos/indata-project.png">
+            <span>INDATA</span>
+		</a>
+		<a target="_blank" href="https://www.edexlive.com/people/2019/may/30/this-app-developed-by-20-year-old-mumbai-students-makes-use-of-ar-to-help-dyslexic-children-read-bet-6352.html" class="press-item press-item-alt">
+            <img alt="The Indian Express logo" src="/images/logos/indian-express.png">
+            <span>The Indian Express</span>
+		</a>
+	</div>
 </section>
 <section class="bg-light-1">
     <div class="container">
