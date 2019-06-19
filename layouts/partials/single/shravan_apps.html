@@ -14,8 +14,8 @@
                 {{ end }}
                 {{ if or (.Params.app_store) (.Params.play_store) }}
                 <div>
-                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="btn btn-lg btn-danger mr-2"><i class="fab fa-apple mr-2"></i>For iPhone &amp; iPad &rarr;</a>{{ end }}
-                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="btn btn-lg btn-danger"><i class="fab fa-android mr-2"></i>For Android &rarr;</a>{{ end }}
+                    {{ if .Params.app_store }}<a href="{{ .Params.app_store }}" class="d-block d-md-inline-block btn btn-danger btn-lg mb-3 mr-md-2 mb-md-0"><i class="fab fa-apple mr-2"></i>For iPhone &amp; iPad &rarr;</a>{{ end }}
+                    {{ if .Params.play_store }}<a href="{{ .Params.play_store }}" class="d-block d-md-inline-block btn btn-danger btn-lg mb-3 mr-md-2 mb-md-0"><i class="fab fa-android mr-2"></i>For Android &rarr;</a>{{ end }}
                 </div>
                 {{ else }}
                 <div>
@@ -40,8 +40,8 @@
         </div>
     </div>
 </section>
+<p class="text-center font-italic">As featured in</p>
 <section class="press-section horizontal-scroll-parent pt-4 pb-4">
-	<p class="text-center font-italic mb-4">As featured in</p>
 	<div class="container d-flex align-items-center justify-content-between horizontal-scroll">
 		<a target="_blank" href="https://yourstory.com/socialstory/2019/05/dyslexia-children-elearning-app-augmenta11y?ref=oswaldlabs.com&utm_source=oswald_labs&utm_medium=website&utm_campaign=external_link&utm_content=oswaldlabs.com" class="press-item press-item-alt">
             <img alt="YourStory logo" src="/images/logos/yourstory.png">
