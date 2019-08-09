@@ -83,7 +83,7 @@ if (!Array.prototype.includes) {
 	});
   }
 
-const HELLO_BAR_SHOW = true;
+const HELLO_BAR_SHOW = false;
 
 const request = (url, data, callback) => {
 	const req = new XMLHttpRequest();
