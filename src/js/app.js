@@ -434,7 +434,7 @@ ready(() => {
 		const prefillDataEvents = document.querySelectorAll(".prefill-data-events");
 		const prefillDataEventsMin = document.querySelectorAll(".prefill-data-events-min");
 		if (prefillDataEvents.length) {
-			request("https://https://platform-beta.oswaldlabs.com/v1/public/open-data", undefined, data => {
+			request("https://platform-beta.oswaldlabs.com/v1/public/open-data", undefined, data => {
 				if (typeof data === "object" && !!data.value) {
 					data.value = parseInt(data.value || 0);
 					let perMinute = 0;
