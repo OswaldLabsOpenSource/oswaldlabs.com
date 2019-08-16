@@ -7,7 +7,9 @@ This page serves as an imprint and colophon for this website and our products. W
 
 By continuing to use this website or any of our products (including Agastya, Shravan, and Valmiki), you are agreeing with our policies, incluuding our [Privacy Policy](/policies/privacy/), [Terms of Use](/policies/terms/), and [Cookie Policy](/policies/cookies/).
 
-**Oswald Labs** is a trademark and the brand name of OswaldAble Technology Private Limited, a privately-held company headquartered in New Delhi, India, with Corporate Identification Number (CIN) U74999DL2017PTC324448. "Shravan", "Agastya", "Valmiki", "Oswald Labs Research", "Oswald Labs Accelerator", "Oswald Labs Plaform" are also registered trademarkers or trademarks of OswaldAble Technology Private Limited. For more information about our brand, see [Brand Guidelines](/press/brand-guidelines/).
+**Oswald Labs** is a trademark and the brand name of OswaldAble Technology Private Limited, a privately-held company headquartered in New Delhi, India, with Corporate Identification Number (CIN) U74999DL2017PTC324448 and Goods and Services Tax (GST) number 07AACCO5773B1ZK.
+
+"Shravan", "Agastya", "Valmiki", "Oswald Labs Research", "Oswald Labs Accelerator", "Oswald Labs Plaform", "Augmenta11y", "Visib11y", "Live Subtitles", and "Dai11y" are also registered trademarkers or trademarks of OswaldAble Technology Private Limited. For more information about our brand, see [Brand Guidelines](/press/brand-guidelines/).
 
 ## Open-source licenses
 
