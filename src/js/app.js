@@ -434,17 +434,17 @@ ready(() => {
 		const prefillDataEvents = document.querySelectorAll(".prefill-data-events");
 		const prefillDataEventsMin = document.querySelectorAll(".prefill-data-events-min");
 		if (prefillDataEvents.length) {
-			request("https://platform.oswaldlabs.com/data", undefined, data => {
-				if (typeof data === "object" && !!data.eventsThisMonth) {
-					data.eventsThisMonth = parseInt(data.eventsThisMonth || 0);
+			request("https://https://platform-beta.oswaldlabs.com/v1/public/open-data", undefined, data => {
+				if (typeof data === "object" && !!data.value) {
+					data.value = parseInt(data.value || 0);
 					let perMinute = 0;
 					const now = new Date();
 					const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
 					perMinute =
-						data.eventsThisMonth / ((now.getTime() - firstDay.getTime()) / 60000);
+						data.value / ((now.getTime() - firstDay.getTime()) / 60000);
 					for (let i = 0; i < prefillDataEvents.length; i++)
 						prefillDataEvents[i].innerHTML =
-							data.eventsThisMonth.toLocaleString().toString() + "+";
+							data.value.toLocaleString().toString() + "+";
 					for (let i = 0; i < prefillDataEventsMin.length; i++)
 						prefillDataEventsMin[i].innerHTML = Math.ceil(perMinute)
 							.toLocaleString()
@@ -455,7 +455,7 @@ ready(() => {
 								".prefill-data-events"
 							);
 							const newNumber = Math.ceil(
-								data.eventsThisMonth +
+								data.value +
 									((new Date().getTime() - now.getTime()) / 60000) * perMinute
 							);
 							for (let i = 0; i < prefillDataEventsNew.length; i++)
