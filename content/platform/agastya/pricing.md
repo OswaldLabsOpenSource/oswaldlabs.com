@@ -10,6 +10,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 			<div class="col-md-6">
 				<h1>Simple, transparent pricing.</h1>
 				<p class="intro-para">Our fair pricing charges websites with higher pageviews a subscription cost, but is free for smaller websites with less than 10,000 pageviews per month.</p>
+				<p><strong>Important note:</strong> We have a new pricing structure starting September 1, 2019. <a href="https://admin.oswaldlabs.com/pricing" target="_blank">View new pricing</a></p>
 				<div class="agastya-currencies">
 					<label>
 						<input value="eur" type="radio" name="agastya-currency-selector" checked>
