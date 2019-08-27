@@ -319,7 +319,7 @@ ready(() => {
 			if (btnRequest) {
 				btnRequest.setAttribute(
 					"href",
-					"/platform/agastya/register/?pageviews=" +
+					"https://admin.oswaldlabs.com/auth/register?pageviews=" +
 						pricingSelector.value +
 						"&currency=" +
 						selectedCurrency

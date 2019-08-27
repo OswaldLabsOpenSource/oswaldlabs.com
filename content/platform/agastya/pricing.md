@@ -77,7 +77,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 							</tr>
 						</tbody>
 					</table>
-					<a href="/platform/agastya/register/?pageviews=10k&currency=eur" class="btn btn-light btn-lg">Get started &rarr;</a>
+					<a href="https://admin.oswaldlabs.com/auth/register" class="btn btn-light btn-lg">Get started &rarr;</a>
 				</div>
 			</div>
 			<div class="col-md mt-4 mt-md-0">
@@ -132,7 +132,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 							</tr>
 						</tbody>
 					</table>
-					<a href="/platform/agastya/register/?pageviews=100k&currency=eur" class="btn btn-warning btn-lg btn-request">Start free trial &rarr;</a>
+					<a href="https://admin.oswaldlabs.com/auth/register" class="btn btn-warning btn-lg btn-request">Start free trial &rarr;</a>
 				</div>
 			</div>
 		</div>
