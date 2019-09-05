@@ -5,7 +5,7 @@ publication: pdf
 author: Tushar Gupta, Mudita Sisodia, Schezeen Fazulbhoy, Mitali Raju
 date: 2019-01-23
 journal: 2019 International Conference on Computer Communication and Informatics
-continue: https://static.oswaldlabs.com/research/improving-accessibility-for-dyslexic-impairments-using-augmented-reality.pdf
+continue: https://ieeexplore.ieee.org/document/8822152
 ---
 
 ## Abstract
