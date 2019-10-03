@@ -23,17 +23,17 @@ description: Oswald Labs is an innovative, young company of 10+ motivated indivi
 				<div class="subtitle">Chief Executive Officer</div>
 				<p>Creative technologist and entrepreneur, student at University of Twente</p>
 			</a>
-			<a href="/team/nishant/" class="col-md-3 mb-5">
-				<img alt="Photo of Nishant Gadihoke" src="/images/team/nishant.png" class="rounded-circle">
-				<h3>Nishant Gadihoke</h3>
-				<div class="subtitle">Chief Technology Officer</div>
-				<p>Multi-disciplinary designer and developer, student</p>
-			</a>
 			<a href="/team/mahendra/" class="col-md-3 mb-5">
 				<img alt="Photo of Nishant Gadihoke" src="/images/team/mahendra.png" class="rounded-circle">
 				<h3>Mahendra Raghuwanshi</h3>
 				<div class="subtitle">Chief Operating Officer</div>
 				<p>Electronics engineer, previously Radio Expert at Nokia, BTech SGSITS</p>
+			</a>
+			<a href="/team/nishant/" class="col-md-3 mb-5">
+				<img alt="Photo of Nishant Gadihoke" src="/images/team/nishant.png" class="rounded-circle">
+				<h3>Nishant Gadihoke</h3>
+				<div class="subtitle">Chief Technology Officer</div>
+				<p>Multi-disciplinary designer and developer, student</p>
 			</a>
 			<a href="/team/jarco/" class="col-md-3 mb-5">
 				<img alt="Photo of Jarco van Roest" src="/images/team/jarco.png" class="rounded-circle">
