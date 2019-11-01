@@ -9,8 +9,8 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 		<div class="row">
 			<div class="col-md-6">
 				<h1>Simple, transparent pricing.</h1>
-				<p class="intro-para">Our fair pricing charges websites with higher pageviews a subscription cost, but is free for smaller websites with less than 10,000 pageviews per month.</p>
-				<p><strong>Important note:</strong> We have a new pricing structure starting September 1, 2019. <a href="https://admin.oswaldlabs.com/pricing" target="_blank">View new pricing</a></p>
+				<p class="intro-para">Our fair and predictable pricing means no surprises or contracts for Pro plans, and a generous free plan for non-commercial websites.</p>
+				<!-- <p><strong>Important note:</strong> We have a new pricing structure starting September 1, 2019. <a href="https://admin.oswaldlabs.com/pricing" target="_blank">View new pricing</a></p>
 				<div class="agastya-currencies">
 					<label>
 						<input value="eur" type="radio" name="agastya-currency-selector" checked>
@@ -24,7 +24,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 						<input value="inr" type="radio" name="agastya-currency-selector">
 						<span>INR</span>
 					</label>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -46,7 +46,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 						<tbody>
 							<tr>
 								<td>Modes</td>
-								<td>12+ accessibility modes</td>
+								<td>20+ accessibility modes</td>
 							</tr>
 							<tr>
 								<td>Security</td>
@@ -54,7 +54,7 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 							</tr>
 							<tr>
 								<td>Support</td>
-								<td>24-hour email support</td>
+								<td>Community support</td>
 							</tr>
 							<tr>
 								<td>Installation</td>
@@ -69,12 +69,8 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 								<td>Global encrypted CDN</td>
 							</tr>
 							<tr>
-								<td>Pageviews</td>
-								<td>
-									<select aria-label="Select number of pageviews" class="custom-select">
-										<option>10,000 pageviews per month</option>
-									</select>
-								</td>
+								<td>Branding</td>
+								<td>"Powered by" message</td>
 							</tr>
 						</tbody>
 					</table>
@@ -88,8 +84,8 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 							<h2>Pro</h2>
 						</div>
 						<div class="col text-right">
-							<h2 class="text-muted m-0 agastya-no-custom"><span class="agastya-currency">€</span><span class="agastya-calculated-price">99</span>/month</h2>
-							<h2 class="text-muted m-0 agastya-has-custom">Custom pricing</h2>
+							<!-- <h2 class="text-muted m-0 agastya-no-custom"><span class="agastya-currency">€</span><span class="agastya-calculated-price">99</span>/month</h2> -->
+							<h2 class="text-muted m-0">Custom</h2>
 						</div>
 					</div>
 					<table class="table">
@@ -110,25 +106,26 @@ description: Learn more about the pricing of Agastya, the accessibility plugin f
 								<td>Custom installation included</td>
 							</tr>
 							<tr>
-								<td>Branding</td>
-								<td>Complete white labelling</td>
-							</tr>
-							<tr>
 								<td>Uptime</td>
 								<td>100% uptime SLA available</td>
 							</tr>
 							<tr>
+								<td>Branding</td>
+								<td>Complete white labelling</td>
+							</tr>
 							<tr>
-								<td>Pageviews</td>
+							<tr>
+								<td>Audits</td>
 								<td>
-									<select aria-label="Select number of pageviews" class="custom-select agastya-pricing-selector">
+									<span>Daily accessibility audits</span>
+									<!-- <select aria-label="Select number of pageviews" class="custom-select agastya-pricing-selector">
 										<option value="100k">100,000 pageviews per month</option>
 										<option value="250k">250,000 pageviews per month</option>
 										<option value="500k">500,000 pageviews per month</option>
 										<option value="1m">1M pageviews per month</option>
 										<option value="5m">5M pageviews per month</option>
 										<option value="10m">More than 5 million per month</option>
-									</select>
+									</select> -->
 								</td>
 							</tr>
 						</tbody>
