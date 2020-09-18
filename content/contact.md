@@ -252,7 +252,7 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
     "https://www.facebook.com/OswaldLabs",
     "https://www.instagram.com/oswaldlabs/",
     "https://twitter.com/OswaldLabs",
-    "https://www.linkedin.com/company/oswald-foundation/about/",
+    "https://www.linkedin.com/company/oswaldlabs/",
     "https://en.wikipedia.org/wiki/Oswald_Labs"
   ]
 }
