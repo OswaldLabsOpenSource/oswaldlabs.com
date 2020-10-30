@@ -22,6 +22,11 @@
                     <a href="{{ .Params.Link }}" class="btn btn-danger">{{ if .Params.Preregister }}Preregister for{{ else }}Download{{ end }} {{ .Title }} &rarr;</a>
                 </div>
                 {{ end }}
+                {{ if eq .Title "Augmenta11y" }}
+		    <p
+		       style="background: #fff; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); font-size: 125%; padding: 3rem"
+		       class="intro-para"><strong><a href="https://testflight.apple.com/join/BUrSVTcU">Join the Augmenta11y beta</a></strong></p>
+                {{ end }}
             </div>
             <div>
                 <div class="smartphone-mockup smartphone-mockup-3d hero-image">
