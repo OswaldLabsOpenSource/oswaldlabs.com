@@ -2,11 +2,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                {{ if eq .Title "Augmenta11y" }}
-		    <p
-		       style="background: #fff; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); font-size: 125%; padding: 1.5rem; text-align: center; margin-bottom: 2.5rem"
-		       class="intro-para"><strong><a href="https://testflight.apple.com/join/BUrSVTcU">Join the Augmenta11y beta</a></strong></p>
-                {{ end }}
                 <h1>
                     <img class="h1-image" alt="{{ .Title }} logo" src="/images/icons/{{ .File.TranslationBaseName }}.png">
                     <span>{{ .Title }}</span>
