@@ -6,7 +6,7 @@ subtype: shravan_apps
 description: Augmenta11y is an Augmented Reality (AR) app that helps people with learning disabilities like dyslexia easily read signage, paper, and other material in the real world.
 intro: Augmented Reality reading app for people with dyslexia
 play_store: https://play.google.com/store/apps/details?id=com.oswaldlabs.augmenta11y
-app_store: https://itunes.apple.com/in/app/augmenta11y/id1455001449?mt=8
+app_store: https://apps.apple.com/us/app/augmentally-dyslexia-reader/id1565832172
 section_icon_1: fa-book-open
 section_heading_1: Reader mode
 section_content_1: The user can read the text unaffected by external environmental factors by tapping on a text box and entering the Reader mode.
