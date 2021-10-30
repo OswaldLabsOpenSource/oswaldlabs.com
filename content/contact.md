@@ -22,13 +22,6 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                         </div>
                         <div class="mt-3">
                             <div>
-                                <i data-fa-transform="flip-h" class="fas fa-phone mr-2"></i>
-                                <a href="tel:+918860844523">+91 8860844523</a>
-                            </div>
-                            <div class="small">Mon–Sat, 9 am to 6 pm IST</div>
-                        </div>
-                        <div class="mt-3">
-                            <div>
                                 <i class="fas fa-envelope mr-2"></i>
                                 <span><a href="mailto:delhi@oswaldlabs.com">delhi@oswaldlabs.com</a></span>
                             </div>
@@ -44,13 +37,6 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                             <div>Hardstart, De Hems 10</div>
                             <div>7522NL Enschede</div>
                             <div>The Netherlands</div>
-                        </div>
-                        <div class="mt-3">
-                            <div>
-                                <i data-fa-transform="flip-h" class="fas fa-phone mr-2"></i>
-                                <a href="tel:+31644691056">+31 644691056</a>
-                            </div>
-                            <div class="small">Mon–Fri, 9 am to 5 pm CET</div>
                         </div>
                         <div class="mt-3">
                             <div>
