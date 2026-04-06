@@ -48,40 +48,11 @@ description: To get in touch with Oswald Labs, the award-winning accessibility t
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
-                <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
-                <button class="btn btn-primary btn-block calendly-button" type="button" onclick="Calendly.showPopupWidget('https://calendly.com/oswaldlabs');return false;">Schedule a meeting &rarr;</button>
-                <div class="text-center mt-3 mb-3"><em>or</em></div>
-                <div class="card p-4">
-                    <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input name="name" class="form-control" id="name" placeholder="Enter your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input name="email" class="form-control" id="email" placeholder="Enter your work email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="department">Department</label>
-                            <select name="department" class="custom-select department-select">
-                                <option>Support</option>
-                                <option>Sales</option>
-                                <option>Accelerator</option>
-                                <option>Partnerships</option>
-                                <option>Feedback</option>
-                                <option>Event Sponsorships</option>
-                                <option>CEO&rsquo;s office</option>
-                                <option>Data Protection Officer</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea name="message" rows="5" class="form-control" id="email" placeholder="Enter your work email" required></textarea>
-                        </div>
-                        <input type="hidden" name="page" class="agastya-url-prefill" data-agastya-prefill-url>
-                        <button class="btn btn-primary btn-lg">Get in touch &rarr;</button>
-                    </form>
+            <div class="col-md-5 d-flex align-items-center">
+                <div class="card p-4 w-100 text-center">
+                    <h2 class="h4 mt-0">Send us an email</h2>
+                    <p>Drop us a line and we'll get back to you as soon as possible.</p>
+                    <a href="mailto:yourfriends@oswaldlabs.com" class="btn btn-primary btn-lg">yourfriends@oswaldlabs.com</a>
                 </div>
             </div>
 		</div>
