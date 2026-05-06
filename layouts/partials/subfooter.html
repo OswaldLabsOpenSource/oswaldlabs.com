@@ -57,7 +57,7 @@
 		}]
 	}
 </script>
-{{ if ne .URL "/platform/agastya/register/" }}
+{{ if ne .RelPermalink "/platform/agastya/register/" }}
 <section class="press-section horizontal-scroll-parent pt-4 pb-4">
 	<h2 class="sr-only">Clients</h2>
 	<div class="container horizontal-scroll d-flex align-items-center justify-content-between">
@@ -120,7 +120,7 @@
 				<meta itemprop="position" content="4">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span></a>
 				<meta itemprop="position" content="5">
 			</li>
@@ -132,14 +132,14 @@
 				<meta itemprop="position" content="4">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span></a>
 				<meta itemprop="position" content="5">
 			</li>
 			{{ end }}
-			{{ else if ne .URL "/platform/agastya/" }}
+			{{ else if ne .RelPermalink "/platform/agastya/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					{{ if gt (len .Title) 25 }}
 					<span itemprop="name">{{ substr .Title 0 -25 }}</span></a>
 					{{ else }}
@@ -211,14 +211,14 @@
 				<meta itemprop="position" content="4">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span></a>
 				<meta itemprop="position" content="5">
 			</li>
 			{{ end }}
-			{{ else if ne .URL "/platform/shravan/" }}
+			{{ else if ne .RelPermalink "/platform/shravan/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span></a>
 				<meta itemprop="position" content="4">
 			</li>
@@ -228,7 +228,7 @@
 </section>
 {{ end }}
 {{ if eq .Section "accelerator" }}
-{{ if ne .URL "/accelerator/" }}
+{{ if ne .RelPermalink "/accelerator/" }}
 <section class="bg-light-1 text-md-center">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -265,7 +265,7 @@
 						<meta itemprop="position" content="3">
 					</li>
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="4">
 					</li>
@@ -276,7 +276,7 @@
 						<meta itemprop="position" content="3">
 					</li>
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="4">
 					</li>
@@ -287,7 +287,7 @@
 						<meta itemprop="position" content="3">
 					</li>
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="4">
 					</li>
@@ -298,20 +298,20 @@
 						<meta itemprop="position" content="3">
 					</li>
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="4">
 					</li>
 				{{ else }}
 					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 							<span itemprop="name">{{ .Title }}</span></a>
 						<meta itemprop="position" content="3">
 					</li>
 				{{ end }}
-			{{ else if ne .URL "/accelerator/" }}
+			{{ else if ne .RelPermalink "/accelerator/" }}
 				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-					<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+					<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 						<span itemprop="name">{{ .Title }}</span></a>
 					<meta itemprop="position" content="3">
 				</li>
@@ -322,7 +322,7 @@
 {{ end }}
 {{ end }}
 {{ if eq .Section "gdpr" }}
-{{ if ne .URL "/gdpr/" }}
+{{ if ne .RelPermalink "/gdpr/" }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>
@@ -339,7 +339,7 @@
 				<meta itemprop="position" content="2">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="3">
@@ -350,7 +350,7 @@
 {{ end }}
 {{ end }}
 {{ if eq .Section "press" }}
-{{ if ne .URL "/press/" }}
+{{ if ne .RelPermalink "/press/" }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>
@@ -367,14 +367,14 @@
 				<meta itemprop="position" content="2">
 			</li>
 			{{ if eq .Params.Subtype "logos" }}
-			{{ if ne .URL "/press/logos/" }}
+			{{ if ne .RelPermalink "/press/logos/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="/press/logos/">
 					<span itemprop="name">Logos</span></a>
 				<meta itemprop="position" content="3">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="4">
@@ -382,7 +382,7 @@
 			{{ end }}
 			{{ else }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="3">
@@ -394,7 +394,7 @@
 {{ end }}
 {{ end }}
 {{ if eq .Section "news" }}
-{{ if ne .URL "/news/" }}
+{{ if ne .RelPermalink "/news/" }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>
@@ -411,7 +411,7 @@
 				<meta itemprop="position" content="2">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="3">
@@ -422,7 +422,7 @@
 {{ end }}
 {{ end }}
 {{ if eq .Section "team" }}
-{{ if ne .URL "/team/" }}
+{{ if ne .RelPermalink "/team/" }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>
@@ -439,7 +439,7 @@
 				<meta itemprop="position" content="2">
 			</li>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="3">
@@ -450,7 +450,7 @@
 {{ end }}
 {{ end }}
 {{ if eq .Section "research" }}
-{{ if ne .URL "/research/" }}
+{{ if ne .RelPermalink "/research/" }}
 <section class="p-0">
 	<div class="bc-container pt-4 pb-4 container">
 		<strong class="text-muted">You are here</strong>
@@ -467,7 +467,7 @@
 				<meta itemprop="position" content="2">
 			</li>
 			{{ if eq .Params.Subtype "publications" }}
-			{{ if ne .URL "/research/publications/" }}
+			{{ if ne .RelPermalink "/research/publications/" }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<a itemtype="http://schema.org/Thing" itemprop="item" href="/research/publications/">
 					<span itemprop="name">Publications</span></a>
@@ -475,14 +475,14 @@
 			</li>
 			{{ end }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="4">
 			</li>
 			{{ else }}
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .URL }}">
+				<a itemtype="http://schema.org/Thing" itemprop="item" href="{{ .RelPermalink }}">
 					<span itemprop="name">{{ .Title }}</span>
 				</a>
 				<meta itemprop="position" content="3">

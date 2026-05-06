@@ -6,7 +6,6 @@ description: Live Subtitles is an Augmented Reality (AR) app which displays real
 intro: Conversational captioning app for people with deafness
 preregister: true
 link: https://oswaldlabs.typeform.com/to/uWzZPc
-preregister: true
 section_icon_1: fa-clock
 section_heading_1: Real-time
 section_content_1: Live Subtitles displays captions at the bottom of the screen as soon as a user starts speaking, literally as the sentence is being said.

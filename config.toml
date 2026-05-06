@@ -1,5 +1,8 @@
 baseURL = "/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
+
+[languages.en]
+  locale = "en-US"
 title = "Oswald Labs"
 
 enableRobotsTXT = true
@@ -12,6 +15,9 @@ disableAliases = true
 
 [params]
 disallow_search_engines = false
+
+[markup.goldmark.renderer]
+unsafe = true
 
 # add redirects/headers
 [outputs]

@@ -9,8 +9,8 @@
     <meta property="og:image" content="{{ .Params.image }}">
     <meta property="twitter:image" content="{{ .Params.image }}">
 {{ else }}
-    <meta property="og:image" content="https://platform.oswaldlabs.com/screenshot?url=https://oswaldlabs.com{{ .URL | safeURL }}">
-    <meta property="twitter:image" content="https://platform.oswaldlabs.com/screenshot?url=https://oswaldlabs.com{{ .URL | safeURL }}">
+    <meta property="og:image" content="https://platform.oswaldlabs.com/screenshot?url=https://oswaldlabs.com{{ .RelPermalink | safeURL }}">
+    <meta property="twitter:image" content="https://platform.oswaldlabs.com/screenshot?url=https://oswaldlabs.com{{ .RelPermalink | safeURL }}">
 {{ end }}
 
 <meta name="apple-mobile-web-app-title" content="Oswald Labs">
@@ -42,4 +42,4 @@
 <meta name="msapplication-TileImage" content="/images/pwa/mstile-144x144.png">
 <meta name="theme-color" content="#007bff">
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}

@@ -1,6 +1,5 @@
 ---
 title: Team
-description: Team
 description: Oswald Labs is an innovative, young company of 10+ motivated individuals with a mission to make technology accessible to everyone. We’re based out of India and the Netherlands.
 ---
 

@@ -1,4 +1,4 @@
-{{ if eq .URL "/press/brand-guidelines/" }}
+{{ if eq .RelPermalink "/press/brand-guidelines/" }}
 {{ else }}
 <section class="pt-0">
     <div class="container mt-5">
@@ -38,7 +38,7 @@
             </div>
             {{ end }}
             {{ end }}
-            {{ range $.Site.Data.news }}
+            {{ range hugo.Data.news }}
                 <div class="col-md-4 mb-med">
                     <a class="card card-body d-flex flex-row align-items-center" href="{{ .url }}">
                         <div class="w-20 mr-3">

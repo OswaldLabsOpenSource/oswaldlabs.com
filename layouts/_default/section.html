@@ -12,24 +12,24 @@
 {{ else if eq .Section "values" }}
 {{ partial "section/values.html" . }}
 {{ end }}
-{{ if eq .URL "/press/logos/" }}
+{{ if eq .RelPermalink "/press/logos/" }}
 {{ partial "section/logos.html" . }}
 {{ else if eq .Section "press" }}
 {{ partial "section/press.html" . }}
 {{ end }}
-{{ if eq .URL "/accelerator/events/" }}
+{{ if eq .RelPermalink "/accelerator/events/" }}
 {{ partial "section/events.html" . }}
 {{ end }}
-{{ if eq .URL "/accelerator/spaces/" }}
+{{ if eq .RelPermalink "/accelerator/spaces/" }}
 {{ partial "section/spaces.html" . }}
 {{ end }}
-{{ if eq .URL "/accelerator/partners/" }}
+{{ if eq .RelPermalink "/accelerator/partners/" }}
 {{ partial "section/partners.html" . }}
 {{ end }}
-{{ if eq .URL "/accelerator/startups/" }}
+{{ if eq .RelPermalink "/accelerator/startups/" }}
 {{ partial "section/startups.html" . }}
 {{ end }}
-{{ if eq .URL "/platform/shravan/apps/" }}
+{{ if eq .RelPermalink "/platform/shravan/apps/" }}
 {{ partial "section/shravan_apps.html" . }}
 {{ end }}
 {{ if .Params.Subtype }}
