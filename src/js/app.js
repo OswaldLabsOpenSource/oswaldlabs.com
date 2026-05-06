@@ -384,19 +384,6 @@ ready(() => {
 		if (calendlyLink) {
 			loadJS("https://assets.calendly.com/assets/external/widget.js");
 		}
-		const ipAddress = document.querySelector(".ip-address-fill");
-		if (ipAddress) {
-			fetch("https://ipinfo.io/json?token=07089fada04d89")
-				.then(response => response.json())
-				.then(json => {
-					if (json.ip) ipAddress.value = json.ip;
-					["city", "country", "org", "region", "postal", "loc"].forEach(value => {
-						if (json[value] && document.querySelector(`.${value}-fill`)) {
-							document.querySelector(`.${value}-fill`).value = json[value];
-						}
-					});
-				});
-		}
 		if ("URLSearchParams" in window) {
 			const globalParams = new URLSearchParams(window.location.search);
 			for (let param of globalParams.keys()) {
@@ -410,26 +397,6 @@ ready(() => {
 					departmentSelect.value = departmentInfo;
 				}
 			}
-			const pricingSelectPrefill = document.querySelector(".agastya-pricing-prefill");
-			const currencyPrefill = document.querySelector(".agastya-currency-prefill");
-			if (pricingSelectPrefill) {
-				const urlParams = new URLSearchParams(window.location.search);
-				const planInfo = urlParams.get("pageviews");
-				if (planInfo) {
-					pricingSelectPrefill.value = planInfo;
-				}
-			}
-			if (currencyPrefill) {
-				const urlParams = new URLSearchParams(window.location.search);
-				const planInfo = urlParams.get("currency");
-				if (planInfo) {
-					currencyPrefill.value = planInfo;
-				}
-			}
-		}
-		const urlPrefill = document.querySelector(".agastya-url-prefill");
-		if (urlPrefill) {
-			urlPrefill.value = location.href;
 		}
 		const prefillDataEvents = document.querySelectorAll(".prefill-data-events");
 		const prefillDataEventsMin = document.querySelectorAll(".prefill-data-events-min");

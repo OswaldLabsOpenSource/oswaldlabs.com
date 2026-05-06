@@ -10,24 +10,13 @@ description: You can use this GDPR Export tool to export all collected data that
 				<h1>GDPR Export</h1>
                 <p>You can use this tool to export all collected data that belongs to you.</p>
                 <p>Starting May 2018, we stopped collected any personally identifiable information to protect our users’ privacy. We only collect completely anonymized information keyed using one-way (undecryptable) hashing algorithms.</p>
-                <p>You will receive an email containing a ZIP export of your data in JSON format within 48 hours.</p>
+                <p>Email us your request and we will reply with the next steps. If we can identify matching data, you will receive a ZIP export of it in JSON format within 48 hours.</p>
 			</div>
             <div class="col-md-6 mt-4 mt-md-0">
                 <div class="card p-4">
-                    <form action="https://formspree.io/yourfriends@oswaldlabs.com" method="POST">
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="ip">IP address</label>
-                            <input name="ip" class="form-control ip-address-fill" id="ip" placeholder="Enter your IP address" required>
-                        </div>
-                        <input type="hidden" name="type" value="export">
-                        <input type="hidden" name="page" class="agastya-url-prefill">
-                        <p class="small">By submitting this form, you are agreeing with our <a href="/policies/">policies</a>.</p>
-                        <button class="btn btn-primary btn-lg">Send me an export &rarr;</button>
-                    </form>
+                    <h2 class="h4 mt-0">Request an export by email</h2>
+                    <p>Include the email address and IP address you want us to look up, and we&rsquo;ll handle the request manually.</p>
+                    <a href="mailto:yourfriends@oswaldlabs.com?subject=GDPR%20export%20request" class="btn btn-primary btn-lg">Email yourfriends@oswaldlabs.com &rarr;</a>
                 </div>
                 <a href="/contact/?department=Data+Protection+Officer" class="btn btn-outline-primary btn-block mt-4">Contact our Data Protection Officer &rarr;</a>
             </div>
